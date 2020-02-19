@@ -1,0 +1,7 @@
+Package: libgetdns10
+Pin: version 1.5.1-1.1
+Pin-Priority: 999
+
+Package: libgetdns-dev
+Pin: version 1.5.1-1.1
+Pin-Priority: 999
