@@ -30,3 +30,10 @@ install pip packages (pip3 install -r src/measure/requirements.txt)
 configure src/measure/measure.sh to your liking
 
 run src/measure/measure.sh
+
+## Images
+
+A pre-compiled Docker image that can be used to collect HARs is available
+[here](https://www.dropbox.com/s/ibnl20duge85fy3/har-firefox-67.0-stable-image.tar.gz?dl=0).
+Simply run `docker load < har-firefox-67.0-stable.image.tar.gz` to load the
+image into Docker.
