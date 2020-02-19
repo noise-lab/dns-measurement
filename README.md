@@ -37,3 +37,5 @@ A pre-compiled Docker image that can be used to collect HARs is available
 [here](https://www.dropbox.com/s/ibnl20duge85fy3/har-firefox-67.0-stable-image.tar.gz?dl=0).
 Simply run `docker load < har-firefox-67.0-stable.image.tar.gz` to load the
 image into Docker.
+
+If you wish to modify our code and compile your own Docker image, make sure you change the image name referenced in src/measure/wrapper.py. The function `measure_and_collect_har()` in particular needs the correct image name.
