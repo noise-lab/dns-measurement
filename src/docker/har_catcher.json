@@ -1,0 +1,7 @@
+{
+  "name": "har_catcher",
+  "description": "Example host for native messaging",
+  "path": "/home/seluser/measure/har_catcher.py",
+  "type": "stdio",
+  "allowed_extensions": [ "harexporttrigger@princeton.edu" ]
+}
