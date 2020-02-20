@@ -81,6 +81,29 @@ will only be performed with Do53.
 A pre-compiled Docker image that can be used to collect HARs is available
 [here](https://www.dropbox.com/s/ibnl20duge85fy3/har-firefox-67.0-stable-image.tar.gz?dl=0).
 Simply run `docker load < har-firefox-67.0-stable.image.tar.gz` to load the
-image into Docker.
+image into Docker. Run `sudo docker images` to confirm that the image loaded is
+named "har:firefox-67.0-stable".
 
-If you wish to modify our code and compile your own Docker image, make sure you change the image name referenced in src/measure/wrapper.py. The function `measure_and_collect_har()` in particular needs the correct image name.
+## Modifying our code
+
+If you wish to perform measurements with different resolvers, then you need to
+modify src/measure/wrapper.py. The "Resolvers" class at the top of the file
+contains an enum for resolver names, IP addresses, and DoH URIs. We note that
+"default" refers to your local resolver listed in /etc/resolv.conf; you do not
+need to modify this entry. If you wish to add new resolvers, simply add new
+entries to this class.
+
+We note that if you do wish to add resolvers that support DoT, then you will
+also need to add a new configuration file for Stubby that lists this resolver.
+We use [Stubby](https://github.com/getdnsapi/stubby) to load web pages with DoT. 
+See the example configuration files for Cloudflare, Google, and Quad9's
+resolvers listed in src/docker.
+
+Once you've created new Stubby configuration files, you will need to add them to
+the Dockerfile and compile a new Docker image. See src/docker/Dockerfile for
+examples of how we add the Stubby configuration files to a new Docker image.
+
+If you modify our code and compile a new Docker image with a different name, 
+make sure you change the image name referenced in src/measure/wrapper.py. The 
+function `measure_and_collect_har()` in particular needs the correct image name.
+
