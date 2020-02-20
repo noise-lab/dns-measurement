@@ -94,24 +94,20 @@ def plot_dns_timings(data, xlimit, bin_step, xlabel, filename, legend=False):
     # Set up the plot
     margin = .033333333
     plt.figure()
-    fig, ax = plt.subplots(figsize=(8.5, 3))
+    fig, ax = plt.subplots()
     ax.set_xlabel(xlabel)
     ax.set_ylabel('Probability')
-    # ax.set_xlim(- margin * xlimit, xlimit * (1 + margin))
-    ax.set_xlim(- margin * 250, 250 * (1 + margin))
+    ax.set_xlim(- margin * xlimit, xlimit * (1 + margin))
     ax.set_ylim(-0.05, 1.05)
-    # ax.set_xticks((0, 100, 200, 300, 400, 500, 600))
-    ax.set_xticks((0, 100, 200))
+    ax.set_xticks((0, 100, 200, 300, 400, 500, 600))
 
     # Set up the inset plot
     if "3g" in filename:
         ax_ins = inset_axes(ax, width=2.15, height=1.4,
                             loc='lower right', bbox_to_anchor=(375,140))
     else:
-        # ax_ins = inset_axes(ax, width=2.15, height=1.4,
-        #                     loc='lower right', bbox_to_anchor=(405,55))
         ax_ins = inset_axes(ax, width=2.15, height=1.4,
-                            loc='lower right', bbox_to_anchor=(530,45))
+                            loc='lower right', bbox_to_anchor=(560,75))
 
     ax_ins.set_xlim(- margin * 1500,
                       1500 * (1 + margin))
