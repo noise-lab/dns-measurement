@@ -13,8 +13,6 @@ sys.path.append('../measure')
 from database import DNSDatabase
 from pageload import pageload_diffs, pageload_vs_resources
 from dns_timing import dns_timings, dns_timings_cf, dns_timings_diffs
-from resources import ext_domains
-from amortization import amortization
 from common import load_domains
 
 
@@ -34,8 +32,6 @@ def main():
     parser.add_argument("--pageload_resources", action='store_true', default=False)
     parser.add_argument("--timing", action='store_true', default=False)
     parser.add_argument("--timing_cf", action='store_true', default=False)
-    parser.add_argument("--domain", action='store_true', default=False)
-    parser.add_argument("--amortization", action='store_true', default=False)
     parser.add_argument("--name", default=None)
     parser.add_argument("--experiments", default=None, nargs="+")
     args = parser.parse_args()
@@ -56,20 +52,16 @@ def main():
         cf_pageloads_4g_3g_filename = "cf_pageloads_4g_3g{}".format(args.name)
         timings_filename = "dns_timings_{}".format(args.name)
         timings_diff_filename = "dns_timings_diff_{}".format(args.name)
-        domains_filename = "domains_{}".format(args.name)
         pageload_resources_filename = "pageload_resources_{}".format(args.name)
         pageloads_subset_filename = "pageload_diff_subset_{}".format(args.name)
-        amortization_filename = "amortization_{}".format(args.name)
     else:
         pageload_diff_filename = "pageload_diff"
         cf_pageloads_filename = "cf_pageloads"
         cf_pageloads_4g_3g_filename = "cf_pageloads_4g_3g"
         timings_filename = "dns_timings"
         timings_diff_filename = "dns_timings_diff"
-        domains_filename = "domains"
         pageload_resources_filename = "pageload_resources"
         pageloads_subset_filename = "pageload_diff_subset"
-        amortization_filename = "amortization"
 
     # Make plots
     if args.cf_pageloads:
@@ -96,10 +88,6 @@ def main():
         print("Plotting DNS timings")
         dns_timings_cf(db, xlimit=650, filename=timings_filename, legend=True,
                        experiments=args.experiments)
-
-    if args.domain:
-        print("Plotting domains")
-        ext_domains(db, domains, xlimit=75, filename=domains_filename)
 
     if args.pageload_resources:
         print("Plotting pageloads vs. resources")
@@ -138,10 +126,6 @@ def main():
         pageload_diffs(db, domains, xlimit=10, filename=pageloads_subset_filename,
                        configs_subset=joint_configs,
                        experiments=args.experiments)
-
-    if args.amortization:
-        print("Plotting Do53/DoH/DoT amortization")
-        amortization(xlimit=100, filename=amortization_filename)
 
 
 if __name__ == "__main__":
