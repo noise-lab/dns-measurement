@@ -44,8 +44,8 @@ things before you can start some measurements:
 * Create a PostgreSQL database and user that has write access to the database
 
 * Modify the data/postgres.ini file to contain your PostgreSQL credentials. For
-  the har-info field, choose the name of the table that you want to store HARs
-  for page load times. For the dns-info field, choose the name of the table that
+  the har_table field, choose the name of the table that you want to store HARs
+  for page load times. For the dns_table field, choose the name of the table that
   you want to store DNS response times.
 
 * Run the following script to initialize the tables in your database that will
@@ -62,9 +62,19 @@ things before you can start some measurements:
 
 ## Running a measurement
 
-configure src/measure/measure.sh to your liking
+Assuming your credentials are in data/postgres.ini and you wish to measure the
+websites listed in data/tranco_combined.txt, you can simply run `sudo src/measure.sh`
+to start your measurements. We need `sudo` to measure the ping to recursive
+resolvers.
 
-run src/measure/measure.sh
+This script will perform page loads for each website in
+data/tranco_combined.txt. These page loads will be performed with Cloudflare's 
+resolver (1.1.1.1), Google's resolver (8.8.8.8), Quad9's resolver (9.9.9.9),
+and your local resolver listed in /etc/resolv.conf.
+
+For each "quad" resolver listed above, the page loads will be performed with 
+traditional DNS ("Do53"), DoT, and DoH. For your local resolver, the page loads 
+will only be performed with Do53.
 
 ## Images
 
