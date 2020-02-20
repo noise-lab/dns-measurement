@@ -37,16 +37,31 @@ following dependencies:
 * libtool
 
 ## Installation
-clone this repo
 
-add your postgres credentials file to data/
+Once you've installed the dependencies listed above, you need to do a few more
+things before you can start some measurements:
 
-run "make" in the dns-timing/ directory
+* Create a PostgreSQL database and user that has write access to the database
 
-install pip packages (pip3 install -r src/measure/requirements.txt)
+* Modify the data/postgres.ini file to contain your PostgreSQL credentials. For
+  the har-info field, choose the name of the table that you want to store HARs
+  for page load times. For the dns-info field, choose the name of the table that
+  you want to store DNS response times.
 
+* Run the following script to initialize the tables in your database that will
+  store HARs and DNS response times:
+
+  `python3 database.py ../../data/postgres.ini`
+
+* Run `make` in src/dns-timing to create the DNS response time measurement tool.
+
+* Install the pip packages listed in src/measure/requirements.txt with the
+  following command:
+
+  `pip3 install -r requirements.txt`
 
 ## Running a measurement
+
 configure src/measure/measure.sh to your liking
 
 run src/measure/measure.sh
