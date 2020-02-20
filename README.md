@@ -63,9 +63,9 @@ things before you can start some measurements:
 ## Running a measurement
 
 Assuming your credentials are in data/postgres.ini and you wish to measure the
-websites listed in data/tranco_combined.txt, you can simply run `sudo src/measure.sh`
-to start your measurements. We need `sudo` to measure the ping to recursive
-resolvers.
+websites listed in data/tranco_combined.txt, you can simply run `sudo ./measure.sh`
+from the src/measure directory to start your measurements. We need `sudo` to 
+measure the ping to recursive resolvers.
 
 This script will perform page loads for each website in
 data/tranco_combined.txt. These page loads will be performed with Cloudflare's 
