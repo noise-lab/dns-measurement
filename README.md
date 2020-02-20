@@ -1,3 +1,16 @@
+## Structure
+
+* data - Ancillary files for performing measurements, such as database 
+credential files and lists of websites 
+
+* src/docker - All source code for creating a Docker image that performs page
+  loads 
+
+* src/measure - All source code for instrumenting the Docker image to perform
+  page loads for various websites, recursive resolvers, and DNS protocols. Also
+  contains source code for measuring DNS response times, which is done outside
+  of the Docker image.
+
 ## Dependencies
 docker (sudo curl -sSL https://get.docker.com/ | sh)
 
