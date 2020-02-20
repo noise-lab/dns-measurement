@@ -12,22 +12,29 @@ credential files and lists of websites
   of the Docker image.
 
 ## Dependencies
-docker (sudo curl -sSL https://get.docker.com/ | sh)
 
-python3, python3-pip
+To build the DNS response time measurement tool, you will first need to install
+the packages in the dns-timing/debs directory with `dpkg -i`.
+You will also need to install the following dependencies:
 
-postgresql, postgresql-client
+* libcurl4-openssl-dev
+* libssl-dev
+* libev4, libev-dev
+* libevent-2.1.6, libevent-core-2.1.6, libevent-openssl-2.1.6, libevent-dev
+* libuv1
 
-dnsutils
+To instrument the Docker image to measure page loads, parse the resulting HARs,
+and insert the HARs into a PostgreSQL database, you will need to install the
+following dependencies:
 
-net-tools (for ifconfig)
-
-for the dns-timing tool: libcurl4-openssl-dev, libssl-dev, libev4, libev-dev, libevent-2.1.6, libevent-core-2.1.6, libevent-openssl-2.1.6, libevent-dev libuv1
-- You will also need to install the packages in the debs/ directory. Use sudo dpkg -i.
-
-
-for jq: autoconf automake build-essential libtool python3-dev
-
+* python3, python3-pip, python3-dev
+* postgresql, postgresql-client
+* dnsutils
+* net-tools 
+* autoconf
+* automake
+* build-essential
+* libtool
 
 ## Installation
 clone this repo
