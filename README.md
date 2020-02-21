@@ -38,7 +38,7 @@ following dependencies:
 
 
 Lastly, you will need to install the pip packages listed in 
-src/measure/requirements.txt with thefollowing command:
+src/measure/requirements.txt with the following command:
 
   `pip3 install -r requirements.txt`
 
