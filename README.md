@@ -36,6 +36,12 @@ following dependencies:
 * build-essential
 * libtool
 
+
+Lastly, you will need to install the pip packages listed in 
+src/measure/requirements.txt with thefollowing command:
+
+  `pip3 install -r requirements.txt`
+
 ## Installation
 
 Once you've installed the dependencies listed above, you need to do a few more
@@ -53,12 +59,7 @@ things before you can start some measurements:
 
   `python3 database.py ../../data/postgres.ini`
 
-* Run `make` in src/dns-timing to create the DNS response time measurement tool.
-
-* Install the pip packages listed in src/measure/requirements.txt with the
-  following command:
-
-  `pip3 install -r requirements.txt`
+* Run `make` in src/dns-timing to create the DNS response time measurement tool
 
 ## Running a measurement
 
