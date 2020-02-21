@@ -76,6 +76,39 @@ For each "quad" resolver listed above, the page loads will be performed with
 traditional DNS ("Do53"), DoT, and DoH. For your local resolver, the page loads 
 will only be performed with Do53.
 
+## Example plots
+
+We have some example code to generate plots for page load times and DNS response
+times in src/analysis. The script example-plots.sh will automatically generate
+two sets of plots. First, it will plot differences in page load times between
+each DNS protocol when the recursive resolvers from Cloudflare, Google, and
+Quad9 are used. Second, it will plot CDFs for DNS response times with each DNS
+protocol when the recursive resolvers from Cloudflare, Google, and Quad9 are
+used.
+
+The script assumes that your PostgreSQL credentials file is located at
+data/postgres.ini. It also assumes that you measuring the websites listed in
+data/tranco_combined.txt. If this is not the case, simply modify the script to
+point to the correct files. The first argument to `python3 plots.py` is the
+location of your credentials file, and the second argument is the location of
+the list of websites you measured. The list of websites should take the form of
+one domain name per line.
+
+Our code that actually generates the plots is located in several different
+files. We describe the files below:
+
+* src/analysis/pageload.py defines functions for analyzing page load times.
+
+* src/analysis/dns_timing.py defines functions for analyzing DNS response times.
+
+* src/analysis/common.py defines common functions for making plots.
+
+* src/analysis/plots.py serves as the entry-point for calling plot functions
+  defined in pageload.py and dns_timing.py.
+
+* src/analysis/failure_rates.sql defined a SQL function for returning failure
+  rates for page loads with each recursive resolver and DNS protocol.
+
 ## Images
 
 A pre-compiled Docker image that can be used to collect HARs is available
