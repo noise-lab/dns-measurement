@@ -80,7 +80,7 @@ will only be performed with Do53.
 ## Example plots
 
 We have some example code to generate plots for page load times and DNS response
-times in src/analysis. The script example-plots.sh will automatically generate
+times in src/analysis. The script `example-plots.sh` will automatically generate
 two sets of plots. First, it will plot CDFs for differences in page load times 
 betwee neach DNS protocol when the recursive resolvers from Cloudflare, Google, and
 Quad9 are used. Second, it will plot CDFs for DNS response times with each DNS
@@ -88,7 +88,7 @@ protocol when the recursive resolvers from Cloudflare, Google, and Quad9 are
 used.
 
 The script assumes that your PostgreSQL credentials file is located at
-data/postgres.ini. It also assumes that you measuring the websites listed in
+data/postgres.ini. It also assumes that you are measuring the websites listed in
 data/tranco_combined.txt. If this is not the case, simply modify the script to
 point to the correct files. The first argument to `python3 plots.py` is the
 location of your credentials file, and the second argument is the location of
