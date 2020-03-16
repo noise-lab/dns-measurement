@@ -1,6 +1,6 @@
 ## Structure
 
-* data - Ancillary files for performing measurements, such as database 
+* data - Configuration files for performing measurements, such as example database 
 credential files and lists of websites 
 
 * src/docker - All source code for creating a Docker image that performs page
@@ -82,7 +82,7 @@ will only be performed with Do53.
 We have some example code to generate plots for page load times and DNS response
 times in src/analysis. The script example-plots.sh will automatically generate
 two sets of plots. First, it will plot CDFs for differences in page load times 
-betweeneach DNS protocol when the recursive resolvers from Cloudflare, Google, and
+betwee neach DNS protocol when the recursive resolvers from Cloudflare, Google, and
 Quad9 are used. Second, it will plot CDFs for DNS response times with each DNS
 protocol when the recursive resolvers from Cloudflare, Google, and Quad9 are
 used.
