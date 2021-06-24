@@ -6,6 +6,6 @@ The file "resolver_timings.py" requires four arguments that can be found and alt
 	- The recursors file. Two currently exist. "recursors" consists of the entire list of resolvers, while "recursors-few" consists of a shortened list. This second file is only used for testing if the tool is working. 
 	- "domains" is a list of domains that the resolvers will be tested with. 
 
-The command to run the "resolver_timings.py" tool is "python3 resolver_timings.py". The results will be exported to a csv. It is currently titled "test3.csv".
+The command to run the "resolver_timings.py" tool is "python3 resolver_timings.py". The results will be exported to a csv. It is currently titled "test2.csv".
 
 The amount of times that the measurements for the resolvers run can be changed by altering the number inside the "in range" section of the for loop in "resolver_timings.py". 
