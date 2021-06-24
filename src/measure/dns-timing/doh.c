@@ -10,7 +10,7 @@ static size_t doh_callback(void *contents, size_t size, size_t nmemb, void *user
 
 	doh_query_t *query = (doh_query_t*)userp;
 
-	debug("respone_wire_fmt = %p\n\n", query->response_wire_fmt.memory);
+ 	debug("respone_wire_fmt = %p\n\n", query->response_wire_fmt.memory);
 
 	query->response_wire_fmt.memory = realloc(query->response_wire_fmt.memory,
 			query->response_wire_fmt.size + realsize);
@@ -355,19 +355,19 @@ static int doh_query_init(doh_query_t *query, char *domain, const char *recursor
 	query->domain = domain;
 	query->query_wire_fmt.memory = malloc(DOH_QUERY_WIRE_FMT_SIZE);
 	if(NULL == query->query_wire_fmt.memory) {
-		fprintf(stderr, "malloc query_wire_fmt failed");
+		fprintf(stdout, "malloc query_wire_fmt failed");
 		return 1;
 	}
 	query->query_wire_fmt.size = doh_encode(domain, DNS_TYPE_A,
 		query->query_wire_fmt.memory, DOH_QUERY_WIRE_FMT_SIZE);
 	if(!query->query_wire_fmt.size) {
-		fprintf(stderr, "Failed to encode DoH packet\n");
+		fprintf(stdout, "Failed to encode DoH packet\n");
 		return 2;
 	}
 
 	query->response_wire_fmt.memory = malloc(1);
 	if(NULL == query->response_wire_fmt.memory) {
-		fprintf(stderr, "malloc response_wire_fmt failed");
+		fprintf(stdout, "malloc response_wire_fmt failed");
 		return 1;
 	}
 	query->response_wire_fmt.size = 0;
@@ -408,7 +408,7 @@ int doh(const char *recursor, char *domains[], uint16_t domains_count) {
 	for(int i = 0; i < domains_count; ++i) {
 		doh_query_t *query = malloc(sizeof(doh_query_t));
 		if(NULL == query) {
-			fprintf(stderr, "Unable to allocate memory for doh_query_t\n");
+			fprintf(stdout, "Unable to allocate memory for doh_query_t\n");
 			return 1;
 		}
 		bzero(query, sizeof(doh_query_t));
@@ -433,7 +433,7 @@ int doh(const char *recursor, char *domains[], uint16_t domains_count) {
 		CURLMcode mc = curl_multi_wait(multi, NULL, 0, 1000, &num_fds);
 
 		if(mc != CURLM_OK) {
-			fprintf(stderr, "curl_multi_wait() failed, code %d.\n", mc);
+			fprintf(stdout, "curl_multi_wait() failed, code %d.\n", mc);
 			break;
 		}
 
@@ -453,6 +453,7 @@ int doh(const char *recursor, char *domains[], uint16_t domains_count) {
 				curl_easy_getinfo(easy, CURLINFO_PRIVATE, &query);
 
 				/* Check for errors */
+				//printf("%s\n", recursor);
 				if(msg->data.result == CURLE_OK) {
 					long response_code;
 					curl_easy_getinfo(easy, CURLINFO_RESPONSE_CODE, &response_code);
@@ -463,19 +464,20 @@ int doh(const char *recursor, char *domains[], uint16_t domains_count) {
 						if(r == DOH_DNS_BAD_RCODE) {
 							print_error(query->domain, nanosec_since(query->time_start), r);
 						} else if(r) {
-							fprintf(stderr, "Problem %d decoding %zu bytes response to probe\n",
-								r, query->response_wire_fmt.size);
+							fprintf(stdout, "Problem %d decoding %zu bytes response to probe,%s,%s, , \n",
+								r, query->response_wire_fmt.size, recursor, query->domain);
 						} else {
-							print_ok(query->domain, query->elapsed, query->response_wire_fmt.size);
+							print_ok1(recursor, query->domain, query->elapsed, query->response_wire_fmt.size);
 						}
 					} else {
-						fprintf(stderr, "Query got response: %03ld\n", response_code);
+						fprintf(stdout, "Query got response: %03ld,%s,%s, , \n", response_code, recursor, query->domain);
 					}
 					free(query->response_wire_fmt.memory);
 					query->response_wire_fmt.memory = NULL;
 					query->response_wire_fmt.size = 0;
 				} else {
-					fprintf(stderr, "Query failed: %s\n", curl_easy_strerror(msg->data.result));
+					//printf("%s\n", recursor);
+					fprintf(stdout, "Query failed: %s,%s,%s, , \n", curl_easy_strerror(msg->data.result), recursor, query->domain);
 				}
 
 				free(query->query_wire_fmt.memory);
