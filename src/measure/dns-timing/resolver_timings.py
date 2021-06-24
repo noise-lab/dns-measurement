@@ -12,7 +12,7 @@ textfile.write("status,resolver,domain,time,size\n")
 # Repeat measurements by the number defined in the loop and input data into csv, appending each time 
 k=0
 for k in range(2):
-	cmd = ["./dns-timing", "doh", "recursorsnew", "domains"]
+	cmd = ["./dns-timing", "doh", "recursors-few", "domains"]
 	output = subprocess.check_output(cmd, stderr = subprocess.STDOUT)
 	output = output.decode('unicode_escape')
 	print(output)
