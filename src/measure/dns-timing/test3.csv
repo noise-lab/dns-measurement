@@ -22,3 +22,1908 @@ Query failed: SSL connect error,https://dns1.dnscrypt.ca/dns-query,netflix.com, 
 Problem 7 decoding 8771 bytes response to probe,https://doh.cleanbrowsing.org/dns-query,google.com, , 
 Problem 7 decoding 8771 bytes response to probe,https://doh.cleanbrowsing.org/dns-query,netflix.com, , 
 ok,total_run_time,813.500666,0
+status,resolver,domain,time,size
+ok,https://dns.google/dns-query,google.com,49.331750,44
+ok,https://dns.google/dns-query,netflix.com,49.372471,77
+ok,https://dns.aa.net.uk/dns-query,google.com,269.910356,44
+ok,https://dns.aa.net.uk/dns-query,netflix.com,279.908486,213
+ok,https://adfree.usableprivacy.net/dns-query,netflix.com,350.755970,77
+ok,https://adfree.usableprivacy.net/dns-query,google.com,350.917004,44
+ok,https://dns.adguard.com/dns-query,netflix.com,70.802875,77
+ok,https://dns.adguard.com/dns-query,google.com,70.899317,124
+ok,https://dns-family.adguard.com/dns-query,google.com,71.760396,124
+ok,https://dns-family.adguard.com/dns-query,netflix.com,71.747326,77
+ok,https://doh.in.ahadns.net/dns-query,google.com,650.260532,65
+ok,https://doh.in.ahadns.net/dns-query,netflix.com,1080.217240,121
+ok,https://doh.la.ahadns.net/dns-query,google.com,227.783230,195
+ok,https://doh.la.ahadns.net/dns-query,netflix.com,227.921560,121
+ok,https://doh.nl.ahadns.net/dns-query,netflix.com,308.005572,121
+ok,https://doh.nl.ahadns.net/dns-query,google.com,308.229597,65
+ok,https://dns.alidns.com/dns-query,netflix.com,49.986149,121
+ok,https://dns.alidns.com/dns-query,google.com,50.095131,65
+ok,https://dnsnl.alekberg.net/dns-query,google.com,291.252718,68
+ok,https://dnsnl.alekberg.net/dns-query,netflix.com,291.241961,132
+ok,https://dnsnl.alekberg.net/dns-query,netflix.com,292.745671,132
+ok,https://dnsnl.alekberg.net/dns-query,google.com,292.963066,68
+ok,https://dns.arapurayil.com/dns-query,google.com,595.596006,44
+ok,https://dns.arapurayil.com/dns-query,netflix.com,595.603673,77
+Query failed: SSL peer certificate or SSH remote key was not OK,https://dohtrial.att.net/dns-query,google.com, , 
+Query failed: SSL peer certificate or SSH remote key was not OK,https://dohtrial.att.net/dns-query,netflix.com, , 
+ok,https://dnses.alekberg.net/dns-query,netflix.com,337.126466,516
+ok,https://dnses.alekberg.net/dns-query,google.com,376.853048,324
+Query got response: 404,https://doh.bortzmeyer.fr/dns-query,google.com, , 
+Query got response: 404,https://doh.bortzmeyer.fr/dns-query,netflix.com, , 
+ok,https://dns.circl.lu/dns-query,google.com,334.183078,54
+ok,https://dns.circl.lu/dns-query,netflix.com,334.242557,110
+ok,https://doh.opendns.com/dns-query,netflix.com,64.661934,77
+ok,https://doh.opendns.com/dns-query,google.com,73.009418,44
+ok,https://dns.cloudflare.com/dns-query,google.com,46.665630,44
+ok,https://dns.cloudflare.com/dns-query,netflix.com,47.169978,77
+ok,https://family.cloudflare-dns.com/dns-query,google.com,46.574964,44
+ok,https://family.cloudflare-dns.com/dns-query,netflix.com,47.393718,77
+ok,https://security.cloudflare-dns.com/dns-query,google.com,46.792215,44
+ok,https://security.cloudflare-dns.com/dns-query,netflix.com,50.117428,77
+ok,https://odvr.nic.cz/dns-query,google.com,333.499435,44
+ok,https://odvr.nic.cz/dns-query,netflix.com,333.546753,77
+ok,https://dns.digitale-gesellschaft.ch/dns-query,google.com,331.022638,65
+ok,https://dns.digitale-gesellschaft.ch/dns-query,netflix.com,331.136460,121
+ok,https://dns.digitale-gesellschaft.ch/dns-query,netflix.com,325.214813,121
+ok,https://dns.digitale-gesellschaft.ch/dns-query,google.com,325.472687,65
+ok,https://dns1.ryan-palmer.com/dns-query,netflix.com,274.937772,77
+ok,https://dns1.ryan-palmer.com/dns-query,google.com,284.729129,44
+ok,https://doh.dns.sb/dns-query,google.com,94.685377,65
+ok,https://doh.dns.sb/dns-query,netflix.com,95.250094,121
+error,google.com,838.342982,8
+error,netflix.com,838.302386,8
+Query failed: SSL connect error,https://dns1.dnscrypt.ca/dns-query,google.com, , 
+Query failed: SSL connect error,https://dns1.dnscrypt.ca/dns-query,netflix.com, , 
+Query failed: SSL connect error,https://dns2.dnscrypt.ca/dns-query,google.com, , 
+Query failed: SSL connect error,https://dns2.dnscrypt.ca/dns-query,netflix.com, , 
+ok,https://dns-doh.dnsforfamily.com/dns-query,google.com,533.645674,74
+ok,https://dns-doh.dnsforfamily.com/dns-query,netflix.com,557.636097,77
+ok,https://dns-doh-no-safe-search.dnsforfamily.com/dns-query,google.com,498.433150,44
+ok,https://dns-doh-no-safe-search.dnsforfamily.com/dns-query,netflix.com,556.665450,77
+ok,https://dnsforge.de/dns-query,google.com,299.169850,44
+ok,https://dnsforge.de/dns-query,netflix.com,308.362596,77
+ok,https://dns.dnshome.de/dns-query,google.com,333.066330,44
+ok,https://dns.dnshome.de/dns-query,netflix.com,333.099482,77
+ok,https://doh.pub/dns-query,google.com,498.594682,77
+ok,https://doh.pub/dns-query,netflix.com,577.017272,133
+ok,https://doh-ch.blahdns.com/dns-query,google.com,346.964772,65
+ok,https://doh-ch.blahdns.com/dns-query,netflix.com,346.916250,121
+Problem 7 decoding 8771 bytes response to probe,https://doh.cleanbrowsing.org/dns-query,google.com, , 
+Problem 7 decoding 8771 bytes response to probe,https://doh.cleanbrowsing.org/dns-query,netflix.com, , 
+Problem 7 decoding 8771 bytes response to probe,https://doh.cleanbrowsing.org/dns-query,google.com, , 
+Problem 7 decoding 8771 bytes response to probe,https://doh.cleanbrowsing.org/dns-query,netflix.com, , 
+Problem 7 decoding 8771 bytes response to probe,https://doh.cleanbrowsing.org/dns-query,google.com, , 
+Problem 7 decoding 8771 bytes response to probe,https://doh.cleanbrowsing.org/dns-query,netflix.com, , 
+Query got response: 405,https://doh.crypto.sx/dns-query,netflix.com, , 
+Query got response: 405,https://doh.crypto.sx/dns-query,google.com, , 
+ok,https://doh-de.blahdns.com/dns-query,netflix.com,305.589334,121
+ok,https://doh-de.blahdns.com/dns-query,google.com,305.692241,65
+ok,https://doh-fi.blahdns.com/dns-query,google.com,357.426410,65
+ok,https://doh-fi.blahdns.com/dns-query,netflix.com,357.379224,121
+ok,https://ibksturm.synology.me/dns-query,google.com,616.805190,44
+ok,https://ibksturm.synology.me/dns-query,netflix.com,617.424483,77
+ok,https://doh-jp.blahdns.com/dns-query,google.com,534.664046,65
+ok,https://doh-jp.blahdns.com/dns-query,netflix.com,535.866374,121
+ok,https://doh-sg.blahdns.com/dns-query,google.com,741.806979,195
+ok,https://doh-sg.blahdns.com/dns-query,netflix.com,741.746252,121
+Query got response: 404,https://doh.appliedprivacy.net/dns-query,google.com, , 
+Query got response: 404,https://doh.appliedprivacy.net/dns-query,netflix.com, , 
+ok,https://doh.ffmuc.net/dns-query,google.com,627.903636,44
+ok,https://doh.ffmuc.net/dns-query,netflix.com,627.892910,77
+ok,https://doh.tiarap.org/dns-query,netflix.com,303.795039,132
+ok,https://doh.tiarap.org/dns-query,google.com,308.130894,68
+Query failed: SSL peer certificate or SSH remote key was not OK,https://dns.emeraldonion.org/dns-query,google.com, , 
+Query failed: SSL peer certificate or SSH remote key was not OK,https://dns.emeraldonion.org/dns-query,netflix.com, , 
+ok,https://dns.google/dns-query,google.com,44.521027,44
+ok,https://dns.google/dns-query,netflix.com,44.534784,77
+ok,https://ordns.he.net/dns-query,google.com,45.881617,44
+ok,https://ordns.he.net/dns-query,netflix.com,45.902181,77
+Query failed: Couldn't connect to server,https://doh.tiar.app/dns-query,google.com, , 
+Query failed: Couldn't connect to server,https://doh.tiar.app/dns-query,netflix.com, , 
+ok,https://public.dns.iij.jp/dns-query,google.com,227.319392,54
+ok,https://public.dns.iij.jp/dns-query,netflix.com,246.720219,110
+ok,https://doh.this.web.id/dns-query,google.com,2437.257743,65
+ok,https://doh.this.web.id/dns-query,netflix.com,2437.633421,121
+Query failed: Couldn't connect to server,https://jp.tiar.app/dns-query,google.com, , 
+Query failed: Couldn't connect to server,https://jp.tiar.app/dns-query,netflix.com, , 
+ok,https://jp.tiarap.org/dns-query,netflix.com,249.695789,132
+ok,https://jp.tiarap.org/dns-query,google.com,267.246479,68
+ok,https://doh.libredns.gr/dns-query,netflix.com,298.013772,77
+ok,https://doh.libredns.gr/dns-query,google.com,299.578264,44
+ok,https://doh.libredns.gr/dns-query,google.com,296.930790,44
+ok,https://doh.libredns.gr/dns-query,netflix.com,296.933542,77
+ok,https://doh.linuxsec.org/dns-query,google.com,1073.973469,195
+ok,https://doh.linuxsec.org/dns-query,netflix.com,1073.984083,304
+ok,https://doh.linuxsec.org/dns-query,google.com,1009.163315,195
+ok,https://doh.linuxsec.org/dns-query,netflix.com,1009.731445,304
+ok,https://adblock.doh.mullvad.net/dns-query,google.com,62.076298,44
+status,resolver,domain,time,size
+ok,https://dns.google/dns-query,google.com,82.241262,44
+ok,https://dns.google/dns-query,netflix.com,85.825847,77
+ok,https://dns.aa.net.uk/dns-query,google.com,388.651735,44
+ok,https://dns.aa.net.uk/dns-query,netflix.com,388.680795,213
+ok,https://adfree.usableprivacy.net/dns-query,google.com,430.218045,44
+ok,https://adfree.usableprivacy.net/dns-query,netflix.com,445.724387,77
+ok,https://dns.adguard.com/dns-query,google.com,109.228493,124
+ok,https://dns.adguard.com/dns-query,netflix.com,109.265243,77
+ok,https://dns-family.adguard.com/dns-query,netflix.com,102.716030,77
+ok,https://dns-family.adguard.com/dns-query,google.com,102.931292,124
+ok,https://doh.in.ahadns.net/dns-query,netflix.com,653.475456,121
+ok,https://doh.in.ahadns.net/dns-query,google.com,653.657683,65
+ok,https://doh.la.ahadns.net/dns-query,google.com,253.813423,195
+ok,https://doh.la.ahadns.net/dns-query,netflix.com,254.153429,121
+ok,https://doh.nl.ahadns.net/dns-query,google.com,333.379383,65
+ok,https://doh.nl.ahadns.net/dns-query,netflix.com,333.788576,121
+ok,https://dns.alidns.com/dns-query,google.com,77.362966,65
+ok,https://dns.alidns.com/dns-query,netflix.com,92.344994,121
+ok,https://dnsnl.alekberg.net/dns-query,netflix.com,423.941146,132
+ok,https://dnsnl.alekberg.net/dns-query,google.com,424.233644,68
+ok,https://dnsnl.alekberg.net/dns-query,netflix.com,293.008810,132
+ok,https://dnsnl.alekberg.net/dns-query,google.com,293.178941,68
+ok,https://dns.arapurayil.com/dns-query,google.com,632.710004,44
+ok,https://dns.arapurayil.com/dns-query,netflix.com,653.383310,77
+ok,https://dohtrial.att.net/dns-query,google.com,149.518052,124
+ok,https://dohtrial.att.net/dns-query,netflix.com,158.127202,77
+ok,https://dnses.alekberg.net/dns-query,google.com,469.101516,324
+ok,https://dnses.alekberg.net/dns-query,netflix.com,502.107951,516
+Query got response: 404,https://doh.bortzmeyer.fr/dns-query,google.com, , 
+Query got response: 404,https://doh.bortzmeyer.fr/dns-query,netflix.com, , 
+ok,https://dns.circl.lu/dns-query,google.com,503.047297,54
+ok,https://dns.circl.lu/dns-query,netflix.com,506.383754,110
+ok,https://doh.opendns.com/dns-query,google.com,81.919983,44
+ok,https://doh.opendns.com/dns-query,netflix.com,109.095448,77
+ok,https://dns.cloudflare.com/dns-query,google.com,57.321636,44
+ok,https://dns.cloudflare.com/dns-query,netflix.com,60.259184,77
+ok,https://family.cloudflare-dns.com/dns-query,netflix.com,87.271276,77
+ok,https://family.cloudflare-dns.com/dns-query,google.com,87.437059,44
+ok,https://security.cloudflare-dns.com/dns-query,google.com,87.913226,44
+ok,https://security.cloudflare-dns.com/dns-query,netflix.com,94.961328,77
+ok,https://odvr.nic.cz/dns-query,google.com,611.551149,44
+ok,https://odvr.nic.cz/dns-query,netflix.com,611.624174,77
+ok,https://dns.digitale-gesellschaft.ch/dns-query,google.com,412.300029,65
+ok,https://dns.digitale-gesellschaft.ch/dns-query,netflix.com,505.191029,132
+ok,https://dns.digitale-gesellschaft.ch/dns-query,google.com,327.425822,65
+ok,https://dns.digitale-gesellschaft.ch/dns-query,netflix.com,327.432755,121
+ok,https://dns1.ryan-palmer.com/dns-query,netflix.com,319.643782,77
+ok,https://dns1.ryan-palmer.com/dns-query,google.com,332.959315,44
+ok,https://doh.dns.sb/dns-query,google.com,108.376306,65
+ok,https://doh.dns.sb/dns-query,netflix.com,108.611520,121
+error,google.com,866.830905,8
+error,netflix.com,866.796252,8
+Query failed: SSL connect error,https://dns1.dnscrypt.ca/dns-query,google.com, , 
+Query failed: SSL connect error,https://dns1.dnscrypt.ca/dns-query,netflix.com, , 
+Query failed: SSL connect error,https://dns2.dnscrypt.ca/dns-query,google.com, , 
+Query failed: SSL connect error,https://dns2.dnscrypt.ca/dns-query,netflix.com, , 
+ok,https://dns-doh.dnsforfamily.com/dns-query,google.com,577.506927,74
+ok,https://dns-doh.dnsforfamily.com/dns-query,netflix.com,588.441639,77
+ok,https://dns-doh-no-safe-search.dnsforfamily.com/dns-query,google.com,569.357012,44
+ok,https://dns-doh-no-safe-search.dnsforfamily.com/dns-query,netflix.com,571.708875,77
+ok,https://dnsforge.de/dns-query,google.com,559.487889,44
+ok,https://dnsforge.de/dns-query,netflix.com,575.178319,77
+ok,https://dns.dnshome.de/dns-query,netflix.com,828.224447,77
+ok,https://dns.dnshome.de/dns-query,google.com,839.671506,44
+ok,https://doh.pub/dns-query,google.com,699.226942,77
+ok,https://doh.pub/dns-query,netflix.com,816.594524,133
+ok,https://doh-ch.blahdns.com/dns-query,google.com,348.571034,65
+ok,https://doh-ch.blahdns.com/dns-query,netflix.com,349.770516,121
+Problem 7 decoding 8771 bytes response to probe,https://doh.cleanbrowsing.org/dns-query,google.com, , 
+Problem 7 decoding 8771 bytes response to probe,https://doh.cleanbrowsing.org/dns-query,netflix.com, , 
+Problem 7 decoding 8771 bytes response to probe,https://doh.cleanbrowsing.org/dns-query,google.com, , 
+Problem 7 decoding 8771 bytes response to probe,https://doh.cleanbrowsing.org/dns-query,netflix.com, , 
+Problem 7 decoding 8771 bytes response to probe,https://doh.cleanbrowsing.org/dns-query,google.com, , 
+Problem 7 decoding 8771 bytes response to probe,https://doh.cleanbrowsing.org/dns-query,netflix.com, , 
+Query got response: 405,https://doh.crypto.sx/dns-query,netflix.com, , 
+Query got response: 405,https://doh.crypto.sx/dns-query,google.com, , 
+ok,https://doh-de.blahdns.com/dns-query,google.com,348.280689,65
+ok,https://doh-de.blahdns.com/dns-query,netflix.com,354.526096,121
+ok,https://doh-fi.blahdns.com/dns-query,google.com,400.308897,65
+ok,https://doh-fi.blahdns.com/dns-query,netflix.com,408.677007,121
+ok,https://ibksturm.synology.me/dns-query,google.com,655.501350,44
+ok,https://ibksturm.synology.me/dns-query,netflix.com,677.487777,77
+ok,https://doh-jp.blahdns.com/dns-query,google.com,605.783576,65
+ok,https://doh-jp.blahdns.com/dns-query,netflix.com,605.723167,121
+ok,https://doh-sg.blahdns.com/dns-query,google.com,747.919100,195
+ok,https://doh-sg.blahdns.com/dns-query,netflix.com,749.626778,121
+Query got response: 404,https://doh.appliedprivacy.net/dns-query,google.com, , 
+Query got response: 404,https://doh.appliedprivacy.net/dns-query,netflix.com, , 
+ok,https://doh.ffmuc.net/dns-query,google.com,11458.205044,44
+ok,https://doh.ffmuc.net/dns-query,netflix.com,11458.175915,77
+ok,https://doh.tiarap.org/dns-query,google.com,393.845272,68
+ok,https://doh.tiarap.org/dns-query,netflix.com,395.257966,132
+Query failed: SSL peer certificate or SSH remote key was not OK,https://dns.emeraldonion.org/dns-query,google.com, , 
+Query failed: SSL peer certificate or SSH remote key was not OK,https://dns.emeraldonion.org/dns-query,netflix.com, , 
+ok,https://dns.google/dns-query,google.com,45.404634,44
+ok,https://dns.google/dns-query,netflix.com,49.192441,77
+ok,https://ordns.he.net/dns-query,netflix.com,135.045450,77
+ok,https://ordns.he.net/dns-query,google.com,143.473065,44
+Query failed: Couldn't connect to server,https://doh.tiar.app/dns-query,google.com, , 
+Query failed: Couldn't connect to server,https://doh.tiar.app/dns-query,netflix.com, , 
+ok,https://public.dns.iij.jp/dns-query,google.com,693.048625,54
+ok,https://public.dns.iij.jp/dns-query,netflix.com,715.804326,110
+ok,https://doh.this.web.id/dns-query,google.com,1419.616045,65
+ok,https://doh.this.web.id/dns-query,netflix.com,1533.150894,121
+Query failed: Couldn't connect to server,https://jp.tiar.app/dns-query,google.com, , 
+Query failed: Couldn't connect to server,https://jp.tiar.app/dns-query,netflix.com, , 
+ok,https://jp.tiarap.org/dns-query,google.com,287.963416,68
+ok,https://jp.tiarap.org/dns-query,netflix.com,309.063643,132
+ok,https://doh.libredns.gr/dns-query,google.com,356.614361,44
+ok,https://doh.libredns.gr/dns-query,netflix.com,362.115048,77
+ok,https://doh.libredns.gr/dns-query,google.com,302.105760,44
+ok,https://doh.libredns.gr/dns-query,netflix.com,302.222373,77
+ok,https://doh.linuxsec.org/dns-query,google.com,1115.974084,195
+ok,https://doh.linuxsec.org/dns-query,netflix.com,1131.157836,315
+ok,https://doh.linuxsec.org/dns-query,google.com,1023.406792,195
+ok,https://doh.linuxsec.org/dns-query,netflix.com,1023.541576,304
+ok,https://adblock.doh.mullvad.net/dns-query,google.com,198.442925,44
+ok,https://adblock.doh.mullvad.net/dns-query,netflix.com,198.395029,77
+ok,https://doh.mullvad.net/dns-query,google.com,149.289769,44
+ok,https://doh.mullvad.net/dns-query,netflix.com,149.246789,77
+ok,https://dns.nextdns.io/dns-query,netflix.com,306.711385,77
+ok,https://dns.nextdns.io/dns-query,google.com,306.890148,44
+ok,https://dns.njal.la/dns-query,google.com,818.907622,44
+ok,https://dns.njal.la/dns-query,netflix.com,827.749892,77
+Query got response: 405,https://doh.post-factum.tk/dns-query,netflix.com, , 
+Query got response: 405,https://doh.post-factum.tk/dns-query,google.com, , 
+ok,https://draco.plan9-ns2.com/dns-query,google.com,151.113504,44
+ok,https://draco.plan9-ns2.com/dns-query,netflix.com,152.323295,77
+ok,https://doh.powerdns.org/dns-query,google.com,478.914832,44
+ok,https://doh.powerdns.org/dns-query,netflix.com,488.814237,77
+Query failed: SSL connect error,https://doh.seby.io/dns-query,google.com, , 
+Query failed: SSL connect error,https://doh.seby.io/dns-query,netflix.com, , 
+ok,https://doh-2.seby.io/dns-query,google.com,692.503870,65
+ok,https://doh-2.seby.io/dns-query,netflix.com,692.449996,121
+ok,https://dns.twnic.tw/dns-query,google.com,32800.858813,76
+ok,https://dns.twnic.tw/dns-query,netflix.com,32800.969641,132
+ok,https://dns9.quad9.net/dns-query,netflix.com,46.645418,77
+ok,https://dns9.quad9.net/dns-query,google.com,46.882376,44
+ok,https://dns9.quad9.net/dns-query,google.com,44.391656,44
+ok,https://dns9.quad9.net/dns-query,netflix.com,44.392744,77
+ok,https://dnsse.alekberg.net/dns-query,google.com,359.290427,324
+ok,https://dnsse.alekberg.net/dns-query,netflix.com,359.618030,388
+ok,https://dns.switch.ch/dns-query,netflix.com,475.854743,77
+ok,https://dns.switch.ch/dns-query,google.com,476.003808,44
+ok,https://dns.t53.de/dns-query,google.com,336.653871,44
+ok,https://dns.t53.de/dns-query,netflix.com,336.621190,77
+ok,https://sg.yepdns.com/dns-query,google.com,678.802109,135
+ok,https://sg.yepdns.com/dns-query,netflix.com,678.748673,88
+ok,total_run_time,241900.821199,0
+ok,https://dns.google/dns-query,google.com,46.215594,44
+ok,https://dns.google/dns-query,netflix.com,46.397998,77
+ok,https://dns.aa.net.uk/dns-query,google.com,274.882759,44
+ok,https://dns.aa.net.uk/dns-query,netflix.com,284.631884,213
+ok,https://adfree.usableprivacy.net/dns-query,google.com,395.662139,44
+ok,https://adfree.usableprivacy.net/dns-query,netflix.com,428.531264,77
+ok,https://dns.adguard.com/dns-query,google.com,72.379995,124
+ok,https://dns.adguard.com/dns-query,netflix.com,72.377515,77
+ok,https://dns-family.adguard.com/dns-query,netflix.com,72.293885,77
+ok,https://dns-family.adguard.com/dns-query,google.com,72.579666,124
+ok,https://doh.in.ahadns.net/dns-query,google.com,649.983400,65
+ok,https://doh.in.ahadns.net/dns-query,netflix.com,650.051460,121
+ok,https://doh.la.ahadns.net/dns-query,netflix.com,229.958738,121
+ok,https://doh.la.ahadns.net/dns-query,google.com,230.169686,195
+ok,https://doh.nl.ahadns.net/dns-query,netflix.com,318.496837,121
+ok,https://doh.nl.ahadns.net/dns-query,google.com,318.765012,65
+ok,https://dns.alidns.com/dns-query,google.com,48.181569,65
+ok,https://dns.alidns.com/dns-query,netflix.com,83.129665,121
+ok,https://dnsnl.alekberg.net/dns-query,google.com,337.074701,68
+ok,https://dnsnl.alekberg.net/dns-query,netflix.com,337.328307,132
+ok,https://dnsnl.alekberg.net/dns-query,netflix.com,705.959237,132
+ok,https://dnsnl.alekberg.net/dns-query,google.com,706.080248,68
+ok,https://dns.arapurayil.com/dns-query,google.com,601.621127,44
+ok,https://dns.arapurayil.com/dns-query,netflix.com,602.237544,77
+Query failed: SSL peer certificate or SSH remote key was not OK,https://dohtrial.att.net/dns-query,google.com, , 
+Query failed: SSL peer certificate or SSH remote key was not OK,https://dohtrial.att.net/dns-query,netflix.com, , 
+ok,https://dnses.alekberg.net/dns-query,google.com,340.516313,324
+ok,https://dnses.alekberg.net/dns-query,netflix.com,341.053062,388
+Query got response: 404,https://doh.bortzmeyer.fr/dns-query,google.com, , 
+Query got response: 404,https://doh.bortzmeyer.fr/dns-query,netflix.com, , 
+ok,https://dns.circl.lu/dns-query,google.com,336.536634,54
+ok,https://dns.circl.lu/dns-query,netflix.com,336.495378,110
+ok,https://doh.opendns.com/dns-query,google.com,63.947733,44
+ok,https://doh.opendns.com/dns-query,netflix.com,65.382663,77
+ok,https://dns.cloudflare.com/dns-query,netflix.com,50.549840,77
+ok,https://dns.cloudflare.com/dns-query,google.com,53.333239,44
+ok,https://family.cloudflare-dns.com/dns-query,google.com,49.616772,44
+ok,https://family.cloudflare-dns.com/dns-query,netflix.com,49.846396,77
+ok,https://security.cloudflare-dns.com/dns-query,google.com,49.161945,44
+ok,https://security.cloudflare-dns.com/dns-query,netflix.com,61.540422,77
+ok,https://odvr.nic.cz/dns-query,google.com,341.821936,44
+ok,https://odvr.nic.cz/dns-query,netflix.com,341.949281,77
+ok,https://dns.digitale-gesellschaft.ch/dns-query,google.com,335.046848,65
+ok,https://dns.digitale-gesellschaft.ch/dns-query,netflix.com,335.057186,121
+ok,https://dns.digitale-gesellschaft.ch/dns-query,google.com,329.991444,65
+ok,https://dns.digitale-gesellschaft.ch/dns-query,netflix.com,329.995631,121
+ok,https://dns1.ryan-palmer.com/dns-query,netflix.com,272.394840,77
+ok,https://dns1.ryan-palmer.com/dns-query,google.com,281.799427,44
+ok,https://doh.dns.sb/dns-query,netflix.com,86.430455,121
+ok,https://doh.dns.sb/dns-query,google.com,148.482134,65
+error,netflix.com,814.493342,8
+error,google.com,816.283409,8
+Query failed: SSL connect error,https://dns1.dnscrypt.ca/dns-query,google.com, , 
+Query failed: SSL connect error,https://dns1.dnscrypt.ca/dns-query,netflix.com, , 
+Query failed: SSL connect error,https://dns2.dnscrypt.ca/dns-query,google.com, , 
+Query failed: SSL connect error,https://dns2.dnscrypt.ca/dns-query,netflix.com, , 
+ok,https://dns-doh.dnsforfamily.com/dns-query,netflix.com,483.540939,77
+ok,https://dns-doh.dnsforfamily.com/dns-query,google.com,516.788054,74
+ok,https://dns-doh-no-safe-search.dnsforfamily.com/dns-query,google.com,479.372635,44
+ok,https://dns-doh-no-safe-search.dnsforfamily.com/dns-query,netflix.com,479.920098,77
+ok,https://dnsforge.de/dns-query,google.com,303.919189,44
+ok,https://dnsforge.de/dns-query,netflix.com,309.848425,77
+ok,https://dns.dnshome.de/dns-query,google.com,331.496875,44
+ok,https://dns.dnshome.de/dns-query,netflix.com,337.353123,77
+ok,https://doh.pub/dns-query,google.com,231.795293,77
+ok,https://doh.pub/dns-query,netflix.com,549.371463,133
+ok,https://doh-ch.blahdns.com/dns-query,google.com,327.307620,65
+ok,https://doh-ch.blahdns.com/dns-query,netflix.com,327.993810,121
+Problem 7 decoding 8771 bytes response to probe,https://doh.cleanbrowsing.org/dns-query,google.com, , 
+Problem 7 decoding 8771 bytes response to probe,https://doh.cleanbrowsing.org/dns-query,netflix.com, , 
+Problem 7 decoding 8771 bytes response to probe,https://doh.cleanbrowsing.org/dns-query,google.com, , 
+Problem 7 decoding 8771 bytes response to probe,https://doh.cleanbrowsing.org/dns-query,netflix.com, , 
+Problem 7 decoding 8771 bytes response to probe,https://doh.cleanbrowsing.org/dns-query,google.com, , 
+Problem 7 decoding 8771 bytes response to probe,https://doh.cleanbrowsing.org/dns-query,netflix.com, , 
+Query got response: 405,https://doh.crypto.sx/dns-query,google.com, , 
+Query got response: 405,https://doh.crypto.sx/dns-query,netflix.com, , 
+ok,https://doh-de.blahdns.com/dns-query,netflix.com,307.474457,121
+ok,https://doh-de.blahdns.com/dns-query,google.com,307.656217,65
+ok,https://doh-fi.blahdns.com/dns-query,google.com,357.502650,65
+ok,https://doh-fi.blahdns.com/dns-query,netflix.com,357.457765,121
+ok,https://ibksturm.synology.me/dns-query,google.com,613.990217,44
+ok,https://ibksturm.synology.me/dns-query,netflix.com,613.957873,77
+ok,https://doh-jp.blahdns.com/dns-query,google.com,574.124294,65
+ok,https://doh-jp.blahdns.com/dns-query,netflix.com,574.075883,121
+ok,https://doh-sg.blahdns.com/dns-query,google.com,751.612748,195
+ok,https://doh-sg.blahdns.com/dns-query,netflix.com,751.566120,121
+Query got response: 404,https://doh.appliedprivacy.net/dns-query,google.com, , 
+Query got response: 404,https://doh.appliedprivacy.net/dns-query,netflix.com, , 
+ok,https://doh.ffmuc.net/dns-query,google.com,584.676167,44
+ok,https://doh.ffmuc.net/dns-query,netflix.com,584.649131,77
+ok,https://adblock.doh.mullvad.net/dns-query,netflix.com,62.016323,77
+ok,https://doh.mullvad.net/dns-query,google.com,63.483668,44
+ok,https://doh.mullvad.net/dns-query,netflix.com,63.403331,77
+ok,https://dns.nextdns.io/dns-query,google.com,150.508853,44
+ok,https://dns.nextdns.io/dns-query,netflix.com,151.247954,77
+ok,https://dns.njal.la/dns-query,netflix.com,446.369400,77
+ok,https://dns.njal.la/dns-query,google.com,446.719769,44
+Query got response: 405,https://doh.post-factum.tk/dns-query,google.com, , 
+Query got response: 405,https://doh.post-factum.tk/dns-query,netflix.com, , 
+ok,https://draco.plan9-ns2.com/dns-query,google.com,112.582048,44
+ok,https://draco.plan9-ns2.com/dns-query,netflix.com,112.590838,77
+ok,https://doh.powerdns.org/dns-query,google.com,288.306940,44
+ok,https://doh.powerdns.org/dns-query,netflix.com,288.283889,77
+Query failed: SSL connect error,https://doh.seby.io/dns-query,google.com, , 
+Query failed: SSL connect error,https://doh.seby.io/dns-query,netflix.com, , 
+ok,https://doh-2.seby.io/dns-query,google.com,632.898089,65
+ok,https://doh-2.seby.io/dns-query,netflix.com,632.843674,121
+ok,https://dns.twnic.tw/dns-query,google.com,799.094397,76
+ok,https://dns.twnic.tw/dns-query,netflix.com,801.047521,132
+ok,https://dns9.quad9.net/dns-query,netflix.com,84.128621,77
+ok,https://dns9.quad9.net/dns-query,google.com,84.271283,44
+ok,https://dns9.quad9.net/dns-query,netflix.com,44.545720,77
+ok,https://dns9.quad9.net/dns-query,google.com,45.102753,44
+ok,https://dnsse.alekberg.net/dns-query,google.com,479.563369,324
+ok,https://dnsse.alekberg.net/dns-query,netflix.com,582.621390,324
+ok,https://dns.switch.ch/dns-query,google.com,591.321711,44
+ok,https://dns.switch.ch/dns-query,netflix.com,592.561703,77
+ok,https://dns.t53.de/dns-query,netflix.com,830.602073,77
+ok,https://dns.t53.de/dns-query,google.com,858.406184,44
+ok,https://sg.yepdns.com/dns-query,google.com,787.975262,135
+ok,https://sg.yepdns.com/dns-query,netflix.com,794.483103,88
+ok,total_run_time,193840.757035,0
+ok,https://dns.google/dns-query,google.com,48.244340,44
+ok,https://dns.google/dns-query,netflix.com,64.787978,77
+ok,https://dns.aa.net.uk/dns-query,netflix.com,274.141547,213
+ok,https://dns.aa.net.uk/dns-query,google.com,274.339534,44
+ok,https://adfree.usableprivacy.net/dns-query,google.com,377.172772,44
+ok,https://adfree.usableprivacy.net/dns-query,netflix.com,402.110379,77
+ok,https://dns.adguard.com/dns-query,google.com,72.862009,124
+ok,https://dns.adguard.com/dns-query,netflix.com,72.827054,77
+ok,https://dns-family.adguard.com/dns-query,google.com,72.079905,124
+ok,https://dns-family.adguard.com/dns-query,netflix.com,72.164160,77
+ok,https://doh.in.ahadns.net/dns-query,google.com,638.367275,65
+ok,https://doh.in.ahadns.net/dns-query,netflix.com,638.551895,121
+ok,https://doh.la.ahadns.net/dns-query,netflix.com,230.266030,121
+ok,https://doh.la.ahadns.net/dns-query,google.com,231.172543,195
+ok,https://doh.nl.ahadns.net/dns-query,google.com,319.008567,65
+ok,https://doh.nl.ahadns.net/dns-query,netflix.com,319.921817,121
+ok,https://dns.alidns.com/dns-query,google.com,50.104727,65
+ok,https://dns.alidns.com/dns-query,netflix.com,63.929146,121
+ok,https://dnsnl.alekberg.net/dns-query,google.com,290.773221,68
+ok,https://dnsnl.alekberg.net/dns-query,netflix.com,290.748345,132
+ok,https://dnsnl.alekberg.net/dns-query,google.com,294.517107,68
+ok,https://dnsnl.alekberg.net/dns-query,netflix.com,294.650342,132
+ok,https://dns.arapurayil.com/dns-query,google.com,636.552399,44
+ok,https://dns.arapurayil.com/dns-query,netflix.com,636.570213,77
+ok,https://dohtrial.att.net/dns-query,google.com,138.081263,124
+ok,https://dohtrial.att.net/dns-query,netflix.com,146.696188,77
+ok,https://dnses.alekberg.net/dns-query,netflix.com,372.401387,388
+ok,https://dnses.alekberg.net/dns-query,google.com,386.454798,324
+Query got response: 404,https://doh.bortzmeyer.fr/dns-query,google.com, , 
+Query got response: 404,https://doh.bortzmeyer.fr/dns-query,netflix.com, , 
+ok,https://dns.circl.lu/dns-query,google.com,423.272664,54
+ok,https://dns.circl.lu/dns-query,netflix.com,505.824847,110
+ok,https://doh.opendns.com/dns-query,netflix.com,65.261226,77
+ok,https://doh.opendns.com/dns-query,google.com,71.382600,44
+ok,https://dns.cloudflare.com/dns-query,google.com,48.050039,44
+ok,https://dns.cloudflare.com/dns-query,netflix.com,48.802648,77
+ok,https://family.cloudflare-dns.com/dns-query,netflix.com,48.934658,77
+ok,https://family.cloudflare-dns.com/dns-query,google.com,49.533536,44
+ok,https://security.cloudflare-dns.com/dns-query,google.com,52.333310,44
+ok,https://security.cloudflare-dns.com/dns-query,netflix.com,52.842468,77
+ok,https://odvr.nic.cz/dns-query,google.com,338.051606,44
+ok,https://odvr.nic.cz/dns-query,netflix.com,338.113770,77
+ok,https://dns.digitale-gesellschaft.ch/dns-query,google.com,335.078733,65
+ok,https://dns.digitale-gesellschaft.ch/dns-query,netflix.com,337.562550,121
+ok,https://dns.digitale-gesellschaft.ch/dns-query,google.com,328.251563,65
+ok,https://dns.digitale-gesellschaft.ch/dns-query,netflix.com,328.298190,121
+ok,https://dns1.ryan-palmer.com/dns-query,google.com,323.243932,44
+ok,https://dns1.ryan-palmer.com/dns-query,netflix.com,333.995743,77
+ok,https://doh.dns.sb/dns-query,google.com,74.815862,65
+ok,https://doh.dns.sb/dns-query,netflix.com,75.121565,121
+error,google.com,812.723167,8
+error,netflix.com,812.687999,8
+Query failed: SSL connect error,https://dns1.dnscrypt.ca/dns-query,google.com, , 
+Query failed: SSL connect error,https://dns1.dnscrypt.ca/dns-query,netflix.com, , 
+Query failed: SSL connect error,https://dns2.dnscrypt.ca/dns-query,google.com, , 
+Query failed: SSL connect error,https://dns2.dnscrypt.ca/dns-query,netflix.com, , 
+ok,https://dns-doh.dnsforfamily.com/dns-query,google.com,514.716318,74
+ok,https://dns-doh.dnsforfamily.com/dns-query,netflix.com,543.618040,77
+ok,https://dns-doh-no-safe-search.dnsforfamily.com/dns-query,google.com,511.108969,44
+ok,https://dns-doh-no-safe-search.dnsforfamily.com/dns-query,netflix.com,513.629176,77
+ok,https://dnsforge.de/dns-query,google.com,309.302798,44
+ok,https://dnsforge.de/dns-query,netflix.com,317.932873,77
+ok,https://dns.dnshome.de/dns-query,google.com,353.954116,44
+ok,https://dns.dnshome.de/dns-query,netflix.com,358.888098,77
+ok,https://doh.pub/dns-query,google.com,550.961283,77
+ok,https://doh.pub/dns-query,netflix.com,654.572690,133
+ok,https://doh-ch.blahdns.com/dns-query,netflix.com,340.813203,121
+ok,https://doh-ch.blahdns.com/dns-query,google.com,352.692658,65
+Problem 7 decoding 8771 bytes response to probe,https://doh.cleanbrowsing.org/dns-query,google.com, , 
+Problem 7 decoding 8771 bytes response to probe,https://doh.cleanbrowsing.org/dns-query,netflix.com, , 
+Problem 7 decoding 8771 bytes response to probe,https://doh.cleanbrowsing.org/dns-query,google.com, , 
+Problem 7 decoding 8771 bytes response to probe,https://doh.cleanbrowsing.org/dns-query,netflix.com, , 
+Problem 7 decoding 8771 bytes response to probe,https://doh.cleanbrowsing.org/dns-query,google.com, , 
+Problem 7 decoding 8771 bytes response to probe,https://doh.cleanbrowsing.org/dns-query,netflix.com, , 
+Query got response: 405,https://doh.crypto.sx/dns-query,google.com, , 
+Query got response: 405,https://doh.crypto.sx/dns-query,netflix.com, , 
+ok,https://doh-de.blahdns.com/dns-query,google.com,306.600211,65
+ok,https://doh-de.blahdns.com/dns-query,netflix.com,312.801951,121
+ok,https://doh-fi.blahdns.com/dns-query,google.com,367.808273,65
+ok,https://doh-fi.blahdns.com/dns-query,netflix.com,378.593292,121
+ok,https://ibksturm.synology.me/dns-query,google.com,609.010841,44
+ok,https://ibksturm.synology.me/dns-query,netflix.com,622.096268,77
+ok,https://doh-jp.blahdns.com/dns-query,google.com,542.642932,65
+ok,https://doh-jp.blahdns.com/dns-query,netflix.com,544.967953,121
+ok,https://doh-sg.blahdns.com/dns-query,google.com,772.320137,195
+ok,https://doh-sg.blahdns.com/dns-query,netflix.com,774.604192,121
+Query got response: 404,https://doh.appliedprivacy.net/dns-query,google.com, , 
+Query got response: 404,https://doh.appliedprivacy.net/dns-query,netflix.com, , 
+ok,https://doh.ffmuc.net/dns-query,google.com,595.961943,44
+ok,https://doh.ffmuc.net/dns-query,netflix.com,595.930668,77
+ok,https://doh.tiarap.org/dns-query,google.com,347.277264,68
+ok,https://doh.tiarap.org/dns-query,netflix.com,347.475956,132
+Query failed: SSL peer certificate or SSH remote key was not OK,https://dns.emeraldonion.org/dns-query,google.com, , 
+Query failed: SSL peer certificate or SSH remote key was not OK,https://dns.emeraldonion.org/dns-query,netflix.com, , 
+ok,https://dns.google/dns-query,google.com,47.352748,44
+ok,https://dns.google/dns-query,netflix.com,55.299414,77
+ok,https://ordns.he.net/dns-query,google.com,45.460265,44
+ok,https://ordns.he.net/dns-query,netflix.com,45.460316,77
+Query failed: Couldn't connect to server,https://doh.tiar.app/dns-query,google.com, , 
+Query failed: Couldn't connect to server,https://doh.tiar.app/dns-query,netflix.com, , 
+ok,https://public.dns.iij.jp/dns-query,google.com,231.085004,54
+ok,https://public.dns.iij.jp/dns-query,netflix.com,267.500669,110
+ok,https://doh.this.web.id/dns-query,netflix.com,1384.001077,121
+ok,https://doh.this.web.id/dns-query,google.com,1384.226598,65
+Query failed: Couldn't connect to server,https://jp.tiar.app/dns-query,google.com, , 
+Query failed: Couldn't connect to server,https://jp.tiar.app/dns-query,netflix.com, , 
+ok,https://jp.tiarap.org/dns-query,google.com,263.422905,68
+ok,https://jp.tiarap.org/dns-query,netflix.com,267.106171,132
+ok,https://doh.libredns.gr/dns-query,google.com,291.539122,44
+ok,https://doh.libredns.gr/dns-query,netflix.com,304.981597,77
+ok,https://doh.libredns.gr/dns-query,google.com,293.927489,44
+ok,https://doh.libredns.gr/dns-query,netflix.com,293.981172,77
+ok,https://doh.linuxsec.org/dns-query,netflix.com,1100.790524,304
+ok,https://doh.linuxsec.org/dns-query,google.com,1101.257438,195
+ok,https://doh.linuxsec.org/dns-query,netflix.com,1042.342282,304
+ok,https://doh.linuxsec.org/dns-query,google.com,1042.500418,195
+ok,https://adblock.doh.mullvad.net/dns-query,google.com,63.968777,44
+ok,https://adblock.doh.mullvad.net/dns-query,netflix.com,63.921071,77
+ok,https://doh.mullvad.net/dns-query,google.com,67.706025,44
+ok,https://doh.mullvad.net/dns-query,netflix.com,67.684269,77
+ok,https://dns.nextdns.io/dns-query,google.com,161.181378,44
+ok,https://dns.nextdns.io/dns-query,netflix.com,162.185749,77
+ok,https://dns.njal.la/dns-query,google.com,444.732217,44
+ok,https://dns.njal.la/dns-query,netflix.com,449.130180,77
+Query got response: 405,https://doh.post-factum.tk/dns-query,google.com, , 
+Query got response: 405,https://doh.post-factum.tk/dns-query,netflix.com, , 
+ok,https://draco.plan9-ns2.com/dns-query,google.com,113.594748,44
+ok,https://draco.plan9-ns2.com/dns-query,netflix.com,114.443189,77
+ok,https://doh.powerdns.org/dns-query,google.com,284.605249,44
+ok,https://doh.powerdns.org/dns-query,netflix.com,288.297766,77
+Query failed: SSL connect error,https://doh.seby.io/dns-query,google.com, , 
+Query failed: SSL connect error,https://doh.seby.io/dns-query,netflix.com, , 
+ok,https://doh-2.seby.io/dns-query,google.com,703.984666,65
+ok,https://doh-2.seby.io/dns-query,netflix.com,703.931200,121
+ok,https://dns.twnic.tw/dns-query,netflix.com,32217.487608,132
+ok,https://dns.twnic.tw/dns-query,google.com,32217.668616,76
+ok,https://dns9.quad9.net/dns-query,google.com,44.446571,44
+ok,https://dns9.quad9.net/dns-query,netflix.com,44.413355,77
+ok,https://dns9.quad9.net/dns-query,netflix.com,50.068988,77
+ok,https://dns9.quad9.net/dns-query,google.com,51.212597,44
+ok,https://dnsse.alekberg.net/dns-query,google.com,360.659940,324
+ok,https://dnsse.alekberg.net/dns-query,netflix.com,360.937830,388
+ok,https://dns.switch.ch/dns-query,google.com,473.006771,44
+ok,https://dns.switch.ch/dns-query,netflix.com,472.983733,77
+ok,https://dns.t53.de/dns-query,google.com,348.843531,44
+ok,https://dns.t53.de/dns-query,netflix.com,348.817801,77
+ok,https://sg.yepdns.com/dns-query,google.com,688.832140,135
+ok,https://sg.yepdns.com/dns-query,netflix.com,688.829032,88
+ok,total_run_time,213363.643165,0
+ok,https://doh.tiarap.org/dns-query,netflix.com,300.683128,132
+ok,https://doh.tiarap.org/dns-query,google.com,300.822287,68
+Query failed: SSL peer certificate or SSH remote key was not OK,https://dns.emeraldonion.org/dns-query,google.com, , 
+Query failed: SSL peer certificate or SSH remote key was not OK,https://dns.emeraldonion.org/dns-query,netflix.com, , 
+ok,https://dns.google/dns-query,google.com,47.819479,44
+ok,https://dns.google/dns-query,netflix.com,49.296693,77
+ok,https://ordns.he.net/dns-query,google.com,44.897544,44
+ok,https://ordns.he.net/dns-query,netflix.com,60.966183,77
+Query failed: Couldn't connect to server,https://doh.tiar.app/dns-query,google.com, , 
+Query failed: Couldn't connect to server,https://doh.tiar.app/dns-query,netflix.com, , 
+ok,https://public.dns.iij.jp/dns-query,google.com,229.352553,54
+ok,https://public.dns.iij.jp/dns-query,netflix.com,248.473394,110
+ok,https://doh.this.web.id/dns-query,google.com,1412.169741,65
+ok,https://doh.this.web.id/dns-query,netflix.com,1412.564495,121
+Query failed: Couldn't connect to server,https://jp.tiar.app/dns-query,google.com, , 
+Query failed: Couldn't connect to server,https://jp.tiar.app/dns-query,netflix.com, , 
+ok,https://jp.tiarap.org/dns-query,netflix.com,268.526876,132
+ok,https://jp.tiarap.org/dns-query,google.com,269.836165,68
+ok,https://doh.libredns.gr/dns-query,google.com,300.215073,44
+ok,https://doh.libredns.gr/dns-query,netflix.com,300.340761,77
+ok,https://doh.libredns.gr/dns-query,google.com,298.886895,44
+ok,https://doh.libredns.gr/dns-query,netflix.com,298.894901,77
+ok,https://doh.linuxsec.org/dns-query,google.com,1004.404465,195
+ok,https://doh.linuxsec.org/dns-query,netflix.com,1004.593157,304
+ok,https://doh.linuxsec.org/dns-query,netflix.com,1036.374536,304
+ok,https://doh.linuxsec.org/dns-query,google.com,1036.648415,195
+ok,https://adblock.doh.mullvad.net/dns-query,google.com,63.855438,44
+ok,https://adblock.doh.mullvad.net/dns-query,netflix.com,63.824013,77
+ok,https://doh.mullvad.net/dns-query,google.com,62.642614,44
+ok,https://doh.mullvad.net/dns-query,netflix.com,62.617371,77
+ok,https://dns.nextdns.io/dns-query,google.com,85.455367,44
+ok,https://dns.nextdns.io/dns-query,netflix.com,85.888734,77
+ok,https://dns.njal.la/dns-query,netflix.com,441.056711,77
+ok,https://dns.njal.la/dns-query,google.com,441.662711,44
+Query got response: 405,https://doh.post-factum.tk/dns-query,google.com, , 
+Query got response: 405,https://doh.post-factum.tk/dns-query,netflix.com, , 
+ok,https://draco.plan9-ns2.com/dns-query,google.com,112.985539,44
+ok,https://draco.plan9-ns2.com/dns-query,netflix.com,112.992435,77
+ok,https://doh.powerdns.org/dns-query,netflix.com,290.327987,77
+ok,https://doh.powerdns.org/dns-query,google.com,290.445655,44
+Query failed: SSL connect error,https://doh.seby.io/dns-query,google.com, , 
+Query failed: SSL connect error,https://doh.seby.io/dns-query,netflix.com, , 
+ok,https://doh-2.seby.io/dns-query,google.com,632.355706,65
+ok,https://doh-2.seby.io/dns-query,netflix.com,632.301663,121
+ok,https://dns.twnic.tw/dns-query,google.com,808.583319,76
+ok,https://dns.twnic.tw/dns-query,netflix.com,810.216433,132
+ok,https://dns9.quad9.net/dns-query,google.com,42.005854,44
+ok,https://dns9.quad9.net/dns-query,netflix.com,42.602744,77
+ok,https://dns9.quad9.net/dns-query,google.com,42.512177,44
+ok,https://dns9.quad9.net/dns-query,netflix.com,45.006527,77
+ok,https://dnsse.alekberg.net/dns-query,google.com,358.081014,324
+ok,https://dnsse.alekberg.net/dns-query,netflix.com,389.324697,260
+ok,https://dns.switch.ch/dns-query,google.com,447.883149,44
+ok,https://dns.switch.ch/dns-query,netflix.com,448.926550,77
+ok,https://dns.t53.de/dns-query,google.com,335.925884,44
+ok,https://dns.t53.de/dns-query,netflix.com,340.344798,77
+ok,https://sg.yepdns.com/dns-query,google.com,780.498501,135
+ok,https://sg.yepdns.com/dns-query,netflix.com,780.478687,88
+ok,total_run_time,191991.630672,0
+ok,https://dns.google/dns-query,google.com,66.754193,44
+ok,https://dns.google/dns-query,netflix.com,83.029069,77
+ok,https://dns.aa.net.uk/dns-query,google.com,473.998774,44
+ok,https://dns.aa.net.uk/dns-query,netflix.com,474.481045,213
+ok,https://adfree.usableprivacy.net/dns-query,google.com,368.000861,44
+ok,https://adfree.usableprivacy.net/dns-query,netflix.com,388.587944,77
+ok,https://dns.adguard.com/dns-query,netflix.com,86.141213,77
+ok,https://dns.adguard.com/dns-query,google.com,86.251834,124
+ok,https://dns-family.adguard.com/dns-query,google.com,95.949221,124
+ok,https://dns-family.adguard.com/dns-query,netflix.com,95.957261,77
+ok,https://doh.in.ahadns.net/dns-query,google.com,642.933354,65
+ok,https://doh.in.ahadns.net/dns-query,netflix.com,642.944937,121
+ok,https://doh.la.ahadns.net/dns-query,netflix.com,250.372733,121
+ok,https://doh.la.ahadns.net/dns-query,google.com,250.804506,65
+ok,https://doh.nl.ahadns.net/dns-query,netflix.com,355.964239,121
+ok,https://doh.nl.ahadns.net/dns-query,google.com,356.483986,65
+ok,https://dns.alidns.com/dns-query,google.com,73.577209,65
+ok,https://dns.alidns.com/dns-query,netflix.com,88.646469,121
+ok,https://dnsnl.alekberg.net/dns-query,google.com,414.468182,68
+ok,https://dnsnl.alekberg.net/dns-query,netflix.com,414.512944,132
+ok,https://dnsnl.alekberg.net/dns-query,google.com,293.172508,68
+ok,https://dnsnl.alekberg.net/dns-query,netflix.com,293.217687,132
+ok,https://dns.arapurayil.com/dns-query,google.com,615.394634,44
+ok,https://dns.arapurayil.com/dns-query,netflix.com,615.447628,77
+ok,https://dohtrial.att.net/dns-query,google.com,165.114067,124
+ok,https://dohtrial.att.net/dns-query,netflix.com,165.111257,77
+ok,https://dnses.alekberg.net/dns-query,google.com,468.690229,324
+ok,https://dnses.alekberg.net/dns-query,netflix.com,501.691122,388
+Query got response: 404,https://doh.bortzmeyer.fr/dns-query,google.com, , 
+Query got response: 404,https://doh.bortzmeyer.fr/dns-query,netflix.com, , 
+ok,https://dns.circl.lu/dns-query,google.com,393.968984,54
+ok,https://dns.circl.lu/dns-query,netflix.com,397.632418,110
+ok,https://doh.opendns.com/dns-query,google.com,85.302254,44
+ok,https://doh.opendns.com/dns-query,netflix.com,95.993197,77
+ok,https://dns.cloudflare.com/dns-query,google.com,62.373987,44
+ok,https://dns.cloudflare.com/dns-query,netflix.com,64.613034,77
+ok,https://family.cloudflare-dns.com/dns-query,netflix.com,93.220632,77
+ok,https://family.cloudflare-dns.com/dns-query,google.com,95.514615,44
+ok,https://security.cloudflare-dns.com/dns-query,netflix.com,88.426023,77
+ok,https://security.cloudflare-dns.com/dns-query,google.com,88.578640,44
+ok,https://odvr.nic.cz/dns-query,google.com,579.109362,44
+ok,https://odvr.nic.cz/dns-query,netflix.com,579.213753,77
+ok,https://dns.digitale-gesellschaft.ch/dns-query,google.com,439.597526,65
+ok,https://dns.digitale-gesellschaft.ch/dns-query,netflix.com,452.719523,132
+ok,https://dns.digitale-gesellschaft.ch/dns-query,google.com,329.142980,65
+ok,https://dns.digitale-gesellschaft.ch/dns-query,netflix.com,329.240742,121
+ok,https://dns1.ryan-palmer.com/dns-query,google.com,312.806745,44
+ok,https://dns1.ryan-palmer.com/dns-query,netflix.com,323.372290,77
+ok,https://doh.dns.sb/dns-query,google.com,135.827147,65
+ok,https://doh.dns.sb/dns-query,netflix.com,136.916699,121
+error,netflix.com,912.359348,8
+error,google.com,912.567052,8
+Query failed: SSL connect error,https://dns1.dnscrypt.ca/dns-query,google.com, , 
+Query failed: SSL connect error,https://dns1.dnscrypt.ca/dns-query,netflix.com, , 
+Query failed: SSL connect error,https://dns2.dnscrypt.ca/dns-query,google.com, , 
+Query failed: SSL connect error,https://dns2.dnscrypt.ca/dns-query,netflix.com, , 
+ok,https://dns-doh.dnsforfamily.com/dns-query,google.com,557.257208,74
+ok,https://dns-doh.dnsforfamily.com/dns-query,netflix.com,567.599362,77
+ok,https://dns-doh-no-safe-search.dnsforfamily.com/dns-query,google.com,539.980589,44
+ok,https://dns-doh-no-safe-search.dnsforfamily.com/dns-query,netflix.com,542.483706,77
+ok,https://dnsforge.de/dns-query,google.com,403.881092,44
+ok,https://dnsforge.de/dns-query,netflix.com,411.093336,77
+ok,https://dns.dnshome.de/dns-query,google.com,573.265086,44
+ok,https://dns.dnshome.de/dns-query,netflix.com,578.907311,77
+ok,https://doh.pub/dns-query,google.com,671.642411,77
+ok,https://doh.pub/dns-query,netflix.com,754.830863,133
+ok,https://doh-ch.blahdns.com/dns-query,google.com,394.932667,65
+ok,https://doh-ch.blahdns.com/dns-query,netflix.com,395.789479,121
+Problem 7 decoding 8771 bytes response to probe,https://doh.cleanbrowsing.org/dns-query,google.com, , 
+Problem 7 decoding 8771 bytes response to probe,https://doh.cleanbrowsing.org/dns-query,netflix.com, , 
+Problem 7 decoding 38405 bytes response to probe,https://doh.cleanbrowsing.org/dns-query,google.com, , 
+Problem 7 decoding 38405 bytes response to probe,https://doh.cleanbrowsing.org/dns-query,netflix.com, , 
+Problem 7 decoding 38405 bytes response to probe,https://doh.cleanbrowsing.org/dns-query,google.com, , 
+Problem 7 decoding 38405 bytes response to probe,https://doh.cleanbrowsing.org/dns-query,netflix.com, , 
+Query got response: 405,https://doh.crypto.sx/dns-query,netflix.com, , 
+Query got response: 405,https://doh.crypto.sx/dns-query,google.com, , 
+ok,https://doh-de.blahdns.com/dns-query,google.com,320.770086,65
+ok,https://doh-de.blahdns.com/dns-query,netflix.com,324.685202,121
+ok,https://doh-fi.blahdns.com/dns-query,google.com,375.330635,65
+ok,https://doh-fi.blahdns.com/dns-query,netflix.com,383.693075,121
+ok,https://ibksturm.synology.me/dns-query,google.com,692.243128,44
+ok,https://ibksturm.synology.me/dns-query,netflix.com,695.554214,77
+ok,https://doh-jp.blahdns.com/dns-query,google.com,600.374114,65
+ok,https://doh-jp.blahdns.com/dns-query,netflix.com,602.590005,121
+ok,https://doh-sg.blahdns.com/dns-query,google.com,766.135400,195
+ok,https://doh-sg.blahdns.com/dns-query,netflix.com,769.707116,121
+Query got response: 404,https://doh.appliedprivacy.net/dns-query,google.com, , 
+Query got response: 404,https://doh.appliedprivacy.net/dns-query,netflix.com, , 
+ok,https://doh.ffmuc.net/dns-query,google.com,666.225203,44
+ok,https://doh.ffmuc.net/dns-query,netflix.com,666.198464,77
+ok,https://doh.tiarap.org/dns-query,netflix.com,416.590588,132
+ok,https://doh.tiarap.org/dns-query,google.com,420.282473,68
+Query failed: SSL peer certificate or SSH remote key was not OK,https://dns.emeraldonion.org/dns-query,google.com, , 
+Query failed: SSL peer certificate or SSH remote key was not OK,https://dns.emeraldonion.org/dns-query,netflix.com, , 
+ok,https://dns.google/dns-query,google.com,47.735036,44
+ok,https://dns.google/dns-query,netflix.com,49.892285,77
+ok,https://ordns.he.net/dns-query,google.com,68.386912,44
+ok,https://ordns.he.net/dns-query,netflix.com,85.987425,77
+Query failed: Couldn't connect to server,https://doh.tiar.app/dns-query,google.com, , 
+Query failed: Couldn't connect to server,https://doh.tiar.app/dns-query,netflix.com, , 
+ok,https://public.dns.iij.jp/dns-query,google.com,588.072432,54
+ok,https://public.dns.iij.jp/dns-query,netflix.com,588.384453,110
+ok,https://doh.this.web.id/dns-query,google.com,1384.004045,65
+ok,https://doh.this.web.id/dns-query,netflix.com,1384.034816,121
+Query failed: Couldn't connect to server,https://jp.tiar.app/dns-query,google.com, , 
+Query failed: Couldn't connect to server,https://jp.tiar.app/dns-query,netflix.com, , 
+ok,https://jp.tiarap.org/dns-query,google.com,276.227425,68
+ok,https://jp.tiarap.org/dns-query,netflix.com,670.015711,132
+ok,https://doh.libredns.gr/dns-query,google.com,397.636241,44
+ok,https://doh.libredns.gr/dns-query,netflix.com,402.716135,77
+ok,https://doh.libredns.gr/dns-query,google.com,294.650108,44
+ok,https://doh.libredns.gr/dns-query,netflix.com,294.673336,77
+ok,https://doh.linuxsec.org/dns-query,netflix.com,1143.240929,304
+ok,https://doh.linuxsec.org/dns-query,google.com,1143.456763,195
+ok,https://doh.linuxsec.org/dns-query,google.com,1039.536129,195
+ok,https://doh.linuxsec.org/dns-query,netflix.com,1039.620657,304
+ok,https://adblock.doh.mullvad.net/dns-query,google.com,94.414145,44
+ok,https://adblock.doh.mullvad.net/dns-query,netflix.com,94.364474,77
+ok,https://doh.mullvad.net/dns-query,google.com,160.261247,44
+ok,https://doh.mullvad.net/dns-query,netflix.com,160.217711,77
+ok,https://dns.nextdns.io/dns-query,google.com,157.148130,44
+ok,https://dns.nextdns.io/dns-query,netflix.com,157.116565,77
+ok,https://dns.njal.la/dns-query,netflix.com,827.971648,77
+ok,https://dns.njal.la/dns-query,google.com,863.878734,44
+Query got response: 405,https://doh.post-factum.tk/dns-query,google.com, , 
+Query got response: 405,https://doh.post-factum.tk/dns-query,netflix.com, , 
+ok,https://draco.plan9-ns2.com/dns-query,google.com,146.690616,124
+ok,https://draco.plan9-ns2.com/dns-query,netflix.com,147.468581,77
+ok,https://doh.powerdns.org/dns-query,google.com,455.371228,44
+ok,https://doh.powerdns.org/dns-query,netflix.com,471.048238,77
+Query failed: SSL connect error,https://doh.seby.io/dns-query,google.com, , 
+Query failed: SSL connect error,https://doh.seby.io/dns-query,netflix.com, , 
+ok,https://doh-2.seby.io/dns-query,google.com,676.531413,65
+ok,https://doh-2.seby.io/dns-query,netflix.com,676.477819,121
+ok,https://dns.twnic.tw/dns-query,google.com,32394.931136,76
+ok,https://dns.twnic.tw/dns-query,netflix.com,32396.777804,132
+ok,https://dns9.quad9.net/dns-query,netflix.com,70.689043,77
+ok,https://dns9.quad9.net/dns-query,google.com,70.812347,44
+ok,https://dns9.quad9.net/dns-query,google.com,41.617278,44
+ok,https://dns9.quad9.net/dns-query,netflix.com,42.241076,77
+ok,https://dnsse.alekberg.net/dns-query,google.com,498.357871,324
+ok,https://dnsse.alekberg.net/dns-query,netflix.com,506.996586,260
+ok,https://dns.switch.ch/dns-query,google.com,563.931470,44
+ok,https://dns.switch.ch/dns-query,netflix.com,565.357657,77
+ok,https://dns.t53.de/dns-query,google.com,630.184422,44
+ok,https://dns.t53.de/dns-query,netflix.com,640.874931,77
+ok,https://sg.yepdns.com/dns-query,google.com,710.519971,135
+ok,https://sg.yepdns.com/dns-query,netflix.com,710.491998,88
+ok,total_run_time,229447.234016,0
+ok,https://dns.google/dns-query,google.com,47.405289,44
+ok,https://dns.google/dns-query,netflix.com,50.710613,77
+ok,https://dns.aa.net.uk/dns-query,google.com,268.439085,44
+ok,https://dns.aa.net.uk/dns-query,netflix.com,283.621343,213
+ok,https://adfree.usableprivacy.net/dns-query,google.com,349.724780,44
+ok,https://adfree.usableprivacy.net/dns-query,netflix.com,370.337403,77
+ok,https://dns.adguard.com/dns-query,netflix.com,71.077695,77
+ok,https://dns.adguard.com/dns-query,google.com,71.289471,124
+ok,https://dns-family.adguard.com/dns-query,google.com,71.540613,124
+ok,https://dns-family.adguard.com/dns-query,netflix.com,71.558821,77
+ok,https://doh.in.ahadns.net/dns-query,google.com,662.951056,65
+ok,https://doh.in.ahadns.net/dns-query,netflix.com,1096.663853,121
+ok,https://doh.la.ahadns.net/dns-query,google.com,226.881371,65
+ok,https://doh.la.ahadns.net/dns-query,netflix.com,227.356970,121
+ok,https://doh.nl.ahadns.net/dns-query,google.com,329.499410,65
+ok,https://doh.nl.ahadns.net/dns-query,netflix.com,329.898381,121
+ok,https://dns.alidns.com/dns-query,google.com,50.452106,65
+ok,https://dns.alidns.com/dns-query,netflix.com,76.446732,121
+ok,https://dnsnl.alekberg.net/dns-query,google.com,301.508486,68
+ok,https://dnsnl.alekberg.net/dns-query,netflix.com,301.468333,132
+ok,https://dnsnl.alekberg.net/dns-query,google.com,292.339901,68
+ok,https://dnsnl.alekberg.net/dns-query,netflix.com,292.310959,132
+ok,https://dns.arapurayil.com/dns-query,netflix.com,659.900730,77
+ok,https://dns.arapurayil.com/dns-query,google.com,696.234256,44
+Query failed: SSL peer certificate or SSH remote key was not OK,https://dohtrial.att.net/dns-query,google.com, , 
+Query failed: SSL peer certificate or SSH remote key was not OK,https://dohtrial.att.net/dns-query,netflix.com, , 
+ok,https://dnses.alekberg.net/dns-query,google.com,337.873162,324
+ok,https://dnses.alekberg.net/dns-query,netflix.com,370.137578,388
+Query got response: 404,https://doh.bortzmeyer.fr/dns-query,google.com, , 
+Query got response: 404,https://doh.bortzmeyer.fr/dns-query,netflix.com, , 
+ok,https://dns.circl.lu/dns-query,google.com,345.452685,54
+ok,https://dns.circl.lu/dns-query,netflix.com,361.461546,110
+ok,https://doh.opendns.com/dns-query,netflix.com,67.490245,77
+ok,https://doh.opendns.com/dns-query,google.com,75.149773,44
+ok,https://dns.cloudflare.com/dns-query,google.com,45.372296,44
+ok,https://dns.cloudflare.com/dns-query,netflix.com,47.726522,77
+ok,https://family.cloudflare-dns.com/dns-query,netflix.com,49.388537,77
+ok,https://family.cloudflare-dns.com/dns-query,google.com,50.302128,44
+ok,https://security.cloudflare-dns.com/dns-query,google.com,48.781693,44
+ok,https://security.cloudflare-dns.com/dns-query,netflix.com,48.866754,77
+ok,https://odvr.nic.cz/dns-query,google.com,334.346310,44
+ok,https://odvr.nic.cz/dns-query,netflix.com,334.351696,77
+ok,https://dns.digitale-gesellschaft.ch/dns-query,google.com,330.510110,65
+ok,https://dns.digitale-gesellschaft.ch/dns-query,netflix.com,331.115397,121
+ok,https://dns.digitale-gesellschaft.ch/dns-query,netflix.com,329.527187,121
+ok,https://dns.digitale-gesellschaft.ch/dns-query,google.com,329.708003,65
+ok,https://dns1.ryan-palmer.com/dns-query,google.com,313.938919,44
+ok,https://dns1.ryan-palmer.com/dns-query,netflix.com,317.569121,77
+ok,https://doh.dns.sb/dns-query,google.com,136.280255,65
+ok,https://doh.dns.sb/dns-query,netflix.com,158.079581,121
+error,netflix.com,836.072719,8
+error,google.com,836.278383,8
+Query failed: SSL connect error,https://dns1.dnscrypt.ca/dns-query,google.com, , 
+Query failed: SSL connect error,https://dns1.dnscrypt.ca/dns-query,netflix.com, , 
+Query failed: SSL connect error,https://dns2.dnscrypt.ca/dns-query,google.com, , 
+Query failed: SSL connect error,https://dns2.dnscrypt.ca/dns-query,netflix.com, , 
+ok,https://dns-doh.dnsforfamily.com/dns-query,google.com,523.126551,74
+ok,https://dns-doh.dnsforfamily.com/dns-query,netflix.com,525.143860,77
+ok,https://dns-doh-no-safe-search.dnsforfamily.com/dns-query,google.com,488.475898,44
+ok,https://dns-doh-no-safe-search.dnsforfamily.com/dns-query,netflix.com,519.161894,77
+ok,https://dnsforge.de/dns-query,google.com,301.547412,44
+ok,https://dnsforge.de/dns-query,netflix.com,317.288807,77
+ok,https://dns.dnshome.de/dns-query,google.com,339.076575,44
+ok,https://dns.dnshome.de/dns-query,netflix.com,344.472440,77
+ok,https://doh.pub/dns-query,google.com,670.763884,77
+ok,https://doh.pub/dns-query,netflix.com,780.733342,133
+ok,https://doh-ch.blahdns.com/dns-query,google.com,325.697378,65
+ok,https://doh-ch.blahdns.com/dns-query,netflix.com,326.963129,121
+Problem 7 decoding 38405 bytes response to probe,https://doh.cleanbrowsing.org/dns-query,google.com, , 
+Problem 7 decoding 38405 bytes response to probe,https://doh.cleanbrowsing.org/dns-query,netflix.com, , 
+Problem 7 decoding 38405 bytes response to probe,https://doh.cleanbrowsing.org/dns-query,google.com, , 
+Problem 7 decoding 38405 bytes response to probe,https://doh.cleanbrowsing.org/dns-query,netflix.com, , 
+Problem 7 decoding 38405 bytes response to probe,https://doh.cleanbrowsing.org/dns-query,google.com, , 
+Problem 7 decoding 38405 bytes response to probe,https://doh.cleanbrowsing.org/dns-query,netflix.com, , 
+Query got response: 405,https://doh.crypto.sx/dns-query,google.com, , 
+Query got response: 405,https://doh.crypto.sx/dns-query,netflix.com, , 
+ok,https://doh-de.blahdns.com/dns-query,google.com,305.995160,65
+ok,https://doh-de.blahdns.com/dns-query,netflix.com,312.307887,121
+ok,https://doh-fi.blahdns.com/dns-query,google.com,375.528718,65
+ok,https://doh-fi.blahdns.com/dns-query,netflix.com,382.930674,121
+ok,https://ibksturm.synology.me/dns-query,netflix.com,617.723797,77
+ok,https://ibksturm.synology.me/dns-query,google.com,624.400041,44
+ok,https://doh-jp.blahdns.com/dns-query,google.com,541.273618,65
+ok,https://doh-jp.blahdns.com/dns-query,netflix.com,545.099591,121
+ok,https://doh-sg.blahdns.com/dns-query,google.com,778.000084,195
+ok,https://doh-sg.blahdns.com/dns-query,netflix.com,780.246564,121
+Query got response: 404,https://doh.appliedprivacy.net/dns-query,google.com, , 
+Query got response: 404,https://doh.appliedprivacy.net/dns-query,netflix.com, , 
+ok,https://doh.ffmuc.net/dns-query,google.com,625.304997,44
+ok,https://doh.ffmuc.net/dns-query,netflix.com,625.282062,77
+ok,https://doh.tiarap.org/dns-query,netflix.com,301.123846,132
+ok,https://doh.tiarap.org/dns-query,google.com,301.259468,68
+Query failed: SSL peer certificate or SSH remote key was not OK,https://dns.emeraldonion.org/dns-query,google.com, , 
+Query failed: SSL peer certificate or SSH remote key was not OK,https://dns.emeraldonion.org/dns-query,netflix.com, , 
+ok,https://dns.google/dns-query,google.com,46.634661,44
+ok,https://dns.google/dns-query,netflix.com,49.407672,77
+ok,https://ordns.he.net/dns-query,google.com,77.563173,44
+ok,https://ordns.he.net/dns-query,netflix.com,94.582518,77
+Query failed: Couldn't connect to server,https://doh.tiar.app/dns-query,google.com, , 
+Query failed: Couldn't connect to server,https://doh.tiar.app/dns-query,netflix.com, , 
+ok,https://public.dns.iij.jp/dns-query,google.com,226.539552,54
+ok,https://public.dns.iij.jp/dns-query,netflix.com,249.202056,110
+ok,https://doh.this.web.id/dns-query,netflix.com,1395.316461,121
+ok,https://doh.this.web.id/dns-query,google.com,1395.989746,195
+Query failed: Couldn't connect to server,https://jp.tiar.app/dns-query,google.com, , 
+Query failed: Couldn't connect to server,https://jp.tiar.app/dns-query,netflix.com, , 
+ok,https://jp.tiarap.org/dns-query,netflix.com,266.905930,132
+ok,https://jp.tiarap.org/dns-query,google.com,269.638674,68
+ok,https://doh.libredns.gr/dns-query,google.com,294.109607,44
+ok,https://doh.libredns.gr/dns-query,netflix.com,298.810436,77
+ok,https://doh.libredns.gr/dns-query,google.com,301.476925,44
+ok,https://doh.libredns.gr/dns-query,netflix.com,301.515890,77
+ok,https://doh.linuxsec.org/dns-query,google.com,1037.349513,195
+ok,https://doh.linuxsec.org/dns-query,netflix.com,1037.481705,304
+ok,https://doh.linuxsec.org/dns-query,google.com,1023.293439,195
+ok,https://doh.linuxsec.org/dns-query,netflix.com,1023.443589,304
+ok,https://adblock.doh.mullvad.net/dns-query,google.com,64.255127,44
+ok,https://adblock.doh.mullvad.net/dns-query,netflix.com,64.228964,77
+ok,https://doh.mullvad.net/dns-query,google.com,62.837141,44
+ok,https://doh.mullvad.net/dns-query,netflix.com,62.799615,77
+ok,https://dns.nextdns.io/dns-query,netflix.com,139.670293,77
+ok,https://dns.nextdns.io/dns-query,google.com,140.942510,44
+ok,https://dns.njal.la/dns-query,netflix.com,444.375251,77
+ok,https://dns.njal.la/dns-query,google.com,451.425011,44
+Query got response: 405,https://doh.post-factum.tk/dns-query,google.com, , 
+Query got response: 405,https://doh.post-factum.tk/dns-query,netflix.com, , 
+ok,https://draco.plan9-ns2.com/dns-query,netflix.com,113.902630,77
+ok,https://draco.plan9-ns2.com/dns-query,google.com,125.928953,44
+ok,https://doh.powerdns.org/dns-query,google.com,285.239144,44
+ok,https://doh.powerdns.org/dns-query,netflix.com,288.453657,77
+Query failed: SSL connect error,https://doh.seby.io/dns-query,google.com, , 
+Query failed: SSL connect error,https://doh.seby.io/dns-query,netflix.com, , 
+ok,https://doh-2.seby.io/dns-query,google.com,645.216609,65
+ok,https://doh-2.seby.io/dns-query,netflix.com,645.153826,121
+ok,https://dns.twnic.tw/dns-query,google.com,1375.642857,76
+ok,https://dns.twnic.tw/dns-query,netflix.com,1377.387328,132
+ok,https://dns9.quad9.net/dns-query,google.com,45.271916,44
+ok,https://dns9.quad9.net/dns-query,netflix.com,45.242232,77
+ok,https://dns9.quad9.net/dns-query,google.com,41.436095,44
+ok,https://dns9.quad9.net/dns-query,netflix.com,41.666052,77
+ok,https://dnsse.alekberg.net/dns-query,google.com,357.465206,900
+ok,https://dnsse.alekberg.net/dns-query,netflix.com,458.920726,324
+ok,https://dns.switch.ch/dns-query,google.com,448.240823,44
+ok,https://dns.switch.ch/dns-query,netflix.com,449.167548,77
+ok,https://dns.t53.de/dns-query,google.com,473.211006,44
+ok,https://dns.t53.de/dns-query,netflix.com,482.186680,77
+ok,https://sg.yepdns.com/dns-query,google.com,704.767418,135
+ok,https://sg.yepdns.com/dns-query,netflix.com,705.110979,88
+ok,total_run_time,193148.500489,0
+ok,https://dns.google/dns-query,google.com,81.966254,44
+ok,https://dns.google/dns-query,netflix.com,83.672986,77
+ok,https://dns.aa.net.uk/dns-query,google.com,386.084648,44
+ok,https://dns.aa.net.uk/dns-query,netflix.com,394.495309,213
+ok,https://adfree.usableprivacy.net/dns-query,google.com,465.911838,44
+ok,https://adfree.usableprivacy.net/dns-query,netflix.com,481.709934,77
+ok,https://dns.adguard.com/dns-query,google.com,86.643860,124
+ok,https://dns.adguard.com/dns-query,netflix.com,86.624182,77
+ok,https://dns-family.adguard.com/dns-query,google.com,82.181788,124
+ok,https://dns-family.adguard.com/dns-query,netflix.com,82.161594,77
+ok,https://doh.in.ahadns.net/dns-query,netflix.com,675.830935,121
+ok,https://doh.in.ahadns.net/dns-query,google.com,676.022882,65
+ok,https://doh.la.ahadns.net/dns-query,netflix.com,308.532606,121
+ok,https://doh.la.ahadns.net/dns-query,google.com,308.728592,195
+ok,https://doh.nl.ahadns.net/dns-query,google.com,322.505027,65
+ok,https://doh.nl.ahadns.net/dns-query,netflix.com,322.910413,121
+ok,https://dns.alidns.com/dns-query,google.com,91.518393,65
+ok,https://dns.alidns.com/dns-query,netflix.com,107.415287,121
+ok,https://dnsnl.alekberg.net/dns-query,netflix.com,445.351396,132
+ok,https://dnsnl.alekberg.net/dns-query,google.com,445.493125,68
+ok,https://dnsnl.alekberg.net/dns-query,google.com,295.626100,68
+ok,https://dnsnl.alekberg.net/dns-query,netflix.com,295.595235,132
+ok,https://dns.arapurayil.com/dns-query,google.com,632.854713,44
+ok,https://dns.arapurayil.com/dns-query,netflix.com,632.857565,77
+Query failed: SSL peer certificate or SSH remote key was not OK,https://dohtrial.att.net/dns-query,google.com, , 
+Query failed: SSL peer certificate or SSH remote key was not OK,https://dohtrial.att.net/dns-query,netflix.com, , 
+ok,https://dnses.alekberg.net/dns-query,netflix.com,498.095600,388
+ok,https://dnses.alekberg.net/dns-query,google.com,614.741534,324
+Query got response: 404,https://doh.bortzmeyer.fr/dns-query,google.com, , 
+Query got response: 404,https://doh.bortzmeyer.fr/dns-query,netflix.com, , 
+ok,https://dns.circl.lu/dns-query,google.com,375.609511,54
+ok,https://dns.circl.lu/dns-query,netflix.com,378.521774,110
+ok,https://doh.opendns.com/dns-query,google.com,78.140249,44
+ok,https://doh.opendns.com/dns-query,netflix.com,95.454760,77
+ok,https://dns.cloudflare.com/dns-query,google.com,59.372850,44
+ok,https://dns.cloudflare.com/dns-query,netflix.com,60.583904,77
+ok,https://family.cloudflare-dns.com/dns-query,google.com,89.683884,44
+ok,https://family.cloudflare-dns.com/dns-query,netflix.com,89.790836,77
+ok,https://security.cloudflare-dns.com/dns-query,netflix.com,59.657294,77
+ok,https://security.cloudflare-dns.com/dns-query,google.com,61.279152,44
+ok,https://odvr.nic.cz/dns-query,google.com,563.005250,44
+ok,https://odvr.nic.cz/dns-query,netflix.com,563.142653,77
+ok,https://dns.digitale-gesellschaft.ch/dns-query,google.com,341.752096,65
+ok,https://dns.digitale-gesellschaft.ch/dns-query,netflix.com,341.992025,121
+ok,https://dns.digitale-gesellschaft.ch/dns-query,google.com,332.889561,65
+ok,https://dns.digitale-gesellschaft.ch/dns-query,netflix.com,347.275901,132
+ok,https://dns1.ryan-palmer.com/dns-query,netflix.com,448.105054,77
+ok,https://dns1.ryan-palmer.com/dns-query,google.com,455.216022,44
+ok,https://doh.dns.sb/dns-query,google.com,102.452151,65
+ok,https://doh.dns.sb/dns-query,netflix.com,103.237448,121
+error,google.com,916.505826,8
+error,netflix.com,916.470090,8
+Query failed: SSL connect error,https://dns1.dnscrypt.ca/dns-query,google.com, , 
+Query failed: SSL connect error,https://dns1.dnscrypt.ca/dns-query,netflix.com, , 
+Query failed: SSL connect error,https://dns2.dnscrypt.ca/dns-query,google.com, , 
+Query failed: SSL connect error,https://dns2.dnscrypt.ca/dns-query,netflix.com, , 
+ok,https://dns-doh.dnsforfamily.com/dns-query,google.com,562.061032,74
+ok,https://dns-doh.dnsforfamily.com/dns-query,netflix.com,563.575669,77
+ok,https://dns-doh-no-safe-search.dnsforfamily.com/dns-query,netflix.com,554.839917,77
+ok,https://dns-doh-no-safe-search.dnsforfamily.com/dns-query,google.com,558.994649,44
+ok,https://dnsforge.de/dns-query,google.com,430.886318,44
+ok,https://dnsforge.de/dns-query,netflix.com,431.860856,77
+ok,https://dns.dnshome.de/dns-query,google.com,534.641389,44
+ok,https://dns.dnshome.de/dns-query,netflix.com,539.857942,77
+ok,https://doh.pub/dns-query,google.com,695.623705,77
+ok,https://doh.pub/dns-query,netflix.com,781.886675,133
+ok,https://doh-ch.blahdns.com/dns-query,netflix.com,359.114652,121
+ok,https://doh-ch.blahdns.com/dns-query,google.com,371.310080,65
+Problem 7 decoding 38405 bytes response to probe,https://doh.cleanbrowsing.org/dns-query,google.com, , 
+Problem 7 decoding 38405 bytes response to probe,https://doh.cleanbrowsing.org/dns-query,netflix.com, , 
+Problem 7 decoding 38405 bytes response to probe,https://doh.cleanbrowsing.org/dns-query,google.com, , 
+Problem 7 decoding 38405 bytes response to probe,https://doh.cleanbrowsing.org/dns-query,netflix.com, , 
+Problem 7 decoding 38405 bytes response to probe,https://doh.cleanbrowsing.org/dns-query,google.com, , 
+Problem 7 decoding 38405 bytes response to probe,https://doh.cleanbrowsing.org/dns-query,netflix.com, , 
+Query got response: 405,https://doh.crypto.sx/dns-query,google.com, , 
+Query got response: 405,https://doh.crypto.sx/dns-query,netflix.com, , 
+ok,https://doh-de.blahdns.com/dns-query,google.com,321.225656,65
+ok,https://doh-de.blahdns.com/dns-query,netflix.com,325.016359,121
+ok,https://doh-fi.blahdns.com/dns-query,google.com,371.909687,65
+ok,https://doh-fi.blahdns.com/dns-query,netflix.com,380.807005,121
+ok,https://ibksturm.synology.me/dns-query,google.com,626.775007,44
+ok,https://ibksturm.synology.me/dns-query,netflix.com,636.655665,77
+ok,https://doh-jp.blahdns.com/dns-query,google.com,564.341580,65
+ok,https://doh-jp.blahdns.com/dns-query,netflix.com,567.141088,121
+ok,https://doh-sg.blahdns.com/dns-query,google.com,853.891709,195
+ok,https://doh-sg.blahdns.com/dns-query,netflix.com,855.746395,121
+Query got response: 404,https://doh.appliedprivacy.net/dns-query,google.com, , 
+Query got response: 404,https://doh.appliedprivacy.net/dns-query,netflix.com, , 
+ok,https://doh.ffmuc.net/dns-query,google.com,685.393333,44
+ok,https://doh.ffmuc.net/dns-query,netflix.com,685.366613,77
+ok,https://doh.tiarap.org/dns-query,google.com,345.536066,68
+ok,https://doh.tiarap.org/dns-query,netflix.com,376.796514,132
+Query failed: SSL peer certificate or SSH remote key was not OK,https://dns.emeraldonion.org/dns-query,google.com, , 
+Query failed: SSL peer certificate or SSH remote key was not OK,https://dns.emeraldonion.org/dns-query,netflix.com, , 
+ok,https://dns.google/dns-query,google.com,46.297978,44
+ok,https://dns.google/dns-query,netflix.com,48.491775,77
+ok,https://ordns.he.net/dns-query,google.com,71.750713,44
+ok,https://ordns.he.net/dns-query,netflix.com,89.462886,77
+Query failed: Couldn't connect to server,https://doh.tiar.app/dns-query,google.com, , 
+Query failed: Couldn't connect to server,https://doh.tiar.app/dns-query,netflix.com, , 
+ok,https://public.dns.iij.jp/dns-query,google.com,496.152635,54
+ok,https://public.dns.iij.jp/dns-query,netflix.com,517.650240,110
+ok,https://doh.this.web.id/dns-query,google.com,1481.615708,195
+ok,https://doh.this.web.id/dns-query,netflix.com,1482.366667,121
+Query failed: Couldn't connect to server,https://jp.tiar.app/dns-query,google.com, , 
+Query failed: Couldn't connect to server,https://jp.tiar.app/dns-query,netflix.com, , 
+ok,https://jp.tiarap.org/dns-query,google.com,297.074818,68
+ok,https://jp.tiarap.org/dns-query,netflix.com,317.477510,132
+ok,https://doh.libredns.gr/dns-query,google.com,417.837805,44
+ok,https://doh.libredns.gr/dns-query,netflix.com,424.414573,77
+ok,https://doh.libredns.gr/dns-query,netflix.com,297.727261,77
+ok,https://doh.libredns.gr/dns-query,google.com,297.892278,44
+ok,https://doh.linuxsec.org/dns-query,netflix.com,1081.746122,304
+ok,https://doh.linuxsec.org/dns-query,google.com,1082.186728,195
+ok,https://doh.linuxsec.org/dns-query,netflix.com,1024.659138,304
+ok,https://doh.linuxsec.org/dns-query,google.com,1025.149240,195
+ok,https://adblock.doh.mullvad.net/dns-query,google.com,78.304324,44
+ok,https://adblock.doh.mullvad.net/dns-query,netflix.com,78.255559,77
+ok,https://doh.mullvad.net/dns-query,google.com,150.895581,44
+ok,https://doh.mullvad.net/dns-query,netflix.com,150.852871,77
+ok,https://dns.nextdns.io/dns-query,google.com,195.989806,44
+ok,https://dns.nextdns.io/dns-query,netflix.com,196.019437,77
+ok,https://dns.njal.la/dns-query,netflix.com,825.131113,77
+ok,https://dns.njal.la/dns-query,google.com,839.255426,44
+status,resolver,domain,time,size
+ok,https://dns.google/dns-query,google.com,47.900273,44
+ok,https://dns.google/dns-query,netflix.com,49.665951,77
+ok,https://dns.aa.net.uk/dns-query,google.com,474.087062,44
+ok,https://dns.aa.net.uk/dns-query,netflix.com,475.438066,213
+ok,https://dohtrial.att.net/dns-query,google.com,127.404363,124
+ok,https://dohtrial.att.net/dns-query,netflix.com,127.401903,77
+Query failed: SSL connect error,https://dns1.dnscrypt.ca/dns-query,google.com, , 
+Query failed: SSL connect error,https://dns1.dnscrypt.ca/dns-query,netflix.com, , 
+Problem 7 decoding 38405 bytes response to probe,https://doh.cleanbrowsing.org/dns-query,google.com, , 
+Problem 7 decoding 38405 bytes response to probe,https://doh.cleanbrowsing.org/dns-query,netflix.com, , 
+ok,total_run_time,21051.665710,0
+ok,https://dns.google/dns-query,netflix.com,51.863579,77
+ok,https://dns.google/dns-query,google.com,52.096395,44
+ok,https://dns.aa.net.uk/dns-query,google.com,271.891659,44
+ok,https://dns.aa.net.uk/dns-query,netflix.com,271.881840,213
+ok,https://dohtrial.att.net/dns-query,google.com,147.655443,124
+ok,https://dohtrial.att.net/dns-query,netflix.com,155.553279,77
+Query failed: SSL connect error,https://dns1.dnscrypt.ca/dns-query,google.com, , 
+Query failed: SSL connect error,https://dns1.dnscrypt.ca/dns-query,netflix.com, , 
+Problem 7 decoding 38405 bytes response to probe,https://doh.cleanbrowsing.org/dns-query,google.com, , 
+Problem 7 decoding 38405 bytes response to probe,https://doh.cleanbrowsing.org/dns-query,netflix.com, , 
+ok,total_run_time,20869.816990,0
+status,resolver,domain,time,size
+ok,https://dns.google/dns-query,google.com,47.448583,44
+ok,https://dns.google/dns-query,netflix.com,48.213861,77
+ok,https://dns.aa.net.uk/dns-query,google.com,264.628205,44
+ok,https://dns.aa.net.uk/dns-query,netflix.com,266.016629,213
+Query failed: SSL peer certificate or SSH remote key was not OK,https://dohtrial.att.net/dns-query,google.com, , 
+Query failed: SSL peer certificate or SSH remote key was not OK,https://dohtrial.att.net/dns-query,netflix.com, , 
+Query failed: SSL connect error,https://dns1.dnscrypt.ca/dns-query,google.com, , 
+Query failed: SSL connect error,https://dns1.dnscrypt.ca/dns-query,netflix.com, , 
+Problem 7 decoding 38405 bytes response to probe,https://doh.cleanbrowsing.org/dns-query,google.com, , 
+Problem 7 decoding 38405 bytes response to probe,https://doh.cleanbrowsing.org/dns-query,netflix.com, , 
+ok,total_run_time,20768.559313,0
+ok,https://dns.google/dns-query,google.com,45.656081,44
+ok,https://dns.google/dns-query,netflix.com,55.123304,77
+ok,https://dns.aa.net.uk/dns-query,google.com,270.343393,44
+ok,https://dns.aa.net.uk/dns-query,netflix.com,270.303218,213
+ok,https://dohtrial.att.net/dns-query,google.com,136.640462,124
+ok,https://dohtrial.att.net/dns-query,netflix.com,136.679947,77
+Query failed: SSL connect error,https://dns1.dnscrypt.ca/dns-query,google.com, , 
+Query failed: SSL connect error,https://dns1.dnscrypt.ca/dns-query,netflix.com, , 
+Problem 7 decoding 38405 bytes response to probe,https://doh.cleanbrowsing.org/dns-query,google.com, , 
+Problem 7 decoding 38405 bytes response to probe,https://doh.cleanbrowsing.org/dns-query,netflix.com, , 
+ok,total_run_time,20832.950545,0
+Query got response: 405,https://doh.post-factum.tk/dns-query,google.com, , 
+Query got response: 405,https://doh.post-factum.tk/dns-query,netflix.com, , 
+ok,https://draco.plan9-ns2.com/dns-query,google.com,127.677050,44
+ok,https://draco.plan9-ns2.com/dns-query,netflix.com,128.776934,77
+ok,https://doh.powerdns.org/dns-query,netflix.com,397.012420,77
+ok,https://doh.powerdns.org/dns-query,google.com,397.493895,44
+Query failed: SSL connect error,https://doh.seby.io/dns-query,google.com, , 
+Query failed: SSL connect error,https://doh.seby.io/dns-query,netflix.com, , 
+ok,https://doh-2.seby.io/dns-query,google.com,664.991163,65
+ok,https://doh-2.seby.io/dns-query,netflix.com,664.938215,121
+ok,https://dns.twnic.tw/dns-query,google.com,32272.076433,76
+ok,https://dns.twnic.tw/dns-query,netflix.com,32273.873478,132
+ok,https://dns9.quad9.net/dns-query,google.com,67.477951,44
+ok,https://dns9.quad9.net/dns-query,netflix.com,68.870646,77
+ok,https://dns9.quad9.net/dns-query,google.com,42.500094,44
+ok,https://dns9.quad9.net/dns-query,netflix.com,42.725718,77
+ok,https://dnsse.alekberg.net/dns-query,google.com,502.218198,324
+ok,https://dnsse.alekberg.net/dns-query,netflix.com,515.579211,388
+ok,https://dns.switch.ch/dns-query,google.com,582.007578,44
+ok,https://dns.switch.ch/dns-query,netflix.com,581.979986,77
+ok,https://dns.t53.de/dns-query,netflix.com,796.251742,77
+ok,https://dns.t53.de/dns-query,google.com,805.621138,44
+ok,https://sg.yepdns.com/dns-query,google.com,708.173136,135
+ok,https://sg.yepdns.com/dns-query,netflix.com,708.152747,88
+ok,total_run_time,228140.958174,0
+ok,https://dns.google/dns-query,google.com,44.212888,44
+ok,https://dns.google/dns-query,netflix.com,44.959049,77
+ok,https://dns.aa.net.uk/dns-query,google.com,270.439509,44
+ok,https://dns.aa.net.uk/dns-query,netflix.com,270.515411,213
+ok,https://adfree.usableprivacy.net/dns-query,google.com,359.188757,124
+ok,https://adfree.usableprivacy.net/dns-query,netflix.com,373.439799,77
+ok,https://dns.adguard.com/dns-query,google.com,71.358446,124
+ok,https://dns.adguard.com/dns-query,netflix.com,71.434246,77
+ok,https://dns-family.adguard.com/dns-query,google.com,71.241107,124
+ok,https://dns-family.adguard.com/dns-query,netflix.com,71.221344,77
+ok,https://doh.in.ahadns.net/dns-query,netflix.com,658.895066,121
+ok,https://doh.in.ahadns.net/dns-query,google.com,659.066335,65
+ok,https://doh.la.ahadns.net/dns-query,netflix.com,229.987783,121
+ok,https://doh.la.ahadns.net/dns-query,google.com,230.390674,195
+ok,https://doh.nl.ahadns.net/dns-query,netflix.com,334.414062,121
+ok,https://doh.nl.ahadns.net/dns-query,google.com,334.585224,65
+ok,https://dns.alidns.com/dns-query,google.com,49.397484,65
+ok,https://dns.alidns.com/dns-query,netflix.com,68.372209,121
+ok,https://dnsnl.alekberg.net/dns-query,google.com,296.157196,68
+ok,https://dnsnl.alekberg.net/dns-query,netflix.com,296.135509,132
+ok,https://dnsnl.alekberg.net/dns-query,google.com,296.520559,68
+ok,https://dnsnl.alekberg.net/dns-query,netflix.com,296.501916,132
+ok,https://dns.arapurayil.com/dns-query,google.com,662.587664,44
+ok,https://dns.arapurayil.com/dns-query,netflix.com,662.611635,77
+Query failed: SSL peer certificate or SSH remote key was not OK,https://dohtrial.att.net/dns-query,google.com, , 
+Query failed: SSL peer certificate or SSH remote key was not OK,https://dohtrial.att.net/dns-query,netflix.com, , 
+ok,https://dnses.alekberg.net/dns-query,google.com,385.863615,324
+ok,https://dnses.alekberg.net/dns-query,netflix.com,475.266450,260
+Query got response: 404,https://doh.bortzmeyer.fr/dns-query,google.com, , 
+Query got response: 404,https://doh.bortzmeyer.fr/dns-query,netflix.com, , 
+ok,https://dns.circl.lu/dns-query,google.com,433.064459,54
+ok,https://dns.circl.lu/dns-query,netflix.com,443.798030,110
+ok,https://doh.opendns.com/dns-query,netflix.com,65.994225,77
+ok,https://doh.opendns.com/dns-query,google.com,71.230436,44
+ok,https://dns.cloudflare.com/dns-query,google.com,47.044047,44
+ok,https://dns.cloudflare.com/dns-query,netflix.com,47.218930,77
+ok,https://family.cloudflare-dns.com/dns-query,google.com,52.270331,44
+ok,https://family.cloudflare-dns.com/dns-query,netflix.com,53.293069,77
+ok,https://security.cloudflare-dns.com/dns-query,google.com,52.184319,44
+ok,https://security.cloudflare-dns.com/dns-query,netflix.com,52.400875,77
+ok,https://odvr.nic.cz/dns-query,google.com,352.437306,44
+ok,https://odvr.nic.cz/dns-query,netflix.com,352.476965,77
+ok,https://dns.digitale-gesellschaft.ch/dns-query,netflix.com,367.916456,121
+ok,https://dns.digitale-gesellschaft.ch/dns-query,google.com,368.147310,65
+ok,https://dns.digitale-gesellschaft.ch/dns-query,netflix.com,324.607332,121
+ok,https://dns.digitale-gesellschaft.ch/dns-query,google.com,324.795548,65
+ok,https://dns1.ryan-palmer.com/dns-query,google.com,280.279269,44
+ok,https://dns1.ryan-palmer.com/dns-query,netflix.com,310.139009,77
+ok,https://doh.dns.sb/dns-query,google.com,93.752654,65
+ok,https://doh.dns.sb/dns-query,netflix.com,122.370597,121
+error,netflix.com,890.484821,8
+error,google.com,890.672124,8
+Query failed: SSL connect error,https://dns1.dnscrypt.ca/dns-query,google.com, , 
+Query failed: SSL connect error,https://dns1.dnscrypt.ca/dns-query,netflix.com, , 
+Query failed: SSL connect error,https://dns2.dnscrypt.ca/dns-query,google.com, , 
+Query failed: SSL connect error,https://dns2.dnscrypt.ca/dns-query,netflix.com, , 
+ok,https://dns-doh.dnsforfamily.com/dns-query,google.com,534.642301,74
+ok,https://dns-doh.dnsforfamily.com/dns-query,netflix.com,543.566012,77
+ok,https://dns-doh-no-safe-search.dnsforfamily.com/dns-query,google.com,531.976786,44
+ok,https://dns-doh-no-safe-search.dnsforfamily.com/dns-query,netflix.com,553.520916,77
+ok,https://dnsforge.de/dns-query,google.com,303.929501,44
+ok,https://dnsforge.de/dns-query,netflix.com,319.436019,77
+ok,https://dns.dnshome.de/dns-query,google.com,568.891236,44
+ok,https://dns.dnshome.de/dns-query,netflix.com,572.618237,77
+ok,https://doh.pub/dns-query,google.com,627.650836,77
+ok,https://doh.pub/dns-query,netflix.com,754.921036,133
+ok,https://doh-ch.blahdns.com/dns-query,google.com,332.258920,65
+ok,https://doh-ch.blahdns.com/dns-query,netflix.com,333.000143,121
+Problem 7 decoding 38405 bytes response to probe,https://doh.cleanbrowsing.org/dns-query,google.com, , 
+Problem 7 decoding 38405 bytes response to probe,https://doh.cleanbrowsing.org/dns-query,netflix.com, , 
+Problem 7 decoding 38405 bytes response to probe,https://doh.cleanbrowsing.org/dns-query,google.com, , 
+Problem 7 decoding 38405 bytes response to probe,https://doh.cleanbrowsing.org/dns-query,netflix.com, , 
+Problem 7 decoding 38405 bytes response to probe,https://doh.cleanbrowsing.org/dns-query,google.com, , 
+Problem 7 decoding 38405 bytes response to probe,https://doh.cleanbrowsing.org/dns-query,netflix.com, , 
+Query got response: 405,https://doh.crypto.sx/dns-query,google.com, , 
+Query got response: 405,https://doh.crypto.sx/dns-query,netflix.com, , 
+ok,https://doh-de.blahdns.com/dns-query,google.com,302.196979,65
+ok,https://doh-de.blahdns.com/dns-query,netflix.com,308.236227,121
+ok,https://doh-fi.blahdns.com/dns-query,google.com,363.618834,65
+ok,https://doh-fi.blahdns.com/dns-query,netflix.com,374.211208,121
+ok,https://ibksturm.synology.me/dns-query,google.com,728.988817,44
+ok,https://ibksturm.synology.me/dns-query,netflix.com,732.434838,77
+ok,https://doh-jp.blahdns.com/dns-query,google.com,541.060781,65
+ok,https://doh-jp.blahdns.com/dns-query,netflix.com,543.459501,121
+ok,https://doh-sg.blahdns.com/dns-query,google.com,715.706246,65
+ok,https://doh-sg.blahdns.com/dns-query,netflix.com,717.172175,121
+Query got response: 404,https://doh.appliedprivacy.net/dns-query,google.com, , 
+Query got response: 404,https://doh.appliedprivacy.net/dns-query,netflix.com, , 
+ok,https://doh.ffmuc.net/dns-query,google.com,584.297339,44
+ok,https://doh.ffmuc.net/dns-query,netflix.com,584.266096,77
+ok,https://doh.tiarap.org/dns-query,netflix.com,305.211968,132
+ok,https://doh.tiarap.org/dns-query,google.com,324.845872,68
+Query failed: SSL peer certificate or SSH remote key was not OK,https://dns.emeraldonion.org/dns-query,google.com, , 
+Query failed: SSL peer certificate or SSH remote key was not OK,https://dns.emeraldonion.org/dns-query,netflix.com, , 
+ok,https://dns.google/dns-query,google.com,46.410424,44
+ok,https://dns.google/dns-query,netflix.com,48.042788,77
+ok,https://ordns.he.net/dns-query,google.com,48.813280,44
+ok,https://ordns.he.net/dns-query,netflix.com,63.194353,77
+Query failed: Couldn't connect to server,https://doh.tiar.app/dns-query,google.com, , 
+Query failed: Couldn't connect to server,https://doh.tiar.app/dns-query,netflix.com, , 
+ok,https://public.dns.iij.jp/dns-query,google.com,231.232486,54
+ok,https://public.dns.iij.jp/dns-query,netflix.com,267.438878,110
+ok,https://doh.this.web.id/dns-query,google.com,1370.919596,195
+ok,https://doh.this.web.id/dns-query,netflix.com,1371.212958,121
+Query failed: Couldn't connect to server,https://jp.tiar.app/dns-query,google.com, , 
+Query failed: Couldn't connect to server,https://jp.tiar.app/dns-query,netflix.com, , 
+ok,https://jp.tiarap.org/dns-query,google.com,215.009197,68
+ok,https://jp.tiarap.org/dns-query,netflix.com,745.593105,132
+ok,https://doh.libredns.gr/dns-query,google.com,301.158280,44
+ok,https://doh.libredns.gr/dns-query,netflix.com,306.375812,77
+ok,https://doh.libredns.gr/dns-query,google.com,297.353428,44
+ok,https://doh.libredns.gr/dns-query,netflix.com,297.558929,77
+ok,https://doh.linuxsec.org/dns-query,netflix.com,1055.269155,304
+ok,https://doh.linuxsec.org/dns-query,google.com,1055.996860,195
+ok,https://doh.linuxsec.org/dns-query,netflix.com,1023.008251,304
+ok,https://doh.linuxsec.org/dns-query,google.com,1023.234618,195
+ok,https://adblock.doh.mullvad.net/dns-query,google.com,61.588716,44
+ok,https://adblock.doh.mullvad.net/dns-query,netflix.com,61.538605,77
+ok,https://doh.mullvad.net/dns-query,google.com,63.682179,44
+ok,https://doh.mullvad.net/dns-query,netflix.com,63.655546,77
+ok,https://dns.nextdns.io/dns-query,google.com,103.576632,44
+ok,https://dns.nextdns.io/dns-query,netflix.com,103.579577,77
+ok,https://dns.njal.la/dns-query,google.com,439.437241,44
+ok,https://dns.njal.la/dns-query,netflix.com,449.229303,77
+Query got response: 405,https://doh.post-factum.tk/dns-query,netflix.com, , 
+Query got response: 405,https://doh.post-factum.tk/dns-query,google.com, , 
+ok,https://draco.plan9-ns2.com/dns-query,netflix.com,114.891312,77
+ok,https://draco.plan9-ns2.com/dns-query,google.com,126.758316,44
+ok,https://doh.powerdns.org/dns-query,google.com,293.557535,44
+ok,https://doh.powerdns.org/dns-query,netflix.com,296.444219,77
+Query failed: SSL connect error,https://doh.seby.io/dns-query,google.com, , 
+Query failed: SSL connect error,https://doh.seby.io/dns-query,netflix.com, , 
+ok,https://doh-2.seby.io/dns-query,google.com,636.226006,65
+ok,https://doh-2.seby.io/dns-query,netflix.com,636.174566,121
+ok,https://dns.twnic.tw/dns-query,google.com,32433.581496,76
+ok,https://dns.twnic.tw/dns-query,netflix.com,32435.445391,132
+ok,https://dns9.quad9.net/dns-query,google.com,45.276145,44
+ok,https://dns9.quad9.net/dns-query,netflix.com,45.506232,77
+ok,https://dns9.quad9.net/dns-query,netflix.com,43.295518,77
+ok,https://dns9.quad9.net/dns-query,google.com,43.497399,44
+ok,https://dnsse.alekberg.net/dns-query,google.com,373.407449,324
+ok,https://dnsse.alekberg.net/dns-query,netflix.com,384.561096,388
+ok,https://dns.switch.ch/dns-query,google.com,422.972097,44
+ok,https://dns.switch.ch/dns-query,netflix.com,424.483455,77
+ok,https://dns.t53.de/dns-query,google.com,464.073352,44
+ok,https://dns.t53.de/dns-query,netflix.com,468.648652,77
+ok,https://sg.yepdns.com/dns-query,google.com,727.607509,135
+ok,https://sg.yepdns.com/dns-query,netflix.com,727.597000,88
+ok,total_run_time,224644.031289,0
+ok,https://dns.google/dns-query,google.com,47.485481,44
+ok,https://dns.google/dns-query,netflix.com,48.812551,77
+ok,https://dns.aa.net.uk/dns-query,google.com,431.315794,44
+ok,https://dns.aa.net.uk/dns-query,netflix.com,433.995914,213
+ok,https://adfree.usableprivacy.net/dns-query,google.com,403.581354,124
+ok,https://adfree.usableprivacy.net/dns-query,netflix.com,413.343103,77
+ok,https://dns.adguard.com/dns-query,google.com,93.757808,124
+ok,https://dns.adguard.com/dns-query,netflix.com,93.940226,77
+ok,https://dns-family.adguard.com/dns-query,google.com,85.139745,124
+ok,https://dns-family.adguard.com/dns-query,netflix.com,85.099869,77
+ok,https://doh.in.ahadns.net/dns-query,google.com,679.994190,65
+ok,https://doh.in.ahadns.net/dns-query,netflix.com,1111.733050,121
+ok,https://doh.la.ahadns.net/dns-query,netflix.com,243.692687,121
+ok,https://doh.la.ahadns.net/dns-query,google.com,244.045071,195
+ok,https://doh.nl.ahadns.net/dns-query,google.com,331.541840,65
+ok,https://doh.nl.ahadns.net/dns-query,netflix.com,332.458923,121
+ok,https://dns.alidns.com/dns-query,google.com,50.013091,65
+ok,https://dns.alidns.com/dns-query,netflix.com,84.102355,121
+ok,https://dnsnl.alekberg.net/dns-query,netflix.com,419.107211,132
+ok,https://dnsnl.alekberg.net/dns-query,google.com,425.188499,196
+ok,https://dnsnl.alekberg.net/dns-query,netflix.com,298.996412,132
+ok,https://dnsnl.alekberg.net/dns-query,google.com,299.137306,196
+ok,https://dns.arapurayil.com/dns-query,netflix.com,638.858043,77
+ok,https://dns.arapurayil.com/dns-query,google.com,676.411993,44
+Query failed: SSL peer certificate or SSH remote key was not OK,https://dohtrial.att.net/dns-query,google.com, , 
+Query failed: SSL peer certificate or SSH remote key was not OK,https://dohtrial.att.net/dns-query,netflix.com, , 
+ok,https://dnses.alekberg.net/dns-query,google.com,466.224223,324
+ok,https://dnses.alekberg.net/dns-query,netflix.com,497.514289,388
+Query got response: 404,https://doh.bortzmeyer.fr/dns-query,google.com, , 
+Query got response: 404,https://doh.bortzmeyer.fr/dns-query,netflix.com, , 
+ok,https://dns.circl.lu/dns-query,netflix.com,420.991611,110
+ok,https://dns.circl.lu/dns-query,google.com,435.571862,54
+ok,https://doh.opendns.com/dns-query,google.com,90.294090,44
+ok,https://doh.opendns.com/dns-query,netflix.com,103.199018,77
+ok,https://dns.cloudflare.com/dns-query,google.com,64.579706,44
+ok,https://dns.cloudflare.com/dns-query,netflix.com,65.299884,77
+ok,https://family.cloudflare-dns.com/dns-query,google.com,86.320810,44
+ok,https://family.cloudflare-dns.com/dns-query,netflix.com,87.057978,77
+ok,https://security.cloudflare-dns.com/dns-query,google.com,62.126029,44
+ok,https://security.cloudflare-dns.com/dns-query,netflix.com,62.532083,77
+ok,https://odvr.nic.cz/dns-query,google.com,597.496851,44
+ok,https://odvr.nic.cz/dns-query,netflix.com,597.596940,77
+ok,https://dns.digitale-gesellschaft.ch/dns-query,google.com,359.510999,65
+ok,https://dns.digitale-gesellschaft.ch/dns-query,netflix.com,359.580762,121
+ok,https://dns.digitale-gesellschaft.ch/dns-query,google.com,330.090139,65
+ok,https://dns.digitale-gesellschaft.ch/dns-query,netflix.com,420.875374,132
+ok,https://dns1.ryan-palmer.com/dns-query,google.com,302.800429,44
+ok,https://dns1.ryan-palmer.com/dns-query,netflix.com,322.095134,77
+ok,https://doh.dns.sb/dns-query,google.com,62.045194,65
+ok,https://doh.dns.sb/dns-query,netflix.com,68.092791,121
+error,google.com,885.651444,8
+error,netflix.com,885.606208,8
+Query failed: SSL connect error,https://dns1.dnscrypt.ca/dns-query,google.com, , 
+Query failed: SSL connect error,https://dns1.dnscrypt.ca/dns-query,netflix.com, , 
+Query failed: SSL connect error,https://dns2.dnscrypt.ca/dns-query,google.com, , 
+Query failed: SSL connect error,https://dns2.dnscrypt.ca/dns-query,netflix.com, , 
+ok,https://dns-doh.dnsforfamily.com/dns-query,google.com,577.758460,74
+ok,https://dns-doh.dnsforfamily.com/dns-query,netflix.com,578.300703,77
+ok,https://dns-doh-no-safe-search.dnsforfamily.com/dns-query,netflix.com,520.603999,77
+ok,https://dns-doh-no-safe-search.dnsforfamily.com/dns-query,google.com,541.259215,44
+ok,https://dnsforge.de/dns-query,google.com,401.950905,44
+ok,https://dnsforge.de/dns-query,netflix.com,408.583078,77
+ok,https://dns.dnshome.de/dns-query,google.com,539.271934,44
+ok,https://dns.dnshome.de/dns-query,netflix.com,554.295744,77
+ok,https://doh.pub/dns-query,google.com,332.855758,77
+ok,https://doh.pub/dns-query,netflix.com,625.737562,133
+ok,https://doh-ch.blahdns.com/dns-query,netflix.com,395.999980,121
+ok,https://doh-ch.blahdns.com/dns-query,google.com,410.941936,65
+Problem 7 decoding 38405 bytes response to probe,https://doh.cleanbrowsing.org/dns-query,google.com, , 
+Problem 7 decoding 38405 bytes response to probe,https://doh.cleanbrowsing.org/dns-query,netflix.com, , 
+Problem 7 decoding 38405 bytes response to probe,https://doh.cleanbrowsing.org/dns-query,google.com, , 
+Problem 7 decoding 38405 bytes response to probe,https://doh.cleanbrowsing.org/dns-query,netflix.com, , 
+Problem 7 decoding 38405 bytes response to probe,https://doh.cleanbrowsing.org/dns-query,google.com, , 
+Problem 7 decoding 38405 bytes response to probe,https://doh.cleanbrowsing.org/dns-query,netflix.com, , 
+Query got response: 405,https://doh.crypto.sx/dns-query,google.com, , 
+Query got response: 405,https://doh.crypto.sx/dns-query,netflix.com, , 
+ok,https://doh-de.blahdns.com/dns-query,google.com,314.327209,65
+ok,https://doh-de.blahdns.com/dns-query,netflix.com,321.295220,121
+ok,https://doh-fi.blahdns.com/dns-query,google.com,398.547226,65
+ok,https://doh-fi.blahdns.com/dns-query,netflix.com,407.132011,121
+ok,https://ibksturm.synology.me/dns-query,google.com,666.292514,44
+ok,https://ibksturm.synology.me/dns-query,netflix.com,672.284896,77
+ok,https://doh-jp.blahdns.com/dns-query,google.com,538.068121,65
+ok,https://doh-jp.blahdns.com/dns-query,netflix.com,540.568351,121
+ok,https://doh-sg.blahdns.com/dns-query,google.com,783.174002,65
+ok,https://doh-sg.blahdns.com/dns-query,netflix.com,785.658163,121
+Query got response: 404,https://doh.appliedprivacy.net/dns-query,google.com, , 
+Query got response: 404,https://doh.appliedprivacy.net/dns-query,netflix.com, , 
+ok,https://doh.ffmuc.net/dns-query,google.com,678.741757,44
+ok,https://doh.ffmuc.net/dns-query,netflix.com,678.714184,77
+ok,https://doh.tiarap.org/dns-query,netflix.com,321.791177,132
+ok,https://doh.tiarap.org/dns-query,google.com,322.016625,68
+Query failed: SSL peer certificate or SSH remote key was not OK,https://dns.emeraldonion.org/dns-query,google.com, , 
+Query failed: SSL peer certificate or SSH remote key was not OK,https://dns.emeraldonion.org/dns-query,netflix.com, , 
+ok,https://dns.google/dns-query,google.com,44.359677,44
+ok,https://dns.google/dns-query,netflix.com,47.417289,77
+ok,https://ordns.he.net/dns-query,google.com,77.538874,44
+ok,https://ordns.he.net/dns-query,netflix.com,85.056846,77
+Query failed: Couldn't connect to server,https://doh.tiar.app/dns-query,google.com, , 
+Query failed: Couldn't connect to server,https://doh.tiar.app/dns-query,netflix.com, , 
+ok,https://public.dns.iij.jp/dns-query,google.com,594.912939,54
+ok,https://public.dns.iij.jp/dns-query,netflix.com,617.460228,110
+ok,https://doh.this.web.id/dns-query,google.com,1679.968871,195
+ok,https://doh.this.web.id/dns-query,netflix.com,1679.963697,121
+Query failed: Couldn't connect to server,https://jp.tiar.app/dns-query,google.com, , 
+Query failed: Couldn't connect to server,https://jp.tiar.app/dns-query,netflix.com, , 
+ok,https://jp.tiarap.org/dns-query,google.com,276.279322,68
+ok,https://jp.tiarap.org/dns-query,netflix.com,282.777276,132
+ok,https://doh.libredns.gr/dns-query,google.com,293.176211,44
+ok,https://doh.libredns.gr/dns-query,netflix.com,297.773265,77
+ok,https://doh.libredns.gr/dns-query,google.com,293.853451,44
+ok,https://doh.libredns.gr/dns-query,netflix.com,293.890709,77
+ok,https://doh.linuxsec.org/dns-query,google.com,1105.952374,195
+ok,https://doh.linuxsec.org/dns-query,netflix.com,1107.680400,304
+ok,https://doh.linuxsec.org/dns-query,netflix.com,1080.848738,304
+ok,https://doh.linuxsec.org/dns-query,google.com,1081.276825,195
+ok,https://adblock.doh.mullvad.net/dns-query,google.com,90.141649,44
+ok,https://adblock.doh.mullvad.net/dns-query,netflix.com,90.069551,77
+ok,https://doh.mullvad.net/dns-query,google.com,64.159686,44
+ok,https://doh.mullvad.net/dns-query,netflix.com,64.120558,77
+ok,https://dns.nextdns.io/dns-query,netflix.com,164.398814,77
+ok,https://dns.nextdns.io/dns-query,google.com,165.027370,44
+ok,https://dns.njal.la/dns-query,netflix.com,820.256163,77
+ok,https://dns.njal.la/dns-query,google.com,859.896267,44
+Query got response: 405,https://doh.post-factum.tk/dns-query,google.com, , 
+Query got response: 405,https://doh.post-factum.tk/dns-query,netflix.com, , 
+ok,https://draco.plan9-ns2.com/dns-query,google.com,160.972988,44
+ok,https://draco.plan9-ns2.com/dns-query,netflix.com,161.927620,77
+ok,https://doh.powerdns.org/dns-query,google.com,502.160241,44
+ok,https://doh.powerdns.org/dns-query,netflix.com,505.914785,77
+Query failed: SSL connect error,https://doh.seby.io/dns-query,google.com, , 
+Query failed: SSL connect error,https://doh.seby.io/dns-query,netflix.com, , 
+ok,https://doh-2.seby.io/dns-query,google.com,645.795293,65
+ok,https://doh-2.seby.io/dns-query,netflix.com,645.742424,121
+ok,https://dns.twnic.tw/dns-query,google.com,795.574096,76
+ok,https://dns.twnic.tw/dns-query,netflix.com,797.407049,132
+ok,https://dns9.quad9.net/dns-query,netflix.com,89.056749,77
+ok,https://dns9.quad9.net/dns-query,google.com,89.307821,44
+ok,https://dns9.quad9.net/dns-query,google.com,43.540515,44
+ok,https://dns9.quad9.net/dns-query,netflix.com,43.709858,77
+ok,https://dnsse.alekberg.net/dns-query,google.com,506.754680,324
+ok,https://dnsse.alekberg.net/dns-query,netflix.com,584.331418,324
+ok,https://dns.switch.ch/dns-query,google.com,427.165117,44
+ok,https://dns.switch.ch/dns-query,netflix.com,428.282354,77
+ok,https://dns.t53.de/dns-query,netflix.com,707.551132,77
+ok,https://dns.t53.de/dns-query,google.com,711.021575,44
+ok,https://sg.yepdns.com/dns-query,google.com,749.430925,135
+ok,https://sg.yepdns.com/dns-query,netflix.com,750.461414,88
+ok,total_run_time,196647.050555,0
+ok,https://dns.google/dns-query,google.com,46.923644,44
+ok,https://dns.google/dns-query,netflix.com,48.571096,77
+ok,https://dns.aa.net.uk/dns-query,google.com,445.959162,44
+ok,https://dns.aa.net.uk/dns-query,netflix.com,455.798549,213
+ok,https://adfree.usableprivacy.net/dns-query,google.com,363.459929,124
+ok,https://adfree.usableprivacy.net/dns-query,netflix.com,383.954548,77
+ok,https://dns.adguard.com/dns-query,netflix.com,71.170073,77
+ok,https://dns.adguard.com/dns-query,google.com,71.266466,124
+ok,https://dns-family.adguard.com/dns-query,netflix.com,71.784977,77
+ok,https://dns-family.adguard.com/dns-query,google.com,71.886521,124
+ok,https://doh.in.ahadns.net/dns-query,google.com,633.095182,65
+ok,https://doh.in.ahadns.net/dns-query,netflix.com,633.108436,121
+ok,https://doh.la.ahadns.net/dns-query,netflix.com,233.479015,121
+ok,https://doh.la.ahadns.net/dns-query,google.com,233.899536,195
+ok,https://doh.nl.ahadns.net/dns-query,google.com,331.690690,65
+ok,https://doh.nl.ahadns.net/dns-query,netflix.com,331.826735,121
+ok,https://dns.alidns.com/dns-query,google.com,50.308774,65
+ok,https://dns.alidns.com/dns-query,netflix.com,66.280367,121
+ok,https://dnsnl.alekberg.net/dns-query,google.com,293.733828,196
+ok,https://dnsnl.alekberg.net/dns-query,netflix.com,293.707620,132
+ok,https://dnsnl.alekberg.net/dns-query,google.com,286.519713,196
+ok,https://dnsnl.alekberg.net/dns-query,netflix.com,287.150270,132
+ok,https://dns.arapurayil.com/dns-query,google.com,610.914576,44
+ok,https://dns.arapurayil.com/dns-query,netflix.com,611.458178,77
+ok,https://dohtrial.att.net/dns-query,google.com,139.982745,124
+ok,https://dohtrial.att.net/dns-query,netflix.com,139.984987,77
+ok,https://dnses.alekberg.net/dns-query,netflix.com,383.567400,388
+ok,https://dnses.alekberg.net/dns-query,google.com,388.184482,324
+Query got response: 404,https://doh.bortzmeyer.fr/dns-query,google.com, , 
+Query got response: 404,https://doh.bortzmeyer.fr/dns-query,netflix.com, , 
+ok,https://dns.circl.lu/dns-query,google.com,376.880558,54
+ok,https://dns.circl.lu/dns-query,netflix.com,391.990494,110
+ok,https://doh.opendns.com/dns-query,google.com,62.669182,44
+ok,https://doh.opendns.com/dns-query,netflix.com,63.425560,77
+ok,https://dns.cloudflare.com/dns-query,google.com,51.713772,44
+ok,https://dns.cloudflare.com/dns-query,netflix.com,51.727235,77
+ok,https://family.cloudflare-dns.com/dns-query,google.com,47.286554,44
+ok,https://family.cloudflare-dns.com/dns-query,netflix.com,48.118815,77
+ok,https://security.cloudflare-dns.com/dns-query,google.com,46.371746,44
+ok,https://security.cloudflare-dns.com/dns-query,netflix.com,49.021844,77
+ok,https://odvr.nic.cz/dns-query,google.com,338.706580,44
+ok,https://odvr.nic.cz/dns-query,netflix.com,338.931023,77
+ok,https://dns.digitale-gesellschaft.ch/dns-query,google.com,334.190330,65
+ok,https://dns.digitale-gesellschaft.ch/dns-query,netflix.com,430.009763,132
+ok,https://dns.digitale-gesellschaft.ch/dns-query,google.com,325.691680,65
+ok,https://dns.digitale-gesellschaft.ch/dns-query,netflix.com,325.953602,121
+ok,https://dns1.ryan-palmer.com/dns-query,google.com,301.284605,44
+ok,https://dns1.ryan-palmer.com/dns-query,netflix.com,311.700209,77
+ok,https://doh.dns.sb/dns-query,google.com,116.580820,65
+ok,https://doh.dns.sb/dns-query,netflix.com,186.018119,121
+error,google.com,872.331823,8
+error,netflix.com,872.619489,8
+Query failed: SSL connect error,https://dns1.dnscrypt.ca/dns-query,google.com, , 
+Query failed: SSL connect error,https://dns1.dnscrypt.ca/dns-query,netflix.com, , 
+Query failed: SSL connect error,https://dns2.dnscrypt.ca/dns-query,google.com, , 
+Query failed: SSL connect error,https://dns2.dnscrypt.ca/dns-query,netflix.com, , 
+ok,https://dns-doh.dnsforfamily.com/dns-query,google.com,531.017329,74
+ok,https://dns-doh.dnsforfamily.com/dns-query,netflix.com,542.756399,77
+ok,https://dns-doh-no-safe-search.dnsforfamily.com/dns-query,google.com,523.097386,44
+ok,https://dns-doh-no-safe-search.dnsforfamily.com/dns-query,netflix.com,524.478183,77
+ok,https://dnsforge.de/dns-query,google.com,302.633156,44
+ok,https://dnsforge.de/dns-query,netflix.com,318.249440,77
+ok,https://dns.dnshome.de/dns-query,google.com,434.529374,44
+ok,https://dns.dnshome.de/dns-query,netflix.com,445.508668,77
+ok,https://doh.pub/dns-query,google.com,609.289952,77
+ok,https://doh.pub/dns-query,netflix.com,821.736973,133
+ok,https://doh-ch.blahdns.com/dns-query,google.com,348.653259,65
+ok,https://doh-ch.blahdns.com/dns-query,netflix.com,348.631733,121
+Problem 7 decoding 38405 bytes response to probe,https://doh.cleanbrowsing.org/dns-query,google.com, , 
+Problem 7 decoding 38405 bytes response to probe,https://doh.cleanbrowsing.org/dns-query,netflix.com, , 
+Problem 7 decoding 38405 bytes response to probe,https://doh.cleanbrowsing.org/dns-query,google.com, , 
+Problem 7 decoding 38405 bytes response to probe,https://doh.cleanbrowsing.org/dns-query,netflix.com, , 
+Problem 7 decoding 38405 bytes response to probe,https://doh.cleanbrowsing.org/dns-query,google.com, , 
+Problem 7 decoding 38405 bytes response to probe,https://doh.cleanbrowsing.org/dns-query,netflix.com, , 
+Query got response: 405,https://doh.crypto.sx/dns-query,google.com, , 
+Query got response: 405,https://doh.crypto.sx/dns-query,netflix.com, , 
+ok,https://doh-de.blahdns.com/dns-query,google.com,303.649273,65
+ok,https://doh-de.blahdns.com/dns-query,netflix.com,310.083660,121
+ok,https://doh-fi.blahdns.com/dns-query,google.com,372.273575,65
+ok,https://doh-fi.blahdns.com/dns-query,netflix.com,381.323017,121
+ok,https://ibksturm.synology.me/dns-query,google.com,612.388382,44
+ok,https://ibksturm.synology.me/dns-query,netflix.com,628.787991,77
+ok,https://doh-jp.blahdns.com/dns-query,netflix.com,544.599353,121
+ok,https://doh-jp.blahdns.com/dns-query,google.com,578.357429,65
+ok,https://doh-sg.blahdns.com/dns-query,google.com,770.605653,65
+ok,https://doh-sg.blahdns.com/dns-query,netflix.com,774.974998,121
+Query got response: 404,https://doh.appliedprivacy.net/dns-query,google.com, , 
+Query got response: 404,https://doh.appliedprivacy.net/dns-query,netflix.com, , 
+ok,https://doh.ffmuc.net/dns-query,netflix.com,583.053095,77
+ok,https://doh.ffmuc.net/dns-query,google.com,583.179650,44
+ok,https://doh.tiarap.org/dns-query,netflix.com,335.751120,132
+ok,https://doh.tiarap.org/dns-query,google.com,364.192681,68
+Query failed: SSL peer certificate or SSH remote key was not OK,https://dns.emeraldonion.org/dns-query,google.com, , 
+Query failed: SSL peer certificate or SSH remote key was not OK,https://dns.emeraldonion.org/dns-query,netflix.com, , 
+ok,https://dns.google/dns-query,google.com,47.167511,44
+ok,https://dns.google/dns-query,netflix.com,47.747496,77
+ok,https://ordns.he.net/dns-query,google.com,51.031221,44
+ok,https://ordns.he.net/dns-query,netflix.com,52.405247,77
+Query failed: Couldn't connect to server,https://doh.tiar.app/dns-query,google.com, , 
+Query failed: Couldn't connect to server,https://doh.tiar.app/dns-query,netflix.com, , 
+ok,https://public.dns.iij.jp/dns-query,netflix.com,263.447902,110
+ok,https://public.dns.iij.jp/dns-query,google.com,305.666936,54
+ok,https://doh.this.web.id/dns-query,google.com,1345.007143,195
+ok,https://doh.this.web.id/dns-query,netflix.com,1345.034128,121
+Query failed: Couldn't connect to server,https://jp.tiar.app/dns-query,google.com, , 
+Query failed: Couldn't connect to server,https://jp.tiar.app/dns-query,netflix.com, , 
+ok,https://jp.tiarap.org/dns-query,netflix.com,207.551891,132
+ok,https://jp.tiarap.org/dns-query,google.com,230.281350,68
+ok,https://doh.libredns.gr/dns-query,google.com,418.748360,44
+ok,https://doh.libredns.gr/dns-query,netflix.com,432.105322,77
+ok,https://doh.libredns.gr/dns-query,google.com,298.935172,44
+ok,https://doh.libredns.gr/dns-query,netflix.com,298.916959,77
+ok,https://doh.linuxsec.org/dns-query,google.com,1023.362998,195
+ok,https://doh.linuxsec.org/dns-query,netflix.com,1023.627848,304
+ok,https://doh.linuxsec.org/dns-query,netflix.com,1039.255629,304
+ok,https://doh.linuxsec.org/dns-query,google.com,1039.398741,195
+ok,https://adblock.doh.mullvad.net/dns-query,google.com,60.650442,44
+ok,https://adblock.doh.mullvad.net/dns-query,netflix.com,60.597398,77
+ok,https://doh.mullvad.net/dns-query,google.com,61.553427,44
+ok,https://doh.mullvad.net/dns-query,netflix.com,61.507675,77
+ok,https://dns.nextdns.io/dns-query,google.com,104.282365,44
+ok,https://dns.nextdns.io/dns-query,netflix.com,104.354120,77
+ok,https://dns.njal.la/dns-query,google.com,457.383278,44
+ok,https://dns.njal.la/dns-query,netflix.com,466.817992,77
+Query got response: 405,https://doh.post-factum.tk/dns-query,netflix.com, , 
+Query got response: 405,https://doh.post-factum.tk/dns-query,google.com, , 
+ok,https://draco.plan9-ns2.com/dns-query,google.com,115.126498,124
+ok,https://draco.plan9-ns2.com/dns-query,netflix.com,116.282396,77
+ok,https://doh.powerdns.org/dns-query,google.com,349.681028,44
+ok,https://doh.powerdns.org/dns-query,netflix.com,349.680406,77
+Query failed: SSL connect error,https://doh.seby.io/dns-query,google.com, , 
+Query failed: SSL connect error,https://doh.seby.io/dns-query,netflix.com, , 
+ok,https://doh-2.seby.io/dns-query,google.com,647.610249,65
+ok,https://doh-2.seby.io/dns-query,netflix.com,647.555909,121
+ok,https://dns.twnic.tw/dns-query,google.com,1230.319596,76
+ok,https://dns.twnic.tw/dns-query,netflix.com,1230.387243,132
+ok,https://dns9.quad9.net/dns-query,google.com,48.543978,44
+ok,https://dns9.quad9.net/dns-query,netflix.com,48.524260,77
+ok,https://dns9.quad9.net/dns-query,netflix.com,44.219375,77
+ok,https://dns9.quad9.net/dns-query,google.com,44.354876,44
+ok,https://dnsse.alekberg.net/dns-query,google.com,356.019996,324
+ok,https://dnsse.alekberg.net/dns-query,netflix.com,378.270068,388
+ok,https://dns.switch.ch/dns-query,google.com,448.260688,44
+ok,https://dns.switch.ch/dns-query,netflix.com,449.401891,77
+ok,https://dns.t53.de/dns-query,google.com,583.482180,44
+ok,https://dns.t53.de/dns-query,netflix.com,589.432203,77
+ok,https://sg.yepdns.com/dns-query,google.com,712.478768,135
+ok,https://sg.yepdns.com/dns-query,netflix.com,712.449253,88
+ok,total_run_time,193575.027564,0
+ok,https://dns.google/dns-query,google.com,49.114758,44
+ok,https://dns.google/dns-query,netflix.com,50.656264,77
+ok,https://dns.aa.net.uk/dns-query,netflix.com,277.906408,213
+ok,https://dns.aa.net.uk/dns-query,google.com,280.554650,44
+ok,https://adfree.usableprivacy.net/dns-query,google.com,383.481931,124
+ok,https://adfree.usableprivacy.net/dns-query,netflix.com,396.694936,77
+ok,https://dns.adguard.com/dns-query,netflix.com,70.797676,77
+ok,https://dns.adguard.com/dns-query,google.com,70.939270,124
+ok,https://dns-family.adguard.com/dns-query,netflix.com,72.146276,77
+ok,https://dns-family.adguard.com/dns-query,google.com,72.354100,124
+ok,https://doh.in.ahadns.net/dns-query,google.com,728.469895,65
+ok,https://doh.in.ahadns.net/dns-query,netflix.com,1199.484664,121
+ok,https://doh.la.ahadns.net/dns-query,netflix.com,241.869135,121
+ok,https://doh.la.ahadns.net/dns-query,google.com,242.673682,195
+ok,https://doh.nl.ahadns.net/dns-query,google.com,330.681231,65
+ok,https://doh.nl.ahadns.net/dns-query,netflix.com,330.863173,121
+ok,https://dns.alidns.com/dns-query,google.com,290.561748,65
+ok,https://dns.alidns.com/dns-query,netflix.com,291.262590,121
+ok,https://dnsnl.alekberg.net/dns-query,netflix.com,409.793947,132
+ok,https://dnsnl.alekberg.net/dns-query,google.com,409.934031,196
+ok,https://dnsnl.alekberg.net/dns-query,google.com,298.000524,196
+ok,https://dnsnl.alekberg.net/dns-query,netflix.com,298.620459,132
+ok,https://dns.arapurayil.com/dns-query,netflix.com,618.608762,77
+ok,https://dns.arapurayil.com/dns-query,google.com,619.583521,44
+ok,https://dohtrial.att.net/dns-query,google.com,139.425358,124
+ok,https://dohtrial.att.net/dns-query,netflix.com,139.413919,77
+ok,https://dnses.alekberg.net/dns-query,google.com,472.259125,324
+ok,https://dnses.alekberg.net/dns-query,netflix.com,505.681589,388
+Query got response: 404,https://doh.bortzmeyer.fr/dns-query,google.com, , 
+Query got response: 404,https://doh.bortzmeyer.fr/dns-query,netflix.com, , 
+ok,https://dns.circl.lu/dns-query,google.com,362.144256,54
+ok,https://dns.circl.lu/dns-query,netflix.com,374.740407,110
+ok,https://doh.opendns.com/dns-query,google.com,104.688778,44
+ok,https://doh.opendns.com/dns-query,netflix.com,114.455545,77
+ok,https://dns.cloudflare.com/dns-query,google.com,62.569055,44
+ok,https://dns.cloudflare.com/dns-query,netflix.com,63.079741,77
+ok,https://family.cloudflare-dns.com/dns-query,google.com,65.596576,44
+ok,https://family.cloudflare-dns.com/dns-query,netflix.com,69.164817,77
+ok,https://security.cloudflare-dns.com/dns-query,netflix.com,94.501375,77
+ok,https://security.cloudflare-dns.com/dns-query,google.com,103.778719,44
+ok,https://odvr.nic.cz/dns-query,google.com,358.792740,44
+ok,https://odvr.nic.cz/dns-query,netflix.com,359.037151,77
+ok,https://dns.digitale-gesellschaft.ch/dns-query,netflix.com,342.115044,121
+ok,https://dns.digitale-gesellschaft.ch/dns-query,google.com,342.292230,65
+ok,https://dns.digitale-gesellschaft.ch/dns-query,google.com,329.587378,65
+ok,https://dns.digitale-gesellschaft.ch/dns-query,netflix.com,329.673095,121
+ok,https://dns1.ryan-palmer.com/dns-query,google.com,314.871392,44
+ok,https://dns1.ryan-palmer.com/dns-query,netflix.com,336.268317,77
+ok,https://doh.dns.sb/dns-query,google.com,67.133863,65
+ok,https://doh.dns.sb/dns-query,netflix.com,101.025810,121
+error,netflix.com,909.609957,8
+error,google.com,909.806662,8
+Query failed: SSL connect error,https://dns1.dnscrypt.ca/dns-query,google.com, , 
+Query failed: SSL connect error,https://dns1.dnscrypt.ca/dns-query,netflix.com, , 
+Query failed: SSL connect error,https://dns2.dnscrypt.ca/dns-query,google.com, , 
+Query failed: SSL connect error,https://dns2.dnscrypt.ca/dns-query,netflix.com, , 
+ok,https://dns-doh.dnsforfamily.com/dns-query,google.com,559.508635,74
+ok,https://dns-doh.dnsforfamily.com/dns-query,netflix.com,577.698810,77
+ok,https://dns-doh-no-safe-search.dnsforfamily.com/dns-query,google.com,547.066978,44
+ok,https://dns-doh-no-safe-search.dnsforfamily.com/dns-query,netflix.com,548.887986,77
+ok,https://dnsforge.de/dns-query,google.com,549.979965,44
+ok,https://dnsforge.de/dns-query,netflix.com,558.446162,77
+ok,https://dns.dnshome.de/dns-query,google.com,445.882143,44
+ok,https://dns.dnshome.de/dns-query,netflix.com,452.350266,77
+ok,https://doh.pub/dns-query,google.com,437.505041,77
+ok,https://doh.pub/dns-query,netflix.com,721.085358,133
+ok,https://doh-ch.blahdns.com/dns-query,google.com,344.986953,65
+ok,https://doh-ch.blahdns.com/dns-query,netflix.com,347.654023,121
+Problem 7 decoding 38405 bytes response to probe,https://doh.cleanbrowsing.org/dns-query,google.com, , 
+Problem 7 decoding 38405 bytes response to probe,https://doh.cleanbrowsing.org/dns-query,netflix.com, , 
+Problem 7 decoding 38405 bytes response to probe,https://doh.cleanbrowsing.org/dns-query,google.com, , 
+Problem 7 decoding 38405 bytes response to probe,https://doh.cleanbrowsing.org/dns-query,netflix.com, , 
+Problem 7 decoding 38405 bytes response to probe,https://doh.cleanbrowsing.org/dns-query,google.com, , 
+Problem 7 decoding 38405 bytes response to probe,https://doh.cleanbrowsing.org/dns-query,netflix.com, , 
+Query got response: 405,https://doh.crypto.sx/dns-query,google.com, , 
+Query got response: 405,https://doh.crypto.sx/dns-query,netflix.com, , 
+ok,https://doh-de.blahdns.com/dns-query,google.com,333.805727,65
+ok,https://doh-de.blahdns.com/dns-query,netflix.com,339.495919,121
+ok,https://doh-fi.blahdns.com/dns-query,google.com,397.722615,65
+ok,https://doh-fi.blahdns.com/dns-query,netflix.com,405.789429,121
+error,google.com,2820.100208,8
+ok,https://ibksturm.synology.me/dns-query,netflix.com,2861.919466,77
+ok,https://doh-jp.blahdns.com/dns-query,google.com,550.123202,65
+ok,https://doh-jp.blahdns.com/dns-query,netflix.com,552.677906,121
+ok,https://doh-sg.blahdns.com/dns-query,google.com,757.663922,65
+ok,https://doh-sg.blahdns.com/dns-query,netflix.com,758.904682,121
+Query got response: 404,https://doh.appliedprivacy.net/dns-query,google.com, , 
+Query got response: 404,https://doh.appliedprivacy.net/dns-query,netflix.com, , 
+ok,https://doh.ffmuc.net/dns-query,google.com,651.446229,44
+ok,https://doh.ffmuc.net/dns-query,netflix.com,651.416766,77
+ok,https://doh.tiarap.org/dns-query,google.com,333.702975,68
+ok,https://doh.tiarap.org/dns-query,netflix.com,1083.834915,132
+Query failed: SSL peer certificate or SSH remote key was not OK,https://dns.emeraldonion.org/dns-query,google.com, , 
+Query failed: SSL peer certificate or SSH remote key was not OK,https://dns.emeraldonion.org/dns-query,netflix.com, , 
+ok,https://dns.google/dns-query,google.com,46.910278,44
+ok,https://dns.google/dns-query,netflix.com,55.957900,77
+ok,https://ordns.he.net/dns-query,google.com,46.316916,44
+ok,https://ordns.he.net/dns-query,netflix.com,47.589571,77
+Query failed: Couldn't connect to server,https://doh.tiar.app/dns-query,google.com, , 
+Query failed: Couldn't connect to server,https://doh.tiar.app/dns-query,netflix.com, , 
+ok,https://public.dns.iij.jp/dns-query,google.com,474.325398,54
+ok,https://public.dns.iij.jp/dns-query,netflix.com,512.516951,110
+ok,https://doh.this.web.id/dns-query,google.com,1395.359368,195
+ok,https://doh.this.web.id/dns-query,netflix.com,1395.840460,121
+Query failed: Couldn't connect to server,https://jp.tiar.app/dns-query,google.com, , 
+Query failed: Couldn't connect to server,https://jp.tiar.app/dns-query,netflix.com, , 
+ok,https://jp.tiarap.org/dns-query,netflix.com,675.055149,132
+ok,https://jp.tiarap.org/dns-query,google.com,678.872236,68
+ok,https://doh.libredns.gr/dns-query,google.com,292.445233,44
+ok,https://doh.libredns.gr/dns-query,netflix.com,299.541035,77
+ok,https://doh.libredns.gr/dns-query,google.com,293.109201,44
+ok,https://doh.libredns.gr/dns-query,netflix.com,293.100905,77
+ok,https://doh.linuxsec.org/dns-query,netflix.com,1053.792837,304
+ok,https://doh.linuxsec.org/dns-query,google.com,1053.943753,195
+ok,https://doh.linuxsec.org/dns-query,netflix.com,1027.162225,304
+ok,https://doh.linuxsec.org/dns-query,google.com,1027.550260,195
+ok,https://adblock.doh.mullvad.net/dns-query,google.com,147.613906,44
+ok,https://adblock.doh.mullvad.net/dns-query,netflix.com,147.560969,77
+ok,https://doh.mullvad.net/dns-query,google.com,72.107803,44
+ok,https://doh.mullvad.net/dns-query,netflix.com,72.065775,77
+ok,https://dns.nextdns.io/dns-query,netflix.com,127.531899,77
+ok,https://dns.nextdns.io/dns-query,google.com,127.989912,44
+ok,https://dns.njal.la/dns-query,google.com,420.029037,44
+ok,https://dns.njal.la/dns-query,netflix.com,448.741841,77
+Query got response: 405,https://doh.post-factum.tk/dns-query,google.com, , 
+Query got response: 405,https://doh.post-factum.tk/dns-query,netflix.com, , 
+ok,https://draco.plan9-ns2.com/dns-query,netflix.com,138.449827,77
+ok,https://draco.plan9-ns2.com/dns-query,google.com,152.064142,44
+ok,https://doh.powerdns.org/dns-query,google.com,385.027427,44
+ok,https://doh.powerdns.org/dns-query,netflix.com,394.518688,77
+Query failed: SSL connect error,https://doh.seby.io/dns-query,google.com, , 
+status,resolver,domain,time,size
+ok,https://dns.google/dns-query,google.com,43.316924,44
+ok,https://dns.google/dns-query,netflix.com,45.631056,77
+ok,https://dns.aa.net.uk/dns-query,google.com,274.331490,44
+ok,https://dns.aa.net.uk/dns-query,netflix.com,283.875343,213
+ok,https://dohtrial.att.net/dns-query,google.com,140.472232,124
+ok,https://dohtrial.att.net/dns-query,netflix.com,140.485043,77
+Query failed: SSL connect error,https://dns1.dnscrypt.ca/dns-query,google.com, , 
+Query failed: SSL connect error,https://dns1.dnscrypt.ca/dns-query,netflix.com, , 
+Problem 7 decoding 38405 bytes response to probe,https://doh.cleanbrowsing.org/dns-query,google.com, , 
+Problem 7 decoding 38405 bytes response to probe,https://doh.cleanbrowsing.org/dns-query,netflix.com, , 
+ok,total_run_time,20887.563900,0
+ok,https://dns.google/dns-query,google.com,47.281997,44
+ok,https://dns.google/dns-query,netflix.com,56.722647,77
+ok,https://dns.aa.net.uk/dns-query,google.com,267.757048,44
+ok,https://dns.aa.net.uk/dns-query,netflix.com,267.688183,213
+Query failed: SSL peer certificate or SSH remote key was not OK,https://dohtrial.att.net/dns-query,google.com, , 
+Query failed: SSL peer certificate or SSH remote key was not OK,https://dohtrial.att.net/dns-query,netflix.com, , 
+Query failed: SSL connect error,https://dns1.dnscrypt.ca/dns-query,google.com, , 
+Query failed: SSL connect error,https://dns1.dnscrypt.ca/dns-query,netflix.com, , 
+Problem 7 decoding 38405 bytes response to probe,https://doh.cleanbrowsing.org/dns-query,google.com, , 
+Problem 7 decoding 38405 bytes response to probe,https://doh.cleanbrowsing.org/dns-query,netflix.com, , 
+ok,total_run_time,747.930640,0
+status,resolver,domain,time,size
+ok,https://dns.google/dns-query,google.com,47.355422,44
+ok,https://dns.google/dns-query,netflix.com,48.187548,77
+ok,https://dns.aa.net.uk/dns-query,google.com,273.097512,44
+ok,https://dns.aa.net.uk/dns-query,netflix.com,282.191644,213
+Query failed: SSL peer certificate or SSH remote key was not OK,https://dohtrial.att.net/dns-query,google.com, , 
+Query failed: SSL peer certificate or SSH remote key was not OK,https://dohtrial.att.net/dns-query,netflix.com, , 
+Query failed: SSL connect error,https://dns1.dnscrypt.ca/dns-query,google.com, , 
+Query failed: SSL connect error,https://dns1.dnscrypt.ca/dns-query,netflix.com, , 
+Problem 7 decoding 38405 bytes response to probe,https://doh.cleanbrowsing.org/dns-query,google.com, , 
+Problem 7 decoding 38405 bytes response to probe,https://doh.cleanbrowsing.org/dns-query,netflix.com, , 
+ok,total_run_time,20827.096701,0
+ok,https://dns.google/dns-query,google.com,47.847070,44
+ok,https://dns.google/dns-query,netflix.com,51.212297,77
+ok,https://dns.aa.net.uk/dns-query,google.com,267.207558,44
+ok,https://dns.aa.net.uk/dns-query,netflix.com,267.781795,213
+ok,https://dohtrial.att.net/dns-query,google.com,131.077058,124
+ok,https://dohtrial.att.net/dns-query,netflix.com,131.166088,77
+Query failed: SSL connect error,https://dns1.dnscrypt.ca/dns-query,google.com, , 
+Query failed: SSL connect error,https://dns1.dnscrypt.ca/dns-query,netflix.com, , 
+Problem 7 decoding 38405 bytes response to probe,https://doh.cleanbrowsing.org/dns-query,google.com, , 
+Problem 7 decoding 38405 bytes response to probe,https://doh.cleanbrowsing.org/dns-query,netflix.com, , 
+ok,total_run_time,20826.077894,0
+Query failed: SSL connect error,https://doh.seby.io/dns-query,netflix.com, , 
+ok,https://doh-2.seby.io/dns-query,google.com,648.638921,65
+ok,https://doh-2.seby.io/dns-query,netflix.com,648.577482,121
+ok,https://dns.twnic.tw/dns-query,google.com,32412.736211,76
+ok,https://dns.twnic.tw/dns-query,netflix.com,32414.709714,132
+ok,https://dns9.quad9.net/dns-query,netflix.com,100.283286,77
+ok,https://dns9.quad9.net/dns-query,google.com,100.440207,44
+ok,https://dns9.quad9.net/dns-query,google.com,42.555815,44
+ok,https://dns9.quad9.net/dns-query,netflix.com,42.540174,77
+ok,https://dnsse.alekberg.net/dns-query,google.com,483.436298,324
+ok,https://dnsse.alekberg.net/dns-query,netflix.com,505.898639,388
+ok,https://dns.switch.ch/dns-query,google.com,474.863727,44
+ok,https://dns.switch.ch/dns-query,netflix.com,475.929254,77
+ok,https://dns.t53.de/dns-query,netflix.com,700.469857,77
+ok,https://dns.t53.de/dns-query,google.com,703.648170,44
+ok,https://sg.yepdns.com/dns-query,google.com,711.733295,135
+ok,https://sg.yepdns.com/dns-query,netflix.com,711.723471,88
+ok,total_run_time,230243.555587,0
+ok,https://dns.google/dns-query,google.com,50.985410,44
+ok,https://dns.google/dns-query,netflix.com,67.388757,77
+ok,https://dns.aa.net.uk/dns-query,google.com,371.776079,44
+ok,https://dns.aa.net.uk/dns-query,netflix.com,371.775566,213
+ok,https://adfree.usableprivacy.net/dns-query,google.com,355.911620,124
+ok,https://adfree.usableprivacy.net/dns-query,netflix.com,374.996624,77
+ok,https://dns.adguard.com/dns-query,google.com,72.689705,124
+ok,https://dns.adguard.com/dns-query,netflix.com,72.658169,77
+ok,https://dns-family.adguard.com/dns-query,netflix.com,71.127293,77
+ok,https://dns-family.adguard.com/dns-query,google.com,71.235873,124
+ok,https://doh.in.ahadns.net/dns-query,google.com,745.965980,65
+ok,https://doh.in.ahadns.net/dns-query,netflix.com,746.059960,121
+ok,https://doh.la.ahadns.net/dns-query,google.com,230.282316,195
+ok,https://doh.la.ahadns.net/dns-query,netflix.com,230.263247,121
+ok,https://doh.nl.ahadns.net/dns-query,google.com,329.890988,65
+ok,https://doh.nl.ahadns.net/dns-query,netflix.com,329.949924,121
+ok,https://dns.alidns.com/dns-query,google.com,51.331407,65
+ok,https://dns.alidns.com/dns-query,netflix.com,88.032029,121
+ok,https://dnsnl.alekberg.net/dns-query,google.com,297.550689,196
+ok,https://dnsnl.alekberg.net/dns-query,netflix.com,297.627790,132
+ok,https://dnsnl.alekberg.net/dns-query,google.com,290.273566,196
+ok,https://dnsnl.alekberg.net/dns-query,netflix.com,290.501087,132
+ok,https://dns.arapurayil.com/dns-query,netflix.com,640.293619,77
+ok,https://dns.arapurayil.com/dns-query,google.com,677.976638,44
+Query failed: SSL peer certificate or SSH remote key was not OK,https://dohtrial.att.net/dns-query,google.com, , 
+Query failed: SSL peer certificate or SSH remote key was not OK,https://dohtrial.att.net/dns-query,netflix.com, , 
+ok,https://dnses.alekberg.net/dns-query,google.com,377.755427,324
+ok,https://dnses.alekberg.net/dns-query,netflix.com,467.126720,260
+Query got response: 404,https://doh.bortzmeyer.fr/dns-query,google.com, , 
+Query got response: 404,https://doh.bortzmeyer.fr/dns-query,netflix.com, , 
+ok,https://dns.circl.lu/dns-query,google.com,338.462938,54
+ok,https://dns.circl.lu/dns-query,netflix.com,351.797435,110
+ok,https://doh.opendns.com/dns-query,google.com,77.122176,44
+ok,https://doh.opendns.com/dns-query,netflix.com,77.144632,77
+ok,https://dns.cloudflare.com/dns-query,google.com,77.843987,44
+ok,https://dns.cloudflare.com/dns-query,netflix.com,94.082654,77
+ok,https://family.cloudflare-dns.com/dns-query,google.com,49.434033,44
+ok,https://family.cloudflare-dns.com/dns-query,netflix.com,49.960692,77
+ok,https://security.cloudflare-dns.com/dns-query,google.com,58.634211,44
+ok,https://security.cloudflare-dns.com/dns-query,netflix.com,59.552677,77
+ok,https://odvr.nic.cz/dns-query,google.com,452.405975,44
+ok,https://odvr.nic.cz/dns-query,netflix.com,452.441709,77
+ok,https://dns.digitale-gesellschaft.ch/dns-query,netflix.com,412.379634,121
+ok,https://dns.digitale-gesellschaft.ch/dns-query,google.com,413.008871,65
+ok,https://dns.digitale-gesellschaft.ch/dns-query,netflix.com,332.193640,121
+ok,https://dns.digitale-gesellschaft.ch/dns-query,google.com,332.372281,65
+ok,https://dns1.ryan-palmer.com/dns-query,google.com,318.487489,44
+ok,https://dns1.ryan-palmer.com/dns-query,netflix.com,338.668653,77
+ok,https://doh.dns.sb/dns-query,google.com,123.536933,65
+ok,https://doh.dns.sb/dns-query,netflix.com,143.867711,121
+error,netflix.com,943.877321,8
+error,google.com,944.676359,8
+Query failed: SSL connect error,https://dns1.dnscrypt.ca/dns-query,google.com, , 
+Query failed: SSL connect error,https://dns1.dnscrypt.ca/dns-query,netflix.com, , 
+Query failed: SSL connect error,https://dns2.dnscrypt.ca/dns-query,google.com, , 
+Query failed: SSL connect error,https://dns2.dnscrypt.ca/dns-query,netflix.com, , 
+ok,https://dns-doh.dnsforfamily.com/dns-query,google.com,536.621456,74
+ok,https://dns-doh.dnsforfamily.com/dns-query,netflix.com,538.814547,77
+ok,https://dns-doh-no-safe-search.dnsforfamily.com/dns-query,google.com,535.228069,44
+ok,https://dns-doh-no-safe-search.dnsforfamily.com/dns-query,netflix.com,537.455244,77
+ok,https://dnsforge.de/dns-query,google.com,300.258677,44
+ok,https://dnsforge.de/dns-query,netflix.com,309.230059,77
+ok,https://dns.dnshome.de/dns-query,google.com,453.626507,44
+ok,https://dns.dnshome.de/dns-query,netflix.com,458.459655,77
+ok,https://doh.pub/dns-query,google.com,675.778317,77
+ok,https://doh.pub/dns-query,netflix.com,870.215240,133
+ok,https://doh-ch.blahdns.com/dns-query,google.com,330.209020,65
+ok,https://doh-ch.blahdns.com/dns-query,netflix.com,331.846801,121
+Problem 7 decoding 38405 bytes response to probe,https://doh.cleanbrowsing.org/dns-query,google.com, , 
+Problem 7 decoding 38405 bytes response to probe,https://doh.cleanbrowsing.org/dns-query,netflix.com, , 
+Problem 7 decoding 38405 bytes response to probe,https://doh.cleanbrowsing.org/dns-query,google.com, , 
+Problem 7 decoding 38405 bytes response to probe,https://doh.cleanbrowsing.org/dns-query,netflix.com, , 
+Problem 7 decoding 38405 bytes response to probe,https://doh.cleanbrowsing.org/dns-query,google.com, , 
+Problem 7 decoding 38405 bytes response to probe,https://doh.cleanbrowsing.org/dns-query,netflix.com, , 
+Query got response: 405,https://doh.crypto.sx/dns-query,google.com, , 
+Query got response: 405,https://doh.crypto.sx/dns-query,netflix.com, , 
+ok,https://doh-de.blahdns.com/dns-query,google.com,302.133533,65
+ok,https://doh-de.blahdns.com/dns-query,netflix.com,309.673433,121
+ok,https://doh-fi.blahdns.com/dns-query,google.com,382.124964,65
+ok,https://doh-fi.blahdns.com/dns-query,netflix.com,390.566859,121
+ok,https://ibksturm.synology.me/dns-query,netflix.com,645.142601,77
+ok,https://ibksturm.synology.me/dns-query,google.com,657.198315,44
+ok,https://doh-jp.blahdns.com/dns-query,netflix.com,522.463462,121
+ok,https://doh-jp.blahdns.com/dns-query,google.com,552.044014,65
+ok,https://doh-sg.blahdns.com/dns-query,google.com,776.799486,65
+ok,https://doh-sg.blahdns.com/dns-query,netflix.com,778.577835,121
+Query got response: 404,https://doh.appliedprivacy.net/dns-query,google.com, , 
+Query got response: 404,https://doh.appliedprivacy.net/dns-query,netflix.com, , 
+ok,https://doh.ffmuc.net/dns-query,google.com,601.347950,44
+ok,https://doh.ffmuc.net/dns-query,netflix.com,601.319744,77
+ok,https://doh.tiarap.org/dns-query,google.com,345.087817,68
+ok,https://doh.tiarap.org/dns-query,netflix.com,363.532817,132
+Query failed: SSL peer certificate or SSH remote key was not OK,https://dns.emeraldonion.org/dns-query,google.com, , 
+Query failed: SSL peer certificate or SSH remote key was not OK,https://dns.emeraldonion.org/dns-query,netflix.com, , 
+ok,https://dns.google/dns-query,netflix.com,47.657584,77
+ok,https://dns.google/dns-query,google.com,47.813443,44
+ok,https://ordns.he.net/dns-query,google.com,43.730278,44
+ok,https://ordns.he.net/dns-query,netflix.com,44.971281,77
+Query failed: Couldn't connect to server,https://doh.tiar.app/dns-query,google.com, , 
+Query failed: Couldn't connect to server,https://doh.tiar.app/dns-query,netflix.com, , 
+ok,https://public.dns.iij.jp/dns-query,google.com,257.253653,54
+ok,https://public.dns.iij.jp/dns-query,netflix.com,266.701668,110
+ok,https://doh.this.web.id/dns-query,google.com,1376.513579,195
+ok,https://doh.this.web.id/dns-query,netflix.com,1376.550260,121
+Query failed: Couldn't connect to server,https://jp.tiar.app/dns-query,google.com, , 
+Query failed: Couldn't connect to server,https://jp.tiar.app/dns-query,netflix.com, , 
+ok,https://jp.tiarap.org/dns-query,netflix.com,246.571591,132
+ok,https://jp.tiarap.org/dns-query,google.com,270.137513,68
+ok,https://doh.libredns.gr/dns-query,google.com,418.558259,44
+ok,https://doh.libredns.gr/dns-query,netflix.com,424.977816,77
+ok,https://doh.libredns.gr/dns-query,netflix.com,298.018127,77
+ok,https://doh.libredns.gr/dns-query,google.com,298.163975,44
+ok,https://doh.linuxsec.org/dns-query,google.com,1050.966189,195
+ok,https://doh.linuxsec.org/dns-query,netflix.com,1050.960996,304
+ok,https://doh.linuxsec.org/dns-query,google.com,1021.026112,195
+ok,https://doh.linuxsec.org/dns-query,netflix.com,1021.130571,304
+ok,https://adblock.doh.mullvad.net/dns-query,google.com,60.070912,44
+ok,https://adblock.doh.mullvad.net/dns-query,netflix.com,60.023461,77
+ok,https://doh.mullvad.net/dns-query,google.com,72.542776,44
+ok,https://doh.mullvad.net/dns-query,netflix.com,72.496267,77
+ok,https://dns.nextdns.io/dns-query,google.com,107.856172,44
+ok,https://dns.nextdns.io/dns-query,netflix.com,107.862933,77
+ok,https://dns.njal.la/dns-query,google.com,441.842985,44
+ok,https://dns.njal.la/dns-query,netflix.com,445.677764,77
+Query got response: 405,https://doh.post-factum.tk/dns-query,netflix.com, , 
+Query got response: 405,https://doh.post-factum.tk/dns-query,google.com, , 
+ok,https://draco.plan9-ns2.com/dns-query,google.com,119.371552,44
+ok,https://draco.plan9-ns2.com/dns-query,netflix.com,119.470791,77
+ok,https://doh.powerdns.org/dns-query,google.com,285.376016,44
+ok,https://doh.powerdns.org/dns-query,netflix.com,294.383239,77
+Query failed: SSL connect error,https://doh.seby.io/dns-query,google.com, , 
+Query failed: SSL connect error,https://doh.seby.io/dns-query,netflix.com, , 
+ok,https://doh-2.seby.io/dns-query,google.com,632.419287,65
+ok,https://doh-2.seby.io/dns-query,netflix.com,632.367414,121
+ok,https://dns.twnic.tw/dns-query,google.com,1019.763672,76
+ok,https://dns.twnic.tw/dns-query,netflix.com,1056.748070,132
+ok,https://dns9.quad9.net/dns-query,google.com,42.972668,44
+ok,https://dns9.quad9.net/dns-query,netflix.com,43.542222,77
+ok,https://dns9.quad9.net/dns-query,netflix.com,42.330398,77
+ok,https://dns9.quad9.net/dns-query,google.com,42.989835,44
+ok,https://dnsse.alekberg.net/dns-query,google.com,2074.738505,324
+ok,https://dnsse.alekberg.net/dns-query,netflix.com,2090.241633,388
+ok,https://dns.switch.ch/dns-query,google.com,426.384198,44
+ok,https://dns.switch.ch/dns-query,netflix.com,426.372343,77
+ok,https://dns.t53.de/dns-query,google.com,477.211916,44
+ok,https://dns.t53.de/dns-query,netflix.com,493.748843,77
+ok,https://sg.yepdns.com/dns-query,netflix.com,815.905427,88
+ok,https://sg.yepdns.com/dns-query,google.com,820.840633,135
+ok,total_run_time,195132.010232,0
+status,resolver,domain,time,size
+ok,https://dns.google/dns-query,google.com,48.416791,44
+ok,https://dns.google/dns-query,netflix.com,49.775767,77
+ok,https://dns.aa.net.uk/dns-query,google.com,388.508184,44
+ok,https://dns.aa.net.uk/dns-query,netflix.com,389.184204,213
+Query failed: SSL peer certificate or SSH remote key was not OK,https://dohtrial.att.net/dns-query,google.com, , 
+Query failed: SSL peer certificate or SSH remote key was not OK,https://dohtrial.att.net/dns-query,netflix.com, , 
+Query failed: SSL connect error,https://dns1.dnscrypt.ca/dns-query,google.com, , 
+Query failed: SSL connect error,https://dns1.dnscrypt.ca/dns-query,netflix.com, , 
+Problem 7 decoding 38405 bytes response to probe,https://doh.cleanbrowsing.org/dns-query,google.com, , 
+Problem 7 decoding 38405 bytes response to probe,https://doh.cleanbrowsing.org/dns-query,netflix.com, , 
+ok,total_run_time,20907.459459,0
+ok,https://dns.google/dns-query,netflix.com,74.635156,77
+ok,https://dns.google/dns-query,google.com,79.108044,44
+ok,https://dns.aa.net.uk/dns-query,google.com,270.275284,44
+ok,https://dns.aa.net.uk/dns-query,netflix.com,270.250395,213
+ok,https://dohtrial.att.net/dns-query,google.com,139.052211,124
+ok,https://dohtrial.att.net/dns-query,netflix.com,147.761619,77
+Query failed: SSL connect error,https://dns1.dnscrypt.ca/dns-query,google.com, , 
+Query failed: SSL connect error,https://dns1.dnscrypt.ca/dns-query,netflix.com, , 
+Problem 7 decoding 38405 bytes response to probe,https://doh.cleanbrowsing.org/dns-query,google.com, , 
+Problem 7 decoding 38405 bytes response to probe,https://doh.cleanbrowsing.org/dns-query,netflix.com, , 
+ok,total_run_time,20936.280453,0
