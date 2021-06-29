@@ -17,8 +17,8 @@ void print_ok(char *domain, uint64_t nanosec, size_t size) {
         printf("ok,%s,%lf,%zu\n", domain, nanosec / 1e6, size);
 }
 
-void print_ok1(char *recursor, char *domain, uint64_t nanosec, size_t size) {
-	printf("ok,%s,%s,%lf,%zu\n", recursor, domain, nanosec / 1e6, size);
+void print_ok1(char *recursor, char *domain, uint64_t nanosec, size_t size, char *buf) {
+	printf("ok,%s,%s,%lf,%zu,%s\n", recursor, domain, nanosec / 1e6, size, buf);
 }
 
 void print_error(char *domain, uint64_t nanosec, int status) {
