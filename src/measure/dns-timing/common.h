@@ -6,7 +6,7 @@ enum protocol_t { Do53, Do53sync, DoT, DoH };
 uint64_t nanosec_since(struct timespec since);
 void print_ok(char *domain, uint64_t nanosec, size_t size);
 void print_ok1(char *recursor, char *domain, uint64_t nanosec, size_t size, char *buf);
-void print_error(char *domain, uint64_t nanosec, int status);
+void print_error(char *recursor, char *domain, uint64_t nanosec, int status);
 
 #ifndef DEBUG
 #define DEBUG 0
