@@ -1,0 +1,1501 @@
+ok,https://dns.google/dns-query,google.com,76.555263,44,Mon Jul  5 13:33:46 2021
+ok,https://dns.google/dns-query,netflix.com,78.199970,77,Mon Jul  5 13:33:46 2021
+ok,https://dns.aa.net.uk/dns-query,google.com,426.684289,44,Mon Jul  5 13:33:46 2021
+ok,https://dns.aa.net.uk/dns-query,netflix.com,427.082342,213,Mon Jul  5 13:33:46 2021
+ok,https://adfree.usableprivacy.net/dns-query,google.com,429.358681,44,Mon Jul  5 13:33:46 2021
+ok,https://adfree.usableprivacy.net/dns-query,netflix.com,441.978726,77,Mon Jul  5 13:33:46 2021
+ok,https://dns.adguard.com/dns-query,google.com,94.371463,44,Mon Jul  5 13:33:47 2021
+ok,https://dns.adguard.com/dns-query,netflix.com,94.582152,77,Mon Jul  5 13:33:47 2021
+ok,https://dns-family.adguard.com/dns-query,google.com,93.709789,44,Mon Jul  5 13:33:47 2021
+ok,https://dns-family.adguard.com/dns-query,netflix.com,93.837591,77,Mon Jul  5 13:33:47 2021
+ok,https://doh.in.ahadns.net/dns-query,google.com,758.351470,65,Mon Jul  5 13:33:47 2021
+ok,https://doh.in.ahadns.net/dns-query,netflix.com,1265.346167,121,Mon Jul  5 13:33:47 2021
+ok,https://doh.la.ahadns.net/dns-query,google.com,257.688125,195,Mon Jul  5 13:33:48 2021
+ok,https://doh.la.ahadns.net/dns-query,netflix.com,257.919455,121,Mon Jul  5 13:33:48 2021
+ok,https://doh.nl.ahadns.net/dns-query,netflix.com,316.173002,121,Mon Jul  5 13:33:48 2021
+ok,https://doh.nl.ahadns.net/dns-query,google.com,316.367849,65,Mon Jul  5 13:33:48 2021
+ok,https://dns.alidns.com/dns-query,google.com,74.540468,65,Mon Jul  5 13:33:49 2021
+ok,https://dns.alidns.com/dns-query,netflix.com,76.427159,121,Mon Jul  5 13:33:49 2021
+ok,https://dnsnl.alekberg.net/dns-query,google.com,423.996700,68,Mon Jul  5 13:33:49 2021
+ok,https://dnsnl.alekberg.net/dns-query,netflix.com,426.317439,132,Mon Jul  5 13:33:49 2021
+ok,https://dnsnl.alekberg.net/dns-query,google.com,289.110464,68,Mon Jul  5 13:33:49 2021
+ok,https://dnsnl.alekberg.net/dns-query,netflix.com,289.811339,132,Mon Jul  5 13:33:49 2021
+ok,https://dns.arapurayil.com/dns-query,google.com,630.618637,44,Mon Jul  5 13:33:49 2021
+ok,https://dns.arapurayil.com/dns-query,netflix.com,632.458968,77,Mon Jul  5 13:33:49 2021
+Query failed: SSL peer certificate or SSH remote key was not OK,https://dohtrial.att.net/dns-query,google.com, , ,Mon Jul  5 13:33:50 2021
+Query failed: SSL peer certificate or SSH remote key was not OK,https://dohtrial.att.net/dns-query,netflix.com, , ,Mon Jul  5 13:33:50 2021
+ok,https://dnses.alekberg.net/dns-query,google.com,499.188235,324,Mon Jul  5 13:33:50 2021
+ok,https://dnses.alekberg.net/dns-query,netflix.com,618.250515,388,Mon Jul  5 13:33:50 2021
+Query got response: 404,https://doh.bortzmeyer.fr/dns-query,google.com, , ,Mon Jul  5 13:33:51 2021
+Query got response: 404,https://doh.bortzmeyer.fr/dns-query,netflix.com, , ,Mon Jul  5 13:33:51 2021
+ok,https://dns.circl.lu/dns-query,google.com,492.124805,54,Mon Jul  5 13:33:51 2021
+ok,https://dns.circl.lu/dns-query,netflix.com,494.116279,110,Mon Jul  5 13:33:51 2021
+ok,https://doh.opendns.com/dns-query,google.com,81.995326,44,Mon Jul  5 13:33:52 2021
+ok,https://doh.opendns.com/dns-query,netflix.com,98.405581,77,Mon Jul  5 13:33:52 2021
+ok,https://dns.cloudflare.com/dns-query,google.com,59.930152,44,Mon Jul  5 13:33:52 2021
+ok,https://dns.cloudflare.com/dns-query,netflix.com,59.995892,77,Mon Jul  5 13:33:52 2021
+ok,https://family.cloudflare-dns.com/dns-query,netflix.com,95.435062,77,Mon Jul  5 13:33:52 2021
+ok,https://family.cloudflare-dns.com/dns-query,google.com,96.449242,44,Mon Jul  5 13:33:52 2021
+ok,https://security.cloudflare-dns.com/dns-query,netflix.com,90.451597,77,Mon Jul  5 13:33:52 2021
+ok,https://security.cloudflare-dns.com/dns-query,google.com,95.689309,44,Mon Jul  5 13:33:52 2021
+ok,https://odvr.nic.cz/dns-query,google.com,466.004388,44,Mon Jul  5 13:33:52 2021
+ok,https://odvr.nic.cz/dns-query,netflix.com,466.018160,77,Mon Jul  5 13:33:52 2021
+ok,https://dns.digitale-gesellschaft.ch/dns-query,google.com,451.632490,65,Mon Jul  5 13:33:52 2021
+ok,https://dns.digitale-gesellschaft.ch/dns-query,netflix.com,451.688311,121,Mon Jul  5 13:33:52 2021
+ok,https://dns.digitale-gesellschaft.ch/dns-query,google.com,332.957016,65,Mon Jul  5 13:33:53 2021
+ok,https://dns.digitale-gesellschaft.ch/dns-query,netflix.com,333.080059,121,Mon Jul  5 13:33:53 2021
+ok,https://dns1.ryan-palmer.com/dns-query,google.com,434.835656,44,Mon Jul  5 13:33:53 2021
+ok,https://dns1.ryan-palmer.com/dns-query,netflix.com,438.082056,77,Mon Jul  5 13:33:53 2021
+ok,https://doh.dns.sb/dns-query,google.com,142.063317,65,Mon Jul  5 13:33:54 2021
+ok,https://doh.dns.sb/dns-query,netflix.com,145.258822,121,Mon Jul  5 13:33:54 2021
+ok,https://dns.therifleman.name/dns-query,google.com,703.277677,55,Mon Jul  5 13:33:54 2021
+ok,https://dns.therifleman.name/dns-query,netflix.com,705.582030,88,Mon Jul  5 13:33:54 2021
+Query failed: SSL connect error,https://dns1.dnscrypt.ca/dns-query,google.com, , ,Mon Jul  5 13:33:54 2021
+Query failed: SSL connect error,https://dns1.dnscrypt.ca/dns-query,netflix.com, , ,Mon Jul  5 13:33:54 2021
+Query failed: SSL connect error,https://dns2.dnscrypt.ca/dns-query,google.com, , ,Mon Jul  5 13:34:15 2021
+Query failed: SSL connect error,https://dns2.dnscrypt.ca/dns-query,netflix.com, , ,Mon Jul  5 13:34:15 2021
+ok,https://dns-doh.dnsforfamily.com/dns-query,google.com,549.996940,74,Mon Jul  5 13:34:35 2021
+ok,https://dns-doh.dnsforfamily.com/dns-query,netflix.com,551.273599,77,Mon Jul  5 13:34:35 2021
+ok,https://dns-doh-no-safe-search.dnsforfamily.com/dns-query,google.com,527.775677,44,Mon Jul  5 13:34:35 2021
+ok,https://dns-doh-no-safe-search.dnsforfamily.com/dns-query,netflix.com,553.588553,77,Mon Jul  5 13:34:35 2021
+ok,https://dnsforge.de/dns-query,netflix.com,524.873680,77,Mon Jul  5 13:34:36 2021
+ok,https://dnsforge.de/dns-query,google.com,525.026735,44,Mon Jul  5 13:34:36 2021
+ok,https://dns.dnshome.de/dns-query,google.com,544.888614,44,Mon Jul  5 13:34:36 2021
+ok,https://dns.dnshome.de/dns-query,netflix.com,560.292439,77,Mon Jul  5 13:34:36 2021
+ok,https://doh.pub/dns-query,google.com,632.889213,77,Mon Jul  5 13:34:37 2021
+ok,https://doh.pub/dns-query,netflix.com,752.946699,133,Mon Jul  5 13:34:37 2021
+ok,https://doh-ch.blahdns.com/dns-query,google.com,360.589743,195,Mon Jul  5 13:34:38 2021
+ok,https://doh-ch.blahdns.com/dns-query,netflix.com,361.983436,121,Mon Jul  5 13:34:38 2021
+Problem 7 decoding 38445 bytes response to probe,https://doh.cleanbrowsing.org/dns-query,google.com, , ,Mon Jul  5 13:34:38 2021
+Problem 7 decoding 38445 bytes response to probe,https://doh.cleanbrowsing.org/dns-query,netflix.com, , ,Mon Jul  5 13:34:38 2021
+Problem 7 decoding 38445 bytes response to probe,https://doh.cleanbrowsing.org/dns-query,google.com, , ,Mon Jul  5 13:34:38 2021
+Problem 7 decoding 38445 bytes response to probe,https://doh.cleanbrowsing.org/dns-query,netflix.com, , ,Mon Jul  5 13:34:38 2021
+Problem 7 decoding 38445 bytes response to probe,https://doh.cleanbrowsing.org/dns-query,google.com, , ,Mon Jul  5 13:34:39 2021
+Problem 7 decoding 38445 bytes response to probe,https://doh.cleanbrowsing.org/dns-query,netflix.com, , ,Mon Jul  5 13:34:39 2021
+Query got response: 405,https://doh.crypto.sx/dns-query,google.com, , ,Mon Jul  5 13:34:39 2021
+Query got response: 405,https://doh.crypto.sx/dns-query,netflix.com, , ,Mon Jul  5 13:34:39 2021
+ok,https://doh-de.blahdns.com/dns-query,google.com,331.047040,65,Mon Jul  5 13:34:39 2021
+ok,https://doh-de.blahdns.com/dns-query,netflix.com,336.668727,121,Mon Jul  5 13:34:39 2021
+ok,https://doh-fi.blahdns.com/dns-query,google.com,399.952850,65,Mon Jul  5 13:34:40 2021
+ok,https://doh-fi.blahdns.com/dns-query,netflix.com,407.650955,121,Mon Jul  5 13:34:40 2021
+ok,https://ibksturm.synology.me/dns-query,google.com,690.360554,124,Mon Jul  5 13:34:40 2021
+ok,https://ibksturm.synology.me/dns-query,netflix.com,717.390367,77,Mon Jul  5 13:34:40 2021
+ok,https://doh-jp.blahdns.com/dns-query,google.com,566.709856,65,Mon Jul  5 13:34:41 2021
+ok,https://doh-jp.blahdns.com/dns-query,netflix.com,568.795201,121,Mon Jul  5 13:34:41 2021
+ok,https://doh-sg.blahdns.com/dns-query,netflix.com,844.338597,121,Mon Jul  5 13:34:41 2021
+Query got response: 503,https://doh-sg.blahdns.com/dns-query,google.com, , ,Mon Jul  5 13:34:41 2021
+Query got response: 404,https://doh.appliedprivacy.net/dns-query,google.com, , ,Mon Jul  5 13:34:45 2021
+Query got response: 404,https://doh.appliedprivacy.net/dns-query,netflix.com, , ,Mon Jul  5 13:34:45 2021
+ok,https://doh.ffmuc.net/dns-query,google.com,770.399587,44,Mon Jul  5 13:34:46 2021
+ok,https://doh.ffmuc.net/dns-query,netflix.com,770.372475,77,Mon Jul  5 13:34:46 2021
+ok,https://doh.tiarap.org/dns-query,google.com,332.093228,68,Mon Jul  5 13:34:46 2021
+ok,https://doh.tiarap.org/dns-query,netflix.com,333.556842,132,Mon Jul  5 13:34:46 2021
+Query failed: SSL peer certificate or SSH remote key was not OK,https://dns.emeraldonion.org/dns-query,google.com, , ,Mon Jul  5 13:34:47 2021
+Query failed: SSL peer certificate or SSH remote key was not OK,https://dns.emeraldonion.org/dns-query,netflix.com, , ,Mon Jul  5 13:34:47 2021
+ok,https://dns.google/dns-query,google.com,45.291544,44,Mon Jul  5 13:34:47 2021
+ok,https://dns.google/dns-query,netflix.com,48.945644,77,Mon Jul  5 13:34:47 2021
+ok,https://ordns.he.net/dns-query,google.com,123.275114,44,Mon Jul  5 13:34:47 2021
+ok,https://ordns.he.net/dns-query,netflix.com,123.280402,77,Mon Jul  5 13:34:47 2021
+Query failed: Couldn't connect to server,https://doh.tiar.app/dns-query,google.com, , ,Mon Jul  5 13:34:47 2021
+Query failed: Couldn't connect to server,https://doh.tiar.app/dns-query,netflix.com, , ,Mon Jul  5 13:34:47 2021
+ok,https://public.dns.iij.jp/dns-query,google.com,348.757113,54,Mon Jul  5 13:35:50 2021
+ok,https://public.dns.iij.jp/dns-query,netflix.com,372.749134,110,Mon Jul  5 13:35:50 2021
+ok,https://doh.this.web.id/dns-query,google.com,1379.451244,65,Mon Jul  5 13:35:51 2021
+ok,https://doh.this.web.id/dns-query,netflix.com,1620.431411,121,Mon Jul  5 13:35:51 2021
+Query failed: Couldn't connect to server,https://jp.tiar.app/dns-query,google.com, , ,Mon Jul  5 13:35:52 2021
+Query failed: Couldn't connect to server,https://jp.tiar.app/dns-query,netflix.com, , ,Mon Jul  5 13:35:52 2021
+ok,https://jp.tiarap.org/dns-query,netflix.com,271.434715,132,Mon Jul  5 13:36:55 2021
+ok,https://jp.tiarap.org/dns-query,google.com,813.526185,68,Mon Jul  5 13:36:55 2021
+ok,https://doh.libredns.gr/dns-query,google.com,463.324958,44,Mon Jul  5 13:36:56 2021
+ok,https://doh.libredns.gr/dns-query,netflix.com,468.531174,77,Mon Jul  5 13:36:56 2021
+ok,https://doh.libredns.gr/dns-query,netflix.com,292.419326,77,Mon Jul  5 13:36:57 2021
+ok,https://doh.libredns.gr/dns-query,google.com,292.624652,44,Mon Jul  5 13:36:57 2021
+ok,https://doh.linuxsec.org/dns-query,google.com,1026.545392,195,Mon Jul  5 13:36:57 2021
+ok,https://doh.linuxsec.org/dns-query,netflix.com,1026.533012,304,Mon Jul  5 13:36:57 2021
+ok,https://doh.linuxsec.org/dns-query,netflix.com,1041.641613,304,Mon Jul  5 13:36:58 2021
+ok,https://doh.linuxsec.org/dns-query,google.com,1042.832987,195,Mon Jul  5 13:36:58 2021
+ok,https://adblock.doh.mullvad.net/dns-query,google.com,161.618175,44,Mon Jul  5 13:36:59 2021
+ok,https://adblock.doh.mullvad.net/dns-query,netflix.com,161.569393,77,Mon Jul  5 13:36:59 2021
+ok,https://doh.mullvad.net/dns-query,google.com,89.044819,44,Mon Jul  5 13:36:59 2021
+ok,https://doh.mullvad.net/dns-query,netflix.com,88.999683,77,Mon Jul  5 13:36:59 2021
+ok,https://dns.nextdns.io/dns-query,netflix.com,262.986712,77,Mon Jul  5 13:36:59 2021
+ok,https://dns.nextdns.io/dns-query,google.com,263.715833,44,Mon Jul  5 13:36:59 2021
+ok,https://dns.njal.la/dns-query,netflix.com,585.902711,77,Mon Jul  5 13:37:00 2021
+ok,https://dns.njal.la/dns-query,google.com,614.093488,44,Mon Jul  5 13:37:00 2021
+Query got response: 405,https://doh.post-factum.tk/dns-query,google.com, , ,Mon Jul  5 13:37:00 2021
+Query got response: 405,https://doh.post-factum.tk/dns-query,netflix.com, , ,Mon Jul  5 13:37:00 2021
+ok,https://draco.plan9-ns2.com/dns-query,google.com,142.985766,124,Mon Jul  5 13:37:01 2021
+ok,https://draco.plan9-ns2.com/dns-query,netflix.com,143.982328,77,Mon Jul  5 13:37:01 2021
+ok,https://doh.powerdns.org/dns-query,google.com,504.471961,44,Mon Jul  5 13:37:01 2021
+ok,https://doh.powerdns.org/dns-query,netflix.com,508.555903,77,Mon Jul  5 13:37:01 2021
+Query failed: SSL connect error,https://doh.seby.io/dns-query,google.com, , ,Mon Jul  5 13:37:01 2021
+Query failed: SSL connect error,https://doh.seby.io/dns-query,netflix.com, , ,Mon Jul  5 13:37:01 2021
+ok,https://doh-2.seby.io/dns-query,google.com,648.775953,65,Mon Jul  5 13:37:02 2021
+ok,https://doh-2.seby.io/dns-query,netflix.com,649.423700,121,Mon Jul  5 13:37:02 2021
+ok,https://dns.twnic.tw/dns-query,google.com,1054.090104,76,Mon Jul  5 13:37:03 2021
+ok,https://dns.twnic.tw/dns-query,netflix.com,1054.107973,132,Mon Jul  5 13:37:03 2021
+ok,https://dns9.quad9.net/dns-query,google.com,69.740908,44,Mon Jul  5 13:37:04 2021
+ok,https://dns9.quad9.net/dns-query,netflix.com,69.725597,77,Mon Jul  5 13:37:04 2021
+ok,https://dns9.quad9.net/dns-query,google.com,42.147855,44,Mon Jul  5 13:37:04 2021
+ok,https://dns9.quad9.net/dns-query,netflix.com,42.132429,77,Mon Jul  5 13:37:04 2021
+ok,https://dnsse.alekberg.net/dns-query,netflix.com,514.380356,388,Mon Jul  5 13:37:04 2021
+ok,https://dnsse.alekberg.net/dns-query,google.com,516.400782,324,Mon Jul  5 13:37:04 2021
+ok,https://dns.switch.ch/dns-query,netflix.com,537.371012,77,Mon Jul  5 13:37:05 2021
+ok,https://dns.switch.ch/dns-query,google.com,537.512632,44,Mon Jul  5 13:37:05 2021
+ok,https://dns.t53.de/dns-query,google.com,775.374960,44,Mon Jul  5 13:37:05 2021
+ok,https://dns.t53.de/dns-query,netflix.com,780.163060,77,Mon Jul  5 13:37:05 2021
+ok,https://sg.yepdns.com/dns-query,google.com,851.479677,135,Mon Jul  5 13:37:06 2021
+ok,https://sg.yepdns.com/dns-query,netflix.com,851.883470,88,Mon Jul  5 13:37:06 2021
+ok,total_run_time,201048.778434,0
+
+ok,https://dns.google/dns-query,google.com,46.303374,44,Mon Jul  5 13:37:07 2021
+ok,https://dns.google/dns-query,netflix.com,48.084208,77,Mon Jul  5 13:37:07 2021
+ok,https://dns.aa.net.uk/dns-query,google.com,267.565219,44,Mon Jul  5 13:37:07 2021
+ok,https://dns.aa.net.uk/dns-query,netflix.com,268.335764,213,Mon Jul  5 13:37:07 2021
+ok,https://adfree.usableprivacy.net/dns-query,google.com,361.273096,44,Mon Jul  5 13:37:07 2021
+ok,https://adfree.usableprivacy.net/dns-query,netflix.com,394.091473,77,Mon Jul  5 13:37:07 2021
+ok,https://dns.adguard.com/dns-query,google.com,70.275661,44,Mon Jul  5 13:37:07 2021
+ok,https://dns.adguard.com/dns-query,netflix.com,70.321128,77,Mon Jul  5 13:37:07 2021
+ok,https://dns-family.adguard.com/dns-query,google.com,70.425857,44,Mon Jul  5 13:37:08 2021
+ok,https://dns-family.adguard.com/dns-query,netflix.com,70.530443,77,Mon Jul  5 13:37:08 2021
+ok,https://doh.in.ahadns.net/dns-query,netflix.com,887.996651,121,Mon Jul  5 13:37:08 2021
+ok,https://doh.in.ahadns.net/dns-query,google.com,888.278459,65,Mon Jul  5 13:37:08 2021
+ok,https://doh.la.ahadns.net/dns-query,google.com,229.785258,195,Mon Jul  5 13:37:08 2021
+ok,https://doh.la.ahadns.net/dns-query,netflix.com,229.779764,121,Mon Jul  5 13:37:08 2021
+ok,https://doh.nl.ahadns.net/dns-query,google.com,289.419125,65,Mon Jul  5 13:37:09 2021
+ok,https://doh.nl.ahadns.net/dns-query,netflix.com,290.210797,121,Mon Jul  5 13:37:09 2021
+ok,https://dns.alidns.com/dns-query,google.com,48.915412,65,Mon Jul  5 13:37:09 2021
+ok,https://dns.alidns.com/dns-query,netflix.com,56.837598,121,Mon Jul  5 13:37:09 2021
+ok,https://dnsnl.alekberg.net/dns-query,google.com,299.261957,68,Mon Jul  5 13:37:09 2021
+ok,https://dnsnl.alekberg.net/dns-query,netflix.com,299.241354,132,Mon Jul  5 13:37:09 2021
+ok,https://dnsnl.alekberg.net/dns-query,google.com,310.453448,68,Mon Jul  5 13:37:09 2021
+ok,https://dnsnl.alekberg.net/dns-query,netflix.com,310.423439,132,Mon Jul  5 13:37:09 2021
+ok,https://dns.arapurayil.com/dns-query,google.com,629.312272,44,Mon Jul  5 13:37:10 2021
+ok,https://dns.arapurayil.com/dns-query,netflix.com,629.317173,77,Mon Jul  5 13:37:10 2021
+ok,https://dohtrial.att.net/dns-query,google.com,148.376477,124,Mon Jul  5 13:37:10 2021
+ok,https://dohtrial.att.net/dns-query,netflix.com,155.894089,77,Mon Jul  5 13:37:10 2021
+ok,https://dnses.alekberg.net/dns-query,google.com,337.452929,324,Mon Jul  5 13:37:10 2021
+ok,https://dnses.alekberg.net/dns-query,netflix.com,374.295926,388,Mon Jul  5 13:37:10 2021
+Query got response: 404,https://doh.bortzmeyer.fr/dns-query,google.com, , ,Mon Jul  5 13:37:11 2021
+Query got response: 404,https://doh.bortzmeyer.fr/dns-query,netflix.com, , ,Mon Jul  5 13:37:11 2021
+ok,https://dns.circl.lu/dns-query,google.com,372.594224,54,Mon Jul  5 13:37:11 2021
+ok,https://dns.circl.lu/dns-query,netflix.com,397.912912,110,Mon Jul  5 13:37:11 2021
+ok,https://doh.opendns.com/dns-query,netflix.com,68.432432,77,Mon Jul  5 13:37:12 2021
+ok,https://doh.opendns.com/dns-query,google.com,74.263678,44,Mon Jul  5 13:37:12 2021
+ok,https://dns.cloudflare.com/dns-query,google.com,61.071148,44,Mon Jul  5 13:37:12 2021
+ok,https://dns.cloudflare.com/dns-query,netflix.com,61.169862,77,Mon Jul  5 13:37:12 2021
+ok,https://family.cloudflare-dns.com/dns-query,netflix.com,69.498159,77,Mon Jul  5 13:37:12 2021
+ok,https://family.cloudflare-dns.com/dns-query,google.com,81.476820,44,Mon Jul  5 13:37:12 2021
+ok,https://security.cloudflare-dns.com/dns-query,google.com,53.814166,44,Mon Jul  5 13:37:12 2021
+ok,https://security.cloudflare-dns.com/dns-query,netflix.com,57.627376,77,Mon Jul  5 13:37:12 2021
+ok,https://odvr.nic.cz/dns-query,google.com,332.479901,44,Mon Jul  5 13:37:12 2021
+ok,https://odvr.nic.cz/dns-query,netflix.com,332.486759,77,Mon Jul  5 13:37:12 2021
+ok,https://dns.digitale-gesellschaft.ch/dns-query,google.com,327.319973,65,Mon Jul  5 13:37:12 2021
+ok,https://dns.digitale-gesellschaft.ch/dns-query,netflix.com,327.359221,121,Mon Jul  5 13:37:12 2021
+ok,https://dns.digitale-gesellschaft.ch/dns-query,google.com,334.792172,65,Mon Jul  5 13:37:12 2021
+ok,https://dns.digitale-gesellschaft.ch/dns-query,netflix.com,428.036110,132,Mon Jul  5 13:37:12 2021
+ok,https://dns1.ryan-palmer.com/dns-query,netflix.com,311.971867,77,Mon Jul  5 13:37:13 2021
+ok,https://dns1.ryan-palmer.com/dns-query,google.com,331.239891,44,Mon Jul  5 13:37:13 2021
+ok,https://doh.dns.sb/dns-query,google.com,63.872614,65,Mon Jul  5 13:37:13 2021
+ok,https://doh.dns.sb/dns-query,netflix.com,69.138155,121,Mon Jul  5 13:37:13 2021
+ok,https://dns.therifleman.name/dns-query,google.com,834.409873,55,Mon Jul  5 13:37:13 2021
+ok,https://dns.therifleman.name/dns-query,netflix.com,834.388356,88,Mon Jul  5 13:37:13 2021
+Query failed: SSL connect error,https://dns1.dnscrypt.ca/dns-query,google.com, , ,Mon Jul  5 13:37:14 2021
+Query failed: SSL connect error,https://dns1.dnscrypt.ca/dns-query,netflix.com, , ,Mon Jul  5 13:37:14 2021
+Query failed: SSL connect error,https://dns2.dnscrypt.ca/dns-query,google.com, , ,Mon Jul  5 13:37:34 2021
+Query failed: SSL connect error,https://dns2.dnscrypt.ca/dns-query,netflix.com, , ,Mon Jul  5 13:37:34 2021
+ok,https://dns-doh.dnsforfamily.com/dns-query,google.com,511.905044,74,Mon Jul  5 13:37:54 2021
+ok,https://dns-doh.dnsforfamily.com/dns-query,netflix.com,517.786794,77,Mon Jul  5 13:37:54 2021
+ok,https://dns-doh-no-safe-search.dnsforfamily.com/dns-query,google.com,513.883868,44,Mon Jul  5 13:37:55 2021
+ok,https://dns-doh-no-safe-search.dnsforfamily.com/dns-query,netflix.com,515.125816,77,Mon Jul  5 13:37:55 2021
+ok,https://dnsforge.de/dns-query,google.com,304.617430,44,Mon Jul  5 13:37:55 2021
+ok,https://dnsforge.de/dns-query,netflix.com,320.528301,77,Mon Jul  5 13:37:55 2021
+ok,https://dns.dnshome.de/dns-query,google.com,359.891160,44,Mon Jul  5 13:37:56 2021
+ok,https://dns.dnshome.de/dns-query,netflix.com,359.882104,77,Mon Jul  5 13:37:56 2021
+ok,https://doh.pub/dns-query,google.com,607.659913,77,Mon Jul  5 13:37:56 2021
+ok,https://doh.pub/dns-query,netflix.com,743.572337,133,Mon Jul  5 13:37:56 2021
+ok,https://doh-ch.blahdns.com/dns-query,google.com,349.795862,195,Mon Jul  5 13:37:57 2021
+ok,https://doh-ch.blahdns.com/dns-query,netflix.com,351.144068,121,Mon Jul  5 13:37:57 2021
+Problem 7 decoding 38445 bytes response to probe,https://doh.cleanbrowsing.org/dns-query,google.com, , ,Mon Jul  5 13:37:57 2021
+Problem 7 decoding 38445 bytes response to probe,https://doh.cleanbrowsing.org/dns-query,netflix.com, , ,Mon Jul  5 13:37:57 2021
+Problem 7 decoding 38445 bytes response to probe,https://doh.cleanbrowsing.org/dns-query,google.com, , ,Mon Jul  5 13:37:57 2021
+Problem 7 decoding 38445 bytes response to probe,https://doh.cleanbrowsing.org/dns-query,netflix.com, , ,Mon Jul  5 13:37:57 2021
+Problem 7 decoding 38445 bytes response to probe,https://doh.cleanbrowsing.org/dns-query,google.com, , ,Mon Jul  5 13:37:58 2021
+Problem 7 decoding 38445 bytes response to probe,https://doh.cleanbrowsing.org/dns-query,netflix.com, , ,Mon Jul  5 13:37:58 2021
+Query got response: 405,https://doh.crypto.sx/dns-query,netflix.com, , ,Mon Jul  5 13:37:58 2021
+Query got response: 405,https://doh.crypto.sx/dns-query,google.com, , ,Mon Jul  5 13:37:58 2021
+ok,https://doh-de.blahdns.com/dns-query,google.com,306.748047,65,Mon Jul  5 13:37:58 2021
+ok,https://doh-de.blahdns.com/dns-query,netflix.com,306.912964,121,Mon Jul  5 13:37:58 2021
+ok,https://doh-fi.blahdns.com/dns-query,google.com,359.928626,65,Mon Jul  5 13:37:59 2021
+ok,https://doh-fi.blahdns.com/dns-query,netflix.com,371.516902,121,Mon Jul  5 13:37:59 2021
+ok,https://ibksturm.synology.me/dns-query,google.com,607.629060,124,Mon Jul  5 13:37:59 2021
+ok,https://ibksturm.synology.me/dns-query,netflix.com,629.842774,77,Mon Jul  5 13:37:59 2021
+ok,https://doh-jp.blahdns.com/dns-query,google.com,557.995691,65,Mon Jul  5 13:38:00 2021
+ok,https://doh-jp.blahdns.com/dns-query,netflix.com,560.571810,121,Mon Jul  5 13:38:00 2021
+ok,https://doh-sg.blahdns.com/dns-query,google.com,747.981238,65,Mon Jul  5 13:38:00 2021
+ok,https://doh-sg.blahdns.com/dns-query,netflix.com,751.266164,121,Mon Jul  5 13:38:00 2021
+Query got response: 404,https://doh.appliedprivacy.net/dns-query,google.com, , ,Mon Jul  5 13:38:01 2021
+Query got response: 404,https://doh.appliedprivacy.net/dns-query,netflix.com, , ,Mon Jul  5 13:38:01 2021
+ok,https://doh.ffmuc.net/dns-query,netflix.com,599.704207,77,Mon Jul  5 13:38:01 2021
+ok,https://doh.ffmuc.net/dns-query,google.com,599.827609,44,Mon Jul  5 13:38:01 2021
+ok,https://doh.tiarap.org/dns-query,netflix.com,359.554595,132,Mon Jul  5 13:38:02 2021
+ok,https://doh.tiarap.org/dns-query,google.com,366.141419,68,Mon Jul  5 13:38:02 2021
+Query failed: SSL peer certificate or SSH remote key was not OK,https://dns.emeraldonion.org/dns-query,google.com, , ,Mon Jul  5 13:38:02 2021
+Query failed: SSL peer certificate or SSH remote key was not OK,https://dns.emeraldonion.org/dns-query,netflix.com, , ,Mon Jul  5 13:38:02 2021
+ok,https://dns.google/dns-query,google.com,46.698970,44,Mon Jul  5 13:38:02 2021
+ok,https://dns.google/dns-query,netflix.com,50.072209,77,Mon Jul  5 13:38:02 2021
+ok,https://ordns.he.net/dns-query,google.com,42.252447,44,Mon Jul  5 13:38:02 2021
+ok,https://ordns.he.net/dns-query,netflix.com,47.049476,77,Mon Jul  5 13:38:02 2021
+Query failed: Couldn't connect to server,https://doh.tiar.app/dns-query,google.com, , ,Mon Jul  5 13:38:02 2021
+Query failed: Couldn't connect to server,https://doh.tiar.app/dns-query,netflix.com, , ,Mon Jul  5 13:38:02 2021
+ok,https://public.dns.iij.jp/dns-query,google.com,225.800763,54,Mon Jul  5 13:39:05 2021
+ok,https://public.dns.iij.jp/dns-query,netflix.com,265.991501,110,Mon Jul  5 13:39:05 2021
+ok,https://doh.this.web.id/dns-query,netflix.com,1235.304349,121,Mon Jul  5 13:39:06 2021
+ok,https://doh.this.web.id/dns-query,google.com,1235.453153,65,Mon Jul  5 13:39:06 2021
+Query failed: Couldn't connect to server,https://jp.tiar.app/dns-query,google.com, , ,Mon Jul  5 13:39:07 2021
+Query failed: Couldn't connect to server,https://jp.tiar.app/dns-query,netflix.com, , ,Mon Jul  5 13:39:07 2021
+ok,https://jp.tiarap.org/dns-query,google.com,263.980539,68,Mon Jul  5 13:40:10 2021
+ok,https://jp.tiarap.org/dns-query,netflix.com,267.426458,132,Mon Jul  5 13:40:10 2021
+ok,https://doh.libredns.gr/dns-query,google.com,296.451332,44,Mon Jul  5 13:40:10 2021
+ok,https://doh.libredns.gr/dns-query,netflix.com,301.176017,77,Mon Jul  5 13:40:10 2021
+ok,https://doh.libredns.gr/dns-query,google.com,293.618610,44,Mon Jul  5 13:40:10 2021
+ok,https://doh.libredns.gr/dns-query,netflix.com,293.686171,77,Mon Jul  5 13:40:10 2021
+ok,https://doh.linuxsec.org/dns-query,google.com,1017.992203,195,Mon Jul  5 13:40:11 2021
+ok,https://doh.linuxsec.org/dns-query,netflix.com,1018.361025,304,Mon Jul  5 13:40:11 2021
+ok,https://doh.linuxsec.org/dns-query,google.com,1051.112863,195,Mon Jul  5 13:40:12 2021
+ok,https://doh.linuxsec.org/dns-query,netflix.com,1051.335073,304,Mon Jul  5 13:40:12 2021
+ok,https://adblock.doh.mullvad.net/dns-query,google.com,62.460656,44,Mon Jul  5 13:40:13 2021
+ok,https://adblock.doh.mullvad.net/dns-query,netflix.com,62.412158,77,Mon Jul  5 13:40:13 2021
+ok,https://doh.mullvad.net/dns-query,google.com,62.894567,44,Mon Jul  5 13:40:13 2021
+ok,https://doh.mullvad.net/dns-query,netflix.com,62.848871,77,Mon Jul  5 13:40:13 2021
+ok,https://dns.nextdns.io/dns-query,google.com,105.152463,44,Mon Jul  5 13:40:13 2021
+ok,https://dns.nextdns.io/dns-query,netflix.com,105.707423,77,Mon Jul  5 13:40:13 2021
+ok,https://dns.njal.la/dns-query,netflix.com,444.872711,77,Mon Jul  5 13:40:13 2021
+ok,https://dns.njal.la/dns-query,google.com,462.273834,44,Mon Jul  5 13:40:13 2021
+Query got response: 405,https://doh.post-factum.tk/dns-query,netflix.com, , ,Mon Jul  5 13:40:14 2021
+Query got response: 405,https://doh.post-factum.tk/dns-query,google.com, , ,Mon Jul  5 13:40:14 2021
+ok,https://draco.plan9-ns2.com/dns-query,google.com,116.514010,124,Mon Jul  5 13:40:14 2021
+ok,https://draco.plan9-ns2.com/dns-query,netflix.com,117.481608,77,Mon Jul  5 13:40:14 2021
+ok,https://doh.powerdns.org/dns-query,google.com,291.995983,44,Mon Jul  5 13:40:14 2021
+ok,https://doh.powerdns.org/dns-query,netflix.com,301.839040,77,Mon Jul  5 13:40:14 2021
+Query failed: SSL connect error,https://doh.seby.io/dns-query,google.com, , ,Mon Jul  5 13:40:14 2021
+Query failed: SSL connect error,https://doh.seby.io/dns-query,netflix.com, , ,Mon Jul  5 13:40:14 2021
+ok,https://doh-2.seby.io/dns-query,google.com,640.277481,65,Mon Jul  5 13:40:15 2021
+ok,https://doh-2.seby.io/dns-query,netflix.com,640.177764,121,Mon Jul  5 13:40:15 2021
+ok,https://dns.twnic.tw/dns-query,google.com,32354.403881,76,Mon Jul  5 13:40:16 2021
+ok,https://dns.twnic.tw/dns-query,netflix.com,32354.469409,132,Mon Jul  5 13:40:16 2021
+ok,https://dns9.quad9.net/dns-query,google.com,42.608976,44,Mon Jul  5 13:40:48 2021
+ok,https://dns9.quad9.net/dns-query,netflix.com,42.588859,77,Mon Jul  5 13:40:48 2021
+ok,https://dns9.quad9.net/dns-query,google.com,42.863394,44,Mon Jul  5 13:40:48 2021
+ok,https://dns9.quad9.net/dns-query,netflix.com,49.838271,77,Mon Jul  5 13:40:48 2021
+ok,https://dnsse.alekberg.net/dns-query,google.com,359.861738,324,Mon Jul  5 13:40:48 2021
+ok,https://dnsse.alekberg.net/dns-query,netflix.com,361.965230,388,Mon Jul  5 13:40:48 2021
+ok,https://dns.switch.ch/dns-query,netflix.com,470.935545,77,Mon Jul  5 13:40:49 2021
+ok,https://dns.switch.ch/dns-query,google.com,471.070215,44,Mon Jul  5 13:40:49 2021
+ok,https://dns.t53.de/dns-query,netflix.com,348.684144,77,Mon Jul  5 13:40:49 2021
+ok,https://dns.t53.de/dns-query,google.com,360.445320,44,Mon Jul  5 13:40:49 2021
+ok,https://sg.yepdns.com/dns-query,google.com,763.353206,135,Mon Jul  5 13:40:50 2021
+ok,https://sg.yepdns.com/dns-query,netflix.com,763.468586,88,Mon Jul  5 13:40:50 2021
+ok,total_run_time,223642.079019,0
+
+ok,https://dns.google/dns-query,google.com,45.828440,44,Mon Jul  5 13:40:50 2021
+ok,https://dns.google/dns-query,netflix.com,54.534606,77,Mon Jul  5 13:40:50 2021
+ok,https://dns.aa.net.uk/dns-query,google.com,493.700992,44,Mon Jul  5 13:40:50 2021
+ok,https://dns.aa.net.uk/dns-query,netflix.com,495.175700,213,Mon Jul  5 13:40:50 2021
+ok,https://adfree.usableprivacy.net/dns-query,google.com,391.760551,44,Mon Jul  5 13:40:51 2021
+ok,https://adfree.usableprivacy.net/dns-query,netflix.com,420.965888,77,Mon Jul  5 13:40:51 2021
+ok,https://dns.adguard.com/dns-query,google.com,98.430668,44,Mon Jul  5 13:40:51 2021
+ok,https://dns.adguard.com/dns-query,netflix.com,98.399625,77,Mon Jul  5 13:40:51 2021
+ok,https://dns-family.adguard.com/dns-query,netflix.com,83.804094,77,Mon Jul  5 13:40:51 2021
+ok,https://dns-family.adguard.com/dns-query,google.com,83.924406,44,Mon Jul  5 13:40:51 2021
+ok,https://doh.in.ahadns.net/dns-query,netflix.com,828.274251,121,Mon Jul  5 13:40:52 2021
+ok,https://doh.in.ahadns.net/dns-query,google.com,828.443690,65,Mon Jul  5 13:40:52 2021
+ok,https://doh.la.ahadns.net/dns-query,google.com,247.978536,65,Mon Jul  5 13:40:52 2021
+ok,https://doh.la.ahadns.net/dns-query,netflix.com,249.059153,121,Mon Jul  5 13:40:52 2021
+ok,https://doh.nl.ahadns.net/dns-query,netflix.com,307.543928,121,Mon Jul  5 13:40:53 2021
+ok,https://doh.nl.ahadns.net/dns-query,google.com,309.486689,65,Mon Jul  5 13:40:53 2021
+ok,https://dns.alidns.com/dns-query,google.com,81.170148,65,Mon Jul  5 13:40:53 2021
+ok,https://dns.alidns.com/dns-query,netflix.com,157.091253,121,Mon Jul  5 13:40:53 2021
+ok,https://dnsnl.alekberg.net/dns-query,netflix.com,425.355905,132,Mon Jul  5 13:40:53 2021
+ok,https://dnsnl.alekberg.net/dns-query,google.com,425.511285,68,Mon Jul  5 13:40:53 2021
+ok,https://dnsnl.alekberg.net/dns-query,netflix.com,294.607646,132,Mon Jul  5 13:40:54 2021
+ok,https://dnsnl.alekberg.net/dns-query,google.com,295.169829,68,Mon Jul  5 13:40:54 2021
+ok,https://dns.arapurayil.com/dns-query,google.com,629.048386,44,Mon Jul  5 13:40:54 2021
+ok,https://dns.arapurayil.com/dns-query,netflix.com,629.907505,77,Mon Jul  5 13:40:54 2021
+ok,https://dohtrial.att.net/dns-query,google.com,152.622063,124,Mon Jul  5 13:40:54 2021
+ok,https://dohtrial.att.net/dns-query,netflix.com,152.597214,77,Mon Jul  5 13:40:54 2021
+ok,https://dnses.alekberg.net/dns-query,netflix.com,502.323549,388,Mon Jul  5 13:40:55 2021
+ok,https://dnses.alekberg.net/dns-query,google.com,507.415900,324,Mon Jul  5 13:40:55 2021
+Query got response: 404,https://doh.bortzmeyer.fr/dns-query,google.com, , ,Mon Jul  5 13:40:55 2021
+Query got response: 404,https://doh.bortzmeyer.fr/dns-query,netflix.com, , ,Mon Jul  5 13:40:55 2021
+ok,https://dns.circl.lu/dns-query,netflix.com,507.769444,110,Mon Jul  5 13:40:55 2021
+ok,https://dns.circl.lu/dns-query,google.com,507.907710,54,Mon Jul  5 13:40:55 2021
+ok,https://doh.opendns.com/dns-query,google.com,89.647202,44,Mon Jul  5 13:40:56 2021
+ok,https://doh.opendns.com/dns-query,netflix.com,108.671333,77,Mon Jul  5 13:40:56 2021
+ok,https://dns.cloudflare.com/dns-query,google.com,72.350896,44,Mon Jul  5 13:40:56 2021
+ok,https://dns.cloudflare.com/dns-query,netflix.com,73.476484,77,Mon Jul  5 13:40:56 2021
+ok,https://family.cloudflare-dns.com/dns-query,google.com,69.303419,44,Mon Jul  5 13:40:56 2021
+ok,https://family.cloudflare-dns.com/dns-query,netflix.com,70.284654,77,Mon Jul  5 13:40:56 2021
+ok,https://security.cloudflare-dns.com/dns-query,google.com,92.474346,44,Mon Jul  5 13:40:56 2021
+ok,https://security.cloudflare-dns.com/dns-query,netflix.com,93.221760,77,Mon Jul  5 13:40:56 2021
+ok,https://odvr.nic.cz/dns-query,google.com,454.157325,44,Mon Jul  5 13:40:56 2021
+ok,https://odvr.nic.cz/dns-query,netflix.com,454.162935,77,Mon Jul  5 13:40:56 2021
+ok,https://dns.digitale-gesellschaft.ch/dns-query,google.com,353.455525,65,Mon Jul  5 13:40:57 2021
+ok,https://dns.digitale-gesellschaft.ch/dns-query,netflix.com,353.682140,121,Mon Jul  5 13:40:57 2021
+ok,https://dns.digitale-gesellschaft.ch/dns-query,google.com,329.681717,65,Mon Jul  5 13:40:57 2021
+ok,https://dns.digitale-gesellschaft.ch/dns-query,netflix.com,329.720932,121,Mon Jul  5 13:40:57 2021
+ok,https://dns1.ryan-palmer.com/dns-query,google.com,380.541030,44,Mon Jul  5 13:40:57 2021
+ok,https://dns1.ryan-palmer.com/dns-query,netflix.com,386.959392,77,Mon Jul  5 13:40:57 2021
+ok,https://doh.dns.sb/dns-query,google.com,139.516365,65,Mon Jul  5 13:40:58 2021
+ok,https://doh.dns.sb/dns-query,netflix.com,150.684226,121,Mon Jul  5 13:40:58 2021
+ok,https://dns.therifleman.name/dns-query,google.com,859.603351,55,Mon Jul  5 13:40:58 2021
+ok,https://dns.therifleman.name/dns-query,netflix.com,859.672705,88,Mon Jul  5 13:40:58 2021
+Query failed: SSL connect error,https://dns1.dnscrypt.ca/dns-query,google.com, , ,Mon Jul  5 13:40:59 2021
+Query failed: SSL connect error,https://dns1.dnscrypt.ca/dns-query,netflix.com, , ,Mon Jul  5 13:40:59 2021
+Query failed: SSL connect error,https://dns2.dnscrypt.ca/dns-query,google.com, , ,Mon Jul  5 13:41:19 2021
+Query failed: SSL connect error,https://dns2.dnscrypt.ca/dns-query,netflix.com, , ,Mon Jul  5 13:41:19 2021
+ok,https://dns-doh.dnsforfamily.com/dns-query,google.com,541.547759,74,Mon Jul  5 13:41:39 2021
+ok,https://dns-doh.dnsforfamily.com/dns-query,netflix.com,541.795798,77,Mon Jul  5 13:41:39 2021
+ok,https://dns-doh-no-safe-search.dnsforfamily.com/dns-query,google.com,542.553236,44,Mon Jul  5 13:41:40 2021
+ok,https://dns-doh-no-safe-search.dnsforfamily.com/dns-query,netflix.com,571.976528,77,Mon Jul  5 13:41:40 2021
+ok,https://dnsforge.de/dns-query,google.com,502.433556,44,Mon Jul  5 13:41:40 2021
+ok,https://dnsforge.de/dns-query,netflix.com,508.099708,77,Mon Jul  5 13:41:40 2021
+ok,https://dns.dnshome.de/dns-query,google.com,562.757355,44,Mon Jul  5 13:41:41 2021
+ok,https://dns.dnshome.de/dns-query,netflix.com,563.368254,77,Mon Jul  5 13:41:41 2021
+ok,https://doh.pub/dns-query,google.com,620.184338,77,Mon Jul  5 13:41:41 2021
+ok,https://doh.pub/dns-query,netflix.com,735.740462,133,Mon Jul  5 13:41:41 2021
+ok,https://doh-ch.blahdns.com/dns-query,google.com,343.137601,195,Mon Jul  5 13:41:42 2021
+ok,https://doh-ch.blahdns.com/dns-query,netflix.com,346.280924,121,Mon Jul  5 13:41:42 2021
+Problem 7 decoding 38445 bytes response to probe,https://doh.cleanbrowsing.org/dns-query,google.com, , ,Mon Jul  5 13:41:42 2021
+Problem 7 decoding 38445 bytes response to probe,https://doh.cleanbrowsing.org/dns-query,netflix.com, , ,Mon Jul  5 13:41:42 2021
+Problem 7 decoding 38445 bytes response to probe,https://doh.cleanbrowsing.org/dns-query,google.com, , ,Mon Jul  5 13:41:43 2021
+Problem 7 decoding 38445 bytes response to probe,https://doh.cleanbrowsing.org/dns-query,netflix.com, , ,Mon Jul  5 13:41:43 2021
+Problem 7 decoding 38445 bytes response to probe,https://doh.cleanbrowsing.org/dns-query,google.com, , ,Mon Jul  5 13:41:43 2021
+Problem 7 decoding 38445 bytes response to probe,https://doh.cleanbrowsing.org/dns-query,netflix.com, , ,Mon Jul  5 13:41:43 2021
+Query got response: 405,https://doh.crypto.sx/dns-query,netflix.com, , ,Mon Jul  5 13:41:43 2021
+Query got response: 405,https://doh.crypto.sx/dns-query,google.com, , ,Mon Jul  5 13:41:43 2021
+ok,https://doh-de.blahdns.com/dns-query,google.com,322.562643,65,Mon Jul  5 13:41:43 2021
+ok,https://doh-de.blahdns.com/dns-query,netflix.com,328.529212,121,Mon Jul  5 13:41:43 2021
+ok,https://doh-fi.blahdns.com/dns-query,google.com,394.730181,65,Mon Jul  5 13:41:44 2021
+ok,https://doh-fi.blahdns.com/dns-query,netflix.com,402.449539,121,Mon Jul  5 13:41:44 2021
+ok,https://ibksturm.synology.me/dns-query,google.com,720.936857,124,Mon Jul  5 13:41:44 2021
+ok,https://ibksturm.synology.me/dns-query,netflix.com,731.889925,77,Mon Jul  5 13:41:44 2021
+ok,https://doh-jp.blahdns.com/dns-query,google.com,551.270822,65,Mon Jul  5 13:41:45 2021
+ok,https://doh-jp.blahdns.com/dns-query,netflix.com,554.312066,121,Mon Jul  5 13:41:45 2021
+ok,https://doh-sg.blahdns.com/dns-query,google.com,761.166204,65,Mon Jul  5 13:41:45 2021
+ok,https://doh-sg.blahdns.com/dns-query,netflix.com,764.139504,121,Mon Jul  5 13:41:45 2021
+Query got response: 404,https://doh.appliedprivacy.net/dns-query,google.com, , ,Mon Jul  5 13:41:46 2021
+Query got response: 404,https://doh.appliedprivacy.net/dns-query,netflix.com, , ,Mon Jul  5 13:41:46 2021
+ok,https://doh.ffmuc.net/dns-query,netflix.com,691.849062,77,Mon Jul  5 13:41:46 2021
+ok,https://doh.ffmuc.net/dns-query,google.com,691.972138,44,Mon Jul  5 13:41:46 2021
+ok,https://doh.tiarap.org/dns-query,google.com,321.804754,196,Mon Jul  5 13:41:47 2021
+ok,https://doh.tiarap.org/dns-query,netflix.com,336.752575,132,Mon Jul  5 13:41:47 2021
+Query failed: SSL peer certificate or SSH remote key was not OK,https://dns.emeraldonion.org/dns-query,google.com, , ,Mon Jul  5 13:41:47 2021
+Query failed: SSL peer certificate or SSH remote key was not OK,https://dns.emeraldonion.org/dns-query,netflix.com, , ,Mon Jul  5 13:41:47 2021
+ok,https://dns.google/dns-query,netflix.com,50.014885,77,Mon Jul  5 13:41:48 2021
+ok,https://dns.google/dns-query,google.com,51.945217,44,Mon Jul  5 13:41:48 2021
+ok,https://ordns.he.net/dns-query,google.com,53.250835,44,Mon Jul  5 13:41:48 2021
+ok,https://ordns.he.net/dns-query,netflix.com,56.665749,77,Mon Jul  5 13:41:48 2021
+Query failed: Couldn't connect to server,https://doh.tiar.app/dns-query,google.com, , ,Mon Jul  5 13:41:48 2021
+Query failed: Couldn't connect to server,https://doh.tiar.app/dns-query,netflix.com, , ,Mon Jul  5 13:41:48 2021
+ok,https://public.dns.iij.jp/dns-query,google.com,341.552181,54,Mon Jul  5 13:42:51 2021
+ok,https://public.dns.iij.jp/dns-query,netflix.com,367.340207,110,Mon Jul  5 13:42:51 2021
+ok,https://doh.this.web.id/dns-query,google.com,1258.775382,65,Mon Jul  5 13:42:51 2021
+ok,https://doh.this.web.id/dns-query,netflix.com,1258.789437,121,Mon Jul  5 13:42:51 2021
+Query failed: Couldn't connect to server,https://jp.tiar.app/dns-query,google.com, , ,Mon Jul  5 13:42:53 2021
+Query failed: Couldn't connect to server,https://jp.tiar.app/dns-query,netflix.com, , ,Mon Jul  5 13:42:53 2021
+ok,https://jp.tiarap.org/dns-query,netflix.com,253.115919,132,Mon Jul  5 13:43:55 2021
+ok,https://jp.tiarap.org/dns-query,google.com,257.678808,68,Mon Jul  5 13:43:55 2021
+ok,https://doh.libredns.gr/dns-query,google.com,500.157410,44,Mon Jul  5 13:43:56 2021
+ok,https://doh.libredns.gr/dns-query,netflix.com,500.156272,77,Mon Jul  5 13:43:56 2021
+ok,https://doh.libredns.gr/dns-query,google.com,294.641687,44,Mon Jul  5 13:43:56 2021
+ok,https://doh.libredns.gr/dns-query,netflix.com,294.666879,77,Mon Jul  5 13:43:56 2021
+ok,https://doh.linuxsec.org/dns-query,google.com,1077.020788,195,Mon Jul  5 13:43:56 2021
+ok,https://doh.linuxsec.org/dns-query,netflix.com,1077.018027,304,Mon Jul  5 13:43:56 2021
+ok,https://doh.linuxsec.org/dns-query,google.com,1037.889743,195,Mon Jul  5 13:43:58 2021
+ok,https://doh.linuxsec.org/dns-query,netflix.com,1037.909866,304,Mon Jul  5 13:43:58 2021
+ok,https://adblock.doh.mullvad.net/dns-query,google.com,88.955703,44,Mon Jul  5 13:43:59 2021
+ok,https://adblock.doh.mullvad.net/dns-query,netflix.com,88.906107,77,Mon Jul  5 13:43:59 2021
+ok,https://doh.mullvad.net/dns-query,google.com,74.265959,44,Mon Jul  5 13:43:59 2021
+ok,https://doh.mullvad.net/dns-query,netflix.com,74.243183,77,Mon Jul  5 13:43:59 2021
+ok,https://dns.nextdns.io/dns-query,google.com,179.674411,44,Mon Jul  5 13:43:59 2021
+ok,https://dns.nextdns.io/dns-query,netflix.com,179.646855,77,Mon Jul  5 13:43:59 2021
+ok,https://dns.njal.la/dns-query,netflix.com,575.384688,77,Mon Jul  5 13:43:59 2021
+ok,https://dns.njal.la/dns-query,google.com,590.038957,44,Mon Jul  5 13:43:59 2021
+Query got response: 405,https://doh.post-factum.tk/dns-query,google.com, , ,Mon Jul  5 13:44:00 2021
+Query got response: 405,https://doh.post-factum.tk/dns-query,netflix.com, , ,Mon Jul  5 13:44:00 2021
+ok,https://draco.plan9-ns2.com/dns-query,google.com,137.130238,124,Mon Jul  5 13:44:00 2021
+ok,https://draco.plan9-ns2.com/dns-query,netflix.com,137.973361,77,Mon Jul  5 13:44:00 2021
+ok,https://doh.powerdns.org/dns-query,google.com,464.393678,44,Mon Jul  5 13:44:00 2021
+ok,https://doh.powerdns.org/dns-query,netflix.com,467.784872,77,Mon Jul  5 13:44:00 2021
+Query failed: SSL connect error,https://doh.seby.io/dns-query,google.com, , ,Mon Jul  5 13:44:01 2021
+Query failed: SSL connect error,https://doh.seby.io/dns-query,netflix.com, , ,Mon Jul  5 13:44:01 2021
+ok,https://doh-2.seby.io/dns-query,google.com,655.116796,65,Mon Jul  5 13:44:02 2021
+ok,https://doh-2.seby.io/dns-query,netflix.com,655.064532,121,Mon Jul  5 13:44:02 2021
+ok,https://dns.twnic.tw/dns-query,google.com,32477.150323,76,Mon Jul  5 13:44:02 2021
+ok,https://dns.twnic.tw/dns-query,netflix.com,32478.771038,132,Mon Jul  5 13:44:02 2021
+ok,https://dns9.quad9.net/dns-query,google.com,60.124172,44,Mon Jul  5 13:44:35 2021
+ok,https://dns9.quad9.net/dns-query,netflix.com,67.762350,77,Mon Jul  5 13:44:35 2021
+ok,https://dns9.quad9.net/dns-query,netflix.com,44.297870,77,Mon Jul  5 13:44:35 2021
+ok,https://dns9.quad9.net/dns-query,google.com,44.553996,44,Mon Jul  5 13:44:35 2021
+ok,https://dnsse.alekberg.net/dns-query,google.com,491.452901,324,Mon Jul  5 13:44:35 2021
+ok,https://dnsse.alekberg.net/dns-query,netflix.com,515.943406,388,Mon Jul  5 13:44:35 2021
+ok,https://dns.switch.ch/dns-query,google.com,554.753052,44,Mon Jul  5 13:44:36 2021
+ok,https://dns.switch.ch/dns-query,netflix.com,575.617192,77,Mon Jul  5 13:44:36 2021
+ok,https://dns.t53.de/dns-query,google.com,624.891631,44,Mon Jul  5 13:44:36 2021
+ok,https://dns.t53.de/dns-query,netflix.com,634.977631,77,Mon Jul  5 13:44:36 2021
+ok,https://sg.yepdns.com/dns-query,google.com,815.768423,135,Mon Jul  5 13:44:37 2021
+ok,https://sg.yepdns.com/dns-query,netflix.com,815.772614,88,Mon Jul  5 13:44:37 2021
+ok,total_run_time,227161.112277,0
+
+ok,https://dns.google/dns-query,google.com,47.548387,44,Mon Jul  5 13:44:38 2021
+ok,https://dns.google/dns-query,netflix.com,50.541739,77,Mon Jul  5 13:44:38 2021
+ok,https://dns.aa.net.uk/dns-query,google.com,273.889521,44,Mon Jul  5 13:44:38 2021
+ok,https://dns.aa.net.uk/dns-query,netflix.com,273.872774,213,Mon Jul  5 13:44:38 2021
+ok,https://adfree.usableprivacy.net/dns-query,google.com,392.055223,44,Mon Jul  5 13:44:38 2021
+ok,https://adfree.usableprivacy.net/dns-query,netflix.com,424.255381,77,Mon Jul  5 13:44:38 2021
+ok,https://dns.adguard.com/dns-query,netflix.com,70.534410,77,Mon Jul  5 13:44:38 2021
+ok,https://dns.adguard.com/dns-query,google.com,70.633634,44,Mon Jul  5 13:44:38 2021
+ok,https://dns-family.adguard.com/dns-query,google.com,71.919215,44,Mon Jul  5 13:44:38 2021
+ok,https://dns-family.adguard.com/dns-query,netflix.com,71.913868,77,Mon Jul  5 13:44:38 2021
+ok,https://doh.in.ahadns.net/dns-query,google.com,849.241998,65,Mon Jul  5 13:44:38 2021
+ok,https://doh.in.ahadns.net/dns-query,netflix.com,849.504477,121,Mon Jul  5 13:44:38 2021
+ok,https://doh.la.ahadns.net/dns-query,google.com,228.353551,65,Mon Jul  5 13:44:39 2021
+ok,https://doh.la.ahadns.net/dns-query,netflix.com,228.646331,121,Mon Jul  5 13:44:39 2021
+ok,https://doh.nl.ahadns.net/dns-query,google.com,287.436636,65,Mon Jul  5 13:44:40 2021
+ok,https://doh.nl.ahadns.net/dns-query,netflix.com,287.787156,121,Mon Jul  5 13:44:40 2021
+ok,https://dns.alidns.com/dns-query,netflix.com,50.191991,121,Mon Jul  5 13:44:40 2021
+ok,https://dns.alidns.com/dns-query,google.com,58.348756,65,Mon Jul  5 13:44:40 2021
+ok,https://dnsnl.alekberg.net/dns-query,netflix.com,294.605502,132,Mon Jul  5 13:44:40 2021
+ok,https://dnsnl.alekberg.net/dns-query,google.com,294.731621,68,Mon Jul  5 13:44:40 2021
+ok,https://dnsnl.alekberg.net/dns-query,google.com,287.502407,68,Mon Jul  5 13:44:40 2021
+ok,https://dnsnl.alekberg.net/dns-query,netflix.com,287.469057,132,Mon Jul  5 13:44:40 2021
+ok,https://dns.arapurayil.com/dns-query,netflix.com,617.067401,77,Mon Jul  5 13:44:40 2021
+ok,https://dns.arapurayil.com/dns-query,google.com,676.244192,44,Mon Jul  5 13:44:40 2021
+Query failed: SSL peer certificate or SSH remote key was not OK,https://dohtrial.att.net/dns-query,google.com, , ,Mon Jul  5 13:44:41 2021
+Query failed: SSL peer certificate or SSH remote key was not OK,https://dohtrial.att.net/dns-query,netflix.com, , ,Mon Jul  5 13:44:41 2021
+ok,https://dnses.alekberg.net/dns-query,netflix.com,378.343471,324,Mon Jul  5 13:44:41 2021
+ok,https://dnses.alekberg.net/dns-query,google.com,384.329251,324,Mon Jul  5 13:44:41 2021
+Query got response: 404,https://doh.bortzmeyer.fr/dns-query,google.com, , ,Mon Jul  5 13:44:42 2021
+Query got response: 404,https://doh.bortzmeyer.fr/dns-query,netflix.com, , ,Mon Jul  5 13:44:42 2021
+ok,https://dns.circl.lu/dns-query,google.com,336.958018,54,Mon Jul  5 13:44:42 2021
+ok,https://dns.circl.lu/dns-query,netflix.com,368.943982,110,Mon Jul  5 13:44:42 2021
+ok,https://doh.opendns.com/dns-query,netflix.com,68.659166,77,Mon Jul  5 13:44:42 2021
+ok,https://doh.opendns.com/dns-query,google.com,71.765450,44,Mon Jul  5 13:44:42 2021
+ok,https://dns.cloudflare.com/dns-query,netflix.com,45.240571,77,Mon Jul  5 13:44:42 2021
+ok,https://dns.cloudflare.com/dns-query,google.com,45.386249,44,Mon Jul  5 13:44:42 2021
+ok,https://family.cloudflare-dns.com/dns-query,google.com,57.733287,44,Mon Jul  5 13:44:42 2021
+ok,https://family.cloudflare-dns.com/dns-query,netflix.com,61.310093,77,Mon Jul  5 13:44:42 2021
+ok,https://security.cloudflare-dns.com/dns-query,google.com,51.322818,44,Mon Jul  5 13:44:42 2021
+ok,https://security.cloudflare-dns.com/dns-query,netflix.com,51.563192,77,Mon Jul  5 13:44:42 2021
+ok,https://odvr.nic.cz/dns-query,google.com,350.879035,44,Mon Jul  5 13:44:42 2021
+ok,https://odvr.nic.cz/dns-query,netflix.com,350.917954,77,Mon Jul  5 13:44:42 2021
+ok,https://dns.digitale-gesellschaft.ch/dns-query,google.com,330.986382,65,Mon Jul  5 13:44:43 2021
+ok,https://dns.digitale-gesellschaft.ch/dns-query,netflix.com,331.042179,121,Mon Jul  5 13:44:43 2021
+ok,https://dns.digitale-gesellschaft.ch/dns-query,netflix.com,327.169660,121,Mon Jul  5 13:44:43 2021
+ok,https://dns.digitale-gesellschaft.ch/dns-query,google.com,327.374516,65,Mon Jul  5 13:44:43 2021
+ok,https://dns1.ryan-palmer.com/dns-query,google.com,311.033177,44,Mon Jul  5 13:44:44 2021
+ok,https://dns1.ryan-palmer.com/dns-query,netflix.com,499.122477,77,Mon Jul  5 13:44:44 2021
+ok,https://doh.dns.sb/dns-query,google.com,84.069363,65,Mon Jul  5 13:44:44 2021
+ok,https://doh.dns.sb/dns-query,netflix.com,174.749898,121,Mon Jul  5 13:44:44 2021
+ok,https://dns.therifleman.name/dns-query,google.com,822.902313,55,Mon Jul  5 13:44:44 2021
+ok,https://dns.therifleman.name/dns-query,netflix.com,822.907735,88,Mon Jul  5 13:44:44 2021
+Query failed: SSL connect error,https://dns1.dnscrypt.ca/dns-query,google.com, , ,Mon Jul  5 13:44:45 2021
+Query failed: SSL connect error,https://dns1.dnscrypt.ca/dns-query,netflix.com, , ,Mon Jul  5 13:44:45 2021
+Query failed: SSL connect error,https://dns2.dnscrypt.ca/dns-query,google.com, , ,Mon Jul  5 13:45:05 2021
+Query failed: SSL connect error,https://dns2.dnscrypt.ca/dns-query,netflix.com, , ,Mon Jul  5 13:45:05 2021
+ok,https://dns-doh.dnsforfamily.com/dns-query,google.com,515.695450,74,Mon Jul  5 13:45:25 2021
+ok,https://dns-doh.dnsforfamily.com/dns-query,netflix.com,516.608076,77,Mon Jul  5 13:45:25 2021
+ok,https://dns-doh-no-safe-search.dnsforfamily.com/dns-query,google.com,511.773218,44,Mon Jul  5 13:45:26 2021
+ok,https://dns-doh-no-safe-search.dnsforfamily.com/dns-query,netflix.com,513.365816,77,Mon Jul  5 13:45:26 2021
+ok,https://dnsforge.de/dns-query,google.com,301.936789,44,Mon Jul  5 13:45:26 2021
+ok,https://dnsforge.de/dns-query,netflix.com,310.979383,77,Mon Jul  5 13:45:26 2021
+ok,https://dns.dnshome.de/dns-query,google.com,556.934203,44,Mon Jul  5 13:45:27 2021
+ok,https://dns.dnshome.de/dns-query,netflix.com,563.248911,77,Mon Jul  5 13:45:27 2021
+ok,https://doh.pub/dns-query,google.com,667.671692,77,Mon Jul  5 13:45:27 2021
+ok,https://doh.pub/dns-query,netflix.com,847.667009,133,Mon Jul  5 13:45:27 2021
+ok,https://doh-ch.blahdns.com/dns-query,google.com,348.408148,195,Mon Jul  5 13:45:28 2021
+ok,https://doh-ch.blahdns.com/dns-query,netflix.com,350.713181,121,Mon Jul  5 13:45:28 2021
+Problem 7 decoding 38445 bytes response to probe,https://doh.cleanbrowsing.org/dns-query,google.com, , ,Mon Jul  5 13:45:28 2021
+Problem 7 decoding 38445 bytes response to probe,https://doh.cleanbrowsing.org/dns-query,netflix.com, , ,Mon Jul  5 13:45:28 2021
+Problem 7 decoding 38445 bytes response to probe,https://doh.cleanbrowsing.org/dns-query,google.com, , ,Mon Jul  5 13:45:29 2021
+Problem 7 decoding 38445 bytes response to probe,https://doh.cleanbrowsing.org/dns-query,netflix.com, , ,Mon Jul  5 13:45:29 2021
+Problem 7 decoding 38445 bytes response to probe,https://doh.cleanbrowsing.org/dns-query,google.com, , ,Mon Jul  5 13:45:29 2021
+Problem 7 decoding 38445 bytes response to probe,https://doh.cleanbrowsing.org/dns-query,netflix.com, , ,Mon Jul  5 13:45:29 2021
+Query got response: 405,https://doh.crypto.sx/dns-query,google.com, , ,Mon Jul  5 13:45:29 2021
+Query got response: 405,https://doh.crypto.sx/dns-query,netflix.com, , ,Mon Jul  5 13:45:29 2021
+ok,https://doh-de.blahdns.com/dns-query,google.com,303.128067,65,Mon Jul  5 13:45:29 2021
+ok,https://doh-de.blahdns.com/dns-query,netflix.com,309.435340,121,Mon Jul  5 13:45:29 2021
+ok,https://doh-fi.blahdns.com/dns-query,google.com,363.211567,65,Mon Jul  5 13:45:30 2021
+ok,https://doh-fi.blahdns.com/dns-query,netflix.com,371.460239,121,Mon Jul  5 13:45:30 2021
+ok,https://ibksturm.synology.me/dns-query,netflix.com,602.327476,77,Mon Jul  5 13:45:30 2021
+ok,https://ibksturm.synology.me/dns-query,google.com,629.576123,124,Mon Jul  5 13:45:30 2021
+ok,https://doh-jp.blahdns.com/dns-query,google.com,513.151040,65,Mon Jul  5 13:45:31 2021
+ok,https://doh-jp.blahdns.com/dns-query,netflix.com,515.906358,121,Mon Jul  5 13:45:31 2021
+ok,https://doh-sg.blahdns.com/dns-query,netflix.com,815.562538,121,Mon Jul  5 13:45:31 2021
+ok,https://doh-sg.blahdns.com/dns-query,google.com,816.052441,65,Mon Jul  5 13:45:31 2021
+Query got response: 404,https://doh.appliedprivacy.net/dns-query,google.com, , ,Mon Jul  5 13:45:32 2021
+Query got response: 404,https://doh.appliedprivacy.net/dns-query,netflix.com, , ,Mon Jul  5 13:45:32 2021
+ok,https://doh.ffmuc.net/dns-query,google.com,726.636398,44,Mon Jul  5 13:45:32 2021
+ok,https://doh.ffmuc.net/dns-query,netflix.com,726.607297,77,Mon Jul  5 13:45:32 2021
+ok,https://doh.tiarap.org/dns-query,netflix.com,330.838342,132,Mon Jul  5 13:45:33 2021
+ok,https://doh.tiarap.org/dns-query,google.com,364.914525,196,Mon Jul  5 13:45:33 2021
+Query failed: SSL peer certificate or SSH remote key was not OK,https://dns.emeraldonion.org/dns-query,google.com, , ,Mon Jul  5 13:45:33 2021
+Query failed: SSL peer certificate or SSH remote key was not OK,https://dns.emeraldonion.org/dns-query,netflix.com, , ,Mon Jul  5 13:45:33 2021
+ok,https://dns.google/dns-query,google.com,45.620570,44,Mon Jul  5 13:45:34 2021
+ok,https://dns.google/dns-query,netflix.com,46.192559,77,Mon Jul  5 13:45:34 2021
+ok,https://ordns.he.net/dns-query,google.com,45.477709,44,Mon Jul  5 13:45:34 2021
+ok,https://ordns.he.net/dns-query,netflix.com,46.633173,77,Mon Jul  5 13:45:34 2021
+Query failed: Couldn't connect to server,https://doh.tiar.app/dns-query,google.com, , ,Mon Jul  5 13:45:34 2021
+Query failed: Couldn't connect to server,https://doh.tiar.app/dns-query,netflix.com, , ,Mon Jul  5 13:45:34 2021
+ok,https://public.dns.iij.jp/dns-query,google.com,228.452070,54,Mon Jul  5 13:46:37 2021
+ok,https://public.dns.iij.jp/dns-query,netflix.com,285.641906,110,Mon Jul  5 13:46:37 2021
+ok,https://doh.this.web.id/dns-query,google.com,1231.876717,65,Mon Jul  5 13:46:37 2021
+ok,https://doh.this.web.id/dns-query,netflix.com,1232.202044,121,Mon Jul  5 13:46:37 2021
+Query failed: Couldn't connect to server,https://jp.tiar.app/dns-query,google.com, , ,Mon Jul  5 13:46:38 2021
+Query failed: Couldn't connect to server,https://jp.tiar.app/dns-query,netflix.com, , ,Mon Jul  5 13:46:38 2021
+ok,https://jp.tiarap.org/dns-query,netflix.com,240.961082,132,Mon Jul  5 13:47:41 2021
+ok,https://jp.tiarap.org/dns-query,google.com,266.959663,68,Mon Jul  5 13:47:41 2021
+ok,https://doh.libredns.gr/dns-query,google.com,300.859302,44,Mon Jul  5 13:47:41 2021
+ok,https://doh.libredns.gr/dns-query,netflix.com,313.941716,77,Mon Jul  5 13:47:41 2021
+ok,https://doh.libredns.gr/dns-query,google.com,295.371655,44,Mon Jul  5 13:47:42 2021
+ok,https://doh.libredns.gr/dns-query,netflix.com,295.353734,77,Mon Jul  5 13:47:42 2021
+ok,https://doh.linuxsec.org/dns-query,google.com,1035.419853,195,Mon Jul  5 13:47:42 2021
+ok,https://doh.linuxsec.org/dns-query,netflix.com,1035.493237,304,Mon Jul  5 13:47:42 2021
+ok,https://doh.linuxsec.org/dns-query,netflix.com,1040.516206,304,Mon Jul  5 13:47:43 2021
+ok,https://doh.linuxsec.org/dns-query,google.com,1040.679680,195,Mon Jul  5 13:47:43 2021
+ok,https://adblock.doh.mullvad.net/dns-query,google.com,62.520845,44,Mon Jul  5 13:47:44 2021
+ok,https://adblock.doh.mullvad.net/dns-query,netflix.com,62.473600,77,Mon Jul  5 13:47:44 2021
+ok,https://doh.mullvad.net/dns-query,google.com,63.647174,44,Mon Jul  5 13:47:44 2021
+ok,https://doh.mullvad.net/dns-query,netflix.com,63.620214,77,Mon Jul  5 13:47:44 2021
+ok,https://dns.nextdns.io/dns-query,netflix.com,149.959103,77,Mon Jul  5 13:47:44 2021
+ok,https://dns.nextdns.io/dns-query,google.com,150.082012,44,Mon Jul  5 13:47:44 2021
+ok,https://dns.njal.la/dns-query,netflix.com,442.307790,77,Mon Jul  5 13:47:44 2021
+ok,https://dns.njal.la/dns-query,google.com,449.587281,44,Mon Jul  5 13:47:44 2021
+Query got response: 405,https://doh.post-factum.tk/dns-query,netflix.com, , ,Mon Jul  5 13:47:45 2021
+Query got response: 405,https://doh.post-factum.tk/dns-query,google.com, , ,Mon Jul  5 13:47:45 2021
+ok,https://draco.plan9-ns2.com/dns-query,google.com,115.100885,124,Mon Jul  5 13:47:45 2021
+ok,https://draco.plan9-ns2.com/dns-query,netflix.com,116.720447,77,Mon Jul  5 13:47:45 2021
+ok,https://doh.powerdns.org/dns-query,google.com,288.230366,44,Mon Jul  5 13:47:45 2021
+ok,https://doh.powerdns.org/dns-query,netflix.com,302.808137,77,Mon Jul  5 13:47:45 2021
+Query failed: SSL connect error,https://doh.seby.io/dns-query,google.com, , ,Mon Jul  5 13:47:46 2021
+Query failed: SSL connect error,https://doh.seby.io/dns-query,netflix.com, , ,Mon Jul  5 13:47:46 2021
+ok,https://doh-2.seby.io/dns-query,google.com,633.652650,65,Mon Jul  5 13:47:47 2021
+ok,https://doh-2.seby.io/dns-query,netflix.com,633.598542,121,Mon Jul  5 13:47:47 2021
+ok,https://dns.twnic.tw/dns-query,google.com,805.032964,76,Mon Jul  5 13:47:47 2021
+ok,https://dns.twnic.tw/dns-query,netflix.com,805.289025,132,Mon Jul  5 13:47:47 2021
+ok,https://dns9.quad9.net/dns-query,google.com,60.532158,44,Mon Jul  5 13:47:48 2021
+ok,https://dns9.quad9.net/dns-query,netflix.com,60.575780,77,Mon Jul  5 13:47:48 2021
+ok,https://dns9.quad9.net/dns-query,google.com,51.889189,44,Mon Jul  5 13:47:48 2021
+ok,https://dns9.quad9.net/dns-query,netflix.com,51.900041,77,Mon Jul  5 13:47:48 2021
+ok,https://dnsse.alekberg.net/dns-query,google.com,357.829389,324,Mon Jul  5 13:47:48 2021
+ok,https://dnsse.alekberg.net/dns-query,netflix.com,358.146939,388,Mon Jul  5 13:47:48 2021
+ok,https://dns.switch.ch/dns-query,netflix.com,450.902344,77,Mon Jul  5 13:47:49 2021
+ok,https://dns.switch.ch/dns-query,google.com,451.039342,44,Mon Jul  5 13:47:49 2021
+ok,https://dns.t53.de/dns-query,netflix.com,321.803277,77,Mon Jul  5 13:47:49 2021
+ok,https://dns.t53.de/dns-query,google.com,354.112301,44,Mon Jul  5 13:47:49 2021
+ok,https://sg.yepdns.com/dns-query,netflix.com,822.442392,88,Mon Jul  5 13:47:49 2021
+ok,https://sg.yepdns.com/dns-query,google.com,822.864267,135,Mon Jul  5 13:47:49 2021
+ok,total_run_time,192671.207057,0
+
+ok,https://dns.google/dns-query,google.com,49.696107,44,Mon Jul  5 13:47:50 2021
+ok,https://dns.google/dns-query,netflix.com,62.209151,77,Mon Jul  5 13:47:50 2021
+ok,https://dns.aa.net.uk/dns-query,google.com,370.677726,44,Mon Jul  5 13:47:50 2021
+ok,https://dns.aa.net.uk/dns-query,netflix.com,371.466700,213,Mon Jul  5 13:47:50 2021
+ok,https://adfree.usableprivacy.net/dns-query,google.com,377.102098,44,Mon Jul  5 13:47:51 2021
+ok,https://adfree.usableprivacy.net/dns-query,netflix.com,399.843047,77,Mon Jul  5 13:47:51 2021
+ok,https://dns.adguard.com/dns-query,google.com,72.246609,44,Mon Jul  5 13:47:51 2021
+ok,https://dns.adguard.com/dns-query,netflix.com,72.389292,77,Mon Jul  5 13:47:51 2021
+ok,https://dns-family.adguard.com/dns-query,google.com,84.647589,44,Mon Jul  5 13:47:51 2021
+ok,https://dns-family.adguard.com/dns-query,netflix.com,84.625275,77,Mon Jul  5 13:47:51 2021
+ok,https://doh.in.ahadns.net/dns-query,google.com,908.786758,65,Mon Jul  5 13:47:51 2021
+ok,https://doh.in.ahadns.net/dns-query,netflix.com,908.803609,121,Mon Jul  5 13:47:51 2021
+ok,https://doh.la.ahadns.net/dns-query,google.com,250.227520,65,Mon Jul  5 13:47:52 2021
+ok,https://doh.la.ahadns.net/dns-query,netflix.com,252.330470,121,Mon Jul  5 13:47:52 2021
+ok,https://doh.nl.ahadns.net/dns-query,google.com,303.382726,65,Mon Jul  5 13:47:52 2021
+ok,https://doh.nl.ahadns.net/dns-query,netflix.com,304.221703,121,Mon Jul  5 13:47:52 2021
+ok,https://dns.alidns.com/dns-query,netflix.com,120.667722,121,Mon Jul  5 13:47:53 2021
+ok,https://dns.alidns.com/dns-query,google.com,120.763967,65,Mon Jul  5 13:47:53 2021
+ok,https://dnsnl.alekberg.net/dns-query,netflix.com,428.084181,132,Mon Jul  5 13:47:53 2021
+ok,https://dnsnl.alekberg.net/dns-query,google.com,428.228596,68,Mon Jul  5 13:47:53 2021
+ok,https://dnsnl.alekberg.net/dns-query,netflix.com,292.709126,132,Mon Jul  5 13:47:53 2021
+ok,https://dnsnl.alekberg.net/dns-query,google.com,293.672464,68,Mon Jul  5 13:47:53 2021
+ok,https://dns.arapurayil.com/dns-query,google.com,613.840171,44,Mon Jul  5 13:47:54 2021
+ok,https://dns.arapurayil.com/dns-query,netflix.com,613.839134,77,Mon Jul  5 13:47:54 2021
+Query failed: SSL peer certificate or SSH remote key was not OK,https://dohtrial.att.net/dns-query,google.com, , ,Mon Jul  5 13:47:54 2021
+Query failed: SSL peer certificate or SSH remote key was not OK,https://dohtrial.att.net/dns-query,netflix.com, , ,Mon Jul  5 13:47:54 2021
+ok,https://dnses.alekberg.net/dns-query,google.com,516.510539,324,Mon Jul  5 13:47:54 2021
+ok,https://dnses.alekberg.net/dns-query,netflix.com,539.054422,260,Mon Jul  5 13:47:54 2021
+Query got response: 404,https://doh.bortzmeyer.fr/dns-query,google.com, , ,Mon Jul  5 13:47:55 2021
+Query got response: 404,https://doh.bortzmeyer.fr/dns-query,netflix.com, , ,Mon Jul  5 13:47:55 2021
+ok,https://dns.circl.lu/dns-query,google.com,384.001639,54,Mon Jul  5 13:47:55 2021
+ok,https://dns.circl.lu/dns-query,netflix.com,409.404672,110,Mon Jul  5 13:47:55 2021
+ok,https://doh.opendns.com/dns-query,google.com,92.706912,44,Mon Jul  5 13:47:56 2021
+ok,https://doh.opendns.com/dns-query,netflix.com,111.376026,77,Mon Jul  5 13:47:56 2021
+ok,https://dns.cloudflare.com/dns-query,google.com,60.162711,44,Mon Jul  5 13:47:56 2021
+ok,https://dns.cloudflare.com/dns-query,netflix.com,61.814801,77,Mon Jul  5 13:47:56 2021
+ok,https://family.cloudflare-dns.com/dns-query,google.com,72.067093,44,Mon Jul  5 13:47:56 2021
+ok,https://family.cloudflare-dns.com/dns-query,netflix.com,72.154824,77,Mon Jul  5 13:47:56 2021
+ok,https://security.cloudflare-dns.com/dns-query,google.com,90.784566,44,Mon Jul  5 13:47:56 2021
+ok,https://security.cloudflare-dns.com/dns-query,netflix.com,93.219162,77,Mon Jul  5 13:47:56 2021
+ok,https://odvr.nic.cz/dns-query,google.com,333.235919,44,Mon Jul  5 13:47:56 2021
+ok,https://odvr.nic.cz/dns-query,netflix.com,333.255097,77,Mon Jul  5 13:47:56 2021
+ok,https://dns.digitale-gesellschaft.ch/dns-query,google.com,409.130284,65,Mon Jul  5 13:47:56 2021
+ok,https://dns.digitale-gesellschaft.ch/dns-query,netflix.com,502.994751,132,Mon Jul  5 13:47:56 2021
+ok,https://dns.digitale-gesellschaft.ch/dns-query,google.com,334.999144,65,Mon Jul  5 13:47:57 2021
+ok,https://dns.digitale-gesellschaft.ch/dns-query,netflix.com,335.115559,121,Mon Jul  5 13:47:57 2021
+ok,https://dns1.ryan-palmer.com/dns-query,netflix.com,312.865707,77,Mon Jul  5 13:47:57 2021
+ok,https://dns1.ryan-palmer.com/dns-query,google.com,320.173935,44,Mon Jul  5 13:47:57 2021
+ok,https://doh.dns.sb/dns-query,google.com,109.150136,65,Mon Jul  5 13:47:57 2021
+ok,https://doh.dns.sb/dns-query,netflix.com,111.696088,121,Mon Jul  5 13:47:57 2021
+ok,https://dns.therifleman.name/dns-query,google.com,901.479872,55,Mon Jul  5 13:47:57 2021
+ok,https://dns.therifleman.name/dns-query,netflix.com,901.541444,88,Mon Jul  5 13:47:57 2021
+Query failed: SSL connect error,https://dns1.dnscrypt.ca/dns-query,google.com, , ,Mon Jul  5 13:47:58 2021
+Query failed: SSL connect error,https://dns1.dnscrypt.ca/dns-query,netflix.com, , ,Mon Jul  5 13:47:58 2021
+Query failed: SSL connect error,https://dns2.dnscrypt.ca/dns-query,google.com, , ,Mon Jul  5 13:48:19 2021
+Query failed: SSL connect error,https://dns2.dnscrypt.ca/dns-query,netflix.com, , ,Mon Jul  5 13:48:19 2021
+ok,https://dns-doh.dnsforfamily.com/dns-query,google.com,535.509689,74,Mon Jul  5 13:48:39 2021
+ok,https://dns-doh.dnsforfamily.com/dns-query,netflix.com,536.048034,77,Mon Jul  5 13:48:39 2021
+ok,https://dns-doh-no-safe-search.dnsforfamily.com/dns-query,google.com,487.383980,44,Mon Jul  5 13:48:39 2021
+ok,https://dns-doh-no-safe-search.dnsforfamily.com/dns-query,netflix.com,518.523927,77,Mon Jul  5 13:48:39 2021
+ok,https://dnsforge.de/dns-query,google.com,417.551384,44,Mon Jul  5 13:48:40 2021
+ok,https://dnsforge.de/dns-query,netflix.com,426.517662,77,Mon Jul  5 13:48:40 2021
+ok,https://dns.dnshome.de/dns-query,google.com,335.478347,44,Mon Jul  5 13:48:40 2021
+ok,https://dns.dnshome.de/dns-query,netflix.com,341.082441,77,Mon Jul  5 13:48:40 2021
+ok,https://doh.pub/dns-query,google.com,509.167793,77,Mon Jul  5 13:48:41 2021
+ok,https://doh.pub/dns-query,netflix.com,625.918291,133,Mon Jul  5 13:48:41 2021
+ok,https://doh-ch.blahdns.com/dns-query,google.com,341.740436,195,Mon Jul  5 13:48:41 2021
+ok,https://doh-ch.blahdns.com/dns-query,netflix.com,344.105159,121,Mon Jul  5 13:48:41 2021
+Problem 7 decoding 38445 bytes response to probe,https://doh.cleanbrowsing.org/dns-query,google.com, , ,Mon Jul  5 13:48:42 2021
+Problem 7 decoding 38445 bytes response to probe,https://doh.cleanbrowsing.org/dns-query,netflix.com, , ,Mon Jul  5 13:48:42 2021
+Problem 7 decoding 38445 bytes response to probe,https://doh.cleanbrowsing.org/dns-query,google.com, , ,Mon Jul  5 13:48:42 2021
+Problem 7 decoding 38445 bytes response to probe,https://doh.cleanbrowsing.org/dns-query,netflix.com, , ,Mon Jul  5 13:48:42 2021
+Problem 7 decoding 38445 bytes response to probe,https://doh.cleanbrowsing.org/dns-query,google.com, , ,Mon Jul  5 13:48:42 2021
+Problem 7 decoding 38445 bytes response to probe,https://doh.cleanbrowsing.org/dns-query,netflix.com, , ,Mon Jul  5 13:48:42 2021
+Query got response: 405,https://doh.crypto.sx/dns-query,google.com, , ,Mon Jul  5 13:48:42 2021
+Query got response: 405,https://doh.crypto.sx/dns-query,netflix.com, , ,Mon Jul  5 13:48:42 2021
+ok,https://doh-de.blahdns.com/dns-query,google.com,325.257997,65,Mon Jul  5 13:48:43 2021
+ok,https://doh-de.blahdns.com/dns-query,netflix.com,333.369941,121,Mon Jul  5 13:48:43 2021
+ok,https://doh-fi.blahdns.com/dns-query,google.com,392.197699,65,Mon Jul  5 13:48:43 2021
+ok,https://doh-fi.blahdns.com/dns-query,netflix.com,397.636284,121,Mon Jul  5 13:48:43 2021
+ok,https://ibksturm.synology.me/dns-query,google.com,653.942117,124,Mon Jul  5 13:48:44 2021
+ok,https://ibksturm.synology.me/dns-query,netflix.com,657.947739,77,Mon Jul  5 13:48:44 2021
+ok,https://doh-jp.blahdns.com/dns-query,google.com,573.222107,65,Mon Jul  5 13:48:44 2021
+ok,https://doh-jp.blahdns.com/dns-query,netflix.com,576.286563,121,Mon Jul  5 13:48:44 2021
+ok,https://doh-sg.blahdns.com/dns-query,google.com,732.351341,65,Mon Jul  5 13:48:45 2021
+ok,https://doh-sg.blahdns.com/dns-query,netflix.com,732.305729,121,Mon Jul  5 13:48:45 2021
+Query got response: 404,https://doh.appliedprivacy.net/dns-query,google.com, , ,Mon Jul  5 13:48:46 2021
+Query got response: 404,https://doh.appliedprivacy.net/dns-query,netflix.com, , ,Mon Jul  5 13:48:46 2021
+ok,https://doh.ffmuc.net/dns-query,google.com,669.857714,44,Mon Jul  5 13:48:46 2021
+ok,https://doh.ffmuc.net/dns-query,netflix.com,669.828369,77,Mon Jul  5 13:48:46 2021
+ok,https://doh.tiarap.org/dns-query,google.com,330.102373,196,Mon Jul  5 13:48:47 2021
+ok,https://doh.tiarap.org/dns-query,netflix.com,330.232636,132,Mon Jul  5 13:48:47 2021
+Query failed: SSL peer certificate or SSH remote key was not OK,https://dns.emeraldonion.org/dns-query,google.com, , ,Mon Jul  5 13:48:47 2021
+Query failed: SSL peer certificate or SSH remote key was not OK,https://dns.emeraldonion.org/dns-query,netflix.com, , ,Mon Jul  5 13:48:47 2021
+ok,https://dns.google/dns-query,google.com,46.610581,44,Mon Jul  5 13:48:47 2021
+ok,https://dns.google/dns-query,netflix.com,63.683084,77,Mon Jul  5 13:48:47 2021
+ok,https://ordns.he.net/dns-query,google.com,71.060049,44,Mon Jul  5 13:48:47 2021
+ok,https://ordns.he.net/dns-query,netflix.com,85.277118,77,Mon Jul  5 13:48:47 2021
+Query failed: Couldn't connect to server,https://doh.tiar.app/dns-query,google.com, , ,Mon Jul  5 13:48:47 2021
+Query failed: Couldn't connect to server,https://doh.tiar.app/dns-query,netflix.com, , ,Mon Jul  5 13:48:47 2021
+ok,https://public.dns.iij.jp/dns-query,google.com,422.708447,54,Mon Jul  5 13:49:51 2021
+ok,https://public.dns.iij.jp/dns-query,netflix.com,430.302444,110,Mon Jul  5 13:49:51 2021
+ok,https://doh.this.web.id/dns-query,netflix.com,1246.128783,121,Mon Jul  5 13:49:51 2021
+ok,https://doh.this.web.id/dns-query,google.com,1246.550365,65,Mon Jul  5 13:49:51 2021
+Query failed: Couldn't connect to server,https://jp.tiar.app/dns-query,google.com, , ,Mon Jul  5 13:49:52 2021
+Query failed: Couldn't connect to server,https://jp.tiar.app/dns-query,netflix.com, , ,Mon Jul  5 13:49:52 2021
+ok,https://jp.tiarap.org/dns-query,google.com,281.887284,68,Mon Jul  5 13:50:55 2021
+ok,https://jp.tiarap.org/dns-query,netflix.com,775.757045,132,Mon Jul  5 13:50:55 2021
+ok,https://doh.libredns.gr/dns-query,google.com,418.014127,44,Mon Jul  5 13:50:56 2021
+ok,https://doh.libredns.gr/dns-query,netflix.com,418.009390,77,Mon Jul  5 13:50:56 2021
+ok,https://doh.libredns.gr/dns-query,google.com,299.820759,44,Mon Jul  5 13:50:56 2021
+ok,https://doh.libredns.gr/dns-query,netflix.com,299.856597,77,Mon Jul  5 13:50:56 2021
+ok,https://doh.linuxsec.org/dns-query,netflix.com,1037.203008,304,Mon Jul  5 13:50:57 2021
+ok,https://doh.linuxsec.org/dns-query,google.com,1037.495836,195,Mon Jul  5 13:50:57 2021
+ok,https://doh.linuxsec.org/dns-query,google.com,1039.605897,195,Mon Jul  5 13:50:58 2021
+ok,https://doh.linuxsec.org/dns-query,netflix.com,1039.624544,304,Mon Jul  5 13:50:58 2021
+ok,https://adblock.doh.mullvad.net/dns-query,google.com,89.456362,44,Mon Jul  5 13:50:59 2021
+ok,https://adblock.doh.mullvad.net/dns-query,netflix.com,89.403958,77,Mon Jul  5 13:50:59 2021
+ok,https://doh.mullvad.net/dns-query,google.com,85.854398,44,Mon Jul  5 13:50:59 2021
+ok,https://doh.mullvad.net/dns-query,netflix.com,85.810693,77,Mon Jul  5 13:50:59 2021
+ok,https://dns.nextdns.io/dns-query,google.com,172.653135,44,Mon Jul  5 13:50:59 2021
+ok,https://dns.nextdns.io/dns-query,netflix.com,172.605723,77,Mon Jul  5 13:50:59 2021
+ok,https://dns.njal.la/dns-query,netflix.com,805.126362,77,Mon Jul  5 13:50:59 2021
+ok,https://dns.njal.la/dns-query,google.com,839.382541,44,Mon Jul  5 13:50:59 2021
+Query got response: 405,https://doh.post-factum.tk/dns-query,google.com, , ,Mon Jul  5 13:51:00 2021
+Query got response: 405,https://doh.post-factum.tk/dns-query,netflix.com, , ,Mon Jul  5 13:51:00 2021
+ok,https://draco.plan9-ns2.com/dns-query,google.com,136.339699,124,Mon Jul  5 13:51:00 2021
+ok,https://draco.plan9-ns2.com/dns-query,netflix.com,137.253992,77,Mon Jul  5 13:51:00 2021
+ok,https://doh.powerdns.org/dns-query,google.com,411.817501,44,Mon Jul  5 13:51:01 2021
+ok,https://doh.powerdns.org/dns-query,netflix.com,438.836744,77,Mon Jul  5 13:51:01 2021
+Query failed: SSL connect error,https://doh.seby.io/dns-query,google.com, , ,Mon Jul  5 13:51:01 2021
+Query failed: SSL connect error,https://doh.seby.io/dns-query,netflix.com, , ,Mon Jul  5 13:51:01 2021
+ok,https://doh-2.seby.io/dns-query,google.com,643.284735,65,Mon Jul  5 13:51:02 2021
+ok,https://doh-2.seby.io/dns-query,netflix.com,643.232857,121,Mon Jul  5 13:51:02 2021
+ok,https://dns.twnic.tw/dns-query,google.com,1051.746737,76,Mon Jul  5 13:51:03 2021
+ok,https://dns.twnic.tw/dns-query,netflix.com,1053.548084,132,Mon Jul  5 13:51:03 2021
+ok,https://dns9.quad9.net/dns-query,google.com,76.793475,44,Mon Jul  5 13:51:04 2021
+ok,https://dns9.quad9.net/dns-query,netflix.com,78.469048,77,Mon Jul  5 13:51:04 2021
+ok,https://dns9.quad9.net/dns-query,google.com,43.727221,44,Mon Jul  5 13:51:04 2021
+ok,https://dns9.quad9.net/dns-query,netflix.com,43.988329,77,Mon Jul  5 13:51:04 2021
+ok,https://dnsse.alekberg.net/dns-query,google.com,497.664905,324,Mon Jul  5 13:51:04 2021
+ok,https://dnsse.alekberg.net/dns-query,netflix.com,519.373191,324,Mon Jul  5 13:51:04 2021
+ok,https://dns.switch.ch/dns-query,google.com,539.730918,44,Mon Jul  5 13:51:04 2021
+ok,https://dns.switch.ch/dns-query,netflix.com,539.716382,77,Mon Jul  5 13:51:04 2021
+ok,https://dns.t53.de/dns-query,google.com,553.881003,44,Mon Jul  5 13:51:05 2021
+ok,https://dns.t53.de/dns-query,netflix.com,559.105105,77,Mon Jul  5 13:51:05 2021
+ok,https://sg.yepdns.com/dns-query,google.com,794.044216,135,Mon Jul  5 13:51:05 2021
+ok,https://sg.yepdns.com/dns-query,netflix.com,794.050464,88,Mon Jul  5 13:51:05 2021
+ok,total_run_time,196059.288150,0
+
+ok,https://dns.google/dns-query,google.com,52.037798,44,Mon Jul  5 13:51:06 2021
+ok,https://dns.google/dns-query,netflix.com,58.324831,77,Mon Jul  5 13:51:06 2021
+ok,https://dns.aa.net.uk/dns-query,google.com,398.129969,44,Mon Jul  5 13:51:06 2021
+ok,https://dns.aa.net.uk/dns-query,netflix.com,419.443750,213,Mon Jul  5 13:51:06 2021
+ok,https://adfree.usableprivacy.net/dns-query,netflix.com,402.662223,77,Mon Jul  5 13:51:07 2021
+ok,https://adfree.usableprivacy.net/dns-query,google.com,430.505654,44,Mon Jul  5 13:51:07 2021
+ok,https://dns.adguard.com/dns-query,google.com,73.929863,44,Mon Jul  5 13:51:07 2021
+ok,https://dns.adguard.com/dns-query,netflix.com,73.909988,77,Mon Jul  5 13:51:07 2021
+ok,https://dns-family.adguard.com/dns-query,google.com,77.376338,44,Mon Jul  5 13:51:07 2021
+ok,https://dns-family.adguard.com/dns-query,netflix.com,77.330223,77,Mon Jul  5 13:51:07 2021
+ok,https://doh.in.ahadns.net/dns-query,netflix.com,846.298155,121,Mon Jul  5 13:51:07 2021
+ok,https://doh.in.ahadns.net/dns-query,google.com,846.483504,65,Mon Jul  5 13:51:07 2021
+ok,https://doh.la.ahadns.net/dns-query,google.com,239.954015,65,Mon Jul  5 13:51:08 2021
+ok,https://doh.la.ahadns.net/dns-query,netflix.com,239.964639,121,Mon Jul  5 13:51:08 2021
+ok,https://doh.nl.ahadns.net/dns-query,netflix.com,299.766116,121,Mon Jul  5 13:51:08 2021
+ok,https://doh.nl.ahadns.net/dns-query,google.com,300.064571,65,Mon Jul  5 13:51:08 2021
+ok,https://dns.alidns.com/dns-query,google.com,46.478320,65,Mon Jul  5 13:51:09 2021
+ok,https://dns.alidns.com/dns-query,netflix.com,54.431701,121,Mon Jul  5 13:51:09 2021
+ok,https://dnsnl.alekberg.net/dns-query,netflix.com,301.916587,132,Mon Jul  5 13:51:09 2021
+ok,https://dnsnl.alekberg.net/dns-query,google.com,302.062016,68,Mon Jul  5 13:51:09 2021
+ok,https://dnsnl.alekberg.net/dns-query,netflix.com,298.269555,132,Mon Jul  5 13:51:09 2021
+ok,https://dnsnl.alekberg.net/dns-query,google.com,299.946607,68,Mon Jul  5 13:51:09 2021
+ok,https://dns.arapurayil.com/dns-query,google.com,611.194515,44,Mon Jul  5 13:51:09 2021
+ok,https://dns.arapurayil.com/dns-query,netflix.com,611.202769,77,Mon Jul  5 13:51:09 2021
+ok,https://dohtrial.att.net/dns-query,google.com,150.208410,44,Mon Jul  5 13:51:10 2021
+ok,https://dohtrial.att.net/dns-query,netflix.com,150.196453,77,Mon Jul  5 13:51:10 2021
+ok,https://dnses.alekberg.net/dns-query,netflix.com,373.387744,388,Mon Jul  5 13:51:10 2021
+ok,https://dnses.alekberg.net/dns-query,google.com,376.412459,324,Mon Jul  5 13:51:10 2021
+Query got response: 404,https://doh.bortzmeyer.fr/dns-query,google.com, , ,Mon Jul  5 13:51:11 2021
+Query got response: 404,https://doh.bortzmeyer.fr/dns-query,netflix.com, , ,Mon Jul  5 13:51:11 2021
+ok,https://dns.circl.lu/dns-query,google.com,344.805798,54,Mon Jul  5 13:51:11 2021
+ok,https://dns.circl.lu/dns-query,netflix.com,361.195880,110,Mon Jul  5 13:51:11 2021
+ok,https://doh.opendns.com/dns-query,netflix.com,72.543129,77,Mon Jul  5 13:51:11 2021
+ok,https://doh.opendns.com/dns-query,google.com,77.539218,44,Mon Jul  5 13:51:11 2021
+ok,https://dns.cloudflare.com/dns-query,netflix.com,45.746559,77,Mon Jul  5 13:51:11 2021
+ok,https://dns.cloudflare.com/dns-query,google.com,49.414741,44,Mon Jul  5 13:51:11 2021
+ok,https://family.cloudflare-dns.com/dns-query,google.com,50.580213,44,Mon Jul  5 13:51:11 2021
+ok,https://family.cloudflare-dns.com/dns-query,netflix.com,51.614780,77,Mon Jul  5 13:51:11 2021
+ok,https://security.cloudflare-dns.com/dns-query,google.com,51.530085,44,Mon Jul  5 13:51:11 2021
+ok,https://security.cloudflare-dns.com/dns-query,netflix.com,52.339127,77,Mon Jul  5 13:51:11 2021
+ok,https://odvr.nic.cz/dns-query,google.com,354.017003,44,Mon Jul  5 13:51:11 2021
+ok,https://odvr.nic.cz/dns-query,netflix.com,354.114042,77,Mon Jul  5 13:51:11 2021
+ok,https://dns.digitale-gesellschaft.ch/dns-query,google.com,327.850226,65,Mon Jul  5 13:51:12 2021
+ok,https://dns.digitale-gesellschaft.ch/dns-query,netflix.com,341.375865,132,Mon Jul  5 13:51:12 2021
+ok,https://dns.digitale-gesellschaft.ch/dns-query,netflix.com,335.782599,121,Mon Jul  5 13:51:12 2021
+ok,https://dns.digitale-gesellschaft.ch/dns-query,google.com,335.972815,65,Mon Jul  5 13:51:12 2021
+ok,https://dns1.ryan-palmer.com/dns-query,google.com,281.618070,44,Mon Jul  5 13:51:12 2021
+ok,https://dns1.ryan-palmer.com/dns-query,netflix.com,283.657440,77,Mon Jul  5 13:51:12 2021
+ok,https://doh.dns.sb/dns-query,google.com,78.122016,65,Mon Jul  5 13:51:13 2021
+ok,https://doh.dns.sb/dns-query,netflix.com,105.464650,121,Mon Jul  5 13:51:13 2021
+ok,https://dns.therifleman.name/dns-query,google.com,798.498764,55,Mon Jul  5 13:51:13 2021
+ok,https://dns.therifleman.name/dns-query,netflix.com,798.593468,88,Mon Jul  5 13:51:13 2021
+Query failed: SSL connect error,https://dns1.dnscrypt.ca/dns-query,google.com, , ,Mon Jul  5 13:51:14 2021
+Query failed: SSL connect error,https://dns1.dnscrypt.ca/dns-query,netflix.com, , ,Mon Jul  5 13:51:14 2021
+Query failed: SSL connect error,https://dns2.dnscrypt.ca/dns-query,google.com, , ,Mon Jul  5 13:51:34 2021
+Query failed: SSL connect error,https://dns2.dnscrypt.ca/dns-query,netflix.com, , ,Mon Jul  5 13:51:34 2021
+ok,https://dns-doh.dnsforfamily.com/dns-query,google.com,519.103961,74,Mon Jul  5 13:51:54 2021
+ok,https://dns-doh.dnsforfamily.com/dns-query,netflix.com,520.242625,77,Mon Jul  5 13:51:54 2021
+ok,https://dns-doh-no-safe-search.dnsforfamily.com/dns-query,google.com,515.133287,44,Mon Jul  5 13:51:54 2021
+ok,https://dns-doh-no-safe-search.dnsforfamily.com/dns-query,netflix.com,534.943186,77,Mon Jul  5 13:51:54 2021
+ok,https://dnsforge.de/dns-query,google.com,302.430573,44,Mon Jul  5 13:51:55 2021
+ok,https://dnsforge.de/dns-query,netflix.com,309.003079,77,Mon Jul  5 13:51:55 2021
+ok,https://dns.dnshome.de/dns-query,google.com,565.350311,44,Mon Jul  5 13:51:55 2021
+ok,https://dns.dnshome.de/dns-query,netflix.com,566.068404,77,Mon Jul  5 13:51:55 2021
+ok,https://doh.pub/dns-query,google.com,614.451493,77,Mon Jul  5 13:51:56 2021
+ok,https://doh.pub/dns-query,netflix.com,734.050485,133,Mon Jul  5 13:51:56 2021
+ok,https://doh-ch.blahdns.com/dns-query,google.com,337.552077,195,Mon Jul  5 13:51:57 2021
+ok,https://doh-ch.blahdns.com/dns-query,netflix.com,338.519573,121,Mon Jul  5 13:51:57 2021
+Problem 7 decoding 38445 bytes response to probe,https://doh.cleanbrowsing.org/dns-query,google.com, , ,Mon Jul  5 13:51:57 2021
+Problem 7 decoding 38445 bytes response to probe,https://doh.cleanbrowsing.org/dns-query,netflix.com, , ,Mon Jul  5 13:51:57 2021
+Problem 7 decoding 38445 bytes response to probe,https://doh.cleanbrowsing.org/dns-query,google.com, , ,Mon Jul  5 13:51:57 2021
+Problem 7 decoding 38445 bytes response to probe,https://doh.cleanbrowsing.org/dns-query,netflix.com, , ,Mon Jul  5 13:51:57 2021
+Problem 7 decoding 38445 bytes response to probe,https://doh.cleanbrowsing.org/dns-query,google.com, , ,Mon Jul  5 13:51:57 2021
+Problem 7 decoding 38445 bytes response to probe,https://doh.cleanbrowsing.org/dns-query,netflix.com, , ,Mon Jul  5 13:51:57 2021
+Query got response: 405,https://doh.crypto.sx/dns-query,google.com, , ,Mon Jul  5 13:51:58 2021
+Query got response: 405,https://doh.crypto.sx/dns-query,netflix.com, , ,Mon Jul  5 13:51:58 2021
+ok,https://doh-de.blahdns.com/dns-query,google.com,301.785196,65,Mon Jul  5 13:51:58 2021
+ok,https://doh-de.blahdns.com/dns-query,netflix.com,307.548374,121,Mon Jul  5 13:51:58 2021
+ok,https://doh-fi.blahdns.com/dns-query,google.com,363.027769,65,Mon Jul  5 13:51:58 2021
+ok,https://doh-fi.blahdns.com/dns-query,netflix.com,376.937457,121,Mon Jul  5 13:51:58 2021
+ok,https://ibksturm.synology.me/dns-query,google.com,607.875526,124,Mon Jul  5 13:51:59 2021
+ok,https://ibksturm.synology.me/dns-query,netflix.com,612.894478,77,Mon Jul  5 13:51:59 2021
+ok,https://doh-jp.blahdns.com/dns-query,google.com,564.495296,65,Mon Jul  5 13:51:59 2021
+ok,https://doh-jp.blahdns.com/dns-query,netflix.com,567.631767,121,Mon Jul  5 13:51:59 2021
+ok,https://doh-sg.blahdns.com/dns-query,google.com,807.546239,65,Mon Jul  5 13:52:00 2021
+ok,https://doh-sg.blahdns.com/dns-query,netflix.com,811.085859,121,Mon Jul  5 13:52:00 2021
+Query got response: 404,https://doh.appliedprivacy.net/dns-query,google.com, , ,Mon Jul  5 13:52:01 2021
+Query got response: 404,https://doh.appliedprivacy.net/dns-query,netflix.com, , ,Mon Jul  5 13:52:01 2021
+ok,https://doh.ffmuc.net/dns-query,google.com,749.401998,44,Mon Jul  5 13:52:01 2021
+ok,https://doh.ffmuc.net/dns-query,netflix.com,749.375644,77,Mon Jul  5 13:52:01 2021
+ok,https://doh.tiarap.org/dns-query,netflix.com,359.618418,132,Mon Jul  5 13:52:02 2021
+ok,https://doh.tiarap.org/dns-query,google.com,384.211672,196,Mon Jul  5 13:52:02 2021
+Query failed: SSL peer certificate or SSH remote key was not OK,https://dns.emeraldonion.org/dns-query,google.com, , ,Mon Jul  5 13:52:02 2021
+Query failed: SSL peer certificate or SSH remote key was not OK,https://dns.emeraldonion.org/dns-query,netflix.com, , ,Mon Jul  5 13:52:02 2021
+ok,https://dns.google/dns-query,google.com,43.876577,44,Mon Jul  5 13:52:02 2021
+ok,https://dns.google/dns-query,netflix.com,45.603809,77,Mon Jul  5 13:52:02 2021
+ok,https://ordns.he.net/dns-query,google.com,62.576519,44,Mon Jul  5 13:52:02 2021
+ok,https://ordns.he.net/dns-query,netflix.com,62.607031,77,Mon Jul  5 13:52:02 2021
+Query failed: Couldn't connect to server,https://doh.tiar.app/dns-query,google.com, , ,Mon Jul  5 13:52:02 2021
+Query failed: Couldn't connect to server,https://doh.tiar.app/dns-query,netflix.com, , ,Mon Jul  5 13:52:02 2021
+ok,https://public.dns.iij.jp/dns-query,google.com,225.631236,54,Mon Jul  5 13:53:06 2021
+ok,https://public.dns.iij.jp/dns-query,netflix.com,247.864937,110,Mon Jul  5 13:53:06 2021
+ok,https://doh.this.web.id/dns-query,google.com,1233.835322,65,Mon Jul  5 13:53:06 2021
+ok,https://doh.this.web.id/dns-query,netflix.com,1233.858755,121,Mon Jul  5 13:53:06 2021
+Query failed: Couldn't connect to server,https://jp.tiar.app/dns-query,google.com, , ,Mon Jul  5 13:53:07 2021
+Query failed: Couldn't connect to server,https://jp.tiar.app/dns-query,netflix.com, , ,Mon Jul  5 13:53:07 2021
+ok,https://jp.tiarap.org/dns-query,netflix.com,264.633346,132,Mon Jul  5 13:54:10 2021
+ok,https://jp.tiarap.org/dns-query,google.com,273.738205,68,Mon Jul  5 13:54:10 2021
+ok,https://doh.libredns.gr/dns-query,google.com,292.754577,44,Mon Jul  5 13:54:10 2021
+ok,https://doh.libredns.gr/dns-query,netflix.com,297.773747,77,Mon Jul  5 13:54:10 2021
+ok,https://doh.libredns.gr/dns-query,google.com,299.943577,44,Mon Jul  5 13:54:11 2021
+ok,https://doh.libredns.gr/dns-query,netflix.com,299.928964,77,Mon Jul  5 13:54:11 2021
+ok,https://doh.linuxsec.org/dns-query,google.com,1005.003082,195,Mon Jul  5 13:54:11 2021
+ok,https://doh.linuxsec.org/dns-query,netflix.com,1005.080743,304,Mon Jul  5 13:54:11 2021
+ok,https://doh.linuxsec.org/dns-query,google.com,1035.570649,195,Mon Jul  5 13:54:12 2021
+ok,https://doh.linuxsec.org/dns-query,netflix.com,1036.216325,304,Mon Jul  5 13:54:12 2021
+ok,https://adblock.doh.mullvad.net/dns-query,google.com,63.578563,44,Mon Jul  5 13:54:13 2021
+ok,https://adblock.doh.mullvad.net/dns-query,netflix.com,63.483926,77,Mon Jul  5 13:54:13 2021
+ok,https://doh.mullvad.net/dns-query,google.com,61.022138,44,Mon Jul  5 13:54:13 2021
+ok,https://doh.mullvad.net/dns-query,netflix.com,60.969728,77,Mon Jul  5 13:54:13 2021
+ok,https://dns.nextdns.io/dns-query,google.com,98.993751,44,Mon Jul  5 13:54:13 2021
+ok,https://dns.nextdns.io/dns-query,netflix.com,99.636404,77,Mon Jul  5 13:54:13 2021
+ok,https://dns.njal.la/dns-query,netflix.com,454.563589,77,Mon Jul  5 13:54:13 2021
+ok,https://dns.njal.la/dns-query,google.com,461.049554,44,Mon Jul  5 13:54:13 2021
+Query got response: 405,https://doh.post-factum.tk/dns-query,google.com, , ,Mon Jul  5 13:54:14 2021
+Query got response: 405,https://doh.post-factum.tk/dns-query,netflix.com, , ,Mon Jul  5 13:54:14 2021
+ok,https://draco.plan9-ns2.com/dns-query,google.com,115.420749,124,Mon Jul  5 13:54:14 2021
+ok,https://draco.plan9-ns2.com/dns-query,netflix.com,116.496411,77,Mon Jul  5 13:54:14 2021
+ok,https://doh.powerdns.org/dns-query,google.com,284.895170,44,Mon Jul  5 13:54:14 2021
+ok,https://doh.powerdns.org/dns-query,netflix.com,288.270311,77,Mon Jul  5 13:54:14 2021
+Query failed: SSL connect error,https://doh.seby.io/dns-query,google.com, , ,Mon Jul  5 13:54:14 2021
+Query failed: SSL connect error,https://doh.seby.io/dns-query,netflix.com, , ,Mon Jul  5 13:54:14 2021
+ok,https://doh-2.seby.io/dns-query,google.com,622.091264,65,Mon Jul  5 13:54:15 2021
+ok,https://doh-2.seby.io/dns-query,netflix.com,622.041213,121,Mon Jul  5 13:54:15 2021
+ok,https://dns.twnic.tw/dns-query,google.com,797.631818,76,Mon Jul  5 13:54:16 2021
+ok,https://dns.twnic.tw/dns-query,netflix.com,799.256664,132,Mon Jul  5 13:54:16 2021
+ok,https://dns9.quad9.net/dns-query,google.com,62.992890,44,Mon Jul  5 13:54:17 2021
+ok,https://dns9.quad9.net/dns-query,netflix.com,62.995712,77,Mon Jul  5 13:54:17 2021
+ok,https://dns9.quad9.net/dns-query,google.com,43.470149,44,Mon Jul  5 13:54:17 2021
+ok,https://dns9.quad9.net/dns-query,netflix.com,43.468012,77,Mon Jul  5 13:54:17 2021
+ok,https://dnsse.alekberg.net/dns-query,google.com,363.904996,324,Mon Jul  5 13:54:17 2021
+ok,https://dnsse.alekberg.net/dns-query,netflix.com,400.885852,388,Mon Jul  5 13:54:17 2021
+ok,https://dns.switch.ch/dns-query,google.com,447.295828,44,Mon Jul  5 13:54:17 2021
+ok,https://dns.switch.ch/dns-query,netflix.com,448.689158,77,Mon Jul  5 13:54:17 2021
+ok,https://dns.t53.de/dns-query,google.com,436.772307,44,Mon Jul  5 13:54:18 2021
+ok,https://dns.t53.de/dns-query,netflix.com,440.877821,77,Mon Jul  5 13:54:18 2021
+ok,https://sg.yepdns.com/dns-query,google.com,741.777179,135,Mon Jul  5 13:54:18 2021
+ok,https://sg.yepdns.com/dns-query,netflix.com,741.754379,88,Mon Jul  5 13:54:18 2021
+ok,total_run_time,192738.548361,0
+
+ok,https://dns.google/dns-query,google.com,83.445832,44,Mon Jul  5 13:54:19 2021
+ok,https://dns.google/dns-query,netflix.com,86.156467,77,Mon Jul  5 13:54:19 2021
+ok,https://dns.aa.net.uk/dns-query,google.com,273.400228,44,Mon Jul  5 13:54:19 2021
+ok,https://dns.aa.net.uk/dns-query,netflix.com,273.515793,213,Mon Jul  5 13:54:19 2021
+ok,https://adfree.usableprivacy.net/dns-query,google.com,377.237753,44,Mon Jul  5 13:54:19 2021
+ok,https://adfree.usableprivacy.net/dns-query,netflix.com,405.263430,77,Mon Jul  5 13:54:19 2021
+ok,https://dns.adguard.com/dns-query,google.com,73.885185,44,Mon Jul  5 13:54:20 2021
+ok,https://dns.adguard.com/dns-query,netflix.com,85.272914,77,Mon Jul  5 13:54:20 2021
+ok,https://dns-family.adguard.com/dns-query,netflix.com,84.667677,77,Mon Jul  5 13:54:20 2021
+ok,https://dns-family.adguard.com/dns-query,google.com,84.819137,44,Mon Jul  5 13:54:20 2021
+ok,https://doh.in.ahadns.net/dns-query,netflix.com,894.089781,121,Mon Jul  5 13:54:20 2021
+ok,https://doh.in.ahadns.net/dns-query,google.com,894.289195,65,Mon Jul  5 13:54:20 2021
+ok,https://doh.la.ahadns.net/dns-query,google.com,260.680105,65,Mon Jul  5 13:54:21 2021
+ok,https://doh.la.ahadns.net/dns-query,netflix.com,416.485321,121,Mon Jul  5 13:54:21 2021
+ok,https://doh.nl.ahadns.net/dns-query,google.com,298.539267,65,Mon Jul  5 13:54:21 2021
+ok,https://doh.nl.ahadns.net/dns-query,netflix.com,299.057353,121,Mon Jul  5 13:54:21 2021
+ok,https://dns.alidns.com/dns-query,google.com,49.109576,65,Mon Jul  5 13:54:22 2021
+ok,https://dns.alidns.com/dns-query,netflix.com,57.146673,121,Mon Jul  5 13:54:22 2021
+ok,https://dnsnl.alekberg.net/dns-query,google.com,434.982540,68,Mon Jul  5 13:54:22 2021
+ok,https://dnsnl.alekberg.net/dns-query,netflix.com,434.968823,132,Mon Jul  5 13:54:22 2021
+ok,https://dnsnl.alekberg.net/dns-query,netflix.com,294.265460,132,Mon Jul  5 13:54:22 2021
+ok,https://dnsnl.alekberg.net/dns-query,google.com,294.413049,68,Mon Jul  5 13:54:22 2021
+ok,https://dns.arapurayil.com/dns-query,google.com,611.862734,44,Mon Jul  5 13:54:22 2021
+ok,https://dns.arapurayil.com/dns-query,netflix.com,611.930297,77,Mon Jul  5 13:54:22 2021
+ok,https://dohtrial.att.net/dns-query,google.com,163.723956,124,Mon Jul  5 13:54:23 2021
+ok,https://dohtrial.att.net/dns-query,netflix.com,163.764075,77,Mon Jul  5 13:54:23 2021
+ok,https://dnses.alekberg.net/dns-query,google.com,473.453920,324,Mon Jul  5 13:54:23 2021
+ok,https://dnses.alekberg.net/dns-query,netflix.com,607.390477,388,Mon Jul  5 13:54:23 2021
+Query got response: 404,https://doh.bortzmeyer.fr/dns-query,google.com, , ,Mon Jul  5 13:54:24 2021
+Query got response: 404,https://doh.bortzmeyer.fr/dns-query,netflix.com, , ,Mon Jul  5 13:54:24 2021
+ok,https://dns.circl.lu/dns-query,google.com,371.392728,54,Mon Jul  5 13:54:24 2021
+ok,https://dns.circl.lu/dns-query,netflix.com,395.223097,110,Mon Jul  5 13:54:24 2021
+ok,https://doh.opendns.com/dns-query,google.com,75.184633,44,Mon Jul  5 13:54:24 2021
+ok,https://doh.opendns.com/dns-query,netflix.com,82.028412,77,Mon Jul  5 13:54:24 2021
+ok,https://dns.cloudflare.com/dns-query,google.com,68.195989,44,Mon Jul  5 13:54:25 2021
+ok,https://dns.cloudflare.com/dns-query,netflix.com,68.830470,77,Mon Jul  5 13:54:25 2021
+ok,https://family.cloudflare-dns.com/dns-query,google.com,67.395100,44,Mon Jul  5 13:54:25 2021
+ok,https://family.cloudflare-dns.com/dns-query,netflix.com,67.764989,77,Mon Jul  5 13:54:25 2021
+ok,https://security.cloudflare-dns.com/dns-query,google.com,64.771283,44,Mon Jul  5 13:54:25 2021
+ok,https://security.cloudflare-dns.com/dns-query,netflix.com,65.246055,77,Mon Jul  5 13:54:25 2021
+ok,https://odvr.nic.cz/dns-query,google.com,565.936637,44,Mon Jul  5 13:54:25 2021
+ok,https://odvr.nic.cz/dns-query,netflix.com,565.963156,77,Mon Jul  5 13:54:25 2021
+ok,https://dns.digitale-gesellschaft.ch/dns-query,google.com,452.025320,65,Mon Jul  5 13:54:25 2021
+ok,https://dns.digitale-gesellschaft.ch/dns-query,netflix.com,452.054648,121,Mon Jul  5 13:54:25 2021
+ok,https://dns.digitale-gesellschaft.ch/dns-query,netflix.com,325.019270,121,Mon Jul  5 13:54:26 2021
+ok,https://dns.digitale-gesellschaft.ch/dns-query,google.com,325.186281,65,Mon Jul  5 13:54:26 2021
+ok,https://dns1.ryan-palmer.com/dns-query,netflix.com,299.955559,77,Mon Jul  5 13:54:26 2021
+ok,https://dns1.ryan-palmer.com/dns-query,google.com,303.032660,44,Mon Jul  5 13:54:26 2021
+ok,https://doh.dns.sb/dns-query,netflix.com,198.883441,121,Mon Jul  5 13:54:26 2021
+ok,https://doh.dns.sb/dns-query,google.com,267.198821,65,Mon Jul  5 13:54:26 2021
+ok,https://dns.therifleman.name/dns-query,google.com,846.851973,55,Mon Jul  5 13:54:27 2021
+ok,https://dns.therifleman.name/dns-query,netflix.com,846.976801,88,Mon Jul  5 13:54:27 2021
+Query failed: SSL connect error,https://dns1.dnscrypt.ca/dns-query,google.com, , ,Mon Jul  5 13:54:28 2021
+Query failed: SSL connect error,https://dns1.dnscrypt.ca/dns-query,netflix.com, , ,Mon Jul  5 13:54:28 2021
+Query failed: SSL connect error,https://dns2.dnscrypt.ca/dns-query,google.com, , ,Mon Jul  5 13:54:48 2021
+Query failed: SSL connect error,https://dns2.dnscrypt.ca/dns-query,netflix.com, , ,Mon Jul  5 13:54:48 2021
+ok,https://dns-doh.dnsforfamily.com/dns-query,google.com,525.281836,74,Mon Jul  5 13:55:08 2021
+ok,https://dns-doh.dnsforfamily.com/dns-query,netflix.com,525.622664,77,Mon Jul  5 13:55:08 2021
+ok,https://dns-doh-no-safe-search.dnsforfamily.com/dns-query,google.com,535.466487,44,Mon Jul  5 13:55:09 2021
+ok,https://dns-doh-no-safe-search.dnsforfamily.com/dns-query,netflix.com,538.473061,77,Mon Jul  5 13:55:09 2021
+ok,https://dnsforge.de/dns-query,google.com,411.477017,44,Mon Jul  5 13:55:09 2021
+ok,https://dnsforge.de/dns-query,netflix.com,420.661549,77,Mon Jul  5 13:55:09 2021
+ok,https://dns.dnshome.de/dns-query,google.com,351.145628,44,Mon Jul  5 13:55:10 2021
+ok,https://dns.dnshome.de/dns-query,netflix.com,353.999936,77,Mon Jul  5 13:55:10 2021
+ok,https://doh.pub/dns-query,google.com,628.470354,77,Mon Jul  5 13:55:10 2021
+ok,https://doh.pub/dns-query,netflix.com,744.142910,133,Mon Jul  5 13:55:10 2021
+ok,https://doh-ch.blahdns.com/dns-query,google.com,359.105135,195,Mon Jul  5 13:55:11 2021
+ok,https://doh-ch.blahdns.com/dns-query,netflix.com,360.306984,121,Mon Jul  5 13:55:11 2021
+Problem 7 decoding 38445 bytes response to probe,https://doh.cleanbrowsing.org/dns-query,google.com, , ,Mon Jul  5 13:55:11 2021
+Problem 7 decoding 38445 bytes response to probe,https://doh.cleanbrowsing.org/dns-query,netflix.com, , ,Mon Jul  5 13:55:11 2021
+Problem 7 decoding 38445 bytes response to probe,https://doh.cleanbrowsing.org/dns-query,google.com, , ,Mon Jul  5 13:55:11 2021
+Problem 7 decoding 38445 bytes response to probe,https://doh.cleanbrowsing.org/dns-query,netflix.com, , ,Mon Jul  5 13:55:11 2021
+Problem 7 decoding 38445 bytes response to probe,https://doh.cleanbrowsing.org/dns-query,google.com, , ,Mon Jul  5 13:55:12 2021
+Problem 7 decoding 38445 bytes response to probe,https://doh.cleanbrowsing.org/dns-query,netflix.com, , ,Mon Jul  5 13:55:12 2021
+Query got response: 405,https://doh.crypto.sx/dns-query,netflix.com, , ,Mon Jul  5 13:55:12 2021
+Query got response: 405,https://doh.crypto.sx/dns-query,google.com, , ,Mon Jul  5 13:55:12 2021
+ok,https://doh-de.blahdns.com/dns-query,google.com,320.454042,65,Mon Jul  5 13:55:12 2021
+ok,https://doh-de.blahdns.com/dns-query,netflix.com,327.214092,121,Mon Jul  5 13:55:12 2021
+ok,https://doh-fi.blahdns.com/dns-query,google.com,384.194551,65,Mon Jul  5 13:55:12 2021
+ok,https://doh-fi.blahdns.com/dns-query,netflix.com,395.019124,121,Mon Jul  5 13:55:12 2021
+ok,https://ibksturm.synology.me/dns-query,google.com,624.735944,124,Mon Jul  5 13:55:13 2021
+ok,https://ibksturm.synology.me/dns-query,netflix.com,629.566580,77,Mon Jul  5 13:55:13 2021
+ok,https://doh-jp.blahdns.com/dns-query,google.com,592.842463,65,Mon Jul  5 13:55:13 2021
+ok,https://doh-jp.blahdns.com/dns-query,netflix.com,594.858137,121,Mon Jul  5 13:55:13 2021
+ok,https://doh-sg.blahdns.com/dns-query,google.com,733.027447,65,Mon Jul  5 13:55:14 2021
+ok,https://doh-sg.blahdns.com/dns-query,netflix.com,734.411612,121,Mon Jul  5 13:55:14 2021
+Query got response: 404,https://doh.appliedprivacy.net/dns-query,google.com, , ,Mon Jul  5 13:55:15 2021
+Query got response: 404,https://doh.appliedprivacy.net/dns-query,netflix.com, , ,Mon Jul  5 13:55:15 2021
+ok,https://doh.ffmuc.net/dns-query,google.com,692.023586,44,Mon Jul  5 13:55:15 2021
+ok,https://doh.ffmuc.net/dns-query,netflix.com,691.998766,77,Mon Jul  5 13:55:15 2021
+ok,https://doh.tiarap.org/dns-query,netflix.com,327.934790,132,Mon Jul  5 13:55:16 2021
+ok,https://doh.tiarap.org/dns-query,google.com,368.792491,68,Mon Jul  5 13:55:16 2021
+Query failed: SSL peer certificate or SSH remote key was not OK,https://dns.emeraldonion.org/dns-query,google.com, , ,Mon Jul  5 13:55:16 2021
+Query failed: SSL peer certificate or SSH remote key was not OK,https://dns.emeraldonion.org/dns-query,netflix.com, , ,Mon Jul  5 13:55:16 2021
+ok,https://dns.google/dns-query,google.com,48.345131,44,Mon Jul  5 13:55:16 2021
+ok,https://dns.google/dns-query,netflix.com,51.765109,77,Mon Jul  5 13:55:16 2021
+ok,https://ordns.he.net/dns-query,google.com,69.788906,44,Mon Jul  5 13:55:17 2021
+ok,https://ordns.he.net/dns-query,netflix.com,126.606337,77,Mon Jul  5 13:55:17 2021
+Query failed: Couldn't connect to server,https://doh.tiar.app/dns-query,google.com, , ,Mon Jul  5 13:55:17 2021
+Query failed: Couldn't connect to server,https://doh.tiar.app/dns-query,netflix.com, , ,Mon Jul  5 13:55:17 2021
+ok,https://public.dns.iij.jp/dns-query,netflix.com,337.764802,110,Mon Jul  5 13:56:20 2021
+ok,https://public.dns.iij.jp/dns-query,google.com,342.579071,54,Mon Jul  5 13:56:20 2021
+ok,https://doh.this.web.id/dns-query,google.com,1246.929000,65,Mon Jul  5 13:56:20 2021
+ok,https://doh.this.web.id/dns-query,netflix.com,1246.922605,121,Mon Jul  5 13:56:20 2021
+Query failed: Couldn't connect to server,https://jp.tiar.app/dns-query,google.com, , ,Mon Jul  5 13:56:21 2021
+Query failed: Couldn't connect to server,https://jp.tiar.app/dns-query,netflix.com, , ,Mon Jul  5 13:56:21 2021
+ok,https://jp.tiarap.org/dns-query,netflix.com,258.095686,132,Mon Jul  5 13:57:24 2021
+ok,https://jp.tiarap.org/dns-query,google.com,275.698810,68,Mon Jul  5 13:57:24 2021
+ok,https://doh.libredns.gr/dns-query,google.com,373.251330,44,Mon Jul  5 13:57:24 2021
+ok,https://doh.libredns.gr/dns-query,netflix.com,373.290818,77,Mon Jul  5 13:57:24 2021
+ok,https://doh.libredns.gr/dns-query,google.com,293.275770,44,Mon Jul  5 13:57:25 2021
+ok,https://doh.libredns.gr/dns-query,netflix.com,293.284390,77,Mon Jul  5 13:57:25 2021
+ok,https://doh.linuxsec.org/dns-query,netflix.com,1043.797875,304,Mon Jul  5 13:57:25 2021
+ok,https://doh.linuxsec.org/dns-query,google.com,1044.161706,195,Mon Jul  5 13:57:25 2021
+ok,https://doh.linuxsec.org/dns-query,google.com,1045.470766,195,Mon Jul  5 13:57:26 2021
+ok,https://doh.linuxsec.org/dns-query,netflix.com,1045.490493,304,Mon Jul  5 13:57:26 2021
+ok,https://adblock.doh.mullvad.net/dns-query,google.com,76.361378,44,Mon Jul  5 13:57:27 2021
+ok,https://adblock.doh.mullvad.net/dns-query,netflix.com,76.329145,77,Mon Jul  5 13:57:27 2021
+ok,https://doh.mullvad.net/dns-query,google.com,61.816617,44,Mon Jul  5 13:57:27 2021
+ok,https://doh.mullvad.net/dns-query,netflix.com,61.788528,77,Mon Jul  5 13:57:27 2021
+ok,https://dns.nextdns.io/dns-query,google.com,122.758674,44,Mon Jul  5 13:57:27 2021
+ok,https://dns.nextdns.io/dns-query,netflix.com,122.812497,77,Mon Jul  5 13:57:27 2021
+ok,https://dns.njal.la/dns-query,google.com,451.271042,44,Mon Jul  5 13:57:27 2021
+ok,https://dns.njal.la/dns-query,netflix.com,457.439860,77,Mon Jul  5 13:57:27 2021
+Query got response: 405,https://doh.post-factum.tk/dns-query,netflix.com, , ,Mon Jul  5 13:57:28 2021
+Query got response: 405,https://doh.post-factum.tk/dns-query,google.com, , ,Mon Jul  5 13:57:28 2021
+ok,https://draco.plan9-ns2.com/dns-query,netflix.com,128.140459,77,Mon Jul  5 13:57:28 2021
+ok,https://draco.plan9-ns2.com/dns-query,google.com,139.752983,124,Mon Jul  5 13:57:28 2021
+ok,https://doh.powerdns.org/dns-query,google.com,461.451061,44,Mon Jul  5 13:57:28 2021
+ok,https://doh.powerdns.org/dns-query,netflix.com,464.218973,77,Mon Jul  5 13:57:28 2021
+Query failed: SSL connect error,https://doh.seby.io/dns-query,google.com, , ,Mon Jul  5 13:57:29 2021
+Query failed: SSL connect error,https://doh.seby.io/dns-query,netflix.com, , ,Mon Jul  5 13:57:29 2021
+ok,https://doh-2.seby.io/dns-query,google.com,646.428562,65,Mon Jul  5 13:57:30 2021
+ok,https://doh-2.seby.io/dns-query,netflix.com,646.363002,121,Mon Jul  5 13:57:30 2021
+ok,https://dns.twnic.tw/dns-query,google.com,32543.926501,76,Mon Jul  5 13:57:31 2021
+ok,https://dns.twnic.tw/dns-query,netflix.com,32544.469173,132,Mon Jul  5 13:57:31 2021
+ok,https://dns9.quad9.net/dns-query,google.com,56.948618,44,Mon Jul  5 13:58:03 2021
+ok,https://dns9.quad9.net/dns-query,netflix.com,58.018624,77,Mon Jul  5 13:58:03 2021
+ok,https://dns9.quad9.net/dns-query,google.com,42.441695,44,Mon Jul  5 13:58:03 2021
+ok,https://dns9.quad9.net/dns-query,netflix.com,42.432645,77,Mon Jul  5 13:58:03 2021
+ok,https://dnsse.alekberg.net/dns-query,google.com,491.322529,324,Mon Jul  5 13:58:03 2021
+ok,https://dnsse.alekberg.net/dns-query,netflix.com,597.237937,388,Mon Jul  5 13:58:03 2021
+ok,https://dns.switch.ch/dns-query,google.com,556.617826,44,Mon Jul  5 13:58:04 2021
+ok,https://dns.switch.ch/dns-query,netflix.com,557.876942,77,Mon Jul  5 13:58:04 2021
+ok,https://dns.t53.de/dns-query,google.com,553.801000,44,Mon Jul  5 13:58:04 2021
+ok,https://dns.t53.de/dns-query,netflix.com,563.921200,77,Mon Jul  5 13:58:04 2021
+ok,https://sg.yepdns.com/dns-query,netflix.com,789.313913,88,Mon Jul  5 13:58:05 2021
+ok,https://sg.yepdns.com/dns-query,google.com,789.651866,135,Mon Jul  5 13:58:05 2021
+ok,total_run_time,226647.662350,0
+
+ok,https://dns.google/dns-query,google.com,47.738285,44,Mon Jul  5 13:58:06 2021
+ok,https://dns.google/dns-query,netflix.com,64.135329,77,Mon Jul  5 13:58:06 2021
+ok,https://dns.aa.net.uk/dns-query,google.com,468.406314,44,Mon Jul  5 13:58:06 2021
+ok,https://dns.aa.net.uk/dns-query,netflix.com,477.740928,213,Mon Jul  5 13:58:06 2021
+ok,https://adfree.usableprivacy.net/dns-query,google.com,404.775635,44,Mon Jul  5 13:58:06 2021
+ok,https://adfree.usableprivacy.net/dns-query,netflix.com,427.562721,77,Mon Jul  5 13:58:06 2021
+ok,https://dns.adguard.com/dns-query,google.com,71.981951,44,Mon Jul  5 13:58:07 2021
+ok,https://dns.adguard.com/dns-query,netflix.com,71.959626,77,Mon Jul  5 13:58:07 2021
+ok,https://dns-family.adguard.com/dns-query,google.com,73.218339,44,Mon Jul  5 13:58:07 2021
+ok,https://dns-family.adguard.com/dns-query,netflix.com,73.306202,77,Mon Jul  5 13:58:07 2021
+ok,https://doh.in.ahadns.net/dns-query,netflix.com,881.575222,121,Mon Jul  5 13:58:07 2021
+ok,https://doh.in.ahadns.net/dns-query,google.com,881.747945,65,Mon Jul  5 13:58:07 2021
+ok,https://doh.la.ahadns.net/dns-query,google.com,231.681925,65,Mon Jul  5 13:58:08 2021
+ok,https://doh.la.ahadns.net/dns-query,netflix.com,231.839287,121,Mon Jul  5 13:58:08 2021
+ok,https://doh.nl.ahadns.net/dns-query,netflix.com,291.417364,121,Mon Jul  5 13:58:08 2021
+ok,https://doh.nl.ahadns.net/dns-query,google.com,291.644441,65,Mon Jul  5 13:58:08 2021
+ok,https://dns.alidns.com/dns-query,google.com,50.121032,65,Mon Jul  5 13:58:08 2021
+ok,https://dns.alidns.com/dns-query,netflix.com,63.069873,121,Mon Jul  5 13:58:08 2021
+ok,https://dnsnl.alekberg.net/dns-query,google.com,287.801106,68,Mon Jul  5 13:58:08 2021
+ok,https://dnsnl.alekberg.net/dns-query,netflix.com,287.779779,132,Mon Jul  5 13:58:08 2021
+ok,https://dnsnl.alekberg.net/dns-query,google.com,299.438927,68,Mon Jul  5 13:58:09 2021
+ok,https://dnsnl.alekberg.net/dns-query,netflix.com,299.426238,132,Mon Jul  5 13:58:09 2021
+ok,https://dns.arapurayil.com/dns-query,netflix.com,620.818557,77,Mon Jul  5 13:58:09 2021
+ok,https://dns.arapurayil.com/dns-query,google.com,679.405755,44,Mon Jul  5 13:58:09 2021
+Query failed: SSL peer certificate or SSH remote key was not OK,https://dohtrial.att.net/dns-query,google.com, , ,Mon Jul  5 13:58:10 2021
+Query failed: SSL peer certificate or SSH remote key was not OK,https://dohtrial.att.net/dns-query,netflix.com, , ,Mon Jul  5 13:58:10 2021
+ok,https://dnses.alekberg.net/dns-query,google.com,383.728483,324,Mon Jul  5 13:58:10 2021
+ok,https://dnses.alekberg.net/dns-query,netflix.com,490.213638,324,Mon Jul  5 13:58:10 2021
+Query got response: 404,https://doh.bortzmeyer.fr/dns-query,google.com, , ,Mon Jul  5 13:58:10 2021
+Query got response: 404,https://doh.bortzmeyer.fr/dns-query,netflix.com, , ,Mon Jul  5 13:58:10 2021
+ok,https://dns.circl.lu/dns-query,google.com,346.964049,54,Mon Jul  5 13:58:10 2021
+ok,https://dns.circl.lu/dns-query,netflix.com,372.874200,110,Mon Jul  5 13:58:10 2021
+ok,https://doh.opendns.com/dns-query,netflix.com,62.604215,77,Mon Jul  5 13:58:11 2021
+ok,https://doh.opendns.com/dns-query,google.com,77.433655,44,Mon Jul  5 13:58:11 2021
+ok,https://dns.cloudflare.com/dns-query,netflix.com,51.375167,77,Mon Jul  5 13:58:11 2021
+ok,https://dns.cloudflare.com/dns-query,google.com,53.658958,44,Mon Jul  5 13:58:11 2021
+ok,https://family.cloudflare-dns.com/dns-query,google.com,48.868867,44,Mon Jul  5 13:58:11 2021
+ok,https://family.cloudflare-dns.com/dns-query,netflix.com,48.984038,77,Mon Jul  5 13:58:11 2021
+ok,https://security.cloudflare-dns.com/dns-query,google.com,51.220673,44,Mon Jul  5 13:58:11 2021
+ok,https://security.cloudflare-dns.com/dns-query,netflix.com,51.380196,77,Mon Jul  5 13:58:11 2021
+ok,https://odvr.nic.cz/dns-query,google.com,347.482123,44,Mon Jul  5 13:58:11 2021
+ok,https://odvr.nic.cz/dns-query,netflix.com,347.515568,77,Mon Jul  5 13:58:11 2021
+ok,https://dns.digitale-gesellschaft.ch/dns-query,netflix.com,330.344177,121,Mon Jul  5 13:58:11 2021
+ok,https://dns.digitale-gesellschaft.ch/dns-query,google.com,330.533926,65,Mon Jul  5 13:58:11 2021
+ok,https://dns.digitale-gesellschaft.ch/dns-query,netflix.com,325.595183,121,Mon Jul  5 13:58:12 2021
+ok,https://dns.digitale-gesellschaft.ch/dns-query,google.com,325.796108,65,Mon Jul  5 13:58:12 2021
+ok,https://dns1.ryan-palmer.com/dns-query,google.com,310.485630,44,Mon Jul  5 13:58:12 2021
+ok,https://dns1.ryan-palmer.com/dns-query,netflix.com,319.396711,77,Mon Jul  5 13:58:12 2021
+ok,https://doh.dns.sb/dns-query,google.com,59.322262,65,Mon Jul  5 13:58:12 2021
+ok,https://doh.dns.sb/dns-query,netflix.com,74.952997,121,Mon Jul  5 13:58:12 2021
+ok,https://dns.therifleman.name/dns-query,google.com,878.314223,55,Mon Jul  5 13:58:12 2021
+ok,https://dns.therifleman.name/dns-query,netflix.com,878.425791,88,Mon Jul  5 13:58:12 2021
+Query failed: SSL connect error,https://dns1.dnscrypt.ca/dns-query,google.com, , ,Mon Jul  5 13:58:13 2021
+Query failed: SSL connect error,https://dns1.dnscrypt.ca/dns-query,netflix.com, , ,Mon Jul  5 13:58:13 2021
+Query failed: SSL connect error,https://dns2.dnscrypt.ca/dns-query,google.com, , ,Mon Jul  5 13:58:33 2021
+Query failed: SSL connect error,https://dns2.dnscrypt.ca/dns-query,netflix.com, , ,Mon Jul  5 13:58:33 2021
+ok,https://dns-doh.dnsforfamily.com/dns-query,google.com,517.693460,74,Mon Jul  5 13:58:54 2021
+ok,https://dns-doh.dnsforfamily.com/dns-query,netflix.com,519.075314,77,Mon Jul  5 13:58:54 2021
+ok,https://dns-doh-no-safe-search.dnsforfamily.com/dns-query,google.com,482.558039,44,Mon Jul  5 13:58:54 2021
+ok,https://dns-doh-no-safe-search.dnsforfamily.com/dns-query,netflix.com,504.436810,77,Mon Jul  5 13:58:54 2021
+ok,https://dnsforge.de/dns-query,google.com,310.219359,44,Mon Jul  5 13:58:55 2021
+ok,https://dnsforge.de/dns-query,netflix.com,319.512395,77,Mon Jul  5 13:58:55 2021
+ok,https://dns.dnshome.de/dns-query,google.com,451.813366,44,Mon Jul  5 13:58:55 2021
+ok,https://dns.dnshome.de/dns-query,netflix.com,455.913945,77,Mon Jul  5 13:58:55 2021
+ok,https://doh.pub/dns-query,google.com,640.362980,77,Mon Jul  5 13:58:55 2021
+ok,https://doh.pub/dns-query,netflix.com,732.761976,133,Mon Jul  5 13:58:55 2021
+ok,https://doh-ch.blahdns.com/dns-query,google.com,343.486882,195,Mon Jul  5 13:58:56 2021
+ok,https://doh-ch.blahdns.com/dns-query,netflix.com,344.917686,121,Mon Jul  5 13:58:56 2021
+Problem 7 decoding 38445 bytes response to probe,https://doh.cleanbrowsing.org/dns-query,google.com, , ,Mon Jul  5 13:58:56 2021
+Problem 7 decoding 38445 bytes response to probe,https://doh.cleanbrowsing.org/dns-query,netflix.com, , ,Mon Jul  5 13:58:56 2021
+Problem 7 decoding 38445 bytes response to probe,https://doh.cleanbrowsing.org/dns-query,google.com, , ,Mon Jul  5 13:58:57 2021
+Problem 7 decoding 38445 bytes response to probe,https://doh.cleanbrowsing.org/dns-query,netflix.com, , ,Mon Jul  5 13:58:57 2021
+Problem 7 decoding 38445 bytes response to probe,https://doh.cleanbrowsing.org/dns-query,google.com, , ,Mon Jul  5 13:58:57 2021
+Problem 7 decoding 38445 bytes response to probe,https://doh.cleanbrowsing.org/dns-query,netflix.com, , ,Mon Jul  5 13:58:57 2021
+Query got response: 405,https://doh.crypto.sx/dns-query,google.com, , ,Mon Jul  5 13:58:57 2021
+Query got response: 405,https://doh.crypto.sx/dns-query,netflix.com, , ,Mon Jul  5 13:58:57 2021
+ok,https://doh-de.blahdns.com/dns-query,google.com,303.430217,65,Mon Jul  5 13:58:57 2021
+ok,https://doh-de.blahdns.com/dns-query,netflix.com,309.917299,121,Mon Jul  5 13:58:57 2021
+ok,https://doh-fi.blahdns.com/dns-query,google.com,365.099956,65,Mon Jul  5 13:58:58 2021
+ok,https://doh-fi.blahdns.com/dns-query,netflix.com,374.458316,121,Mon Jul  5 13:58:58 2021
+ok,https://ibksturm.synology.me/dns-query,google.com,626.887060,124,Mon Jul  5 13:58:58 2021
+ok,https://ibksturm.synology.me/dns-query,netflix.com,632.384011,77,Mon Jul  5 13:58:58 2021
+ok,https://doh-jp.blahdns.com/dns-query,google.com,528.191659,65,Mon Jul  5 13:58:59 2021
+ok,https://doh-jp.blahdns.com/dns-query,netflix.com,530.607677,121,Mon Jul  5 13:58:59 2021
+ok,https://doh-sg.blahdns.com/dns-query,google.com,757.204757,65,Mon Jul  5 13:58:59 2021
+ok,https://doh-sg.blahdns.com/dns-query,netflix.com,861.811790,121,Mon Jul  5 13:58:59 2021
+Query got response: 404,https://doh.appliedprivacy.net/dns-query,google.com, , ,Mon Jul  5 13:59:00 2021
+Query got response: 404,https://doh.appliedprivacy.net/dns-query,netflix.com, , ,Mon Jul  5 13:59:00 2021
+ok,https://doh.ffmuc.net/dns-query,google.com,741.483212,44,Mon Jul  5 13:59:01 2021
+ok,https://doh.ffmuc.net/dns-query,netflix.com,741.453872,77,Mon Jul  5 13:59:01 2021
+ok,https://doh.tiarap.org/dns-query,google.com,322.385193,196,Mon Jul  5 13:59:01 2021
+ok,https://doh.tiarap.org/dns-query,netflix.com,325.958410,132,Mon Jul  5 13:59:01 2021
+Query failed: SSL peer certificate or SSH remote key was not OK,https://dns.emeraldonion.org/dns-query,google.com, , ,Mon Jul  5 13:59:02 2021
+Query failed: SSL peer certificate or SSH remote key was not OK,https://dns.emeraldonion.org/dns-query,netflix.com, , ,Mon Jul  5 13:59:02 2021
+ok,https://dns.google/dns-query,google.com,47.833735,44,Mon Jul  5 13:59:02 2021
+ok,https://dns.google/dns-query,netflix.com,50.275624,77,Mon Jul  5 13:59:02 2021
+ok,https://ordns.he.net/dns-query,google.com,62.261296,44,Mon Jul  5 13:59:02 2021
+ok,https://ordns.he.net/dns-query,netflix.com,97.249538,77,Mon Jul  5 13:59:02 2021
+Query failed: Couldn't connect to server,https://doh.tiar.app/dns-query,google.com, , ,Mon Jul  5 13:59:02 2021
+Query failed: Couldn't connect to server,https://doh.tiar.app/dns-query,netflix.com, , ,Mon Jul  5 13:59:02 2021
+ok,https://public.dns.iij.jp/dns-query,google.com,226.884679,54,Mon Jul  5 14:00:05 2021
+ok,https://public.dns.iij.jp/dns-query,netflix.com,264.045960,110,Mon Jul  5 14:00:05 2021
+ok,https://doh.this.web.id/dns-query,google.com,1222.602916,65,Mon Jul  5 14:00:05 2021
+ok,https://doh.this.web.id/dns-query,netflix.com,1222.633997,121,Mon Jul  5 14:00:05 2021
+Query failed: Couldn't connect to server,https://jp.tiar.app/dns-query,google.com, , ,Mon Jul  5 14:00:06 2021
+Query failed: Couldn't connect to server,https://jp.tiar.app/dns-query,netflix.com, , ,Mon Jul  5 14:00:06 2021
+ok,https://jp.tiarap.org/dns-query,google.com,274.819603,68,Mon Jul  5 14:01:09 2021
+ok,https://jp.tiarap.org/dns-query,netflix.com,790.907836,132,Mon Jul  5 14:01:09 2021
+ok,https://doh.libredns.gr/dns-query,google.com,387.695963,44,Mon Jul  5 14:01:10 2021
+ok,https://doh.libredns.gr/dns-query,netflix.com,392.941776,77,Mon Jul  5 14:01:10 2021
+ok,https://doh.libredns.gr/dns-query,google.com,301.519852,44,Mon Jul  5 14:01:11 2021
+ok,https://doh.libredns.gr/dns-query,netflix.com,301.564285,77,Mon Jul  5 14:01:11 2021
+ok,https://doh.linuxsec.org/dns-query,netflix.com,1039.929717,304,Mon Jul  5 14:01:11 2021
+ok,https://doh.linuxsec.org/dns-query,google.com,1040.107700,195,Mon Jul  5 14:01:11 2021
+ok,https://doh.linuxsec.org/dns-query,netflix.com,1038.101878,304,Mon Jul  5 14:01:12 2021
+ok,https://doh.linuxsec.org/dns-query,google.com,1038.435092,195,Mon Jul  5 14:01:12 2021
+ok,https://adblock.doh.mullvad.net/dns-query,google.com,62.803584,44,Mon Jul  5 14:01:13 2021
+ok,https://adblock.doh.mullvad.net/dns-query,netflix.com,62.755064,77,Mon Jul  5 14:01:13 2021
+ok,https://doh.mullvad.net/dns-query,google.com,68.330308,44,Mon Jul  5 14:01:13 2021
+ok,https://doh.mullvad.net/dns-query,netflix.com,68.298759,77,Mon Jul  5 14:01:13 2021
+ok,https://dns.nextdns.io/dns-query,google.com,104.777414,44,Mon Jul  5 14:01:13 2021
+ok,https://dns.nextdns.io/dns-query,netflix.com,104.835176,77,Mon Jul  5 14:01:13 2021
+ok,https://dns.njal.la/dns-query,netflix.com,535.253904,77,Mon Jul  5 14:01:13 2021
+ok,https://dns.njal.la/dns-query,google.com,542.574431,44,Mon Jul  5 14:01:13 2021
+Query got response: 405,https://doh.post-factum.tk/dns-query,google.com, , ,Mon Jul  5 14:01:14 2021
+Query got response: 405,https://doh.post-factum.tk/dns-query,netflix.com, , ,Mon Jul  5 14:01:14 2021
+ok,https://draco.plan9-ns2.com/dns-query,google.com,117.365859,124,Mon Jul  5 14:01:14 2021
+ok,https://draco.plan9-ns2.com/dns-query,netflix.com,118.286862,77,Mon Jul  5 14:01:14 2021
+ok,https://doh.powerdns.org/dns-query,google.com,287.734589,44,Mon Jul  5 14:01:14 2021
+ok,https://doh.powerdns.org/dns-query,netflix.com,291.497127,77,Mon Jul  5 14:01:14 2021
+Query failed: SSL connect error,https://doh.seby.io/dns-query,google.com, , ,Mon Jul  5 14:01:15 2021
+Query failed: SSL connect error,https://doh.seby.io/dns-query,netflix.com, , ,Mon Jul  5 14:01:15 2021
+ok,https://doh-2.seby.io/dns-query,google.com,641.043212,65,Mon Jul  5 14:01:16 2021
+ok,https://doh-2.seby.io/dns-query,netflix.com,640.988551,121,Mon Jul  5 14:01:16 2021
+ok,https://dns.twnic.tw/dns-query,google.com,996.836118,76,Mon Jul  5 14:01:16 2021
+ok,https://dns.twnic.tw/dns-query,netflix.com,998.918461,132,Mon Jul  5 14:01:16 2021
+ok,https://dns9.quad9.net/dns-query,google.com,42.538767,44,Mon Jul  5 14:01:17 2021
+ok,https://dns9.quad9.net/dns-query,netflix.com,42.678286,77,Mon Jul  5 14:01:17 2021
+ok,https://dns9.quad9.net/dns-query,google.com,45.459338,44,Mon Jul  5 14:01:17 2021
+ok,https://dns9.quad9.net/dns-query,netflix.com,45.474298,77,Mon Jul  5 14:01:17 2021
+ok,https://dnsse.alekberg.net/dns-query,google.com,359.405086,324,Mon Jul  5 14:01:17 2021
+ok,https://dnsse.alekberg.net/dns-query,netflix.com,361.285317,516,Mon Jul  5 14:01:17 2021
+ok,https://dns.switch.ch/dns-query,google.com,466.761006,44,Mon Jul  5 14:01:18 2021
+ok,https://dns.switch.ch/dns-query,netflix.com,467.766161,77,Mon Jul  5 14:01:18 2021
+ok,https://dns.t53.de/dns-query,netflix.com,418.825500,77,Mon Jul  5 14:01:18 2021
+ok,https://dns.t53.de/dns-query,google.com,440.809584,44,Mon Jul  5 14:01:18 2021
+ok,https://sg.yepdns.com/dns-query,google.com,758.976917,135,Mon Jul  5 14:01:19 2021
+ok,https://sg.yepdns.com/dns-query,netflix.com,758.981758,88,Mon Jul  5 14:01:19 2021
+ok,total_run_time,193612.117632,0
+
+ok,https://dns.google/dns-query,google.com,73.960169,44,Mon Jul  5 14:01:19 2021
+ok,https://dns.google/dns-query,netflix.com,78.929539,77,Mon Jul  5 14:01:19 2021
+ok,https://dns.aa.net.uk/dns-query,google.com,266.509314,44,Mon Jul  5 14:01:19 2021
+ok,https://dns.aa.net.uk/dns-query,netflix.com,267.285325,213,Mon Jul  5 14:01:19 2021
+ok,https://adfree.usableprivacy.net/dns-query,google.com,400.909216,44,Mon Jul  5 14:01:20 2021
+ok,https://adfree.usableprivacy.net/dns-query,netflix.com,445.136133,77,Mon Jul  5 14:01:20 2021
+ok,https://dns.adguard.com/dns-query,google.com,86.463122,44,Mon Jul  5 14:01:20 2021
+ok,https://dns.adguard.com/dns-query,netflix.com,86.625399,77,Mon Jul  5 14:01:20 2021
+ok,https://dns-family.adguard.com/dns-query,netflix.com,70.094860,77,Mon Jul  5 14:01:20 2021
+ok,https://dns-family.adguard.com/dns-query,google.com,70.461527,44,Mon Jul  5 14:01:20 2021
+ok,https://doh.in.ahadns.net/dns-query,google.com,858.258651,65,Mon Jul  5 14:01:20 2021
+ok,https://doh.in.ahadns.net/dns-query,netflix.com,858.400516,121,Mon Jul  5 14:01:20 2021
+ok,https://doh.la.ahadns.net/dns-query,google.com,246.223069,195,Mon Jul  5 14:01:21 2021
+ok,https://doh.la.ahadns.net/dns-query,netflix.com,246.868389,121,Mon Jul  5 14:01:21 2021
+ok,https://doh.nl.ahadns.net/dns-query,google.com,307.383497,65,Mon Jul  5 14:01:21 2021
+ok,https://doh.nl.ahadns.net/dns-query,netflix.com,307.419894,121,Mon Jul  5 14:01:21 2021
+ok,https://dns.alidns.com/dns-query,google.com,50.514849,65,Mon Jul  5 14:01:22 2021
+ok,https://dns.alidns.com/dns-query,netflix.com,78.360849,121,Mon Jul  5 14:01:22 2021
+ok,https://dnsnl.alekberg.net/dns-query,google.com,422.520034,68,Mon Jul  5 14:01:22 2021
+ok,https://dnsnl.alekberg.net/dns-query,netflix.com,422.540202,132,Mon Jul  5 14:01:22 2021
+ok,https://dnsnl.alekberg.net/dns-query,netflix.com,314.443112,132,Mon Jul  5 14:01:22 2021
+ok,https://dnsnl.alekberg.net/dns-query,google.com,314.592174,68,Mon Jul  5 14:01:22 2021
+ok,https://dns.arapurayil.com/dns-query,google.com,628.324036,44,Mon Jul  5 14:01:22 2021
+ok,https://dns.arapurayil.com/dns-query,netflix.com,629.362110,77,Mon Jul  5 14:01:22 2021
+ok,https://dohtrial.att.net/dns-query,google.com,148.936323,124,Mon Jul  5 14:01:23 2021
+ok,https://dohtrial.att.net/dns-query,netflix.com,148.925422,77,Mon Jul  5 14:01:23 2021
+ok,https://dnses.alekberg.net/dns-query,google.com,495.801398,324,Mon Jul  5 14:01:23 2021
+ok,https://dnses.alekberg.net/dns-query,netflix.com,504.616715,516,Mon Jul  5 14:01:23 2021
+Query got response: 404,https://doh.bortzmeyer.fr/dns-query,google.com, , ,Mon Jul  5 14:01:24 2021
+Query got response: 404,https://doh.bortzmeyer.fr/dns-query,netflix.com, , ,Mon Jul  5 14:01:24 2021
+ok,https://dns.circl.lu/dns-query,netflix.com,524.384813,110,Mon Jul  5 14:01:24 2021
+ok,https://dns.circl.lu/dns-query,google.com,524.530629,54,Mon Jul  5 14:01:24 2021
+ok,https://doh.opendns.com/dns-query,google.com,653.571504,44,Mon Jul  5 14:01:25 2021
+ok,https://doh.opendns.com/dns-query,netflix.com,657.677479,77,Mon Jul  5 14:01:25 2021
+ok,https://dns.cloudflare.com/dns-query,google.com,62.027190,44,Mon Jul  5 14:01:25 2021
+ok,https://dns.cloudflare.com/dns-query,netflix.com,64.123406,77,Mon Jul  5 14:01:25 2021
+ok,https://family.cloudflare-dns.com/dns-query,google.com,86.776915,44,Mon Jul  5 14:01:25 2021
+ok,https://family.cloudflare-dns.com/dns-query,netflix.com,87.229985,77,Mon Jul  5 14:01:25 2021
+ok,https://security.cloudflare-dns.com/dns-query,google.com,61.468737,44,Mon Jul  5 14:01:25 2021
+ok,https://security.cloudflare-dns.com/dns-query,netflix.com,67.354250,77,Mon Jul  5 14:01:25 2021
+ok,https://odvr.nic.cz/dns-query,google.com,351.766189,44,Mon Jul  5 14:01:26 2021
+ok,https://odvr.nic.cz/dns-query,netflix.com,351.756759,77,Mon Jul  5 14:01:26 2021
+ok,https://dns.digitale-gesellschaft.ch/dns-query,google.com,350.198379,65,Mon Jul  5 14:01:26 2021
+ok,https://dns.digitale-gesellschaft.ch/dns-query,netflix.com,351.405585,121,Mon Jul  5 14:01:26 2021
+ok,https://dns.digitale-gesellschaft.ch/dns-query,google.com,328.221266,65,Mon Jul  5 14:01:26 2021
+ok,https://dns.digitale-gesellschaft.ch/dns-query,netflix.com,418.960222,132,Mon Jul  5 14:01:26 2021
+ok,https://dns1.ryan-palmer.com/dns-query,google.com,305.076639,44,Mon Jul  5 14:01:27 2021
+ok,https://dns1.ryan-palmer.com/dns-query,netflix.com,315.484897,77,Mon Jul  5 14:01:27 2021
+ok,https://doh.dns.sb/dns-query,google.com,113.463221,65,Mon Jul  5 14:01:27 2021
+ok,https://doh.dns.sb/dns-query,netflix.com,146.744452,121,Mon Jul  5 14:01:27 2021
+ok,https://dns.therifleman.name/dns-query,google.com,945.943358,55,Mon Jul  5 14:01:27 2021
+ok,https://dns.therifleman.name/dns-query,netflix.com,946.511583,88,Mon Jul  5 14:01:27 2021
+Query failed: SSL connect error,https://dns1.dnscrypt.ca/dns-query,google.com, , ,Mon Jul  5 14:01:28 2021
+Query failed: SSL connect error,https://dns1.dnscrypt.ca/dns-query,netflix.com, , ,Mon Jul  5 14:01:28 2021
+Query failed: SSL connect error,https://dns2.dnscrypt.ca/dns-query,google.com, , ,Mon Jul  5 14:01:48 2021
+Query failed: SSL connect error,https://dns2.dnscrypt.ca/dns-query,netflix.com, , ,Mon Jul  5 14:01:48 2021
+ok,https://dns-doh.dnsforfamily.com/dns-query,google.com,541.881315,74,Mon Jul  5 14:02:08 2021
+ok,https://dns-doh.dnsforfamily.com/dns-query,netflix.com,543.192129,77,Mon Jul  5 14:02:08 2021
+ok,https://dns-doh-no-safe-search.dnsforfamily.com/dns-query,google.com,523.202045,44,Mon Jul  5 14:02:09 2021
+ok,https://dns-doh-no-safe-search.dnsforfamily.com/dns-query,netflix.com,524.560892,77,Mon Jul  5 14:02:09 2021
+ok,https://dnsforge.de/dns-query,google.com,399.339528,44,Mon Jul  5 14:02:09 2021
+ok,https://dnsforge.de/dns-query,netflix.com,408.386815,77,Mon Jul  5 14:02:09 2021
+ok,https://dns.dnshome.de/dns-query,google.com,354.015052,44,Mon Jul  5 14:02:10 2021
+ok,https://dns.dnshome.de/dns-query,netflix.com,359.184640,77,Mon Jul  5 14:02:10 2021
+ok,https://doh.pub/dns-query,google.com,364.260775,77,Mon Jul  5 14:02:10 2021
+ok,https://doh.pub/dns-query,netflix.com,657.950547,133,Mon Jul  5 14:02:10 2021
+ok,https://doh-ch.blahdns.com/dns-query,google.com,357.712330,195,Mon Jul  5 14:02:11 2021
+ok,https://doh-ch.blahdns.com/dns-query,netflix.com,357.655822,121,Mon Jul  5 14:02:11 2021
+Problem 7 decoding 38445 bytes response to probe,https://doh.cleanbrowsing.org/dns-query,google.com, , ,Mon Jul  5 14:02:11 2021
+Problem 7 decoding 38445 bytes response to probe,https://doh.cleanbrowsing.org/dns-query,netflix.com, , ,Mon Jul  5 14:02:11 2021
+Problem 7 decoding 38445 bytes response to probe,https://doh.cleanbrowsing.org/dns-query,google.com, , ,Mon Jul  5 14:02:12 2021
+Problem 7 decoding 38445 bytes response to probe,https://doh.cleanbrowsing.org/dns-query,netflix.com, , ,Mon Jul  5 14:02:12 2021
+Problem 7 decoding 38445 bytes response to probe,https://doh.cleanbrowsing.org/dns-query,google.com, , ,Mon Jul  5 14:02:12 2021
+Problem 7 decoding 38445 bytes response to probe,https://doh.cleanbrowsing.org/dns-query,netflix.com, , ,Mon Jul  5 14:02:12 2021
+Query got response: 405,https://doh.crypto.sx/dns-query,netflix.com, , ,Mon Jul  5 14:02:12 2021
+Query got response: 405,https://doh.crypto.sx/dns-query,google.com, , ,Mon Jul  5 14:02:12 2021
+ok,https://doh-de.blahdns.com/dns-query,google.com,316.883292,65,Mon Jul  5 14:02:12 2021
+ok,https://doh-de.blahdns.com/dns-query,netflix.com,323.643519,121,Mon Jul  5 14:02:12 2021
+ok,https://doh-fi.blahdns.com/dns-query,google.com,373.152143,65,Mon Jul  5 14:02:13 2021
+ok,https://doh-fi.blahdns.com/dns-query,netflix.com,381.380897,121,Mon Jul  5 14:02:13 2021
+ok,https://ibksturm.synology.me/dns-query,google.com,668.733645,124,Mon Jul  5 14:02:13 2021
+ok,https://ibksturm.synology.me/dns-query,netflix.com,671.892150,77,Mon Jul  5 14:02:13 2021
+ok,https://doh-jp.blahdns.com/dns-query,google.com,566.145158,65,Mon Jul  5 14:02:14 2021
+ok,https://doh-jp.blahdns.com/dns-query,netflix.com,569.082341,121,Mon Jul  5 14:02:14 2021
+ok,https://doh-sg.blahdns.com/dns-query,google.com,752.525374,65,Mon Jul  5 14:02:14 2021
+ok,https://doh-sg.blahdns.com/dns-query,netflix.com,755.003876,121,Mon Jul  5 14:02:14 2021
+Query got response: 404,https://doh.appliedprivacy.net/dns-query,google.com, , ,Mon Jul  5 14:02:15 2021
+Query got response: 404,https://doh.appliedprivacy.net/dns-query,netflix.com, , ,Mon Jul  5 14:02:15 2021
+ok,https://doh.ffmuc.net/dns-query,google.com,766.749845,44,Mon Jul  5 14:02:16 2021
+ok,https://doh.ffmuc.net/dns-query,netflix.com,766.730660,77,Mon Jul  5 14:02:16 2021
+ok,https://doh.tiarap.org/dns-query,netflix.com,320.556535,132,Mon Jul  5 14:02:16 2021
+ok,https://doh.tiarap.org/dns-query,google.com,321.409611,196,Mon Jul  5 14:02:16 2021
+Query failed: SSL peer certificate or SSH remote key was not OK,https://dns.emeraldonion.org/dns-query,google.com, , ,Mon Jul  5 14:02:17 2021
+Query failed: SSL peer certificate or SSH remote key was not OK,https://dns.emeraldonion.org/dns-query,netflix.com, , ,Mon Jul  5 14:02:17 2021
+ok,https://dns.google/dns-query,google.com,45.473655,44,Mon Jul  5 14:02:17 2021
+ok,https://dns.google/dns-query,netflix.com,48.903897,77,Mon Jul  5 14:02:17 2021
+ok,https://ordns.he.net/dns-query,google.com,56.043149,44,Mon Jul  5 14:02:17 2021
+ok,https://ordns.he.net/dns-query,netflix.com,56.036192,77,Mon Jul  5 14:02:17 2021
+Query failed: Couldn't connect to server,https://doh.tiar.app/dns-query,google.com, , ,Mon Jul  5 14:02:17 2021
+Query failed: Couldn't connect to server,https://doh.tiar.app/dns-query,netflix.com, , ,Mon Jul  5 14:02:17 2021
+ok,https://public.dns.iij.jp/dns-query,netflix.com,443.721430,110,Mon Jul  5 14:03:20 2021
+ok,https://public.dns.iij.jp/dns-query,google.com,500.679872,54,Mon Jul  5 14:03:20 2021
+ok,https://doh.this.web.id/dns-query,google.com,1221.919447,65,Mon Jul  5 14:03:20 2021
+ok,https://doh.this.web.id/dns-query,netflix.com,1221.950972,121,Mon Jul  5 14:03:20 2021
+Query failed: Couldn't connect to server,https://jp.tiar.app/dns-query,google.com, , ,Mon Jul  5 14:03:22 2021
+Query failed: Couldn't connect to server,https://jp.tiar.app/dns-query,netflix.com, , ,Mon Jul  5 14:03:22 2021
+ok,https://jp.tiarap.org/dns-query,netflix.com,253.492663,132,Mon Jul  5 14:04:25 2021
+ok,https://jp.tiarap.org/dns-query,google.com,793.210540,68,Mon Jul  5 14:04:25 2021
+ok,https://doh.libredns.gr/dns-query,google.com,296.163517,44,Mon Jul  5 14:04:26 2021
+ok,https://doh.libredns.gr/dns-query,netflix.com,301.375800,77,Mon Jul  5 14:04:26 2021
+ok,https://doh.libredns.gr/dns-query,google.com,297.409838,44,Mon Jul  5 14:04:26 2021
+ok,https://doh.libredns.gr/dns-query,netflix.com,297.432767,77,Mon Jul  5 14:04:26 2021
+ok,https://doh.linuxsec.org/dns-query,google.com,1076.348043,195,Mon Jul  5 14:04:26 2021
+ok,https://doh.linuxsec.org/dns-query,netflix.com,1076.770151,304,Mon Jul  5 14:04:26 2021
+ok,https://doh.linuxsec.org/dns-query,netflix.com,1100.587759,304,Mon Jul  5 14:04:27 2021
+ok,https://doh.linuxsec.org/dns-query,google.com,1101.387417,195,Mon Jul  5 14:04:27 2021
+ok,https://adblock.doh.mullvad.net/dns-query,google.com,65.047480,44,Mon Jul  5 14:04:28 2021
+ok,https://adblock.doh.mullvad.net/dns-query,netflix.com,65.020164,77,Mon Jul  5 14:04:28 2021
+ok,https://doh.mullvad.net/dns-query,google.com,63.025427,44,Mon Jul  5 14:04:28 2021
+ok,https://doh.mullvad.net/dns-query,netflix.com,62.990510,77,Mon Jul  5 14:04:28 2021
+ok,https://dns.nextdns.io/dns-query,google.com,137.931158,44,Mon Jul  5 14:04:28 2021
+ok,https://dns.nextdns.io/dns-query,netflix.com,138.379240,77,Mon Jul  5 14:04:28 2021
+ok,https://dns.njal.la/dns-query,netflix.com,443.941468,77,Mon Jul  5 14:04:29 2021
+ok,https://dns.njal.la/dns-query,google.com,474.139518,44,Mon Jul  5 14:04:29 2021
+Query got response: 405,https://doh.post-factum.tk/dns-query,google.com, , ,Mon Jul  5 14:04:29 2021
+Query got response: 405,https://doh.post-factum.tk/dns-query,netflix.com, , ,Mon Jul  5 14:04:29 2021
+ok,https://draco.plan9-ns2.com/dns-query,google.com,126.023245,124,Mon Jul  5 14:04:30 2021
+ok,https://draco.plan9-ns2.com/dns-query,netflix.com,127.060035,77,Mon Jul  5 14:04:30 2021
+ok,https://doh.powerdns.org/dns-query,google.com,434.684362,44,Mon Jul  5 14:04:30 2021
+ok,https://doh.powerdns.org/dns-query,netflix.com,438.983572,77,Mon Jul  5 14:04:30 2021
+Query failed: SSL connect error,https://doh.seby.io/dns-query,google.com, , ,Mon Jul  5 14:04:30 2021
+Query failed: SSL connect error,https://doh.seby.io/dns-query,netflix.com, , ,Mon Jul  5 14:04:30 2021
+ok,https://doh-2.seby.io/dns-query,google.com,645.040891,65,Mon Jul  5 14:04:31 2021
+ok,https://doh-2.seby.io/dns-query,netflix.com,644.988868,121,Mon Jul  5 14:04:31 2021
+ok,https://dns.twnic.tw/dns-query,google.com,806.929576,76,Mon Jul  5 14:04:32 2021
+ok,https://dns.twnic.tw/dns-query,netflix.com,808.460149,132,Mon Jul  5 14:04:32 2021
+ok,https://dns9.quad9.net/dns-query,google.com,75.197118,44,Mon Jul  5 14:04:33 2021
+ok,https://dns9.quad9.net/dns-query,netflix.com,75.184503,77,Mon Jul  5 14:04:33 2021
+ok,https://dns9.quad9.net/dns-query,google.com,43.145752,44,Mon Jul  5 14:04:33 2021
+ok,https://dns9.quad9.net/dns-query,netflix.com,58.304623,77,Mon Jul  5 14:04:33 2021
+ok,https://dnsse.alekberg.net/dns-query,netflix.com,618.512717,516,Mon Jul  5 14:04:33 2021
+ok,https://dnsse.alekberg.net/dns-query,google.com,618.877734,324,Mon Jul  5 14:04:33 2021
+ok,https://dns.switch.ch/dns-query,netflix.com,572.156440,77,Mon Jul  5 14:04:33 2021
+ok,https://dns.switch.ch/dns-query,google.com,572.359159,44,Mon Jul  5 14:04:33 2021
+ok,https://dns.t53.de/dns-query,google.com,542.482398,44,Mon Jul  5 14:04:34 2021
+ok,https://dns.t53.de/dns-query,netflix.com,547.908715,77,Mon Jul  5 14:04:34 2021
+ok,https://sg.yepdns.com/dns-query,google.com,691.298619,135,Mon Jul  5 14:04:35 2021
+ok,https://sg.yepdns.com/dns-query,netflix.com,691.329793,88,Mon Jul  5 14:04:35 2021
+ok,total_run_time,195914.657301,0
+
+ok,https://dns.google/dns-query,netflix.com,50.663394,77,Mon Jul  5 14:04:35 2021
+ok,https://dns.google/dns-query,google.com,55.828078,44,Mon Jul  5 14:04:35 2021
+ok,https://dns.aa.net.uk/dns-query,google.com,449.618586,44,Mon Jul  5 14:04:35 2021
+ok,https://dns.aa.net.uk/dns-query,netflix.com,449.720330,213,Mon Jul  5 14:04:35 2021
+ok,https://adfree.usableprivacy.net/dns-query,google.com,400.272884,44,Mon Jul  5 14:04:36 2021
+ok,https://adfree.usableprivacy.net/dns-query,netflix.com,414.373111,77,Mon Jul  5 14:04:36 2021
+ok,https://dns.adguard.com/dns-query,google.com,69.657089,44,Mon Jul  5 14:04:36 2021
+ok,https://dns.adguard.com/dns-query,netflix.com,69.671449,77,Mon Jul  5 14:04:36 2021
+ok,https://dns-family.adguard.com/dns-query,google.com,71.274786,44,Mon Jul  5 14:04:36 2021
+ok,https://dns-family.adguard.com/dns-query,netflix.com,71.653042,77,Mon Jul  5 14:04:36 2021
+ok,https://doh.in.ahadns.net/dns-query,google.com,839.981979,65,Mon Jul  5 14:04:36 2021
+ok,https://doh.in.ahadns.net/dns-query,netflix.com,840.174232,121,Mon Jul  5 14:04:36 2021
+ok,https://doh.la.ahadns.net/dns-query,google.com,230.699900,195,Mon Jul  5 14:04:37 2021
+ok,https://doh.la.ahadns.net/dns-query,netflix.com,230.747867,121,Mon Jul  5 14:04:37 2021
+ok,https://doh.nl.ahadns.net/dns-query,google.com,299.249408,65,Mon Jul  5 14:04:37 2021
+ok,https://doh.nl.ahadns.net/dns-query,netflix.com,303.481220,121,Mon Jul  5 14:04:37 2021
+ok,https://dns.alidns.com/dns-query,google.com,49.487353,65,Mon Jul  5 14:04:38 2021
+ok,https://dns.alidns.com/dns-query,netflix.com,76.483187,121,Mon Jul  5 14:04:38 2021
+ok,https://dnsnl.alekberg.net/dns-query,google.com,294.957176,68,Mon Jul  5 14:04:38 2021
+ok,https://dnsnl.alekberg.net/dns-query,netflix.com,295.218528,132,Mon Jul  5 14:04:38 2021
+ok,https://dnsnl.alekberg.net/dns-query,google.com,295.484524,68,Mon Jul  5 14:04:38 2021
+ok,https://dnsnl.alekberg.net/dns-query,netflix.com,295.459820,132,Mon Jul  5 14:04:38 2021
+ok,https://dns.arapurayil.com/dns-query,google.com,611.163532,44,Mon Jul  5 14:04:38 2021
+ok,https://dns.arapurayil.com/dns-query,netflix.com,611.164752,77,Mon Jul  5 14:04:38 2021
+Query failed: SSL peer certificate or SSH remote key was not OK,https://dohtrial.att.net/dns-query,google.com, , ,Mon Jul  5 14:04:39 2021
+Query failed: SSL peer certificate or SSH remote key was not OK,https://dohtrial.att.net/dns-query,netflix.com, , ,Mon Jul  5 14:04:39 2021
+ok,https://dnses.alekberg.net/dns-query,google.com,382.240532,324,Mon Jul  5 14:04:39 2021
+ok,https://dnses.alekberg.net/dns-query,netflix.com,1257.532959,388,Mon Jul  5 14:04:39 2021
+Query got response: 404,https://doh.bortzmeyer.fr/dns-query,google.com, , ,Mon Jul  5 14:04:40 2021
+Query got response: 404,https://doh.bortzmeyer.fr/dns-query,netflix.com, , ,Mon Jul  5 14:04:40 2021
+ok,https://dns.circl.lu/dns-query,google.com,581.196077,54,Mon Jul  5 14:04:41 2021
+ok,https://dns.circl.lu/dns-query,netflix.com,619.074637,110,Mon Jul  5 14:04:41 2021
+ok,https://doh.opendns.com/dns-query,google.com,67.158170,44,Mon Jul  5 14:04:41 2021
+ok,https://doh.opendns.com/dns-query,netflix.com,69.292930,77,Mon Jul  5 14:04:41 2021
+ok,https://dns.cloudflare.com/dns-query,google.com,46.326250,44,Mon Jul  5 14:04:41 2021
+ok,https://dns.cloudflare.com/dns-query,netflix.com,47.314583,77,Mon Jul  5 14:04:41 2021
+ok,https://family.cloudflare-dns.com/dns-query,google.com,48.729240,44,Mon Jul  5 14:04:41 2021
+ok,https://family.cloudflare-dns.com/dns-query,netflix.com,52.628104,77,Mon Jul  5 14:04:41 2021
+ok,https://security.cloudflare-dns.com/dns-query,google.com,55.564095,44,Mon Jul  5 14:04:41 2021
+ok,https://security.cloudflare-dns.com/dns-query,netflix.com,57.543570,77,Mon Jul  5 14:04:41 2021
+ok,https://odvr.nic.cz/dns-query,google.com,472.421798,44,Mon Jul  5 14:04:41 2021
+ok,https://odvr.nic.cz/dns-query,netflix.com,472.482117,77,Mon Jul  5 14:04:41 2021
+ok,https://dns.digitale-gesellschaft.ch/dns-query,google.com,343.805325,65,Mon Jul  5 14:04:42 2021
+ok,https://dns.digitale-gesellschaft.ch/dns-query,netflix.com,344.211337,121,Mon Jul  5 14:04:42 2021
+ok,https://dns.digitale-gesellschaft.ch/dns-query,google.com,329.361908,65,Mon Jul  5 14:04:42 2021
+ok,https://dns.digitale-gesellschaft.ch/dns-query,netflix.com,421.815729,132,Mon Jul  5 14:04:42 2021
+ok,https://dns1.ryan-palmer.com/dns-query,google.com,298.912663,44,Mon Jul  5 14:04:43 2021
+ok,https://dns1.ryan-palmer.com/dns-query,netflix.com,308.301792,77,Mon Jul  5 14:04:43 2021
+ok,https://doh.dns.sb/dns-query,netflix.com,103.979916,121,Mon Jul  5 14:04:43 2021
+ok,https://doh.dns.sb/dns-query,google.com,156.214547,65,Mon Jul  5 14:04:43 2021
+ok,https://dns.therifleman.name/dns-query,google.com,926.638186,55,Mon Jul  5 14:04:43 2021
+ok,https://dns.therifleman.name/dns-query,netflix.com,926.720959,88,Mon Jul  5 14:04:43 2021
+Query failed: SSL connect error,https://dns1.dnscrypt.ca/dns-query,google.com, , ,Mon Jul  5 14:04:44 2021
+Query failed: SSL connect error,https://dns1.dnscrypt.ca/dns-query,netflix.com, , ,Mon Jul  5 14:04:44 2021
+Query failed: SSL connect error,https://dns2.dnscrypt.ca/dns-query,google.com, , ,Mon Jul  5 14:05:04 2021
+Query failed: SSL connect error,https://dns2.dnscrypt.ca/dns-query,netflix.com, , ,Mon Jul  5 14:05:04 2021
+ok,https://dns-doh.dnsforfamily.com/dns-query,google.com,514.805402,74,Mon Jul  5 14:05:24 2021
+ok,https://dns-doh.dnsforfamily.com/dns-query,netflix.com,528.831455,77,Mon Jul  5 14:05:24 2021
+ok,https://dns-doh-no-safe-search.dnsforfamily.com/dns-query,netflix.com,508.291591,77,Mon Jul  5 14:05:25 2021
+ok,https://dns-doh-no-safe-search.dnsforfamily.com/dns-query,google.com,514.322621,44,Mon Jul  5 14:05:25 2021
+ok,https://dnsforge.de/dns-query,google.com,313.054108,44,Mon Jul  5 14:05:25 2021
+ok,https://dnsforge.de/dns-query,netflix.com,328.271815,77,Mon Jul  5 14:05:25 2021
+ok,https://dns.dnshome.de/dns-query,google.com,358.908411,44,Mon Jul  5 14:05:26 2021
+ok,https://dns.dnshome.de/dns-query,netflix.com,365.254747,77,Mon Jul  5 14:05:26 2021
+ok,https://doh.pub/dns-query,google.com,641.208717,77,Mon Jul  5 14:05:26 2021
+ok,https://doh.pub/dns-query,netflix.com,736.934718,133,Mon Jul  5 14:05:26 2021
+ok,https://doh-ch.blahdns.com/dns-query,google.com,340.950119,195,Mon Jul  5 14:05:27 2021
+ok,https://doh-ch.blahdns.com/dns-query,netflix.com,342.241623,121,Mon Jul  5 14:05:27 2021
+Problem 7 decoding 38445 bytes response to probe,https://doh.cleanbrowsing.org/dns-query,google.com, , ,Mon Jul  5 14:05:27 2021
+Problem 7 decoding 38445 bytes response to probe,https://doh.cleanbrowsing.org/dns-query,netflix.com, , ,Mon Jul  5 14:05:27 2021
+Problem 7 decoding 38445 bytes response to probe,https://doh.cleanbrowsing.org/dns-query,google.com, , ,Mon Jul  5 14:05:28 2021
+Problem 7 decoding 38445 bytes response to probe,https://doh.cleanbrowsing.org/dns-query,netflix.com, , ,Mon Jul  5 14:05:28 2021
+Problem 7 decoding 38445 bytes response to probe,https://doh.cleanbrowsing.org/dns-query,google.com, , ,Mon Jul  5 14:05:28 2021
+Problem 7 decoding 38445 bytes response to probe,https://doh.cleanbrowsing.org/dns-query,netflix.com, , ,Mon Jul  5 14:05:28 2021
+Query got response: 405,https://doh.crypto.sx/dns-query,google.com, , ,Mon Jul  5 14:05:28 2021
+Query got response: 405,https://doh.crypto.sx/dns-query,netflix.com, , ,Mon Jul  5 14:05:28 2021
+ok,https://doh-de.blahdns.com/dns-query,google.com,306.681056,65,Mon Jul  5 14:05:28 2021
+ok,https://doh-de.blahdns.com/dns-query,netflix.com,314.222737,121,Mon Jul  5 14:05:28 2021
+ok,https://doh-fi.blahdns.com/dns-query,google.com,374.227408,65,Mon Jul  5 14:05:29 2021
+ok,https://doh-fi.blahdns.com/dns-query,netflix.com,383.167432,121,Mon Jul  5 14:05:29 2021
+ok,https://ibksturm.synology.me/dns-query,google.com,615.269994,124,Mon Jul  5 14:05:29 2021
+ok,https://ibksturm.synology.me/dns-query,netflix.com,619.401795,77,Mon Jul  5 14:05:29 2021
+ok,https://doh-jp.blahdns.com/dns-query,google.com,526.506258,65,Mon Jul  5 14:05:30 2021
+ok,https://doh-jp.blahdns.com/dns-query,netflix.com,528.876645,121,Mon Jul  5 14:05:30 2021
+ok,https://doh-sg.blahdns.com/dns-query,google.com,786.920289,65,Mon Jul  5 14:05:30 2021
+ok,https://doh-sg.blahdns.com/dns-query,netflix.com,787.466399,121,Mon Jul  5 14:05:30 2021
+Query got response: 404,https://doh.appliedprivacy.net/dns-query,google.com, , ,Mon Jul  5 14:05:31 2021
+Query got response: 404,https://doh.appliedprivacy.net/dns-query,netflix.com, , ,Mon Jul  5 14:05:31 2021
+ok,https://doh.ffmuc.net/dns-query,google.com,622.774661,44,Mon Jul  5 14:05:31 2021
+ok,https://doh.ffmuc.net/dns-query,netflix.com,622.746866,77,Mon Jul  5 14:05:31 2021
+ok,https://doh.tiarap.org/dns-query,netflix.com,330.341782,132,Mon Jul  5 14:05:32 2021
+ok,https://doh.tiarap.org/dns-query,google.com,358.574708,196,Mon Jul  5 14:05:32 2021
+Query failed: SSL peer certificate or SSH remote key was not OK,https://dns.emeraldonion.org/dns-query,google.com, , ,Mon Jul  5 14:05:32 2021
+Query failed: SSL peer certificate or SSH remote key was not OK,https://dns.emeraldonion.org/dns-query,netflix.com, , ,Mon Jul  5 14:05:32 2021
+ok,https://dns.google/dns-query,google.com,48.826204,44,Mon Jul  5 14:05:33 2021
+ok,https://dns.google/dns-query,netflix.com,54.620196,77,Mon Jul  5 14:05:33 2021
+ok,https://ordns.he.net/dns-query,google.com,103.308851,44,Mon Jul  5 14:05:33 2021
+ok,https://ordns.he.net/dns-query,netflix.com,106.212281,77,Mon Jul  5 14:05:33 2021
+Query failed: Couldn't connect to server,https://doh.tiar.app/dns-query,google.com, , ,Mon Jul  5 14:05:33 2021
+Query failed: Couldn't connect to server,https://doh.tiar.app/dns-query,netflix.com, , ,Mon Jul  5 14:05:33 2021
+ok,https://public.dns.iij.jp/dns-query,google.com,225.645452,54,Mon Jul  5 14:06:36 2021
+ok,https://public.dns.iij.jp/dns-query,netflix.com,262.401957,110,Mon Jul  5 14:06:36 2021
+ok,https://doh.this.web.id/dns-query,netflix.com,1232.949658,121,Mon Jul  5 14:06:36 2021
+ok,https://doh.this.web.id/dns-query,google.com,1233.101458,65,Mon Jul  5 14:06:36 2021
+Query failed: Couldn't connect to server,https://jp.tiar.app/dns-query,google.com, , ,Mon Jul  5 14:06:37 2021
+Query failed: Couldn't connect to server,https://jp.tiar.app/dns-query,netflix.com, , ,Mon Jul  5 14:06:37 2021
+ok,https://jp.tiarap.org/dns-query,netflix.com,260.312213,132,Mon Jul  5 14:07:40 2021
+ok,https://jp.tiarap.org/dns-query,google.com,266.267282,68,Mon Jul  5 14:07:40 2021
+ok,https://doh.libredns.gr/dns-query,google.com,293.747409,44,Mon Jul  5 14:07:40 2021
+ok,https://doh.libredns.gr/dns-query,netflix.com,298.761754,77,Mon Jul  5 14:07:40 2021
+ok,https://doh.libredns.gr/dns-query,google.com,300.223419,44,Mon Jul  5 14:07:41 2021
+ok,https://doh.libredns.gr/dns-query,netflix.com,300.323282,77,Mon Jul  5 14:07:41 2021
+ok,https://doh.linuxsec.org/dns-query,google.com,1038.103782,195,Mon Jul  5 14:07:41 2021
+ok,https://doh.linuxsec.org/dns-query,netflix.com,1038.576444,304,Mon Jul  5 14:07:41 2021
+ok,https://doh.linuxsec.org/dns-query,netflix.com,1029.817460,304,Mon Jul  5 14:07:42 2021
+ok,https://doh.linuxsec.org/dns-query,google.com,1029.982555,195,Mon Jul  5 14:07:42 2021
+ok,https://adblock.doh.mullvad.net/dns-query,google.com,61.907160,44,Mon Jul  5 14:07:43 2021
+ok,https://adblock.doh.mullvad.net/dns-query,netflix.com,61.887594,77,Mon Jul  5 14:07:43 2021
+ok,https://doh.mullvad.net/dns-query,google.com,75.132299,44,Mon Jul  5 14:07:43 2021
+ok,https://doh.mullvad.net/dns-query,netflix.com,75.087791,77,Mon Jul  5 14:07:43 2021
+ok,https://dns.nextdns.io/dns-query,google.com,158.223990,44,Mon Jul  5 14:07:43 2021
+ok,https://dns.nextdns.io/dns-query,netflix.com,158.197521,77,Mon Jul  5 14:07:43 2021
+ok,https://dns.njal.la/dns-query,netflix.com,506.756700,77,Mon Jul  5 14:07:43 2021
+ok,https://dns.njal.la/dns-query,google.com,515.248263,44,Mon Jul  5 14:07:43 2021
+Query got response: 405,https://doh.post-factum.tk/dns-query,netflix.com, , ,Mon Jul  5 14:07:44 2021
+Query got response: 405,https://doh.post-factum.tk/dns-query,google.com, , ,Mon Jul  5 14:07:44 2021
+ok,https://draco.plan9-ns2.com/dns-query,google.com,113.733739,124,Mon Jul  5 14:07:44 2021
+ok,https://draco.plan9-ns2.com/dns-query,netflix.com,114.610344,77,Mon Jul  5 14:07:44 2021
+ok,https://doh.powerdns.org/dns-query,google.com,289.233172,44,Mon Jul  5 14:07:44 2021
+ok,https://doh.powerdns.org/dns-query,netflix.com,299.898475,77,Mon Jul  5 14:07:44 2021
+Query failed: SSL connect error,https://doh.seby.io/dns-query,google.com, , ,Mon Jul  5 14:07:45 2021
+Query failed: SSL connect error,https://doh.seby.io/dns-query,netflix.com, , ,Mon Jul  5 14:07:45 2021
+ok,https://doh-2.seby.io/dns-query,google.com,631.996815,65,Mon Jul  5 14:07:46 2021
+ok,https://doh-2.seby.io/dns-query,netflix.com,631.944034,121,Mon Jul  5 14:07:46 2021
+ok,https://dns.twnic.tw/dns-query,google.com,32539.366646,76,Mon Jul  5 14:07:46 2021
+ok,https://dns.twnic.tw/dns-query,netflix.com,32539.484913,132,Mon Jul  5 14:07:46 2021
+ok,https://dns9.quad9.net/dns-query,google.com,42.599707,44,Mon Jul  5 14:08:19 2021
+ok,https://dns9.quad9.net/dns-query,netflix.com,42.651687,77,Mon Jul  5 14:08:19 2021
+ok,https://dns9.quad9.net/dns-query,netflix.com,43.281591,77,Mon Jul  5 14:08:19 2021
+ok,https://dns9.quad9.net/dns-query,google.com,43.840249,44,Mon Jul  5 14:08:19 2021
+ok,https://dnsse.alekberg.net/dns-query,google.com,384.790758,324,Mon Jul  5 14:08:19 2021
+ok,https://dnsse.alekberg.net/dns-query,netflix.com,394.602415,388,Mon Jul  5 14:08:19 2021
+ok,https://dns.switch.ch/dns-query,google.com,425.264306,44,Mon Jul  5 14:08:19 2021
+ok,https://dns.switch.ch/dns-query,netflix.com,436.021361,77,Mon Jul  5 14:08:19 2021
+ok,https://dns.t53.de/dns-query,netflix.com,545.798913,77,Mon Jul  5 14:08:20 2021
+ok,https://dns.t53.de/dns-query,google.com,584.682433,44,Mon Jul  5 14:08:20 2021
+ok,https://sg.yepdns.com/dns-query,google.com,710.937720,135,Mon Jul  5 14:08:20 2021
+ok,https://sg.yepdns.com/dns-query,netflix.com,712.264878,88,Mon Jul  5 14:08:20 2021
+ok,total_run_time,225739.573373,0
+
+[{'status': 'ok', 'resolver': 'https://dns.google/dns-query', 'domain': 'google.com', 'response_time': 76.555263, 'response_size': 44, 'error': None, 'datetime': 'Mon Jul  5 13:33:46 2021'}, {'status': 'ok', 'resolver': 'https://dns.google/dns-query', 'domain': 'netflix.com', 'response_time': 78.19997, 'response_size': 77, 'error': None, 'datetime': 'Mon Jul  5 13:33:46 2021'}, {'status': 'ok', 'resolver': 'https://dns.aa.net.uk/dns-query', 'domain': 'google.com', 'response_time': 426.684289, 'response_size': 44, 'error': None, 'datetime': 'Mon Jul  5 13:33:46 2021'}, {'status': 'ok', 'resolver': 'https://dns.aa.net.uk/dns-query', 'domain': 'netflix.com', 'response_time': 427.082342, 'response_size': 213, 'error': None, 'datetime': 'Mon Jul  5 13:33:46 2021'}, {'status': 'ok', 'resolver': 'https://adfree.usableprivacy.net/dns-query', 'domain': 'google.com', 'response_time': 429.358681, 'response_size': 44, 'error': None, 'datetime': 'Mon Jul  5 13:33:46 2021'}, {'status': 'ok', 'resolver': 'https://adfree.usableprivacy.net/dns-query', 'domain': 'netflix.com', 'response_time': 441.978726, 'response_size': 77, 'error': None, 'datetime': 'Mon Jul  5 13:33:46 2021'}, {'status': 'ok', 'resolver': 'https://dns.adguard.com/dns-query', 'domain': 'google.com', 'response_time': 94.371463, 'response_size': 44, 'error': None, 'datetime': 'Mon Jul  5 13:33:47 2021'}, {'status': 'ok', 'resolver': 'https://dns.adguard.com/dns-query', 'domain': 'netflix.com', 'response_time': 94.582152, 'response_size': 77, 'error': None, 'datetime': 'Mon Jul  5 13:33:47 2021'}, {'status': 'ok', 'resolver': 'https://dns-family.adguard.com/dns-query', 'domain': 'google.com', 'response_time': 93.709789, 'response_size': 44, 'error': None, 'datetime': 'Mon Jul  5 13:33:47 2021'}, {'status': 'ok', 'resolver': 'https://dns-family.adguard.com/dns-query', 'domain': 'netflix.com', 'response_time': 93.837591, 'response_size': 77, 'error': None, 'datetime': 'Mon Jul  5 13:33:47 2021'}, {'status': 'ok', 'resolver': 'https://doh.in.ahadns.net/dns-query', 'domain': 'google.com', 'response_time': 758.35147, 'response_size': 65, 'error': None, 'datetime': 'Mon Jul  5 13:33:47 2021'}, {'status': 'ok', 'resolver': 'https://doh.in.ahadns.net/dns-query', 'domain': 'netflix.com', 'response_time': 1265.346167, 'response_size': 121, 'error': None, 'datetime': 'Mon Jul  5 13:33:47 2021'}, {'status': 'ok', 'resolver': 'https://doh.la.ahadns.net/dns-query', 'domain': 'google.com', 'response_time': 257.688125, 'response_size': 195, 'error': None, 'datetime': 'Mon Jul  5 13:33:48 2021'}, {'status': 'ok', 'resolver': 'https://doh.la.ahadns.net/dns-query', 'domain': 'netflix.com', 'response_time': 257.919455, 'response_size': 121, 'error': None, 'datetime': 'Mon Jul  5 13:33:48 2021'}, {'status': 'ok', 'resolver': 'https://doh.nl.ahadns.net/dns-query', 'domain': 'netflix.com', 'response_time': 316.173002, 'response_size': 121, 'error': None, 'datetime': 'Mon Jul  5 13:33:48 2021'}, {'status': 'ok', 'resolver': 'https://doh.nl.ahadns.net/dns-query', 'domain': 'google.com', 'response_time': 316.367849, 'response_size': 65, 'error': None, 'datetime': 'Mon Jul  5 13:33:48 2021'}, {'status': 'ok', 'resolver': 'https://dns.alidns.com/dns-query', 'domain': 'google.com', 'response_time': 74.540468, 'response_size': 65, 'error': None, 'datetime': 'Mon Jul  5 13:33:49 2021'}, {'status': 'ok', 'resolver': 'https://dns.alidns.com/dns-query', 'domain': 'netflix.com', 'response_time': 76.427159, 'response_size': 121, 'error': None, 'datetime': 'Mon Jul  5 13:33:49 2021'}, {'status': 'ok', 'resolver': 'https://dnsnl.alekberg.net/dns-query', 'domain': 'google.com', 'response_time': 423.9967, 'response_size': 68, 'error': None, 'datetime': 'Mon Jul  5 13:33:49 2021'}, {'status': 'ok', 'resolver': 'https://dnsnl.alekberg.net/dns-query', 'domain': 'netflix.com', 'response_time': 426.317439, 'response_size': 132, 'error': None, 'datetime': 'Mon Jul  5 13:33:49 2021'}, {'status': 'ok', 'resolver': 'https://dnsnl.alekberg.net/dns-query', 'domain': 'google.com', 'response_time': 289.110464, 'response_size': 68, 'error': None, 'datetime': 'Mon Jul  5 13:33:49 2021'}, {'status': 'ok', 'resolver': 'https://dnsnl.alekberg.net/dns-query', 'domain': 'netflix.com', 'response_time': 289.811339, 'response_size': 132, 'error': None, 'datetime': 'Mon Jul  5 13:33:49 2021'}, {'status': 'ok', 'resolver': 'https://dns.arapurayil.com/dns-query', 'domain': 'google.com', 'response_time': 630.618637, 'response_size': 44, 'error': None, 'datetime': 'Mon Jul  5 13:33:49 2021'}, {'status': 'ok', 'resolver': 'https://dns.arapurayil.com/dns-query', 'domain': 'netflix.com', 'response_time': 632.458968, 'response_size': 77, 'error': None, 'datetime': 'Mon Jul  5 13:33:49 2021'}, {'status': 'ok', 'resolver': 'https://dns.google/dns-query', 'domain': 'google.com', 'response_time': 46.303374, 'response_size': 44, 'error': None, 'datetime': 'Mon Jul  5 13:37:07 2021'}, {'status': 'ok', 'resolver': 'https://dns.google/dns-query', 'domain': 'netflix.com', 'response_time': 48.084208, 'response_size': 77, 'error': None, 'datetime': 'Mon Jul  5 13:37:07 2021'}, {'status': 'ok', 'resolver': 'https://dns.aa.net.uk/dns-query', 'domain': 'google.com', 'response_time': 267.565219, 'response_size': 44, 'error': None, 'datetime': 'Mon Jul  5 13:37:07 2021'}, {'status': 'ok', 'resolver': 'https://dns.aa.net.uk/dns-query', 'domain': 'netflix.com', 'response_time': 268.335764, 'response_size': 213, 'error': None, 'datetime': 'Mon Jul  5 13:37:07 2021'}, {'status': 'ok', 'resolver': 'https://adfree.usableprivacy.net/dns-query', 'domain': 'google.com', 'response_time': 361.273096, 'response_size': 44, 'error': None, 'datetime': 'Mon Jul  5 13:37:07 2021'}, {'status': 'ok', 'resolver': 'https://adfree.usableprivacy.net/dns-query', 'domain': 'netflix.com', 'response_time': 394.091473, 'response_size': 77, 'error': None, 'datetime': 'Mon Jul  5 13:37:07 2021'}, {'status': 'ok', 'resolver': 'https://dns.adguard.com/dns-query', 'domain': 'google.com', 'response_time': 70.275661, 'response_size': 44, 'error': None, 'datetime': 'Mon Jul  5 13:37:07 2021'}, {'status': 'ok', 'resolver': 'https://dns.adguard.com/dns-query', 'domain': 'netflix.com', 'response_time': 70.321128, 'response_size': 77, 'error': None, 'datetime': 'Mon Jul  5 13:37:07 2021'}, {'status': 'ok', 'resolver': 'https://dns-family.adguard.com/dns-query', 'domain': 'google.com', 'response_time': 70.425857, 'response_size': 44, 'error': None, 'datetime': 'Mon Jul  5 13:37:08 2021'}, {'status': 'ok', 'resolver': 'https://dns-family.adguard.com/dns-query', 'domain': 'netflix.com', 'response_time': 70.530443, 'response_size': 77, 'error': None, 'datetime': 'Mon Jul  5 13:37:08 2021'}, {'status': 'ok', 'resolver': 'https://doh.in.ahadns.net/dns-query', 'domain': 'netflix.com', 'response_time': 887.996651, 'response_size': 121, 'error': None, 'datetime': 'Mon Jul  5 13:37:08 2021'}, {'status': 'ok', 'resolver': 'https://doh.in.ahadns.net/dns-query', 'domain': 'google.com', 'response_time': 888.278459, 'response_size': 65, 'error': None, 'datetime': 'Mon Jul  5 13:37:08 2021'}, {'status': 'ok', 'resolver': 'https://doh.la.ahadns.net/dns-query', 'domain': 'google.com', 'response_time': 229.785258, 'response_size': 195, 'error': None, 'datetime': 'Mon Jul  5 13:37:08 2021'}, {'status': 'ok', 'resolver': 'https://doh.la.ahadns.net/dns-query', 'domain': 'netflix.com', 'response_time': 229.779764, 'response_size': 121, 'error': None, 'datetime': 'Mon Jul  5 13:37:08 2021'}, {'status': 'ok', 'resolver': 'https://doh.nl.ahadns.net/dns-query', 'domain': 'google.com', 'response_time': 289.419125, 'response_size': 65, 'error': None, 'datetime': 'Mon Jul  5 13:37:09 2021'}, {'status': 'ok', 'resolver': 'https://doh.nl.ahadns.net/dns-query', 'domain': 'netflix.com', 'response_time': 290.210797, 'response_size': 121, 'error': None, 'datetime': 'Mon Jul  5 13:37:09 2021'}, {'status': 'ok', 'resolver': 'https://dns.alidns.com/dns-query', 'domain': 'google.com', 'response_time': 48.915412, 'response_size': 65, 'error': None, 'datetime': 'Mon Jul  5 13:37:09 2021'}, {'status': 'ok', 'resolver': 'https://dns.alidns.com/dns-query', 'domain': 'netflix.com', 'response_time': 56.837598, 'response_size': 121, 'error': None, 'datetime': 'Mon Jul  5 13:37:09 2021'}, {'status': 'ok', 'resolver': 'https://dnsnl.alekberg.net/dns-query', 'domain': 'google.com', 'response_time': 299.261957, 'response_size': 68, 'error': None, 'datetime': 'Mon Jul  5 13:37:09 2021'}, {'status': 'ok', 'resolver': 'https://dnsnl.alekberg.net/dns-query', 'domain': 'netflix.com', 'response_time': 299.241354, 'response_size': 132, 'error': None, 'datetime': 'Mon Jul  5 13:37:09 2021'}, {'status': 'ok', 'resolver': 'https://dnsnl.alekberg.net/dns-query', 'domain': 'google.com', 'response_time': 310.453448, 'response_size': 68, 'error': None, 'datetime': 'Mon Jul  5 13:37:09 2021'}, {'status': 'ok', 'resolver': 'https://dnsnl.alekberg.net/dns-query', 'domain': 'netflix.com', 'response_time': 310.423439, 'response_size': 132, 'error': None, 'datetime': 'Mon Jul  5 13:37:09 2021'}, {'status': 'ok', 'resolver': 'https://dns.arapurayil.com/dns-query', 'domain': 'google.com', 'response_time': 629.312272, 'response_size': 44, 'error': None, 'datetime': 'Mon Jul  5 13:37:10 2021'}, {'status': 'ok', 'resolver': 'https://dns.arapurayil.com/dns-query', 'domain': 'netflix.com', 'response_time': 629.317173, 'response_size': 77, 'error': None, 'datetime': 'Mon Jul  5 13:37:10 2021'}, {'status': 'ok', 'resolver': 'https://dohtrial.att.net/dns-query', 'domain': 'google.com', 'response_time': 148.376477, 'response_size': 124, 'error': None, 'datetime': 'Mon Jul  5 13:37:10 2021'}, {'status': 'ok', 'resolver': 'https://dohtrial.att.net/dns-query', 'domain': 'netflix.com', 'response_time': 155.894089, 'response_size': 77, 'error': None, 'datetime': 'Mon Jul  5 13:37:10 2021'}, {'status': 'ok', 'resolver': 'https://dnses.alekberg.net/dns-query', 'domain': 'google.com', 'response_time': 337.452929, 'response_size': 324, 'error': None, 'datetime': 'Mon Jul  5 13:37:10 2021'}, {'status': 'ok', 'resolver': 'https://dnses.alekberg.net/dns-query', 'domain': 'netflix.com', 'response_time': 374.295926, 'response_size': 388, 'error': None, 'datetime': 'Mon Jul  5 13:37:10 2021'}, {'status': 'ok', 'resolver': 'https://dns.google/dns-query', 'domain': 'google.com', 'response_time': 45.82844, 'response_size': 44, 'error': None, 'datetime': 'Mon Jul  5 13:40:50 2021'}, {'status': 'ok', 'resolver': 'https://dns.google/dns-query', 'domain': 'netflix.com', 'response_time': 54.534606, 'response_size': 77, 'error': None, 'datetime': 'Mon Jul  5 13:40:50 2021'}, {'status': 'ok', 'resolver': 'https://dns.aa.net.uk/dns-query', 'domain': 'google.com', 'response_time': 493.700992, 'response_size': 44, 'error': None, 'datetime': 'Mon Jul  5 13:40:50 2021'}, {'status': 'ok', 'resolver': 'https://dns.aa.net.uk/dns-query', 'domain': 'netflix.com', 'response_time': 495.1757, 'response_size': 213, 'error': None, 'datetime': 'Mon Jul  5 13:40:50 2021'}, {'status': 'ok', 'resolver': 'https://adfree.usableprivacy.net/dns-query', 'domain': 'google.com', 'response_time': 391.760551, 'response_size': 44, 'error': None, 'datetime': 'Mon Jul  5 13:40:51 2021'}, {'status': 'ok', 'resolver': 'https://adfree.usableprivacy.net/dns-query', 'domain': 'netflix.com', 'response_time': 420.965888, 'response_size': 77, 'error': None, 'datetime': 'Mon Jul  5 13:40:51 2021'}, {'status': 'ok', 'resolver': 'https://dns.adguard.com/dns-query', 'domain': 'google.com', 'response_time': 98.430668, 'response_size': 44, 'error': None, 'datetime': 'Mon Jul  5 13:40:51 2021'}, {'status': 'ok', 'resolver': 'https://dns.adguard.com/dns-query', 'domain': 'netflix.com', 'response_time': 98.399625, 'response_size': 77, 'error': None, 'datetime': 'Mon Jul  5 13:40:51 2021'}, {'status': 'ok', 'resolver': 'https://dns-family.adguard.com/dns-query', 'domain': 'netflix.com', 'response_time': 83.804094, 'response_size': 77, 'error': None, 'datetime': 'Mon Jul  5 13:40:51 2021'}, {'status': 'ok', 'resolver': 'https://dns-family.adguard.com/dns-query', 'domain': 'google.com', 'response_time': 83.924406, 'response_size': 44, 'error': None, 'datetime': 'Mon Jul  5 13:40:51 2021'}, {'status': 'ok', 'resolver': 'https://doh.in.ahadns.net/dns-query', 'domain': 'netflix.com', 'response_time': 828.274251, 'response_size': 121, 'error': None, 'datetime': 'Mon Jul  5 13:40:52 2021'}, {'status': 'ok', 'resolver': 'https://doh.in.ahadns.net/dns-query', 'domain': 'google.com', 'response_time': 828.44369, 'response_size': 65, 'error': None, 'datetime': 'Mon Jul  5 13:40:52 2021'}, {'status': 'ok', 'resolver': 'https://doh.la.ahadns.net/dns-query', 'domain': 'google.com', 'response_time': 247.978536, 'response_size': 65, 'error': None, 'datetime': 'Mon Jul  5 13:40:52 2021'}, {'status': 'ok', 'resolver': 'https://doh.la.ahadns.net/dns-query', 'domain': 'netflix.com', 'response_time': 249.059153, 'response_size': 121, 'error': None, 'datetime': 'Mon Jul  5 13:40:52 2021'}, {'status': 'ok', 'resolver': 'https://doh.nl.ahadns.net/dns-query', 'domain': 'netflix.com', 'response_time': 307.543928, 'response_size': 121, 'error': None, 'datetime': 'Mon Jul  5 13:40:53 2021'}, {'status': 'ok', 'resolver': 'https://doh.nl.ahadns.net/dns-query', 'domain': 'google.com', 'response_time': 309.486689, 'response_size': 65, 'error': None, 'datetime': 'Mon Jul  5 13:40:53 2021'}, {'status': 'ok', 'resolver': 'https://dns.alidns.com/dns-query', 'domain': 'google.com', 'response_time': 81.170148, 'response_size': 65, 'error': None, 'datetime': 'Mon Jul  5 13:40:53 2021'}, {'status': 'ok', 'resolver': 'https://dns.alidns.com/dns-query', 'domain': 'netflix.com', 'response_time': 157.091253, 'response_size': 121, 'error': None, 'datetime': 'Mon Jul  5 13:40:53 2021'}, {'status': 'ok', 'resolver': 'https://dnsnl.alekberg.net/dns-query', 'domain': 'netflix.com', 'response_time': 425.355905, 'response_size': 132, 'error': None, 'datetime': 'Mon Jul  5 13:40:53 2021'}, {'status': 'ok', 'resolver': 'https://dnsnl.alekberg.net/dns-query', 'domain': 'google.com', 'response_time': 425.511285, 'response_size': 68, 'error': None, 'datetime': 'Mon Jul  5 13:40:53 2021'}, {'status': 'ok', 'resolver': 'https://dnsnl.alekberg.net/dns-query', 'domain': 'netflix.com', 'response_time': 294.607646, 'response_size': 132, 'error': None, 'datetime': 'Mon Jul  5 13:40:54 2021'}, {'status': 'ok', 'resolver': 'https://dnsnl.alekberg.net/dns-query', 'domain': 'google.com', 'response_time': 295.169829, 'response_size': 68, 'error': None, 'datetime': 'Mon Jul  5 13:40:54 2021'}, {'status': 'ok', 'resolver': 'https://dns.arapurayil.com/dns-query', 'domain': 'google.com', 'response_time': 629.048386, 'response_size': 44, 'error': None, 'datetime': 'Mon Jul  5 13:40:54 2021'}, {'status': 'ok', 'resolver': 'https://dns.arapurayil.com/dns-query', 'domain': 'netflix.com', 'response_time': 629.907505, 'response_size': 77, 'error': None, 'datetime': 'Mon Jul  5 13:40:54 2021'}, {'status': 'ok', 'resolver': 'https://dohtrial.att.net/dns-query', 'domain': 'google.com', 'response_time': 152.622063, 'response_size': 124, 'error': None, 'datetime': 'Mon Jul  5 13:40:54 2021'}, {'status': 'ok', 'resolver': 'https://dohtrial.att.net/dns-query', 'domain': 'netflix.com', 'response_time': 152.597214, 'response_size': 77, 'error': None, 'datetime': 'Mon Jul  5 13:40:54 2021'}, {'status': 'ok', 'resolver': 'https://dnses.alekberg.net/dns-query', 'domain': 'netflix.com', 'response_time': 502.323549, 'response_size': 388, 'error': None, 'datetime': 'Mon Jul  5 13:40:55 2021'}, {'status': 'ok', 'resolver': 'https://dnses.alekberg.net/dns-query', 'domain': 'google.com', 'response_time': 507.4159, 'response_size': 324, 'error': None, 'datetime': 'Mon Jul  5 13:40:55 2021'}, {'status': 'ok', 'resolver': 'https://dns.google/dns-query', 'domain': 'google.com', 'response_time': 47.548387, 'response_size': 44, 'error': None, 'datetime': 'Mon Jul  5 13:44:38 2021'}, {'status': 'ok', 'resolver': 'https://dns.google/dns-query', 'domain': 'netflix.com', 'response_time': 50.541739, 'response_size': 77, 'error': None, 'datetime': 'Mon Jul  5 13:44:38 2021'}, {'status': 'ok', 'resolver': 'https://dns.aa.net.uk/dns-query', 'domain': 'google.com', 'response_time': 273.889521, 'response_size': 44, 'error': None, 'datetime': 'Mon Jul  5 13:44:38 2021'}, {'status': 'ok', 'resolver': 'https://dns.aa.net.uk/dns-query', 'domain': 'netflix.com', 'response_time': 273.872774, 'response_size': 213, 'error': None, 'datetime': 'Mon Jul  5 13:44:38 2021'}, {'status': 'ok', 'resolver': 'https://adfree.usableprivacy.net/dns-query', 'domain': 'google.com', 'response_time': 392.055223, 'response_size': 44, 'error': None, 'datetime': 'Mon Jul  5 13:44:38 2021'}, {'status': 'ok', 'resolver': 'https://adfree.usableprivacy.net/dns-query', 'domain': 'netflix.com', 'response_time': 424.255381, 'response_size': 77, 'error': None, 'datetime': 'Mon Jul  5 13:44:38 2021'}, {'status': 'ok', 'resolver': 'https://dns.adguard.com/dns-query', 'domain': 'netflix.com', 'response_time': 70.53441, 'response_size': 77, 'error': None, 'datetime': 'Mon Jul  5 13:44:38 2021'}, {'status': 'ok', 'resolver': 'https://dns.adguard.com/dns-query', 'domain': 'google.com', 'response_time': 70.633634, 'response_size': 44, 'error': None, 'datetime': 'Mon Jul  5 13:44:38 2021'}, {'status': 'ok', 'resolver': 'https://dns-family.adguard.com/dns-query', 'domain': 'google.com', 'response_time': 71.919215, 'response_size': 44, 'error': None, 'datetime': 'Mon Jul  5 13:44:38 2021'}, {'status': 'ok', 'resolver': 'https://dns-family.adguard.com/dns-query', 'domain': 'netflix.com', 'response_time': 71.913868, 'response_size': 77, 'error': None, 'datetime': 'Mon Jul  5 13:44:38 2021'}, {'status': 'ok', 'resolver': 'https://doh.in.ahadns.net/dns-query', 'domain': 'google.com', 'response_time': 849.241998, 'response_size': 65, 'error': None, 'datetime': 'Mon Jul  5 13:44:38 2021'}, {'status': 'ok', 'resolver': 'https://doh.in.ahadns.net/dns-query', 'domain': 'netflix.com', 'response_time': 849.504477, 'response_size': 121, 'error': None, 'datetime': 'Mon Jul  5 13:44:38 2021'}, {'status': 'ok', 'resolver': 'https://doh.la.ahadns.net/dns-query', 'domain': 'google.com', 'response_time': 228.353551, 'response_size': 65, 'error': None, 'datetime': 'Mon Jul  5 13:44:39 2021'}, {'status': 'ok', 'resolver': 'https://doh.la.ahadns.net/dns-query', 'domain': 'netflix.com', 'response_time': 228.646331, 'response_size': 121, 'error': None, 'datetime': 'Mon Jul  5 13:44:39 2021'}, {'status': 'ok', 'resolver': 'https://doh.nl.ahadns.net/dns-query', 'domain': 'google.com', 'response_time': 287.436636, 'response_size': 65, 'error': None, 'datetime': 'Mon Jul  5 13:44:40 2021'}, {'status': 'ok', 'resolver': 'https://doh.nl.ahadns.net/dns-query', 'domain': 'netflix.com', 'response_time': 287.787156, 'response_size': 121, 'error': None, 'datetime': 'Mon Jul  5 13:44:40 2021'}, {'status': 'ok', 'resolver': 'https://dns.alidns.com/dns-query', 'domain': 'netflix.com', 'response_time': 50.191991, 'response_size': 121, 'error': None, 'datetime': 'Mon Jul  5 13:44:40 2021'}, {'status': 'ok', 'resolver': 'https://dns.alidns.com/dns-query', 'domain': 'google.com', 'response_time': 58.348756, 'response_size': 65, 'error': None, 'datetime': 'Mon Jul  5 13:44:40 2021'}, {'status': 'ok', 'resolver': 'https://dnsnl.alekberg.net/dns-query', 'domain': 'netflix.com', 'response_time': 294.605502, 'response_size': 132, 'error': None, 'datetime': 'Mon Jul  5 13:44:40 2021'}, {'status': 'ok', 'resolver': 'https://dnsnl.alekberg.net/dns-query', 'domain': 'google.com', 'response_time': 294.731621, 'response_size': 68, 'error': None, 'datetime': 'Mon Jul  5 13:44:40 2021'}, {'status': 'ok', 'resolver': 'https://dnsnl.alekberg.net/dns-query', 'domain': 'google.com', 'response_time': 287.502407, 'response_size': 68, 'error': None, 'datetime': 'Mon Jul  5 13:44:40 2021'}, {'status': 'ok', 'resolver': 'https://dnsnl.alekberg.net/dns-query', 'domain': 'netflix.com', 'response_time': 287.469057, 'response_size': 132, 'error': None, 'datetime': 'Mon Jul  5 13:44:40 2021'}, {'status': 'ok', 'resolver': 'https://dns.arapurayil.com/dns-query', 'domain': 'netflix.com', 'response_time': 617.067401, 'response_size': 77, 'error': None, 'datetime': 'Mon Jul  5 13:44:40 2021'}, {'status': 'ok', 'resolver': 'https://dns.arapurayil.com/dns-query', 'domain': 'google.com', 'response_time': 676.244192, 'response_size': 44, 'error': None, 'datetime': 'Mon Jul  5 13:44:40 2021'}, {'status': 'ok', 'resolver': 'https://dns.google/dns-query', 'domain': 'google.com', 'response_time': 49.696107, 'response_size': 44, 'error': None, 'datetime': 'Mon Jul  5 13:47:50 2021'}, {'status': 'ok', 'resolver': 'https://dns.google/dns-query', 'domain': 'netflix.com', 'response_time': 62.209151, 'response_size': 77, 'error': None, 'datetime': 'Mon Jul  5 13:47:50 2021'}, {'status': 'ok', 'resolver': 'https://dns.aa.net.uk/dns-query', 'domain': 'google.com', 'response_time': 370.677726, 'response_size': 44, 'error': None, 'datetime': 'Mon Jul  5 13:47:50 2021'}, {'status': 'ok', 'resolver': 'https://dns.aa.net.uk/dns-query', 'domain': 'netflix.com', 'response_time': 371.4667, 'response_size': 213, 'error': None, 'datetime': 'Mon Jul  5 13:47:50 2021'}, {'status': 'ok', 'resolver': 'https://adfree.usableprivacy.net/dns-query', 'domain': 'google.com', 'response_time': 377.102098, 'response_size': 44, 'error': None, 'datetime': 'Mon Jul  5 13:47:51 2021'}, {'status': 'ok', 'resolver': 'https://adfree.usableprivacy.net/dns-query', 'domain': 'netflix.com', 'response_time': 399.843047, 'response_size': 77, 'error': None, 'datetime': 'Mon Jul  5 13:47:51 2021'}, {'status': 'ok', 'resolver': 'https://dns.adguard.com/dns-query', 'domain': 'google.com', 'response_time': 72.246609, 'response_size': 44, 'error': None, 'datetime': 'Mon Jul  5 13:47:51 2021'}, {'status': 'ok', 'resolver': 'https://dns.adguard.com/dns-query', 'domain': 'netflix.com', 'response_time': 72.389292, 'response_size': 77, 'error': None, 'datetime': 'Mon Jul  5 13:47:51 2021'}, {'status': 'ok', 'resolver': 'https://dns-family.adguard.com/dns-query', 'domain': 'google.com', 'response_time': 84.647589, 'response_size': 44, 'error': None, 'datetime': 'Mon Jul  5 13:47:51 2021'}, {'status': 'ok', 'resolver': 'https://dns-family.adguard.com/dns-query', 'domain': 'netflix.com', 'response_time': 84.625275, 'response_size': 77, 'error': None, 'datetime': 'Mon Jul  5 13:47:51 2021'}, {'status': 'ok', 'resolver': 'https://doh.in.ahadns.net/dns-query', 'domain': 'google.com', 'response_time': 908.786758, 'response_size': 65, 'error': None, 'datetime': 'Mon Jul  5 13:47:51 2021'}, {'status': 'ok', 'resolver': 'https://doh.in.ahadns.net/dns-query', 'domain': 'netflix.com', 'response_time': 908.803609, 'response_size': 121, 'error': None, 'datetime': 'Mon Jul  5 13:47:51 2021'}, {'status': 'ok', 'resolver': 'https://doh.la.ahadns.net/dns-query', 'domain': 'google.com', 'response_time': 250.22752, 'response_size': 65, 'error': None, 'datetime': 'Mon Jul  5 13:47:52 2021'}, {'status': 'ok', 'resolver': 'https://doh.la.ahadns.net/dns-query', 'domain': 'netflix.com', 'response_time': 252.33047, 'response_size': 121, 'error': None, 'datetime': 'Mon Jul  5 13:47:52 2021'}, {'status': 'ok', 'resolver': 'https://doh.nl.ahadns.net/dns-query', 'domain': 'google.com', 'response_time': 303.382726, 'response_size': 65, 'error': None, 'datetime': 'Mon Jul  5 13:47:52 2021'}, {'status': 'ok', 'resolver': 'https://doh.nl.ahadns.net/dns-query', 'domain': 'netflix.com', 'response_time': 304.221703, 'response_size': 121, 'error': None, 'datetime': 'Mon Jul  5 13:47:52 2021'}, {'status': 'ok', 'resolver': 'https://dns.alidns.com/dns-query', 'domain': 'netflix.com', 'response_time': 120.667722, 'response_size': 121, 'error': None, 'datetime': 'Mon Jul  5 13:47:53 2021'}, {'status': 'ok', 'resolver': 'https://dns.alidns.com/dns-query', 'domain': 'google.com', 'response_time': 120.763967, 'response_size': 65, 'error': None, 'datetime': 'Mon Jul  5 13:47:53 2021'}, {'status': 'ok', 'resolver': 'https://dnsnl.alekberg.net/dns-query', 'domain': 'netflix.com', 'response_time': 428.084181, 'response_size': 132, 'error': None, 'datetime': 'Mon Jul  5 13:47:53 2021'}, {'status': 'ok', 'resolver': 'https://dnsnl.alekberg.net/dns-query', 'domain': 'google.com', 'response_time': 428.228596, 'response_size': 68, 'error': None, 'datetime': 'Mon Jul  5 13:47:53 2021'}, {'status': 'ok', 'resolver': 'https://dnsnl.alekberg.net/dns-query', 'domain': 'netflix.com', 'response_time': 292.709126, 'response_size': 132, 'error': None, 'datetime': 'Mon Jul  5 13:47:53 2021'}, {'status': 'ok', 'resolver': 'https://dnsnl.alekberg.net/dns-query', 'domain': 'google.com', 'response_time': 293.672464, 'response_size': 68, 'error': None, 'datetime': 'Mon Jul  5 13:47:53 2021'}, {'status': 'ok', 'resolver': 'https://dns.arapurayil.com/dns-query', 'domain': 'google.com', 'response_time': 613.840171, 'response_size': 44, 'error': None, 'datetime': 'Mon Jul  5 13:47:54 2021'}, {'status': 'ok', 'resolver': 'https://dns.arapurayil.com/dns-query', 'domain': 'netflix.com', 'response_time': 613.839134, 'response_size': 77, 'error': None, 'datetime': 'Mon Jul  5 13:47:54 2021'}, {'status': 'ok', 'resolver': 'https://dns.google/dns-query', 'domain': 'google.com', 'response_time': 52.037798, 'response_size': 44, 'error': None, 'datetime': 'Mon Jul  5 13:51:06 2021'}, {'status': 'ok', 'resolver': 'https://dns.google/dns-query', 'domain': 'netflix.com', 'response_time': 58.324831, 'response_size': 77, 'error': None, 'datetime': 'Mon Jul  5 13:51:06 2021'}, {'status': 'ok', 'resolver': 'https://dns.aa.net.uk/dns-query', 'domain': 'google.com', 'response_time': 398.129969, 'response_size': 44, 'error': None, 'datetime': 'Mon Jul  5 13:51:06 2021'}, {'status': 'ok', 'resolver': 'https://dns.aa.net.uk/dns-query', 'domain': 'netflix.com', 'response_time': 419.44375, 'response_size': 213, 'error': None, 'datetime': 'Mon Jul  5 13:51:06 2021'}, {'status': 'ok', 'resolver': 'https://adfree.usableprivacy.net/dns-query', 'domain': 'netflix.com', 'response_time': 402.662223, 'response_size': 77, 'error': None, 'datetime': 'Mon Jul  5 13:51:07 2021'}, {'status': 'ok', 'resolver': 'https://adfree.usableprivacy.net/dns-query', 'domain': 'google.com', 'response_time': 430.505654, 'response_size': 44, 'error': None, 'datetime': 'Mon Jul  5 13:51:07 2021'}, {'status': 'ok', 'resolver': 'https://dns.adguard.com/dns-query', 'domain': 'google.com', 'response_time': 73.929863, 'response_size': 44, 'error': None, 'datetime': 'Mon Jul  5 13:51:07 2021'}, {'status': 'ok', 'resolver': 'https://dns.adguard.com/dns-query', 'domain': 'netflix.com', 'response_time': 73.909988, 'response_size': 77, 'error': None, 'datetime': 'Mon Jul  5 13:51:07 2021'}, {'status': 'ok', 'resolver': 'https://dns-family.adguard.com/dns-query', 'domain': 'google.com', 'response_time': 77.376338, 'response_size': 44, 'error': None, 'datetime': 'Mon Jul  5 13:51:07 2021'}, {'status': 'ok', 'resolver': 'https://dns-family.adguard.com/dns-query', 'domain': 'netflix.com', 'response_time': 77.330223, 'response_size': 77, 'error': None, 'datetime': 'Mon Jul  5 13:51:07 2021'}, {'status': 'ok', 'resolver': 'https://doh.in.ahadns.net/dns-query', 'domain': 'netflix.com', 'response_time': 846.298155, 'response_size': 121, 'error': None, 'datetime': 'Mon Jul  5 13:51:07 2021'}, {'status': 'ok', 'resolver': 'https://doh.in.ahadns.net/dns-query', 'domain': 'google.com', 'response_time': 846.483504, 'response_size': 65, 'error': None, 'datetime': 'Mon Jul  5 13:51:07 2021'}, {'status': 'ok', 'resolver': 'https://doh.la.ahadns.net/dns-query', 'domain': 'google.com', 'response_time': 239.954015, 'response_size': 65, 'error': None, 'datetime': 'Mon Jul  5 13:51:08 2021'}, {'status': 'ok', 'resolver': 'https://doh.la.ahadns.net/dns-query', 'domain': 'netflix.com', 'response_time': 239.964639, 'response_size': 121, 'error': None, 'datetime': 'Mon Jul  5 13:51:08 2021'}, {'status': 'ok', 'resolver': 'https://doh.nl.ahadns.net/dns-query', 'domain': 'netflix.com', 'response_time': 299.766116, 'response_size': 121, 'error': None, 'datetime': 'Mon Jul  5 13:51:08 2021'}, {'status': 'ok', 'resolver': 'https://doh.nl.ahadns.net/dns-query', 'domain': 'google.com', 'response_time': 300.064571, 'response_size': 65, 'error': None, 'datetime': 'Mon Jul  5 13:51:08 2021'}, {'status': 'ok', 'resolver': 'https://dns.alidns.com/dns-query', 'domain': 'google.com', 'response_time': 46.47832, 'response_size': 65, 'error': None, 'datetime': 'Mon Jul  5 13:51:09 2021'}, {'status': 'ok', 'resolver': 'https://dns.alidns.com/dns-query', 'domain': 'netflix.com', 'response_time': 54.431701, 'response_size': 121, 'error': None, 'datetime': 'Mon Jul  5 13:51:09 2021'}, {'status': 'ok', 'resolver': 'https://dnsnl.alekberg.net/dns-query', 'domain': 'netflix.com', 'response_time': 301.916587, 'response_size': 132, 'error': None, 'datetime': 'Mon Jul  5 13:51:09 2021'}, {'status': 'ok', 'resolver': 'https://dnsnl.alekberg.net/dns-query', 'domain': 'google.com', 'response_time': 302.062016, 'response_size': 68, 'error': None, 'datetime': 'Mon Jul  5 13:51:09 2021'}, {'status': 'ok', 'resolver': 'https://dnsnl.alekberg.net/dns-query', 'domain': 'netflix.com', 'response_time': 298.269555, 'response_size': 132, 'error': None, 'datetime': 'Mon Jul  5 13:51:09 2021'}, {'status': 'ok', 'resolver': 'https://dnsnl.alekberg.net/dns-query', 'domain': 'google.com', 'response_time': 299.946607, 'response_size': 68, 'error': None, 'datetime': 'Mon Jul  5 13:51:09 2021'}, {'status': 'ok', 'resolver': 'https://dns.arapurayil.com/dns-query', 'domain': 'google.com', 'response_time': 611.194515, 'response_size': 44, 'error': None, 'datetime': 'Mon Jul  5 13:51:09 2021'}, {'status': 'ok', 'resolver': 'https://dns.arapurayil.com/dns-query', 'domain': 'netflix.com', 'response_time': 611.202769, 'response_size': 77, 'error': None, 'datetime': 'Mon Jul  5 13:51:09 2021'}, {'status': 'ok', 'resolver': 'https://dohtrial.att.net/dns-query', 'domain': 'google.com', 'response_time': 150.20841, 'response_size': 44, 'error': None, 'datetime': 'Mon Jul  5 13:51:10 2021'}, {'status': 'ok', 'resolver': 'https://dohtrial.att.net/dns-query', 'domain': 'netflix.com', 'response_time': 150.196453, 'response_size': 77, 'error': None, 'datetime': 'Mon Jul  5 13:51:10 2021'}, {'status': 'ok', 'resolver': 'https://dnses.alekberg.net/dns-query', 'domain': 'netflix.com', 'response_time': 373.387744, 'response_size': 388, 'error': None, 'datetime': 'Mon Jul  5 13:51:10 2021'}, {'status': 'ok', 'resolver': 'https://dnses.alekberg.net/dns-query', 'domain': 'google.com', 'response_time': 376.412459, 'response_size': 324, 'error': None, 'datetime': 'Mon Jul  5 13:51:10 2021'}, {'status': 'ok', 'resolver': 'https://dns.google/dns-query', 'domain': 'google.com', 'response_time': 83.445832, 'response_size': 44, 'error': None, 'datetime': 'Mon Jul  5 13:54:19 2021'}, {'status': 'ok', 'resolver': 'https://dns.google/dns-query', 'domain': 'netflix.com', 'response_time': 86.156467, 'response_size': 77, 'error': None, 'datetime': 'Mon Jul  5 13:54:19 2021'}, {'status': 'ok', 'resolver': 'https://dns.aa.net.uk/dns-query', 'domain': 'google.com', 'response_time': 273.400228, 'response_size': 44, 'error': None, 'datetime': 'Mon Jul  5 13:54:19 2021'}, {'status': 'ok', 'resolver': 'https://dns.aa.net.uk/dns-query', 'domain': 'netflix.com', 'response_time': 273.515793, 'response_size': 213, 'error': None, 'datetime': 'Mon Jul  5 13:54:19 2021'}, {'status': 'ok', 'resolver': 'https://adfree.usableprivacy.net/dns-query', 'domain': 'google.com', 'response_time': 377.237753, 'response_size': 44, 'error': None, 'datetime': 'Mon Jul  5 13:54:19 2021'}, {'status': 'ok', 'resolver': 'https://adfree.usableprivacy.net/dns-query', 'domain': 'netflix.com', 'response_time': 405.26343, 'response_size': 77, 'error': None, 'datetime': 'Mon Jul  5 13:54:19 2021'}, {'status': 'ok', 'resolver': 'https://dns.adguard.com/dns-query', 'domain': 'google.com', 'response_time': 73.885185, 'response_size': 44, 'error': None, 'datetime': 'Mon Jul  5 13:54:20 2021'}, {'status': 'ok', 'resolver': 'https://dns.adguard.com/dns-query', 'domain': 'netflix.com', 'response_time': 85.272914, 'response_size': 77, 'error': None, 'datetime': 'Mon Jul  5 13:54:20 2021'}, {'status': 'ok', 'resolver': 'https://dns-family.adguard.com/dns-query', 'domain': 'netflix.com', 'response_time': 84.667677, 'response_size': 77, 'error': None, 'datetime': 'Mon Jul  5 13:54:20 2021'}, {'status': 'ok', 'resolver': 'https://dns-family.adguard.com/dns-query', 'domain': 'google.com', 'response_time': 84.819137, 'response_size': 44, 'error': None, 'datetime': 'Mon Jul  5 13:54:20 2021'}, {'status': 'ok', 'resolver': 'https://doh.in.ahadns.net/dns-query', 'domain': 'netflix.com', 'response_time': 894.089781, 'response_size': 121, 'error': None, 'datetime': 'Mon Jul  5 13:54:20 2021'}, {'status': 'ok', 'resolver': 'https://doh.in.ahadns.net/dns-query', 'domain': 'google.com', 'response_time': 894.289195, 'response_size': 65, 'error': None, 'datetime': 'Mon Jul  5 13:54:20 2021'}, {'status': 'ok', 'resolver': 'https://doh.la.ahadns.net/dns-query', 'domain': 'google.com', 'response_time': 260.680105, 'response_size': 65, 'error': None, 'datetime': 'Mon Jul  5 13:54:21 2021'}, {'status': 'ok', 'resolver': 'https://doh.la.ahadns.net/dns-query', 'domain': 'netflix.com', 'response_time': 416.485321, 'response_size': 121, 'error': None, 'datetime': 'Mon Jul  5 13:54:21 2021'}, {'status': 'ok', 'resolver': 'https://doh.nl.ahadns.net/dns-query', 'domain': 'google.com', 'response_time': 298.539267, 'response_size': 65, 'error': None, 'datetime': 'Mon Jul  5 13:54:21 2021'}, {'status': 'ok', 'resolver': 'https://doh.nl.ahadns.net/dns-query', 'domain': 'netflix.com', 'response_time': 299.057353, 'response_size': 121, 'error': None, 'datetime': 'Mon Jul  5 13:54:21 2021'}, {'status': 'ok', 'resolver': 'https://dns.alidns.com/dns-query', 'domain': 'google.com', 'response_time': 49.109576, 'response_size': 65, 'error': None, 'datetime': 'Mon Jul  5 13:54:22 2021'}, {'status': 'ok', 'resolver': 'https://dns.alidns.com/dns-query', 'domain': 'netflix.com', 'response_time': 57.146673, 'response_size': 121, 'error': None, 'datetime': 'Mon Jul  5 13:54:22 2021'}, {'status': 'ok', 'resolver': 'https://dnsnl.alekberg.net/dns-query', 'domain': 'google.com', 'response_time': 434.98254, 'response_size': 68, 'error': None, 'datetime': 'Mon Jul  5 13:54:22 2021'}, {'status': 'ok', 'resolver': 'https://dnsnl.alekberg.net/dns-query', 'domain': 'netflix.com', 'response_time': 434.968823, 'response_size': 132, 'error': None, 'datetime': 'Mon Jul  5 13:54:22 2021'}, {'status': 'ok', 'resolver': 'https://dnsnl.alekberg.net/dns-query', 'domain': 'netflix.com', 'response_time': 294.26546, 'response_size': 132, 'error': None, 'datetime': 'Mon Jul  5 13:54:22 2021'}, {'status': 'ok', 'resolver': 'https://dnsnl.alekberg.net/dns-query', 'domain': 'google.com', 'response_time': 294.413049, 'response_size': 68, 'error': None, 'datetime': 'Mon Jul  5 13:54:22 2021'}, {'status': 'ok', 'resolver': 'https://dns.arapurayil.com/dns-query', 'domain': 'google.com', 'response_time': 611.862734, 'response_size': 44, 'error': None, 'datetime': 'Mon Jul  5 13:54:22 2021'}, {'status': 'ok', 'resolver': 'https://dns.arapurayil.com/dns-query', 'domain': 'netflix.com', 'response_time': 611.930297, 'response_size': 77, 'error': None, 'datetime': 'Mon Jul  5 13:54:22 2021'}, {'status': 'ok', 'resolver': 'https://dohtrial.att.net/dns-query', 'domain': 'google.com', 'response_time': 163.723956, 'response_size': 124, 'error': None, 'datetime': 'Mon Jul  5 13:54:23 2021'}, {'status': 'ok', 'resolver': 'https://dohtrial.att.net/dns-query', 'domain': 'netflix.com', 'response_time': 163.764075, 'response_size': 77, 'error': None, 'datetime': 'Mon Jul  5 13:54:23 2021'}, {'status': 'ok', 'resolver': 'https://dnses.alekberg.net/dns-query', 'domain': 'google.com', 'response_time': 473.45392, 'response_size': 324, 'error': None, 'datetime': 'Mon Jul  5 13:54:23 2021'}, {'status': 'ok', 'resolver': 'https://dnses.alekberg.net/dns-query', 'domain': 'netflix.com', 'response_time': 607.390477, 'response_size': 388, 'error': None, 'datetime': 'Mon Jul  5 13:54:23 2021'}, {'status': 'ok', 'resolver': 'https://dns.google/dns-query', 'domain': 'google.com', 'response_time': 47.738285, 'response_size': 44, 'error': None, 'datetime': 'Mon Jul  5 13:58:06 2021'}, {'status': 'ok', 'resolver': 'https://dns.google/dns-query', 'domain': 'netflix.com', 'response_time': 64.135329, 'response_size': 77, 'error': None, 'datetime': 'Mon Jul  5 13:58:06 2021'}, {'status': 'ok', 'resolver': 'https://dns.aa.net.uk/dns-query', 'domain': 'google.com', 'response_time': 468.406314, 'response_size': 44, 'error': None, 'datetime': 'Mon Jul  5 13:58:06 2021'}, {'status': 'ok', 'resolver': 'https://dns.aa.net.uk/dns-query', 'domain': 'netflix.com', 'response_time': 477.740928, 'response_size': 213, 'error': None, 'datetime': 'Mon Jul  5 13:58:06 2021'}, {'status': 'ok', 'resolver': 'https://adfree.usableprivacy.net/dns-query', 'domain': 'google.com', 'response_time': 404.775635, 'response_size': 44, 'error': None, 'datetime': 'Mon Jul  5 13:58:06 2021'}, {'status': 'ok', 'resolver': 'https://adfree.usableprivacy.net/dns-query', 'domain': 'netflix.com', 'response_time': 427.562721, 'response_size': 77, 'error': None, 'datetime': 'Mon Jul  5 13:58:06 2021'}, {'status': 'ok', 'resolver': 'https://dns.adguard.com/dns-query', 'domain': 'google.com', 'response_time': 71.981951, 'response_size': 44, 'error': None, 'datetime': 'Mon Jul  5 13:58:07 2021'}, {'status': 'ok', 'resolver': 'https://dns.adguard.com/dns-query', 'domain': 'netflix.com', 'response_time': 71.959626, 'response_size': 77, 'error': None, 'datetime': 'Mon Jul  5 13:58:07 2021'}, {'status': 'ok', 'resolver': 'https://dns-family.adguard.com/dns-query', 'domain': 'google.com', 'response_time': 73.218339, 'response_size': 44, 'error': None, 'datetime': 'Mon Jul  5 13:58:07 2021'}, {'status': 'ok', 'resolver': 'https://dns-family.adguard.com/dns-query', 'domain': 'netflix.com', 'response_time': 73.306202, 'response_size': 77, 'error': None, 'datetime': 'Mon Jul  5 13:58:07 2021'}, {'status': 'ok', 'resolver': 'https://doh.in.ahadns.net/dns-query', 'domain': 'netflix.com', 'response_time': 881.575222, 'response_size': 121, 'error': None, 'datetime': 'Mon Jul  5 13:58:07 2021'}, {'status': 'ok', 'resolver': 'https://doh.in.ahadns.net/dns-query', 'domain': 'google.com', 'response_time': 881.747945, 'response_size': 65, 'error': None, 'datetime': 'Mon Jul  5 13:58:07 2021'}, {'status': 'ok', 'resolver': 'https://doh.la.ahadns.net/dns-query', 'domain': 'google.com', 'response_time': 231.681925, 'response_size': 65, 'error': None, 'datetime': 'Mon Jul  5 13:58:08 2021'}, {'status': 'ok', 'resolver': 'https://doh.la.ahadns.net/dns-query', 'domain': 'netflix.com', 'response_time': 231.839287, 'response_size': 121, 'error': None, 'datetime': 'Mon Jul  5 13:58:08 2021'}, {'status': 'ok', 'resolver': 'https://doh.nl.ahadns.net/dns-query', 'domain': 'netflix.com', 'response_time': 291.417364, 'response_size': 121, 'error': None, 'datetime': 'Mon Jul  5 13:58:08 2021'}, {'status': 'ok', 'resolver': 'https://doh.nl.ahadns.net/dns-query', 'domain': 'google.com', 'response_time': 291.644441, 'response_size': 65, 'error': None, 'datetime': 'Mon Jul  5 13:58:08 2021'}, {'status': 'ok', 'resolver': 'https://dns.alidns.com/dns-query', 'domain': 'google.com', 'response_time': 50.121032, 'response_size': 65, 'error': None, 'datetime': 'Mon Jul  5 13:58:08 2021'}, {'status': 'ok', 'resolver': 'https://dns.alidns.com/dns-query', 'domain': 'netflix.com', 'response_time': 63.069873, 'response_size': 121, 'error': None, 'datetime': 'Mon Jul  5 13:58:08 2021'}, {'status': 'ok', 'resolver': 'https://dnsnl.alekberg.net/dns-query', 'domain': 'google.com', 'response_time': 287.801106, 'response_size': 68, 'error': None, 'datetime': 'Mon Jul  5 13:58:08 2021'}, {'status': 'ok', 'resolver': 'https://dnsnl.alekberg.net/dns-query', 'domain': 'netflix.com', 'response_time': 287.779779, 'response_size': 132, 'error': None, 'datetime': 'Mon Jul  5 13:58:08 2021'}, {'status': 'ok', 'resolver': 'https://dnsnl.alekberg.net/dns-query', 'domain': 'google.com', 'response_time': 299.438927, 'response_size': 68, 'error': None, 'datetime': 'Mon Jul  5 13:58:09 2021'}, {'status': 'ok', 'resolver': 'https://dnsnl.alekberg.net/dns-query', 'domain': 'netflix.com', 'response_time': 299.426238, 'response_size': 132, 'error': None, 'datetime': 'Mon Jul  5 13:58:09 2021'}, {'status': 'ok', 'resolver': 'https://dns.arapurayil.com/dns-query', 'domain': 'netflix.com', 'response_time': 620.818557, 'response_size': 77, 'error': None, 'datetime': 'Mon Jul  5 13:58:09 2021'}, {'status': 'ok', 'resolver': 'https://dns.arapurayil.com/dns-query', 'domain': 'google.com', 'response_time': 679.405755, 'response_size': 44, 'error': None, 'datetime': 'Mon Jul  5 13:58:09 2021'}, {'status': 'ok', 'resolver': 'https://dns.google/dns-query', 'domain': 'google.com', 'response_time': 73.960169, 'response_size': 44, 'error': None, 'datetime': 'Mon Jul  5 14:01:19 2021'}, {'status': 'ok', 'resolver': 'https://dns.google/dns-query', 'domain': 'netflix.com', 'response_time': 78.929539, 'response_size': 77, 'error': None, 'datetime': 'Mon Jul  5 14:01:19 2021'}, {'status': 'ok', 'resolver': 'https://dns.aa.net.uk/dns-query', 'domain': 'google.com', 'response_time': 266.509314, 'response_size': 44, 'error': None, 'datetime': 'Mon Jul  5 14:01:19 2021'}, {'status': 'ok', 'resolver': 'https://dns.aa.net.uk/dns-query', 'domain': 'netflix.com', 'response_time': 267.285325, 'response_size': 213, 'error': None, 'datetime': 'Mon Jul  5 14:01:19 2021'}, {'status': 'ok', 'resolver': 'https://adfree.usableprivacy.net/dns-query', 'domain': 'google.com', 'response_time': 400.909216, 'response_size': 44, 'error': None, 'datetime': 'Mon Jul  5 14:01:20 2021'}, {'status': 'ok', 'resolver': 'https://adfree.usableprivacy.net/dns-query', 'domain': 'netflix.com', 'response_time': 445.136133, 'response_size': 77, 'error': None, 'datetime': 'Mon Jul  5 14:01:20 2021'}, {'status': 'ok', 'resolver': 'https://dns.adguard.com/dns-query', 'domain': 'google.com', 'response_time': 86.463122, 'response_size': 44, 'error': None, 'datetime': 'Mon Jul  5 14:01:20 2021'}, {'status': 'ok', 'resolver': 'https://dns.adguard.com/dns-query', 'domain': 'netflix.com', 'response_time': 86.625399, 'response_size': 77, 'error': None, 'datetime': 'Mon Jul  5 14:01:20 2021'}, {'status': 'ok', 'resolver': 'https://dns-family.adguard.com/dns-query', 'domain': 'netflix.com', 'response_time': 70.09486, 'response_size': 77, 'error': None, 'datetime': 'Mon Jul  5 14:01:20 2021'}, {'status': 'ok', 'resolver': 'https://dns-family.adguard.com/dns-query', 'domain': 'google.com', 'response_time': 70.461527, 'response_size': 44, 'error': None, 'datetime': 'Mon Jul  5 14:01:20 2021'}, {'status': 'ok', 'resolver': 'https://doh.in.ahadns.net/dns-query', 'domain': 'google.com', 'response_time': 858.258651, 'response_size': 65, 'error': None, 'datetime': 'Mon Jul  5 14:01:20 2021'}, {'status': 'ok', 'resolver': 'https://doh.in.ahadns.net/dns-query', 'domain': 'netflix.com', 'response_time': 858.400516, 'response_size': 121, 'error': None, 'datetime': 'Mon Jul  5 14:01:20 2021'}, {'status': 'ok', 'resolver': 'https://doh.la.ahadns.net/dns-query', 'domain': 'google.com', 'response_time': 246.223069, 'response_size': 195, 'error': None, 'datetime': 'Mon Jul  5 14:01:21 2021'}, {'status': 'ok', 'resolver': 'https://doh.la.ahadns.net/dns-query', 'domain': 'netflix.com', 'response_time': 246.868389, 'response_size': 121, 'error': None, 'datetime': 'Mon Jul  5 14:01:21 2021'}, {'status': 'ok', 'resolver': 'https://doh.nl.ahadns.net/dns-query', 'domain': 'google.com', 'response_time': 307.383497, 'response_size': 65, 'error': None, 'datetime': 'Mon Jul  5 14:01:21 2021'}, {'status': 'ok', 'resolver': 'https://doh.nl.ahadns.net/dns-query', 'domain': 'netflix.com', 'response_time': 307.419894, 'response_size': 121, 'error': None, 'datetime': 'Mon Jul  5 14:01:21 2021'}, {'status': 'ok', 'resolver': 'https://dns.alidns.com/dns-query', 'domain': 'google.com', 'response_time': 50.514849, 'response_size': 65, 'error': None, 'datetime': 'Mon Jul  5 14:01:22 2021'}, {'status': 'ok', 'resolver': 'https://dns.alidns.com/dns-query', 'domain': 'netflix.com', 'response_time': 78.360849, 'response_size': 121, 'error': None, 'datetime': 'Mon Jul  5 14:01:22 2021'}, {'status': 'ok', 'resolver': 'https://dnsnl.alekberg.net/dns-query', 'domain': 'google.com', 'response_time': 422.520034, 'response_size': 68, 'error': None, 'datetime': 'Mon Jul  5 14:01:22 2021'}, {'status': 'ok', 'resolver': 'https://dnsnl.alekberg.net/dns-query', 'domain': 'netflix.com', 'response_time': 422.540202, 'response_size': 132, 'error': None, 'datetime': 'Mon Jul  5 14:01:22 2021'}, {'status': 'ok', 'resolver': 'https://dnsnl.alekberg.net/dns-query', 'domain': 'netflix.com', 'response_time': 314.443112, 'response_size': 132, 'error': None, 'datetime': 'Mon Jul  5 14:01:22 2021'}, {'status': 'ok', 'resolver': 'https://dnsnl.alekberg.net/dns-query', 'domain': 'google.com', 'response_time': 314.592174, 'response_size': 68, 'error': None, 'datetime': 'Mon Jul  5 14:01:22 2021'}, {'status': 'ok', 'resolver': 'https://dns.arapurayil.com/dns-query', 'domain': 'google.com', 'response_time': 628.324036, 'response_size': 44, 'error': None, 'datetime': 'Mon Jul  5 14:01:22 2021'}, {'status': 'ok', 'resolver': 'https://dns.arapurayil.com/dns-query', 'domain': 'netflix.com', 'response_time': 629.36211, 'response_size': 77, 'error': None, 'datetime': 'Mon Jul  5 14:01:22 2021'}, {'status': 'ok', 'resolver': 'https://dohtrial.att.net/dns-query', 'domain': 'google.com', 'response_time': 148.936323, 'response_size': 124, 'error': None, 'datetime': 'Mon Jul  5 14:01:23 2021'}, {'status': 'ok', 'resolver': 'https://dohtrial.att.net/dns-query', 'domain': 'netflix.com', 'response_time': 148.925422, 'response_size': 77, 'error': None, 'datetime': 'Mon Jul  5 14:01:23 2021'}, {'status': 'ok', 'resolver': 'https://dnses.alekberg.net/dns-query', 'domain': 'google.com', 'response_time': 495.801398, 'response_size': 324, 'error': None, 'datetime': 'Mon Jul  5 14:01:23 2021'}, {'status': 'ok', 'resolver': 'https://dnses.alekberg.net/dns-query', 'domain': 'netflix.com', 'response_time': 504.616715, 'response_size': 516, 'error': None, 'datetime': 'Mon Jul  5 14:01:23 2021'}, {'status': 'ok', 'resolver': 'https://dns.google/dns-query', 'domain': 'netflix.com', 'response_time': 50.663394, 'response_size': 77, 'error': None, 'datetime': 'Mon Jul  5 14:04:35 2021'}, {'status': 'ok', 'resolver': 'https://dns.google/dns-query', 'domain': 'google.com', 'response_time': 55.828078, 'response_size': 44, 'error': None, 'datetime': 'Mon Jul  5 14:04:35 2021'}, {'status': 'ok', 'resolver': 'https://dns.aa.net.uk/dns-query', 'domain': 'google.com', 'response_time': 449.618586, 'response_size': 44, 'error': None, 'datetime': 'Mon Jul  5 14:04:35 2021'}, {'status': 'ok', 'resolver': 'https://dns.aa.net.uk/dns-query', 'domain': 'netflix.com', 'response_time': 449.72033, 'response_size': 213, 'error': None, 'datetime': 'Mon Jul  5 14:04:35 2021'}, {'status': 'ok', 'resolver': 'https://adfree.usableprivacy.net/dns-query', 'domain': 'google.com', 'response_time': 400.272884, 'response_size': 44, 'error': None, 'datetime': 'Mon Jul  5 14:04:36 2021'}, {'status': 'ok', 'resolver': 'https://adfree.usableprivacy.net/dns-query', 'domain': 'netflix.com', 'response_time': 414.373111, 'response_size': 77, 'error': None, 'datetime': 'Mon Jul  5 14:04:36 2021'}, {'status': 'ok', 'resolver': 'https://dns.adguard.com/dns-query', 'domain': 'google.com', 'response_time': 69.657089, 'response_size': 44, 'error': None, 'datetime': 'Mon Jul  5 14:04:36 2021'}, {'status': 'ok', 'resolver': 'https://dns.adguard.com/dns-query', 'domain': 'netflix.com', 'response_time': 69.671449, 'response_size': 77, 'error': None, 'datetime': 'Mon Jul  5 14:04:36 2021'}, {'status': 'ok', 'resolver': 'https://dns-family.adguard.com/dns-query', 'domain': 'google.com', 'response_time': 71.274786, 'response_size': 44, 'error': None, 'datetime': 'Mon Jul  5 14:04:36 2021'}, {'status': 'ok', 'resolver': 'https://dns-family.adguard.com/dns-query', 'domain': 'netflix.com', 'response_time': 71.653042, 'response_size': 77, 'error': None, 'datetime': 'Mon Jul  5 14:04:36 2021'}, {'status': 'ok', 'resolver': 'https://doh.in.ahadns.net/dns-query', 'domain': 'google.com', 'response_time': 839.981979, 'response_size': 65, 'error': None, 'datetime': 'Mon Jul  5 14:04:36 2021'}, {'status': 'ok', 'resolver': 'https://doh.in.ahadns.net/dns-query', 'domain': 'netflix.com', 'response_time': 840.174232, 'response_size': 121, 'error': None, 'datetime': 'Mon Jul  5 14:04:36 2021'}, {'status': 'ok', 'resolver': 'https://doh.la.ahadns.net/dns-query', 'domain': 'google.com', 'response_time': 230.6999, 'response_size': 195, 'error': None, 'datetime': 'Mon Jul  5 14:04:37 2021'}, {'status': 'ok', 'resolver': 'https://doh.la.ahadns.net/dns-query', 'domain': 'netflix.com', 'response_time': 230.747867, 'response_size': 121, 'error': None, 'datetime': 'Mon Jul  5 14:04:37 2021'}, {'status': 'ok', 'resolver': 'https://doh.nl.ahadns.net/dns-query', 'domain': 'google.com', 'response_time': 299.249408, 'response_size': 65, 'error': None, 'datetime': 'Mon Jul  5 14:04:37 2021'}, {'status': 'ok', 'resolver': 'https://doh.nl.ahadns.net/dns-query', 'domain': 'netflix.com', 'response_time': 303.48122, 'response_size': 121, 'error': None, 'datetime': 'Mon Jul  5 14:04:37 2021'}, {'status': 'ok', 'resolver': 'https://dns.alidns.com/dns-query', 'domain': 'google.com', 'response_time': 49.487353, 'response_size': 65, 'error': None, 'datetime': 'Mon Jul  5 14:04:38 2021'}, {'status': 'ok', 'resolver': 'https://dns.alidns.com/dns-query', 'domain': 'netflix.com', 'response_time': 76.483187, 'response_size': 121, 'error': None, 'datetime': 'Mon Jul  5 14:04:38 2021'}, {'status': 'ok', 'resolver': 'https://dnsnl.alekberg.net/dns-query', 'domain': 'google.com', 'response_time': 294.957176, 'response_size': 68, 'error': None, 'datetime': 'Mon Jul  5 14:04:38 2021'}, {'status': 'ok', 'resolver': 'https://dnsnl.alekberg.net/dns-query', 'domain': 'netflix.com', 'response_time': 295.218528, 'response_size': 132, 'error': None, 'datetime': 'Mon Jul  5 14:04:38 2021'}, {'status': 'ok', 'resolver': 'https://dnsnl.alekberg.net/dns-query', 'domain': 'google.com', 'response_time': 295.484524, 'response_size': 68, 'error': None, 'datetime': 'Mon Jul  5 14:04:38 2021'}, {'status': 'ok', 'resolver': 'https://dnsnl.alekberg.net/dns-query', 'domain': 'netflix.com', 'response_time': 295.45982, 'response_size': 132, 'error': None, 'datetime': 'Mon Jul  5 14:04:38 2021'}, {'status': 'ok', 'resolver': 'https://dns.arapurayil.com/dns-query', 'domain': 'google.com', 'response_time': 611.163532, 'response_size': 44, 'error': None, 'datetime': 'Mon Jul  5 14:04:38 2021'}, {'status': 'ok', 'resolver': 'https://dns.arapurayil.com/dns-query', 'domain': 'netflix.com', 'response_time': 611.164752, 'response_size': 77, 'error': None, 'datetime': 'Mon Jul  5 14:04:38 2021'}]

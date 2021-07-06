@@ -1,0 +1,61 @@
+ok,https://dns.google/dns-query,google.com,72.580808,44,Mon Jul  5 13:22:18 2021
+ok,https://dns.google/dns-query,netflix.com,76.359138,77,Mon Jul  5 13:22:18 2021
+ok,https://dns.aa.net.uk/dns-query,google.com,453.428377,44,Mon Jul  5 13:22:18 2021
+ok,https://dns.aa.net.uk/dns-query,netflix.com,461.335031,213,Mon Jul  5 13:22:18 2021
+ok,https://dohtrial.att.net/dns-query,google.com,172.494460,44,Mon Jul  5 13:22:18 2021
+ok,https://dohtrial.att.net/dns-query,netflix.com,172.488782,77,Mon Jul  5 13:22:18 2021
+Query failed: SSL connect error,https://dns1.dnscrypt.ca/dns-query,google.com, , ,Mon Jul  5 13:22:18 2021
+Query failed: SSL connect error,https://dns1.dnscrypt.ca/dns-query,netflix.com, , ,Mon Jul  5 13:22:18 2021
+Problem 7 decoding 38445 bytes response to probe,https://doh.cleanbrowsing.org/dns-query,google.com, , ,Mon Jul  5 13:22:38 2021
+Problem 7 decoding 38445 bytes response to probe,https://doh.cleanbrowsing.org/dns-query,netflix.com, , ,Mon Jul  5 13:22:38 2021
+ok,total_run_time,21114.238600,0
+
+ok,https://dns.google/dns-query,google.com,45.552977,44,Mon Jul  5 13:22:39 2021
+ok,https://dns.google/dns-query,netflix.com,49.143220,77,Mon Jul  5 13:22:39 2021
+ok,https://dns.aa.net.uk/dns-query,google.com,274.383420,44,Mon Jul  5 13:22:39 2021
+ok,https://dns.aa.net.uk/dns-query,netflix.com,275.313151,213,Mon Jul  5 13:22:39 2021
+Query failed: SSL peer certificate or SSH remote key was not OK,https://dohtrial.att.net/dns-query,google.com, , ,Mon Jul  5 13:22:39 2021
+Query failed: SSL peer certificate or SSH remote key was not OK,https://dohtrial.att.net/dns-query,netflix.com, , ,Mon Jul  5 13:22:39 2021
+Query failed: SSL connect error,https://dns1.dnscrypt.ca/dns-query,google.com, , ,Mon Jul  5 13:22:39 2021
+Query failed: SSL connect error,https://dns1.dnscrypt.ca/dns-query,netflix.com, , ,Mon Jul  5 13:22:39 2021
+Problem 7 decoding 38445 bytes response to probe,https://doh.cleanbrowsing.org/dns-query,google.com, , ,Mon Jul  5 13:22:59 2021
+Problem 7 decoding 38445 bytes response to probe,https://doh.cleanbrowsing.org/dns-query,netflix.com, , ,Mon Jul  5 13:22:59 2021
+ok,total_run_time,20768.972805,0
+
+ok,https://dns.google/dns-query,google.com,51.021518,44,Mon Jul  5 13:23:00 2021
+ok,https://dns.google/dns-query,netflix.com,58.257993,77,Mon Jul  5 13:23:00 2021
+ok,https://dns.aa.net.uk/dns-query,google.com,275.984193,44,Mon Jul  5 13:23:00 2021
+ok,https://dns.aa.net.uk/dns-query,netflix.com,276.852248,213,Mon Jul  5 13:23:00 2021
+ok,https://dohtrial.att.net/dns-query,google.com,140.210408,44,Mon Jul  5 13:23:00 2021
+ok,https://dohtrial.att.net/dns-query,netflix.com,140.207967,77,Mon Jul  5 13:23:00 2021
+Query failed: SSL connect error,https://dns1.dnscrypt.ca/dns-query,google.com, , ,Mon Jul  5 13:23:00 2021
+Query failed: SSL connect error,https://dns1.dnscrypt.ca/dns-query,netflix.com, , ,Mon Jul  5 13:23:00 2021
+Problem 7 decoding 38445 bytes response to probe,https://doh.cleanbrowsing.org/dns-query,google.com, , ,Mon Jul  5 13:23:20 2021
+Problem 7 decoding 38445 bytes response to probe,https://doh.cleanbrowsing.org/dns-query,netflix.com, , ,Mon Jul  5 13:23:20 2021
+ok,total_run_time,20845.618729,0
+
+ok,https://dns.google/dns-query,google.com,46.135178,44,Mon Jul  5 13:23:20 2021
+ok,https://dns.google/dns-query,netflix.com,46.338151,77,Mon Jul  5 13:23:20 2021
+ok,https://dns.aa.net.uk/dns-query,google.com,268.277697,44,Mon Jul  5 13:23:20 2021
+ok,https://dns.aa.net.uk/dns-query,netflix.com,268.796758,213,Mon Jul  5 13:23:20 2021
+Query failed: SSL peer certificate or SSH remote key was not OK,https://dohtrial.att.net/dns-query,google.com, , ,Mon Jul  5 13:23:21 2021
+Query failed: SSL peer certificate or SSH remote key was not OK,https://dohtrial.att.net/dns-query,netflix.com, , ,Mon Jul  5 13:23:21 2021
+Query failed: SSL connect error,https://dns1.dnscrypt.ca/dns-query,google.com, , ,Mon Jul  5 13:23:21 2021
+Query failed: SSL connect error,https://dns1.dnscrypt.ca/dns-query,netflix.com, , ,Mon Jul  5 13:23:21 2021
+Problem 7 decoding 38445 bytes response to probe,https://doh.cleanbrowsing.org/dns-query,google.com, , ,Mon Jul  5 13:23:41 2021
+Problem 7 decoding 38445 bytes response to probe,https://doh.cleanbrowsing.org/dns-query,netflix.com, , ,Mon Jul  5 13:23:41 2021
+ok,total_run_time,20744.538750,0
+
+ok,https://dns.google/dns-query,google.com,46.995530,44,Mon Jul  5 13:23:41 2021
+ok,https://dns.google/dns-query,netflix.com,49.260598,77,Mon Jul  5 13:23:41 2021
+ok,https://dns.aa.net.uk/dns-query,google.com,270.250124,44,Mon Jul  5 13:23:41 2021
+ok,https://dns.aa.net.uk/dns-query,netflix.com,283.363634,213,Mon Jul  5 13:23:41 2021
+ok,https://dohtrial.att.net/dns-query,google.com,140.405755,124,Mon Jul  5 13:23:41 2021
+ok,https://dohtrial.att.net/dns-query,netflix.com,140.400463,77,Mon Jul  5 13:23:41 2021
+Query failed: SSL connect error,https://dns1.dnscrypt.ca/dns-query,google.com, , ,Mon Jul  5 13:23:42 2021
+Query failed: SSL connect error,https://dns1.dnscrypt.ca/dns-query,netflix.com, , ,Mon Jul  5 13:23:42 2021
+Problem 7 decoding 38445 bytes response to probe,https://doh.cleanbrowsing.org/dns-query,google.com, , ,Mon Jul  5 13:24:02 2021
+Problem 7 decoding 38445 bytes response to probe,https://doh.cleanbrowsing.org/dns-query,netflix.com, , ,Mon Jul  5 13:24:02 2021
+ok,total_run_time,20875.241745,0
+
+[{'status': 'ok', 'resolver': 'https://dns.google/dns-query', 'domain': 'google.com', 'response_time': 72.580808, 'response_size': 44, 'error': None, 'datetime': 'Mon Jul  5 13:22:18 2021'}, {'status': 'ok', 'resolver': 'https://dns.google/dns-query', 'domain': 'netflix.com', 'response_time': 76.359138, 'response_size': 77, 'error': None, 'datetime': 'Mon Jul  5 13:22:18 2021'}, {'status': 'ok', 'resolver': 'https://dns.aa.net.uk/dns-query', 'domain': 'google.com', 'response_time': 453.428377, 'response_size': 44, 'error': None, 'datetime': 'Mon Jul  5 13:22:18 2021'}, {'status': 'ok', 'resolver': 'https://dns.aa.net.uk/dns-query', 'domain': 'netflix.com', 'response_time': 461.335031, 'response_size': 213, 'error': None, 'datetime': 'Mon Jul  5 13:22:18 2021'}, {'status': 'ok', 'resolver': 'https://dohtrial.att.net/dns-query', 'domain': 'google.com', 'response_time': 172.49446, 'response_size': 44, 'error': None, 'datetime': 'Mon Jul  5 13:22:18 2021'}, {'status': 'ok', 'resolver': 'https://dohtrial.att.net/dns-query', 'domain': 'netflix.com', 'response_time': 172.488782, 'response_size': 77, 'error': None, 'datetime': 'Mon Jul  5 13:22:18 2021'}, {'status': 'ok', 'resolver': 'https://dns.google/dns-query', 'domain': 'google.com', 'response_time': 45.552977, 'response_size': 44, 'error': None, 'datetime': 'Mon Jul  5 13:22:39 2021'}, {'status': 'ok', 'resolver': 'https://dns.google/dns-query', 'domain': 'netflix.com', 'response_time': 49.14322, 'response_size': 77, 'error': None, 'datetime': 'Mon Jul  5 13:22:39 2021'}, {'status': 'ok', 'resolver': 'https://dns.aa.net.uk/dns-query', 'domain': 'google.com', 'response_time': 274.38342, 'response_size': 44, 'error': None, 'datetime': 'Mon Jul  5 13:22:39 2021'}, {'status': 'ok', 'resolver': 'https://dns.aa.net.uk/dns-query', 'domain': 'netflix.com', 'response_time': 275.313151, 'response_size': 213, 'error': None, 'datetime': 'Mon Jul  5 13:22:39 2021'}, {'status': 'ok', 'resolver': 'https://dns.google/dns-query', 'domain': 'google.com', 'response_time': 51.021518, 'response_size': 44, 'error': None, 'datetime': 'Mon Jul  5 13:23:00 2021'}, {'status': 'ok', 'resolver': 'https://dns.google/dns-query', 'domain': 'netflix.com', 'response_time': 58.257993, 'response_size': 77, 'error': None, 'datetime': 'Mon Jul  5 13:23:00 2021'}, {'status': 'ok', 'resolver': 'https://dns.aa.net.uk/dns-query', 'domain': 'google.com', 'response_time': 275.984193, 'response_size': 44, 'error': None, 'datetime': 'Mon Jul  5 13:23:00 2021'}, {'status': 'ok', 'resolver': 'https://dns.aa.net.uk/dns-query', 'domain': 'netflix.com', 'response_time': 276.852248, 'response_size': 213, 'error': None, 'datetime': 'Mon Jul  5 13:23:00 2021'}, {'status': 'ok', 'resolver': 'https://dohtrial.att.net/dns-query', 'domain': 'google.com', 'response_time': 140.210408, 'response_size': 44, 'error': None, 'datetime': 'Mon Jul  5 13:23:00 2021'}, {'status': 'ok', 'resolver': 'https://dohtrial.att.net/dns-query', 'domain': 'netflix.com', 'response_time': 140.207967, 'response_size': 77, 'error': None, 'datetime': 'Mon Jul  5 13:23:00 2021'}, {'status': 'ok', 'resolver': 'https://dns.google/dns-query', 'domain': 'google.com', 'response_time': 46.135178, 'response_size': 44, 'error': None, 'datetime': 'Mon Jul  5 13:23:20 2021'}, {'status': 'ok', 'resolver': 'https://dns.google/dns-query', 'domain': 'netflix.com', 'response_time': 46.338151, 'response_size': 77, 'error': None, 'datetime': 'Mon Jul  5 13:23:20 2021'}, {'status': 'ok', 'resolver': 'https://dns.aa.net.uk/dns-query', 'domain': 'google.com', 'response_time': 268.277697, 'response_size': 44, 'error': None, 'datetime': 'Mon Jul  5 13:23:20 2021'}, {'status': 'ok', 'resolver': 'https://dns.aa.net.uk/dns-query', 'domain': 'netflix.com', 'response_time': 268.796758, 'response_size': 213, 'error': None, 'datetime': 'Mon Jul  5 13:23:20 2021'}, {'status': 'ok', 'resolver': 'https://dns.google/dns-query', 'domain': 'google.com', 'response_time': 46.99553, 'response_size': 44, 'error': None, 'datetime': 'Mon Jul  5 13:23:41 2021'}, {'status': 'ok', 'resolver': 'https://dns.google/dns-query', 'domain': 'netflix.com', 'response_time': 49.260598, 'response_size': 77, 'error': None, 'datetime': 'Mon Jul  5 13:23:41 2021'}, {'status': 'ok', 'resolver': 'https://dns.aa.net.uk/dns-query', 'domain': 'google.com', 'response_time': 270.250124, 'response_size': 44, 'error': None, 'datetime': 'Mon Jul  5 13:23:41 2021'}, {'status': 'ok', 'resolver': 'https://dns.aa.net.uk/dns-query', 'domain': 'netflix.com', 'response_time': 283.363634, 'response_size': 213, 'error': None, 'datetime': 'Mon Jul  5 13:23:41 2021'}, {'status': 'ok', 'resolver': 'https://dohtrial.att.net/dns-query', 'domain': 'google.com', 'response_time': 140.405755, 'response_size': 124, 'error': None, 'datetime': 'Mon Jul  5 13:23:41 2021'}, {'status': 'ok', 'resolver': 'https://dohtrial.att.net/dns-query', 'domain': 'netflix.com', 'response_time': 140.400463, 'response_size': 77, 'error': None, 'datetime': 'Mon Jul  5 13:23:41 2021'}]
