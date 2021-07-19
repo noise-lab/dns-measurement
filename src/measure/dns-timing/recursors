@@ -7,7 +7,7 @@ https://doh.in.ahadns.net/dns-query
 https://doh.la.ahadns.net/dns-query
 https://doh.nl.ahadns.net/dns-query
 https://dns.alidns.com/dns-query
-https://dnsnl.alekberg.net/dns-query
+https://dnsnl-noads.alekberg.net/dns-query
 https://dnsnl.alekberg.net/dns-query
 https://dns.arapurayil.com/dns-query
 https://dohtrial.att.net/dns-query
@@ -22,7 +22,7 @@ https://odvr.nic.cz/dns-query
 https://dns.digitale-gesellschaft.ch/dns-query
 https://dns.digitale-gesellschaft.ch/dns-query
 https://dns1.ryan-palmer.com/dns-query
-https://doh.dns.sb/dns-query
+https://doh.sb/dns-query
 https://dns.therifleman.name/dns-query
 https://dns1.dnscrypt.ca/dns-query
 https://dns2.dnscrypt.ca/dns-query
@@ -44,8 +44,6 @@ https://doh-sg.blahdns.com/dns-query
 https://doh.appliedprivacy.net/dns-query
 https://doh.ffmuc.net/dns-query
 https://doh.tiarap.org/dns-query
-https://dns.emeraldonion.org/dns-query
-https://dns.google/dns-query
 https://ordns.he.net/dns-query
 https://doh.tiar.app/dns-query
 https://public.dns.iij.jp/dns-query
@@ -57,6 +55,7 @@ https://doh.libredns.gr/dns-query
 https://doh.linuxsec.org/dns-query
 https://doh.linuxsec.org/dns-query
 https://adblock.doh.mullvad.net/dns-query
+https://doh.chewbacca.meganerd.nl/dns-query
 https://doh.mullvad.net/dns-query
 https://dns.nextdns.io/dns-query
 https://dns.njal.la/dns-query
@@ -71,4 +70,6 @@ https://dns9.quad9.net/dns-query
 https://dnsse.alekberg.net/dns-query
 https://dns.switch.ch/dns-query
 https://dns.t53.de/dns-query
+https://unicast.uncensoreddns.org/dns-query
+https://anycast.uncensoreddns.org/dns-query
 https://sg.yepdns.com/dns-query
