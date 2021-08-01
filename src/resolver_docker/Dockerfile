@@ -7,6 +7,10 @@ RUN apt-get update && \
 	apt-get upgrade -y && \
 	apt-get install -y git && \
 	apt-get install sudo -y
+
+RUN apt-get update && \
+	apt-get install python3 -y
+
 RUN git clone https://github.com/ranyasharma/dns-measurement-suite
 WORKDIR /dns-measurement-suite
 RUN git checkout resolver-research 
