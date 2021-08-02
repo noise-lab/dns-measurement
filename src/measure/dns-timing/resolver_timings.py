@@ -7,11 +7,11 @@ import subprocess
 import logging
 log = logging.getLogger('postgres')
 # Create csv 
-textfile=open("resolver_data.csv","a")
-textfile.write("status,resolver,domain,time,size\n")
+textfile=open("resolver_data_30_new.csv","a")
+textfile.write("status,resolver,domain,time,size,datetime\n")
 # Repeat measurements by the number defined in the loop and input data into csv, appending each time 
 k=0
-for k in range(100):
+for k in range(20):
 	cmd = ["./dns-timing", "doh", "recursors", "domains"]
 	output = subprocess.check_output(cmd, stderr = subprocess.STDOUT)
 	output = output.decode('unicode_escape')
