@@ -11,6 +11,9 @@ RUN apt-get update && \
 RUN apt-get update && \
 	apt-get install python3 -y
 
+RUN apt-get update && \
+	apt-get install -y procps
+
 RUN git clone https://github.com/ranyasharma/dns-measurement-suite
 WORKDIR /dns-measurement-suite
 RUN git checkout resolver-research 
