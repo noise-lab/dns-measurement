@@ -10,7 +10,7 @@ from ping3 import ping
 log = logging.getLogger('postgres')
 all_dns_info = []
 k=0
-for k in range(30):
+for k in range(200):
 	cmd = ["./dns-timing", "doh", "recursors", "domains"]
 	try:
 		output = subprocess.check_output(cmd, stderr = subprocess.STDOUT)
@@ -26,18 +26,18 @@ for k in range(30):
 				try:
 					d = ping(ping_name, unit='ms')
 		#			print(d)
-					all_dns_info.append({'status': status, 'resolver': resolver, 'domain': domain, 'r_time': r_time,'size_or_error': response_size,'ping_time': d, 'datetime': datetime})
+					all_dns_info.append({'status': status, 'resolver': resolver, 'domain': domain, 'rtime': r_time,'size_or_error': response_size,'ping_time': d, 'datetime': datetime})
 				except Exception as e:
 					print('ping error:', e)
 					d = None
 		#			print(d)
-					all_dns_info.append({'status': status, 'resolver': resolver, 'domain': domain, 'r_time': r_time,'size_or_error': response_size,'ping_time': d, 'datetime': datetime})		
+					all_dns_info.append({'status': status, 'resolver': resolver, 'domain': domain, 'rtime': r_time,'size_or_error': response_size,'ping_time': d, 'datetime': datetime})		
 			else:
 				response_size = None
 				error = None
 				r_time = None
 				d = None
-				all_dns_info.append({'status': status, 'resolver': resolver, 'domain': domain, 'r_time': r_time,'size_or_error': error,'ping_time': d, 'datetime': datetime})
+				all_dns_info.append({'status': status, 'resolver': resolver, 'domain': domain, 'rtime': r_time,'size_or_error': error,'ping_time': d, 'datetime': datetime})
 	except subprocess.CalledProcessError as e:
 		print(e.stdout)
 		print(e.stderr)
@@ -46,5 +46,5 @@ for k in range(30):
 		print(e)
 	k = k+1
 print(all_dns_info)
-with open("data_30.json", "w") as outfile:
+with open("data_200.json", "w") as outfile:
 	json.dump(all_dns_info, outfile)
