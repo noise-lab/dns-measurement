@@ -9,7 +9,11 @@ import json
 log = logging.getLogger('postgres')
 all_dns_info = []
 k=0
+<<<<<<< HEAD
+for k in range(50):
+=======
 for k in range(150):
+>>>>>>> 1a338e3ad793ef107e74b0a99aec0d7493ed3b42
 	cmd = ["./dns-timing", "doh", "recursors", "domains"]
 #	output = subprocess.check_output(cmd, stderr = subprocess.STDOUT)
 #	output = output.decode('unicode_escape')
@@ -47,5 +51,10 @@ for k in range(150):
 		err = 'Error parsing DNS output for website {0}: {1}'
 	k = k+1
 print(all_dns_info)
+<<<<<<< HEAD
+with open("data_50.json", "a") as outfile:
+        json.dump(all_dns_info, outfile)
+=======
 with open("data_150.json", "a") as outfile:
 	json.dump(all_dns_info, outfile)
+>>>>>>> 1a338e3ad793ef107e74b0a99aec0d7493ed3b42
