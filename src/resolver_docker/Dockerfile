@@ -3,16 +3,9 @@ FROM debian:stable-slim
 ENV DEBIAN_FRONTEND noninteractive
 ENV DEBCONF_NONINTERACTIVE_SEEN true
 
-RUN apt-get update && \
-	apt-get upgrade -y && \
-	apt-get install -y git && \
-	apt-get install sudo -y
-
-RUN apt-get update && \
-	apt-get install python3 -y
-
-RUN apt-get update && \
-	apt-get install -y procps
+RUN apt-get -y update && \
+    apt-get -y install --no-install-recommends \
+        sudo python3-pip procps git
 
 RUN git clone https://github.com/ranyasharma/dns-measurement-suite
 WORKDIR /dns-measurement-suite
