@@ -16,7 +16,7 @@ ip_north_america = r[(r['country_name']=='United States') | (r['country_name']==
 ip_australia = r[(r['country_name']=='Australia')]
 ip_not_found = r[(r['IP_address'] == 'None')]
 
-df = pd.read_json('data_175.json')
+df = pd.read_json('data_300.json')
 
 # Europe Boxplot for Response Time, Domain: Google
 eur_array_of_resolvers = pd.Series(ip_europe['resolver']).unique()
