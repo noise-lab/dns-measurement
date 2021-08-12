@@ -10,7 +10,7 @@ from ping3 import ping
 log = logging.getLogger('postgres')
 all_dns_info = []
 k=0
-for k in range(250):
+for k in range(10):
 	cmd = ["./dns-timing", "doh", "recursors", "domains"]
 	try:
 		output = subprocess.check_output(cmd, stderr = subprocess.STDOUT)
@@ -46,5 +46,5 @@ for k in range(250):
 		print(e)
 	k = k+1
 print(all_dns_info)
-with open("data_250.json", "w") as outfile:
+with open("data_10.json", "w") as outfile:
 	json.dump(all_dns_info, outfile)
