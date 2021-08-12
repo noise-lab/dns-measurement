@@ -26,17 +26,20 @@ for k in range(1):
 				try:
 					d = ping(ping_name, unit='ms')
 		#			print(d)
+					print(status, resolver, domain, r_time, response_size, d, datetime)
 					all_dns_info.append({'status': status, 'resolver': resolver, 'domain': domain, 'rtime': r_time,'size_or_error': response_size,'ping_time': d, 'datetime': datetime})
 				except Exception as e:
 					print('ping error:', e)
 					d = None
 		#			print(d)
+					print(status, resolver, domain, r_time, response_size, d, datetime)
 					all_dns_info.append({'status': status, 'resolver': resolver, 'domain': domain, 'rtime': r_time,'size_or_error': response_size,'ping_time': d, 'datetime': datetime})		
 			else:
 				response_size = None
 				error = None
 				r_time = None
 				d = None
+				print(status, resolver, domain, r_time, error, d, datetime)
 				all_dns_info.append({'status': status, 'resolver': resolver, 'domain': domain, 'rtime': r_time,'size_or_error': error,'ping_time': d, 'datetime': datetime})
 	except subprocess.CalledProcessError as e:
 		print(e.stdout)
