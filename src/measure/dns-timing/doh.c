@@ -474,7 +474,7 @@ int doh(const char *recursor, char *domains[], uint16_t domains_count) {
 							query->response_wire_fmt.size,
 							DNS_TYPE_A, &d);
 						if(r == DOH_DNS_BAD_RCODE) {
-							print_error(query->domain, nanosec_since(query->time_start), r);
+							print_error1(recursor, query->domain, nanosec_since(query->time_start), r);
 						} else if(r) {
 							fprintf(stdout, "Problem %d decoding %zu bytes response to probe,%s,%s, , ,%s\n",
 								r, query->response_wire_fmt.size, recursor, query->domain, buf);

@@ -21,8 +21,12 @@ void print_ok1(char *recursor, char *domain, uint64_t nanosec, size_t size, char
 	printf("ok,%s,%s,%lf,%zu,%s\n", recursor, domain, nanosec / 1e6, size, buf);
 }
 
-void print_error(char *recursor, char *domain, uint64_t nanosec, int status) {
-	printf("error: %s,%s,%lf,%d\n", recursor, domain, nanosec / 1e6, status);
+void print_error(char *domain, uint64_t nanosec, int status) {
+	printf("error: %s,%lf,%d\n", domain, nanosec / 1e6, status);
+}
+
+void print_error1(char *recursor, char *domain, uint64_t nanosec, int status) {
+        printf("error: %s,%s,%lf,%d\n", recursor, domain, nanosec / 1e6, status);
 }
 
 /* vim: set noet tw=100 ts=4 sw=4: */
