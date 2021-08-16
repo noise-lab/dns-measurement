@@ -10,9 +10,10 @@ RUN apt-get -y update && \
 
 RUN pip3 install ping3
 
-RUN git clone https://github.com/noise-lab/dns-measurement-suite
-WORKDIR /dns-measurement-suite
-RUN dpkg -i src/measure/dns-timing/debs/libgetdns10_1.5.1-1.1_amd64.deb
-RUN dpkg -i src/measure/dns-timing/debs/libgetdns-dev_1.5.1-1.1_amd64.deb
-RUN make -C src/measure/dns-timing
-ENTRYPOINT ["sudo", "nohup", "python3", "src/measure/dns-timing/resolver_data.py", ">", "data_30.txt"]
+RUN git clone https://github.com/ranyasharma/dns-measurement-suite
+WORKDIR /dns-measurement-suite/src/measure/dns-timing
+RUN git checkout resolver-research
+RUN dpkg -i debs/libgetdns10_1.5.1-1.1_amd64.deb
+RUN dpkg -i debs/libgetdns-dev_1.5.1-1.1_amd64.deb
+RUN make
+ENTRYPOINT ["sudo", "nohup", "python3", "resolver_data.py", ">", "data_10.txt"]
