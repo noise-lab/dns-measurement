@@ -33,5 +33,5 @@ with open('all_resolver_ip_address', 'r') as f:
 		except Exception as e:
 			err = 'Error parsing DNS output for website {0}: {1}'
 print(resolver_ip_info)
-with open("resolver_geolocation_data.json", "a") as outfile:
+with open("resolver_geolocation.json", "a") as outfile:
 	json.dump(resolver_ip_info, outfile)

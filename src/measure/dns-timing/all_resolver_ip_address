@@ -73,3 +73,4 @@ https://dns.t53.de/dns-query,None
 https://unicast.uncensoreddns.org/dns-query,89.233.43.71
 https://anycast.uncensoreddns.org/dns-query,91.239.100.100
 https://sg.yepdns.com/dns-query,94.237.75.42
+https://doh.xfinity.com/dns-query,75.75.75.75
