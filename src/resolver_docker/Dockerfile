@@ -1,4 +1,4 @@
-FROM debian:stable-slim
+FROM debian:buster-slim
 
 ENV DEBIAN_FRONTEND noninteractive
 ENV DEBCONF_NONINTERACTIVE_SEEN true
@@ -16,4 +16,4 @@ RUN git checkout resolver-research
 RUN dpkg -i debs/libgetdns10_1.5.1-1.1_amd64.deb
 RUN dpkg -i debs/libgetdns-dev_1.5.1-1.1_amd64.deb
 RUN make
-ENTRYPOINT ["sudo", "nohup", "python3", "resolver_data.py", ">", "data_10.txt"]
+ENTRYPOINT ["sudo", "nohup", "python3", "resolver_data.py", ">", "data_100.txt", "&"]
