@@ -18,6 +18,7 @@ To build the DNS response time measurement tool, you will first need to install
 the packages in the dns-timing/debs directory with `dpkg -i`.
 You will also need to install the following dependencies:
 
+* dns-root-data
 * libcurl4-openssl-dev
 * libssl-dev
 * libev4, libev-dev
