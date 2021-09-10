@@ -2,13 +2,22 @@
 
 Major browsers including Brave, Opera, Google Chrome, Mozilla Firefox, and Microsoft Edge, only list Cloudflare, Cloudflare for Families, NextDNS, Google, Quad9, OpenDNS, and CleanBrowsing under their encrypted DNS provider options.
 Although a limited number of mainstream resolvers exist, we found a total of 75 DoH public servers according to a list published by DNSCrypt.
+
+With DoH, DNS queries are typically sent to a singular designated DNS server. 
+If most people use encrypted DNS and rely on the same major providers, those few providers will have increased visibility into user's browsing histories and access to data that was previously released to hundreds. 
+
+- tradeoff between privacy and security 
+
 In this paper, we begin to explore the usability of the DNS encrypted ecosystem as a whole rather than just major operators. 
 
-With this in mind, we studied the following questions:
+With this in mind, we make the following contributions:
 
 \begin{itemize}
 \setlength\itemsep{0em}
-\item How extensive is the deployment of encrypted DNS outside of the mainstream resolvers?
+\item We study the deployment of encrypted DNS outside of the mainstream resolvers. We measure DNS query response times and ping times using a vast array of resolvers located across North America, Asia, Europe, and Australia. 
+\item Do users have a sufficient choice of trusted recursive resolvers beyond those of major providers, and does one have to use a major provider to reap the major performance benefits of encrypted DNS?
+	- Answer once we understand if the select high performing non-mainstream resolvers hold up 
 \item How does the performance of these servers depend on where you are on the network?
+	- Answer once we have data from different vantage points 
 
 \end{itemize}
