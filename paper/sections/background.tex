@@ -1,0 +1,7 @@
+\section{Background}\label{sec:back}
+
+The Domain Name System (DNS) takes human-readable domains and returns Internet Protocol (IP) addresses, which are used to route traffic. 
+These queries are traditionally unencrypted, which poses the risk of information considered private to the user being leaked to the server receiving the query and to anyone else monitoring network traffic.
+Protocols for encrypting DNS have been proposed and recently deployed, including DNS-over-HTTPS (DoH) and DNS-over-TLS (DoT), where queries are sent over an encrypted transport.
+In this paper, we chose to only research DoH because it has more widespread implementation in browsers than DoT.
+For instance, Firefox only supports DoH. 
