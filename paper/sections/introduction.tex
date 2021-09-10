@@ -3,10 +3,13 @@
 Major browsers including Brave, Opera, Google Chrome, Mozilla Firefox, and Microsoft Edge, only list Cloudflare, Cloudflare for Families, NextDNS, Google, Quad9, OpenDNS, and CleanBrowsing under their encrypted DNS provider options.
 Although a limited number of mainstream resolvers exist, we found a total of 75 DoH public servers according to a list published by DNSCrypt.
 
-With DoH, DNS queries are typically sent to a singular designated DNS server. 
+With DoH, DNS queries are typically sent to a singular designated DNS server.
+Encryption does not mean that one's Internet traffic is entirely invisible. 
+Encrypted DNS servers can still log query requests.   
 If most people use encrypted DNS and rely on the same major providers, those few providers will have increased visibility into user's browsing histories and access to data that was previously released to hundreds. 
 
-- tradeoff between privacy and security 
+The initital problem that gave reasons to make DNS traffic secure was that internet providers (ISPs) were able to log users' queries. 
+However, with only a few major providers for encrypted DNS, the initial problem seems to simply shift from ISPs to mainstream encrypted DNS providers like Google. 
 
 In this paper, we begin to explore the usability of the DNS encrypted ecosystem as a whole rather than just major operators. 
 
