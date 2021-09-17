@@ -3,5 +3,13 @@
 The Domain Name System (DNS) takes human-readable domains and returns Internet Protocol (IP) addresses, which are used to route traffic. 
 These queries are traditionally unencrypted, which poses the risk of information considered private to the user being leaked to the server receiving the query and to anyone else monitoring network traffic.
 Protocols for encrypting DNS have been proposed and recently deployed, including DNS-over-HTTPS (DoH) and DNS-over-TLS (DoT), where queries are sent over an encrypted transport.
+DoT uses port 853 to send queries over a TLS connection. 
+DoH, in contrast, uses port 443 and an HTTPS connection. 
 In this paper, we chose to only research DoH because it has more widespread implementation in browsers than DoT.
-For instance, Firefox only supports DoH. 
+For instance, Firefox has only supported DoH since 2020. 
+
+Beyond privacy concerns, DNS traffic is frequently used to enable family filters. 
+Cleanbrowsing's family filter blocks access to explicit sites. 
+AdGuard DNS also employs similar "family protection" features.
+
+Most browsers and mobile operating systems currently support DoH including Brave, Chrome, Edge, Firefox, Opera, Safari, Vivaldi, iOS, macOS, and Windows. 
