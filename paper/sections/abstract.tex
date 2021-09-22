@@ -1,3 +1,12 @@
 \abstract{
-Abstract. 
-}
+The Domain Name System (DNS) translates domains that are readable by humans to respective IP addresses. 
+DNS traffic is traditionally unencrypted, which allows users' private information to be leaked. 
+In response to these privacy risks, protocols for encrypting DNS have recently been deployed including DNS over HTTPS (DoH) and DNS over TLS (DoT).
+Even with DoH, an individual's Internet traffic is not entirely hidden. 
+The designated encrypted DNS server can still see and log those query requests. 
+If most people rely on the same mainstream encrypted DNS providers, those providers will have access to incredibly large amounts of data and user information, which simply shifts the original privacy concerns from Internet Service Providers (ISPs) to mainstream encrypted DNS resolvers. 
+
+In this paper we explore the reliability of encrypted DNS resolvers by measuring query response times from different global vantage points. 
+We find that although most lesser-known resolvers have higher response times than well-known resolvers, which was expected, a selective group of non-mainstream resolvers operate better than mainstream resolvers. 
+This allows users to expand their options of trusted recursive resolvers beyond those that are well-known. 
+We present the sufficient options that users have for good performance while maintaining privacy.
