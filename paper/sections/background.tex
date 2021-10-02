@@ -1,15 +1,36 @@
 \section{Background}\label{sec:back}
 
-The Domain Name System (DNS) takes human-readable domains and returns Internet Protocol (IP) addresses, which are used to route traffic. 
+The Domain Name System (DNS) translates human-readable domain names into Internet Protocol (IP) addresses, which are used to route traffic. 
 These queries are traditionally unencrypted, which poses the risk of information considered private to the user being leaked to the server receiving the query and to anyone else monitoring network traffic.
-Protocols for encrypting DNS have been proposed and recently deployed, including DNS-over-HTTPS (DoH) and DNS-over-TLS (DoT), where queries are sent over an encrypted transport.
-DoT uses port 853 to send queries over a TLS connection. 
-DoH, in contrast, uses port 443 and an HTTPS connection. 
-In this paper, we chose to only research DoH because it has more widespread implementation in browsers than DoT.
-For instance, Firefox has only supported DoH since 2020. 
 
-Beyond privacy concerns, DNS traffic is frequently used to enable family filters. 
-Cleanbrowsing's family filter blocks access to explicit sites. 
-AdGuard DNS also employs similar "family protection" features.
+Protocols for encrypting DNS have been proposed and recently deployed, including DNS-over-HTTPS (DoH) and DNS-over-TLS (DoT), where queries are sent over an encrypted transport.
+DoT was proposed by Hu et al. in 2016 in an effort to eliminate eavesdropping and the tampering of DNS queries. 
+DoT uses port 853 to send queries over a TLS connection. 
+Hoffman et al. proposed DoH in 2018 to minimize interference with DNS operations. 
+DoH's unique quality of HTTP authentication allows for it to function in environments where DoT does not. 
+In contrast to DoT, DoH uses port 443 and an HTTPS connection. 
+DoT requests use their own port, which allows for anyone on the network level to find them. 
+DoH requests stay hidden due to their use of the standard HTTPS port. 
+	- Need to explain why DoH was created - Check?
 
 Most browsers and mobile operating systems currently support DoH including Brave, Chrome, Edge, Firefox, Opera, Safari, Vivaldi, iOS, macOS, and Windows. 
+In this paper, we chose to only research DoH because it has more widespread implementation in browsers than DoT.
+For instance, Firefox has exclusively supported DoH since 2020. 
+
+In this paper, we measure the query response times of all resolvers. 
+Query response times allow us to better understand the performance of each resolver. 
+A high response times indicate a possible issue with the resolver, while low response times prove the resolver functions efficiently. 
+
+- How we define a low response time? Is there a cutoff?
+
+
+- What studies that have measured DoT/DoH response times have missed
+	- K-resolver-Towards Decentralizing Encrypted DNS Resolution
+		- Only measure 26 DoH recursors
+		- Largely focus on K-resolver question if the queries should be distributed across multiple resolvers
+		- Don't compare mainstream vs. non-mainstream
+	- They don't measure a wide array of resolvers. They only study the main ones 
+
+
+- What we are measuring to fill in those gaps of knowledge
+	- We are measuring more resolvers to better understand the pool which exists that is reliable beyond those that are simply mainstream. 
