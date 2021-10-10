@@ -4,14 +4,13 @@ The Domain Name System (DNS) translates human-readable domain names into Interne
 These queries are traditionally unencrypted, which poses the risk of information considered private to the user being leaked to the server receiving the query and to anyone else monitoring network traffic.
 
 Protocols for encrypting DNS have been proposed and recently deployed, including DNS-over-HTTPS (DoH) and DNS-over-TLS (DoT), where queries are sent over an encrypted transport.
-DoT was proposed by Hu et al. in 2016 in an effort to eliminate eavesdropping and the tampering of DNS queries. 
+DoT was proposed by Hu et al. in 2016 in an effort to eliminate eavesdropping and the tampering of DNS queries~\cite{https://datatracker.ietf.org/doc/html/draft-hoffman-dns-over-https-01}. 
 DoT uses port 853 to send queries over a TLS connection. 
-Hoffman et al. proposed DoH in 2018 to minimize interference with DNS operations. 
+Hoffman et al. proposed DoH in 2018 to minimize interference with DNS operations~\cite{https://datatracker.ietf.org/doc/html/rfc7858}. 
 DoH's unique quality of HTTP authentication allows for it to function in environments where DoT does not. 
 In contrast to DoT, DoH uses port 443 and an HTTPS connection. 
 DoT requests use their own port, which allows for anyone on the network level to find them. 
-DoH requests stay hidden due to their use of the standard HTTPS port. 
-	- Need to explain why DoH was created - Check?
+DoH requests stay hidden due to their use of the standard HTTPS port~\cite{https://aboutssl.org/dns-over-tls-vs-dns-over-https/}. 
 
 Most browsers and mobile operating systems currently support DoH including Brave, Chrome, Edge, Firefox, Opera, Safari, Vivaldi, iOS, macOS, and Windows. 
 In this paper, we chose to only research DoH because it has more widespread implementation in browsers than DoT.
@@ -21,16 +20,9 @@ In this paper, we measure the query response times of all resolvers.
 Query response times allow us to better understand the performance of each resolver. 
 A high response times indicate a possible issue with the resolver, while low response times prove the resolver functions efficiently. 
 
-- How we define a low response time? Is there a cutoff?
+We define resolvers as unreliable if they fail to respond.  
 
+Previous studies measuring DoT and DoH response times largely focus on and compare the protocols as a whole, rather than the performance of individual resolvers~\cite{https://www.liubaojun.org/files/paper/IMC-2019.pdf, https://arxiv.org/abs/1907.08089}.
 
-- What studies that have measured DoT/DoH response times have missed
-	- K-resolver-Towards Decentralizing Encrypted DNS Resolution
-		- Only measure 26 DoH recursors
-		- Largely focus on K-resolver question if the queries should be distributed across multiple resolvers
-		- Don't compare mainstream vs. non-mainstream
-	- They don't measure a wide array of resolvers. They only study the main ones 
+Our research specifically focuses on collecting measurements of DoH servers to better understand their reliability. 
 
-
-- What we are measuring to fill in those gaps of knowledge
-	- We are measuring more resolvers to better understand the pool which exists that is reliable beyond those that are simply mainstream. 

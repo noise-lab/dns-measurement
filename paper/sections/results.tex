@@ -1,16 +1,27 @@
 \section{Results}\label{sec:results}
-- Insert boxplots
-We find that most lesser-known resolvers have higher response times than well-known resolvers, which was expected.
-Interestingly, we discovered that a select group of lesser-known resolvers had close response times, or even lower response times, to well-known resolvers. 
+In this section, we describe the results of our experiment. 
 
-Good non-mainstream resolvers: 
-	- ordns
-	- adguard 
-	- opendns
-	- mullvad
-	- alidns
-	- opendns
+\subsection{North American Resolvers}
+These resolvers failed to respond: dns1.dnscrypt.ca, dns2.dnscrypt.ca, doh.cleanbrowsing.org, doh.post-factum.tk.
+Dns9.quad9.net, ordns.he.net, and dns.google had the lowest median response times.
+Their respective times were 44.913954, 47.6056575, and 49.8326885 ms. 
+Dns.nextdns.io, doh.xfinity.com, and doh.la.ahadns.net had the highest median response times. 
+Their respective times were 137.4217045, 143.047969, 230.0796545 ms. 
 
+\subsection{Australian Resolvers}
+Doh.seby.io failed to respond. 
+The median response time of doh-2.seby.io was 636.6581515 ms. 
 
+\subsection{Asian Resolvers}
+These resolvers failed to respond: doh.tiar.app, jp.tiar.app, doh.linuxsec.org.
+Dns.alidns.com, dns.adguard.com, and doh.opendns.com had the lowest median response times. 
+Their respective times were 51.2708855, 72.666191, and  82.418091 ms. 
+Sg.yepdns.com, doh-sg.blahdns.com, and dns.twnic.tw had the highest median response times. 
+Their respective times were 722.870682, 943.0231134999999, and 32030.7707515 ms. 
 
-- Results from different vantage points
+\subsection{European Resolvers}
+These resolvers failed to respond: doh.bortzmeyer.fr, doh.appliedprivacy.net, doh.chewbacca.meganerd.nl, doh.powerdns.org.
+Dns-family.adguard.com, unicast.uncensoreddns.org, and doh.nl.ahadns.net had the lowest median response times.
+Their respective times were 71.94912500000001, 298.2250755, 310.5433495 ms. 
+Dns-doh-no-safe-search.dnsforfamily.com, doh.ffmuc.net, and ibksturm.synology.me had the highest median response times. 
+Their respective times were 556.8432720000001, 642.539961, and 757.8968505 ms. 

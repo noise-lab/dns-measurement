@@ -1,12 +1,14 @@
 \abstract{
-The Domain Name System (DNS) translates domains that are readable by humans to respective IP addresses. 
-DNS traffic is traditionally unencrypted, which allows users' private information to be leaked. 
-In response to these privacy risks, protocols for encrypting DNS have recently been deployed including DNS over HTTPS (DoH) and DNS over TLS (DoT).
+The Domain Name System (DNS) translates domains, that are easily readable by humans, to their respective Internet Protocol (IP) addresses. 
+Servers on the Internet, called DNS resolvers, perform this translation for users and applications worldwide.
+Fast response time for DNS queries is necessary to provide optimal user experience.
+Unencrypted DNS traffic between users and DNS resolvers can lead to privacy and security concerns.
+In response to these privacy risks, two new protocols, DNS-over-HTTPS (DoH) and DNS-over-TLS (DoT), have been deployed to provide encrypted connections between users and resolvers.
 
 However, most deployments of DoT and DoH have occurred in browsers that select between only a handful of resolvers.
-If most people rely on the same mainstream encrypted DNS providers, those providers will have access to incredibly large amounts of data and user information, which simply shifts the original privacy concerns from Internet Service Providers (ISPs) to mainstream encrypted DNS resolvers. 
+If most users rely on the same mainstream encrypted DNS providers, those providers will have access to incredibly large amounts of data and user information, which simply shifts the original privacy concerns from Internet Service Providers (ISPs) to mainstream encrypted DNS resolvers. 
 
-In this paper we explore the reliability of a large group of lesser-known encrypted DNS resolvers by measuring query response times from different global vantage points. 
+In this paper we explore the reliability of a large group of lesser-known encrypted DNS resolvers supporting DoH by measuring query response times from different vantage points. 
 We find that most lesser-known resolvers have higher response times than well-known resolvers. 
 To our surprise, however, we find that a selective group of less popular resolvers operate better than mainstream resolvers. 
-This allows users to expand their options of trusted recursive resolvers beyond those that are well-known. 
+Based on these results, users may be able to expand their options of trusted recursive resolvers beyond those that are well-known.

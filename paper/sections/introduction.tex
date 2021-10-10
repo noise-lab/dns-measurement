@@ -1,13 +1,14 @@
 \section{Introduction}\label{sec:intro}
 
 With DoH, DNS queries are typically sent to a singular designated DNS server.
-However, encryption does not mean that one's Internet traffic is entirely invisible as encrypted DNS servers can still log query requests.
+However, encryption does not mean that one's Internet traffic is entirely invisible as encrypted DNS servers can still log query requests~\cite{https://blog.cloudflare.com/dns-encryption-explained/}.
 Most deployments of DoT and DoH have occurred in browsers that provide limited options of resolvers.
-If most people use encrypted DNS and rely on the same major providers, those few providers will have increased visibility into user's browsing histories and access to data that was previously released to hundreds. 
+If most people use encrypted DNS and rely on the same major providers, those few providers will have increased visibility into user's browsing histories and access to data that was previously released to hundreds~\cite{https://spectrum.ieee.org/the-fight-over-encrypted-dns-boils-over/}.
 
-Major browsers including Brave, Opera, Google Chrome, Mozilla Firefox, and Microsoft Edge, only list Cloudflare, Cloudflare for Families, NextDNS, Google, Quad9, OpenDNS, and CleanBrowsing under their encrypted DNS provider options. We define these major resolvers used by browsers as "mainstream".
+Major browsers including Brave, Opera, Google Chrome, Mozilla Firefox, and Microsoft Edge, only list Cloudflare, Cloudflare for Families, NextDNS, Google, Quad9, OpenDNS, and CleanBrowsing under their encrypted DNS provider options.
+We define these major resolvers used by browsers as "mainstream".
 
-Although a limited number of mainstream resolvers exist, we found a total of 75 DoH public servers according to a list published by DNSCrypt.
+Although a limited number of mainstream resolvers exist, we found a total of 75 DoH public servers according to a list published by DNSCrypt~\cite{https://dnscrypt.info/public-servers/}.
 
 The initial problem that gave reasons to make DNS traffic secure was that internet providers (ISPs) were able to log users' queries. 
 However, with browsers only supporting a limited number of major providers for encrypted DNS, the original problem seems to simply shift from ISPs to mainstream encrypted DNS providers like Google. 
@@ -20,8 +21,5 @@ We make the following contributions:
 \setlength\itemsep{0em}
 \item We study the performance of encrypted DNS outside of the mainstream resolvers. We measure DNS query response times and ping times using a vast array of resolvers located across North America, Asia, Europe, and Australia. 
 \item We study if users have a sufficient choice of trusted recursive resolvers beyond those of major providers and if one has to use a major provider to reap the major performance benefits of encrypted DNS.
-	- Answer once we understand if the select high performing non-mainstream resolvers hold up 
 \item We study how the performance of these servers differs depending on where an individual is on the network.
-	- Answer once we have data from different vantage points 
-
 \end{itemize}
