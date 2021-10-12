@@ -2,33 +2,36 @@
 
 In this section, we describe the metrics used, how these metrics are measured, and our experiment setup.
 
+
 \subsection{Metrics}
-To understand how non-mainstream resolvers function in relation to mainstream resolvers, we measure DNS query response times and latency to these resolvers. 
+To understand how non-mainstream DoH resolvers function compared to mainstream resolvers, we measure DNS query response times and latency to these resolvers from multiple global vantage points.
 
 \subsubsection{DNS Query Response Time}
-To collect accurate DNS query response time measurements, we modified a preexisting custom tool that was built to measure response times of Do53, DoT, and DoH queries~\cite{https://www.cs.princeton.edu/~ahounsel/publications/www20.pdf}.
-The tool was modified to include a loop that allows for continuous measurements. 
-With lists of specified recursors and domains, the tool prints data to a JSON file including information about the response time from each resolver to a domain. 
-The three domains used in our experiment were Google.com, Netflix.com, and Facebook.com. 
+DNS query response time is defined as the end-to-end time it takes for a DNS resolver to perform a DNS lookup and return the response (IP address of the domain) to the originating computer.
+We modify an existing custom tool bult to measure response times of Do53, DoT, and DoH queries in order to collect accurate DNS query response time measurements for all DoH resolvers[5].
+The tool was modified to allow continuous measurements.
+With lists of specified recursors and domains, the tool prints performance data to a JSON file including information on the response time from each resolver to a domain and ping latencies to resolvers.
+We chose three popular domains for our experiment: Google.com, a search engine, Netflix.com, a streaming service, and Facebook.com, a social media platform. 
 
 \subsubsection{Latency}
-To confirm our DNS Response Time measurements, we collected data on latency for each resolver. 
+Latency is defined as the end-to-end time it takes to receive an ICMP ping response from a DNS resolver.
+To confirm our DNS response time measurements, we collected data on latency for each resolver. 
 Lower latencies were expected for resolvers with low response times. 
-To collect latency measuremtns, we performed ICMP ping to each of the resolvers. 
-
 
 \subsection{Experiment Setup}
-We employed MaxMind's GeoLite2 databases to geolocate each resolver and better understand how far each server is. 
+To provide a comparative assessment of DNS performance across DoH resolvers, we perform measurements across all available DoH resolvers, grouped by their geographical locations—North America, Australia, Asia and Europe.
+We employed MaxMind's GeoLite2 databases to geolocate each DoH resolver.
 That data was used to group the resolvers by location to make them more comparable. 
+Table 1 lists the 75 DoH resolvers that we benchmarked and their performance. 
+
+//Insert table that lists the resolvers?
+
 - Vantage points + description of hardware
 - Network characteristics
 - Description of tool
 - Length of measurement
 Our measurements were collected over the span of seven days. 
-- Domains Used
-We chose three popular domains: Google.com, a search engine, Netflix.com, a streaming service, and Facebook.com, a social media platform. 
 - Measurements performed on a Debian operating system 
-
 
 \subsection{Limitations}
 	- We don't measure page load times 	

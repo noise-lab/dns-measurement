@@ -1,25 +1,46 @@
 \section{Introduction}\label{sec:intro}
 
-With DoH, DNS queries are typically sent to a singular designated DNS server.
-However, encryption does not mean that one's Internet traffic is entirely invisible as encrypted DNS servers can still log query requests~\cite{https://blog.cloudflare.com/dns-encryption-explained/}.
-Most deployments of DoT and DoH have occurred in browsers that provide limited options of resolvers.
-If most people use encrypted DNS and rely on the same major providers, those few providers will have increased visibility into user's browsing histories and access to data that was previously released to hundreds~\cite{https://spectrum.ieee.org/the-fight-over-encrypted-dns-boils-over/}.
+The Domain Name System (DNS) was introduced in the 1980s and constitutes a key aspect of the Internet.
+On the Internet, computers communicate with each other using their unique IP addresses which are not possible for human beings to remember. Conversely, domain names that are easy for human beings to remember (for example: https://www.google.com/) cannot be used by computers to route packets over the Internet to their intended destinations until they are converted to an IP address (for example: 192.168.1.1 in IPv4 or 2400:cb00:2048:1::c629:d7a2 in IPv6).
+DNS enables this translation to happen in real time.
+Every Internet session begins with a DNS query.
+Multiple DNS queries are often involved in completing a session.
+The entity performing this query and returning the result (converting a hostname such as www.google.com into a computer friendly IP address such as 192.168.1.1) to the original computer is called a resolver (also called a recursive resolver or a recursor because of the recursive manner in which DNS servers communicate with DNS servers to resolve a DNS query).
+Some common resolvers are Google DNS, Cloudflare, Quad9, and Open DNS.
+The performance of the DNS query—namely how long it takes for the originating computer to contact the resolver, the resolver to do the translation from domain name to the IP address and return the result to the originating computer—is quite important because it can affect the overall experience of the user.
+This time is called DNS Query Response Time.
 
+In its initial deployment, DNS traffic was unencrypted [reference].
+In fact, the DNS did not originally take user privacy and security into account.
+If DNS queries and responses are unencrypted, the websites a user is visiting can be revealed, which is a violation of their privacy.
+Additionally, the information intercepted can be misused by bad actors to redirect users to malicious websites.
+In order to address user privacy and security, DNS-over-TLS (DoT) and DNS-over-HTTPS (DoH) have been developed.
+Both offer encryption of DNS data using the TLS protocol.
+DoT uses a dedicated port (853)[8].
+DoH, on the other hand, encapsulates DNS packets inside HTTPS (which uses TLS) and uses the same port as HTTPS (443)[7].
+With DoH, DNS queries are typically sent to a singular designated DNS resolver.
+However, encryption does not mean that the Internet traffic is entirely invisible as encrypted DNS resolvers can still log query requests.
+
+Most deployments of DoT and DoH have occurred in browsers that provide limited options of resolvers[9,6].
+If most users adopt encrypted DNS and rely on the same major providers, those few providers will have increased visibility into user's browsing histories and access to data that was previously available to ISPs.
 Major browsers including Brave, Opera, Google Chrome, Mozilla Firefox, and Microsoft Edge, only list Cloudflare, Cloudflare for Families, NextDNS, Google, Quad9, OpenDNS, and CleanBrowsing under their encrypted DNS provider options.
-We define these major resolvers used by browsers as "mainstream".
+We define these major resolvers used by browsers as mainstream.
+Although a limited number of mainstream resolvers exist, we found a total of 75 DoH public servers according to a list published by DNSCrypt[10]. 
+The initial problem that gave reasons to make DNS traffic secure was that ISPs were able to log users' queries.
+However, with browsers only supporting a limited number of major providers for encrypted DNS, the original problem seems to simply shift from ISPs to mainstream encrypted DNS providers.
 
-Although a limited number of mainstream resolvers exist, we found a total of 75 DoH public servers according to a list published by DNSCrypt~\cite{https://dnscrypt.info/public-servers/}.
-
-The initial problem that gave reasons to make DNS traffic secure was that internet providers (ISPs) were able to log users' queries. 
-However, with browsers only supporting a limited number of major providers for encrypted DNS, the original problem seems to simply shift from ISPs to mainstream encrypted DNS providers like Google. 
-
-In this paper, we begin to explore the usability of the DNS encrypted ecosystem as a whole rather than just major operators. 
-
-We make the following contributions:
-
+In this paper, we begin to explore the usability of the DNS encrypted ecosystem as a whole rather than just major operators. We make the following contributions:
 \begin{itemize}
 \setlength\itemsep{0em}
-\item We study the performance of encrypted DNS outside of the mainstream resolvers. We measure DNS query response times and ping times using a vast array of resolvers located across North America, Asia, Europe, and Australia. 
+\item We study the performance of encrypted DNS outside of the mainstream resolvers. We measure DNS query response times and latencies using a vast array of resolvers located across North America, Asia, Europe, and Australia. 
 \item We study if users have a sufficient choice of trusted recursive resolvers beyond those of major providers and if one has to use a major provider to reap the major performance benefits of encrypted DNS.
 \item We study how the performance of these servers differs depending on where an individual is on the network.
+\item We introduce a framework and methodology to benchmark performance of DoH resolvers that can be used to measure the performance of new resolvers as they become available.
 \end{itemize}
+
+A number of previous studies have been performed comparing encrypted DNS performance with unencrypted DNS performance, but they have all focused on the mainstream DNS resolvers [few references].
+This paper attempts at studying the performance of all currently available DoH resolvers.
+
+We begin by providing a historical background on DNS including the advent of encrypted DNS and related standards, followed by a description of the methods, measurements, and the setup of our experiments.
+We then compare DNS query response times within major geographical areas based on the location of the resolvers—North America, Australia, Asia and Europe.
+Finally, we discuss our results and provide direction for future research.

@@ -1,28 +1,25 @@
 \section{Background}\label{sec:back}
 
-The Domain Name System (DNS) translates human-readable domain names into Internet Protocol (IP) addresses, which are used to route traffic. 
-These queries are traditionally unencrypted, which poses the risk of information considered private to the user being leaked to the server receiving the query and to anyone else monitoring network traffic.
+The Domain Name System (DNS) translates human-readable domain names into Internet Protocol (IP) addresses, which are used to route traffic.
+These queries are traditionally unencrypted, which poses the risk of information considered private to the user being leaked to the server receiving the query and to anyone else monitoring network traffic. 
 
-Protocols for encrypting DNS have been proposed and recently deployed, including DNS-over-HTTPS (DoH) and DNS-over-TLS (DoT), where queries are sent over an encrypted transport.
-DoT was proposed by Hu et al. in 2016 in an effort to eliminate eavesdropping and the tampering of DNS queries~\cite{https://datatracker.ietf.org/doc/html/draft-hoffman-dns-over-https-01}. 
-DoT uses port 853 to send queries over a TLS connection. 
-Hoffman et al. proposed DoH in 2018 to minimize interference with DNS operations~\cite{https://datatracker.ietf.org/doc/html/rfc7858}. 
-DoH's unique quality of HTTP authentication allows for it to function in environments where DoT does not. 
-In contrast to DoT, DoH uses port 443 and an HTTPS connection. 
-DoT requests use their own port, which allows for anyone on the network level to find them. 
-DoH requests stay hidden due to their use of the standard HTTPS port~\cite{https://aboutssl.org/dns-over-tls-vs-dns-over-https/}. 
+Protocols for encrypting DNS have been proposed and recently deployed, including DNS-over-HTTPS (DoH) and DNS-over-TLS (DoT), where queries are sent over an encrypted transport layer.
+DoT was proposed by Hu et al. in 2016 in an effort to eliminate eavesdropping and the tampering of DNS queries[8].
+DoT uses port 853 to send queries over a TLS connection.
+Hoffman et al. proposed DoH in 2018 to minimize interference with DNS operations[7].
+DoH's unique quality of HTTP authentication allows it to function in environments where DoT does not.
+In contrast to DoT, DoH uses port 443 and an HTTPS connection.
+DoT requests use their own special port, which allows for anyone on the network level to find them.
+DoH requests stay hidden due to their use of the standard HTTPS port.
 
-Most browsers and mobile operating systems currently support DoH including Brave, Chrome, Edge, Firefox, Opera, Safari, Vivaldi, iOS, macOS, and Windows. 
-In this paper, we chose to only research DoH because it has more widespread implementation in browsers than DoT.
-For instance, Firefox has exclusively supported DoH since 2020. 
+Most browsers and mobile operating systems currently support DoH including Brave, Chrome, Edge, Firefox, Opera, Safari, Vivaldi, iOS, macOS, and Windows.
+In this paper, we chose to focus on DoH because it has more widespread implementation in browsers than DoT.
+For instance, Firefox has exclusively supported DoH since 2020.
 
-In this paper, we measure the query response times of all resolvers. 
-Query response times allow us to better understand the performance of each resolver. 
-A high response times indicate a possible issue with the resolver, while low response times prove the resolver functions efficiently. 
+In this paper, we measure the query response times of all DNS resolvers.
+Query response times allow us to better understand the performance of each resolver.
+High response times indicate a possible issue with the resolver, while low response times prove the resolver functions efficiently.
+We define a resolver as unreliable if it fails to respond.  
 
-We define resolvers as unreliable if they fail to respond.  
-
-Previous studies measuring DoT and DoH response times largely focus on and compare the protocols as a whole, rather than the performance of individual resolvers~\cite{https://www.liubaojun.org/files/paper/IMC-2019.pdf, https://arxiv.org/abs/1907.08089}.
-
-Our research specifically focuses on collecting measurements of DoH servers to better understand their reliability. 
-
+Previous studies measuring DoT and DoH response times largely focus on and compare the protocols as a whole, rather than the performance of individual resolvers[14].
+Our research specifically focuses on collecting measurements of all available DoH servers to better understand their reliability.
