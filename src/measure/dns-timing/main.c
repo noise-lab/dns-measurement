@@ -158,8 +158,9 @@ int main(int argc, char* argv[]) {
 		case DoH:
 			for (i=0;i<recursors_count;i++) /* Run the timing for each resolver in file (Ranya) */
 			{
-				//printf("\n\nRecursor %s\n", recursors[i]);/* Print name of resolver (Ranya) */
-			r = doh(recursors[i], domains, domains_count);
+				/* Print name of resolver (Ranya) */
+				// printf("\n\nRecursor %s\n", recursors[i]);
+				r = doh(recursors[i], domains, domains_count);
 			}
 			break;
 		default:
