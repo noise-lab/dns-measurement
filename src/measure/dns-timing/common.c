@@ -14,7 +14,7 @@ uint64_t nanosec_since(struct timespec since) {
 	return elapsed;
 }
 void print_ok(char *domain, uint64_t nanosec, size_t size) {
-        printf("ok,%s,%lf,%zu\n", domain, nanosec / 1e6, size);
+    printf("ok,%s,%lf,%zu\n", domain, nanosec / 1e6, size);
 }
 
 void print_ok1(const char *recursor, char *domain, uint64_t nanosec, size_t size, char *buf) {
@@ -26,7 +26,7 @@ void print_error(char *domain, uint64_t nanosec, int status) {
 }
 
 void print_error1(const char *recursor, char *domain, uint64_t nanosec, int status, char *buf) {
-    printf("error,%s,%s,%lf,%d\n", recursor, domain, nanosec / 1e6, status, buf);
+    printf("error,%s,%s,%lf,%d,%s\n", recursor, domain, nanosec / 1e6, status, buf);
 }
 
 /* vim: set noet tw=100 ts=4 sw=4: */
