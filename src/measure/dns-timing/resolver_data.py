@@ -18,7 +18,7 @@ for k in range(loop):
         lines = output.splitlines()
         for line in lines:
             status, resolver, domain, \
-                r_time, size_or_error, datetime = line.split(',')
+                r_time, size_or_error, datetime = line.split(',', 6)
             if status == "ok":
                 response_size = int(size_or_error)
                 error = None
@@ -46,6 +46,7 @@ for k in range(loop):
                         'ping_time': d,
                         'datetime': datetime})
             else:
+                print(line)
                 response_size = None
                 error = None
                 r_time = None
@@ -59,7 +60,6 @@ for k in range(loop):
                     'ping_time': d,
                     'datetime': datetime})
     except subprocess.CalledProcessError as e:
-        print(output)
         print("CalledProcessError: {0} {1}".format(e.stdout, e.stderr))
     except Exception as e:
         print("Exception: {0}".format(e))
