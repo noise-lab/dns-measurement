@@ -13,7 +13,7 @@ print(a)
 for k in range(loop):
     cmd = ["./dns-timing", "doh", "recursors", "domains"]
     try:
-        output = subprocess.check_output(cmd, stderr=subprocess.STDOUT)
+        output = subprocess.check_output(cmd)
         output = output.decode('unicode_escape')
         lines = output.splitlines()
         for line in lines:
@@ -60,7 +60,7 @@ for k in range(loop):
                     'ping_time': d,
                     'datetime': datetime})
     except subprocess.CalledProcessError as e:
-        print("CalledProcessError: {0} {1}".format(e.stdout, e.stderr))
+        print("CalledProcessError: {0}".format(e.output))
     except Exception as e:
         print("Exception: {0}".format(e))
     k = k + 1
