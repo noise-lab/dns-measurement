@@ -4,19 +4,18 @@ import uuid
 import logging.config
 import collections
 import subprocess
-import logging
 import json
 from ping3 import ping
 import time
-log = logging.getLogger('postgres')
+
 all_dns_info = []
-k=0
-temp = time.asctime(time.localtime(time.time()))
-localtime = temp.replace(" ", "")
+k = 0
+localtime = time.strftime("%Y%m%d-%H%M%S")
 print(localtime)
 loop = 50
 a = "data_"+str(loop)+"_"+localtime+".json"
 print(a)
+
 for k in range(loop):
 	cmd = ["./dns-timing", "doh", "recursors", "domains"]
 	try:
