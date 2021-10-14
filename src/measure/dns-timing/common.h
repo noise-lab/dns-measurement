@@ -7,7 +7,7 @@ uint64_t nanosec_since(struct timespec since);
 void print_ok(char *domain, uint64_t nanosec, size_t size);
 void print_ok1(const char *recursor, char *domain, uint64_t nanosec, size_t size, char *buf);
 void print_error(char *domain, uint64_t nanosec, int status);
-void print_error1(const char *recursor, char *domain, uint64_t nanosec, int status);
+void print_error1(const char *recursor, char *domain, uint64_t nanosec, int status, char *buf);
 #ifndef DEBUG
 #define DEBUG 0
 #endif

@@ -17,8 +17,8 @@ for k in range(loop):
         output = output.decode('unicode_escape')
         lines = output.splitlines()
         for line in lines:
-            status, resolver, domain, \
-                r_time, size_or_error, datetime = line.split(',', 6)
+            status, resolver, domain, response_time, \
+                size_or_error, datetime = line.split(',', 6)
             if status == "ok":
                 response_size = int(size_or_error)
                 error = None
@@ -30,7 +30,7 @@ for k in range(loop):
                         'status': status,
                         'resolver': resolver,
                         'domain': domain,
-                        'rtime': r_time,
+                        'rtime': response_time,
                         'size_or_error': response_size,
                         'ping_time': d,
                         'datetime': datetime})
@@ -41,21 +41,21 @@ for k in range(loop):
                         'status': status,
                         'resolver': resolver,
                         'domain': domain,
-                        'rtime': r_time,
+                        'rtime': response_time,
                         'size_or_error': response_size,
                         'ping_time': d,
                         'datetime': datetime})
             else:
-                print(line)
+                print('Got error from output:', line)
                 response_size = None
-                error = None
-                r_time = None
+                error = int(size_or_error)
+                response_time = None
                 d = None
                 all_dns_info.append({
                     'status': status,
                     'resolver': resolver,
                     'domain': domain,
-                    'rtime': r_time,
+                    'rtime': response_time,
                     'size_or_error': error,
                     'ping_time': d,
                     'datetime': datetime})
