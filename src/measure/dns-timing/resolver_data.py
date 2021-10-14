@@ -59,13 +59,11 @@ for k in range(loop):
                     'ping_time': d,
                     'datetime': datetime})
     except subprocess.CalledProcessError as e:
-        print(e.stdout)
-        print(e.stderr)
+        print(output)
+        print("CalledProcessError: {0} {1}".format(e.stdout, e.stderr))
     except Exception as e:
-        err = 'Error parsing DNS output for website {0}: {1}'
-        print(e)
-    k = k+1
+        print("Exception: {0}".format(e))
+    k = k + 1
 
-print(all_dns_info)
 with open(a, "w") as outfile:
     json.dump(all_dns_info, outfile)
