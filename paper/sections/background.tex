@@ -11,15 +11,18 @@ DoH's unique quality of HTTP authentication allows it to function in environment
 In contrast to DoT, DoH uses port 443 and an HTTPS connection.
 DoT requests use their own special port, which allows for anyone on the network level to find them.
 DoH requests stay hidden due to their use of the standard HTTPS port.
+With DoH, DNS queries are typically sent to a singular designated DNS resolver.
+However, encryption does not mean that the Internet traffic is entirely invisible as encrypted DNS resolvers can still log query requests.
 
+////START TABLE
 Most browsers and mobile operating systems currently support DoH including Brave, Chrome, Edge, Firefox, Opera, Safari, Vivaldi, iOS, macOS, and Windows.
 In this paper, we chose to focus on DoH because it has more widespread implementation in browsers than DoT.
 For instance, Firefox has exclusively supported DoH since 2020.
+////END TABLE
 
 In this paper, we measure the query response times of all DNS resolvers.
 Query response times allow us to better understand the performance of each resolver.
 High response times indicate a possible issue with the resolver, while low response times prove the resolver functions efficiently.
-We define a resolver as unreliable if it fails to respond.  
 
 Previous studies measuring DoT and DoH response times largely focus on and compare the protocols as a whole, rather than the performance of individual resolvers[14].
 Our research specifically focuses on collecting measurements of all available DoH servers to better understand their reliability.

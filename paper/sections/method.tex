@@ -7,24 +7,22 @@ In this section, we describe the metrics used, how these metrics are measured, a
 To understand how non-mainstream DoH resolvers function compared to mainstream resolvers, we measure DNS query response times and latency to these resolvers from multiple global vantage points.
 
 \subsubsection{DNS Query Response Time}
-DNS query response time is defined as the end-to-end time it takes for a DNS resolver to perform a DNS lookup and return the response (IP address of the domain) to the originating computer.
-We modify an existing custom tool bult to measure response times of Do53, DoT, and DoH queries in order to collect accurate DNS query response time measurements for all DoH resolvers[5].
-The tool was modified to allow continuous measurements.
+DNS query response time is defined as the end-to-end time it takes for a user to initiate a query and receive a response.
+We modify an existing custom tool to measure response times of Do53, DoT, and DoH queries in order to collect accurate DNS query response time measurements for DoH resolvers[5].
+The tool was modified to allow continuous measurements of response times for DoH resolvers across multiple days.
 With lists of specified recursors and domains, the tool prints performance data to a JSON file including information on the response time from each resolver to a domain and ping latencies to resolvers.
 We chose three popular domains for our experiment: Google.com, a search engine, Netflix.com, a streaming service, and Facebook.com, a social media platform. 
+We define a resolver as unreliable if it fails to respond.  
 
 \subsubsection{Latency}
-Latency is defined as the end-to-end time it takes to receive an ICMP ping response from a DNS resolver.
+We measure latency to recursive resolvers by computing the average time it takes to receive an ICMP ping response.
+We took an equal amount of ping measurements as response time measurements for a resolver.
 To confirm our DNS response time measurements, we collected data on latency for each resolver. 
-Lower latencies were expected for resolvers with low response times. 
 
 \subsection{Experiment Setup}
-To provide a comparative assessment of DNS performance across DoH resolvers, we perform measurements across all available DoH resolvers, grouped by their geographical locations—North America, Australia, Asia and Europe.
-We employed MaxMind's GeoLite2 databases to geolocate each DoH resolver.
+To provide a comparative assessment of DNS performance across DoH resolvers, we perform measurements across 75 DoH resolvers, grouped by their geographical locations—North America, Australia, Asia, and Europe[10].
+We employed MaxMind's GeoLite2 databases to geolocate each DoH resolver[16].
 That data was used to group the resolvers by location to make them more comparable. 
-Table 1 lists the 75 DoH resolvers that we benchmarked and their performance. 
-
-//Insert table that lists the resolvers?
 
 - Vantage points + description of hardware
 - Network characteristics
@@ -35,3 +33,5 @@ Our measurements were collected over the span of seven days.
 
 \subsection{Limitations}
 	- We don't measure page load times 	
+	- We measure only a few domain names but that we don’t expect the performance trends to change
+	- We performed measurements from EC2 instead of real users’ devices, but this may not matter because these resolvers are probably not all located next to data centers
