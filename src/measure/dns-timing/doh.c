@@ -1,3 +1,4 @@
+#include <stdint.h>
 #include <stdbool.h>
 #include <stdlib.h>
 #include <string.h>
@@ -475,19 +476,19 @@ int doh(const char *recursor, char *domains[], uint16_t domains_count) {
 						if(r == DOH_DNS_BAD_RCODE) {
 							print_error1(recursor, query->domain, nanosec_since(query->time_start), r, buf);
 						} else if(r) {
-							fprintf(stdout, "Problem %d decoding %zu bytes response to probe,%s,%s, , ,%s\n",
-								r, query->response_wire_fmt.size, recursor, query->domain, buf);
+							printf("Problem %d decoding %zu bytes response to probe,%s,%s,%lf,%d,%s\n",
+								r, query->response_wire_fmt.size, recursor, query->domain, nanosec_since(query->time_start) / 1e6, r, buf);
 						} else {
 							print_ok1(recursor, query->domain, query->elapsed, query->response_wire_fmt.size, buf);
 						}
 					} else {
-						fprintf(stdout, "Query got response: %03ld,%s,%s, , ,%s\n", response_code, recursor, query->domain, buf);
+						printf("Query got response: %03ld,%s,%s,%d,%d,%s\n", response_code, recursor, query->domain, -1, -1, buf);
 					}
 					free(query->response_wire_fmt.memory);
 					query->response_wire_fmt.memory = NULL;
 					query->response_wire_fmt.size = 0;
 				} else {
-					fprintf(stdout, "Query failed: %s,%s,%s, , ,%s\n", curl_easy_strerror(msg->data.result), recursor, query->domain, buf);
+					printf("Query failed: %s,%s,%s,%d,%d,%s\n", curl_easy_strerror(msg->data.result), recursor, query->domain, -1, -1, buf);
 				}
 
 				free(query->query_wire_fmt.memory);
