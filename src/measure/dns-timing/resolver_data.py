@@ -17,6 +17,12 @@ for k in range(loop):
         output = output.decode('unicode_escape')
         lines = output.splitlines()
         for line in lines:
+            if line.startswith('ok,total_run_time'):
+                continue
+
+            if len(line.split(',')) != 6:
+                print('Line with too many values:', line)
+
             status, resolver, domain, response_time, \
                 size_or_error, datetime = line.split(',', 6)
             if status == "ok":
@@ -35,7 +41,6 @@ for k in range(loop):
                         'ping_time': d,
                         'datetime': datetime})
                 except Exception as e:
-                    print('ping error:', e)
                     d = None
                     all_dns_info.append({
                         'status': status,
@@ -46,7 +51,6 @@ for k in range(loop):
                         'ping_time': d,
                         'datetime': datetime})
             else:
-                print('Got error from output:', line)
                 response_size = None
                 error = int(size_or_error)
                 response_time = None
