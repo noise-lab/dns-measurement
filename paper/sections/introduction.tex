@@ -19,7 +19,21 @@ DoT uses a dedicated port (853)[8].
 DoH, on the other hand, encapsulates DNS packets inside HTTPS (which uses TLS) and uses the same port as HTTPS (443)[7].
 
 Most deployments of DoT and DoH have occurred in browsers that provide limited options of resolvers[9,6].
-If most users adopt encrypted DNS and rely on the same major providers, those few providers will have increased visibility into user's browsing histories and access to data that was previously available to a multitude of resolvers”.
+If most users adopt encrypted DNS and rely on the same major providers, those few providers will have increased visibility into user's browsing histories and access to data that was previously available to a multitude of resolvers.
+
+% Please add the following required packages to your document preamble:
+% \usepackage{booktabs}
+\begin{table}[]
+\begin{tabular}{@{}ll@{}}
+\toprule
+\textbf{Browser} & \textbf{Resolver Options}                                                                                                                                             \\ \midrule
+Chrome           & \begin{tabular}[c]{@{}l@{}}NextDNS\\ Google Public DNS\\ Cloudflare\\ CleanBrowsing\\ OpenDNS\end{tabular}                                                            \\ \midrule
+Firefox          & \begin{tabular}[c]{@{}l@{}}NextDNS\\ Cloudflare\end{tabular}                                                                                                          \\ \midrule
+Edge             & \begin{tabular}[c]{@{}l@{}}NextDNS\\ Google Public DNS\\ Cloudflare\\ CleanBrowsing\\ OpenDNS\\ Quad9\end{tabular}                                                    \\ \midrule
+Opera            & \begin{tabular}[c]{@{}l@{}}Google Public DNS\\ Cloudflare\\ Cloudflare for Families (No Malware)\\ Cloudflare for Families (No Malware or Adult Content)\end{tabular} \\ \midrule
+Brave            & \begin{tabular}[c]{@{}l@{}}NextDNS\\ Google Public DNS\\ Cloudflare\\ CleanBrowsing\\ OpenDNS\\ Quad9\end{tabular}                                                    \\ \bottomrule
+\end{tabular}
+\end{table}
 
 /////START TABLE
 Major browsers including Brave, Opera, Google Chrome, Mozilla Firefox, and Microsoft Edge, only list Cloudflare, Cloudflare for Families, NextDNS, Google, Quad9, OpenDNS, and CleanBrowsing under their encrypted DNS provider options.

@@ -8,10 +8,9 @@ DoT was proposed by Hu et al. in 2016 in an effort to eliminate eavesdropping an
 DoT uses port 853 to send queries over a TLS connection.
 Hoffman et al. proposed DoH in 2018 to minimize interference with DNS operations[7].
 DoH's unique quality of HTTP authentication allows it to function in environments where DoT does not.
-In contrast to DoT, DoH uses port 443 and an HTTPS connection.
+In contrast to DoT, DoH uses port 443 and an HTTPS connection where queries are typically sent to a singular designated DNS resolver.
 DoT requests use their own special port, which allows for anyone on the network level to find them.
 DoH requests stay hidden due to their use of the standard HTTPS port.
-With DoH, DNS queries are typically sent to a singular designated DNS resolver.
 However, encryption does not mean that the Internet traffic is entirely invisible as encrypted DNS resolvers can still log query requests.
 
 ////START TABLE
