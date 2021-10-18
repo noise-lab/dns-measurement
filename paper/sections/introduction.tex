@@ -5,9 +5,9 @@ On the Internet, computers communicate with each other using IP addresses.
 The DNS translates human-readable domain names into these addresses.
 Most Internet activity begins with a DNS query.
 Multiple DNS queries are often involved in completing a lookup.
-The entity performing this query and returning the result (converting a hostname such as \texttt{www.google.com} into a computer friendly IP address such as \texttt{192.168.1.1}) to the original computer is called a resolver, which is also known a recursive resolver or a recursor due to the  manner in which DNS servers communicate with each other to resolve a query.
+The entity performing this query and returning the result (converting a host-name such as \texttt{www.google.com} into a computer friendly IP address such as \texttt{192.168.1.1}) to the original computer is called a resolver, which is also known a recursive resolver or a recursor due to the  manner in which DNS servers communicate with each other to resolve a query.
 The performance of the DNS query—namely how long it takes for the originating computer to contact the resolver, the resolver to do the translation from domain name to the IP address and return the result to the originating computer—is important because it can affect the overall experience of the user.
-This time is called DNS query response time.
+This time is called DNS query response time.[5]
 
 The DNS did not originally take user privacy and security into account.
 Traditionally, DNS queries have been encrypted.
@@ -21,25 +21,21 @@ DoH, on the other hand, encapsulates DNS packets inside HTTPS (which uses TLS) a
 Most deployments of DoT and DoH have occurred in browsers that provide limited options of resolvers[9,6].
 If most users adopt encrypted DNS and rely on the same major providers, those few providers will have increased visibility into user's browsing histories and access to data that was previously available to a multitude of resolvers.
 
-% Please add the following required packages to your document preamble:
-% \usepackage{booktabs}
 \begin{table}[]
-\begin{tabular}{@{}ll@{}}
-\toprule
+\begin{tabular}{|l|l|}
+\hline
 \textbf{Browser} & \textbf{Resolver Options}                                                                                                                                             \\ \midrule
-Chrome           & \begin{tabular}[c]{@{}l@{}}NextDNS\\ Google Public DNS\\ Cloudflare\\ CleanBrowsing\\ OpenDNS\end{tabular}                                                            \\ \midrule
-Firefox          & \begin{tabular}[c]{@{}l@{}}NextDNS\\ Cloudflare\end{tabular}                                                                                                          \\ \midrule
-Edge             & \begin{tabular}[c]{@{}l@{}}NextDNS\\ Google Public DNS\\ Cloudflare\\ CleanBrowsing\\ OpenDNS\\ Quad9\end{tabular}                                                    \\ \midrule
-Opera            & \begin{tabular}[c]{@{}l@{}}Google Public DNS\\ Cloudflare\\ Cloudflare for Families (No Malware)\\ Cloudflare for Families (No Malware or Adult Content)\end{tabular} \\ \midrule
-Brave            & \begin{tabular}[c]{@{}l@{}}NextDNS\\ Google Public DNS\\ Cloudflare\\ CleanBrowsing\\ OpenDNS\\ Quad9\end{tabular}                                                    \\ \bottomrule
+Chrome           & \begin{tabular}[c]{@{}l@{}}NextDNS\\ Google Public DNS\\ Cloudflare\\ CleanBrowsing\\ OpenDNS\end{tabular}                                                            \\ \hline
+Firefox          & \begin{tabular}[c]{@{}l@{}}NextDNS\\ Cloudflare\end{tabular}                                                                                                          \\ \hline
+Edge             & \begin{tabular}[c]{@{}l@{}}NextDNS\\ Google Public DNS\\ Cloudflare\\ CleanBrowsing\\ OpenDNS\\ Quad9\end{tabular}                                                    \\ \hline
+Opera            & \begin{tabular}[c]{@{}l@{}}Google Public DNS\\ Cloudflare\\ Cloudflare for Families (No Malware)\\ Cloudflare for Families (No Malware or Adult Content)\end{tabular} \\ \hline
+Brave            & \begin{tabular}[c]{@{}l@{}}NextDNS\\ Google Public DNS\\ Cloudflare\\ CleanBrowsing\\ OpenDNS\\ Quad9\end{tabular}                                                    \\
 \end{tabular}
+\caption{Listed resolvers under browser's DNS settings}
+\label{table:SupportedResolvers}
 \end{table}
 
-/////START TABLE
-Major browsers including Brave, Opera, Google Chrome, Mozilla Firefox, and Microsoft Edge, only list Cloudflare, Cloudflare for Families, NextDNS, Google, Quad9, OpenDNS, and CleanBrowsing under their encrypted DNS provider options.
-////END TABLE
-
-The resolvers listed in Table 1 are currently being used by millions of browser users.
+The resolvers listed in Table ~\ref{fig:SupportedResolvers} are currently being used by millions of browser users.
 Many other DoH resolvers have been deployed[10].
 The initial problem that gave reasons to make DNS traffic secure was that ISPs were able to log users' queries.
 However, with browsers only supporting a limited number of major providers for encrypted DNS, the original problem seems to simply shift from ISPs to mainstream encrypted DNS providers.
@@ -53,7 +49,7 @@ In this paper, we begin to explore the usability of the DNS encrypted ecosystem 
 \item We make our modifications to a measurement tool openly available for further research to benchmark performance of DoH resolvers.
 \end{itemize}
 
-A number of previous studies have been performed comparing encrypted DNS performance with unencrypted DNS performance, but they have all focused on the mainstream DNS resolvers [few references].
+A number of previous studies have been performed comparing encrypted DNS performance with unencrypted DNS performance, but they have all focused on the mainstream DNS resolvers [4, 15, 5].
 This paper attempts at studying the performance of currently available DoH resolvers.
 
 We begin by providing a historical background on DNS including the origin of encrypted DNS and related standards, followed by a description of the methods, measurements, and the setup of our experiments.
