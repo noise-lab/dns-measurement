@@ -2,22 +2,24 @@
 
 % General
 % -------
-\usepackage{pdflscape}
 \usepackage{graphicx}
+\usepackage{booktabs}
+\usepackage{subfigure}
 
 %%%%%%%%%%%%%%%%%%%%  TITLE/AUTHORS  %%%%%%%%%%%%%%%%%%%%%
 
+\begin{document}
+
 \title{Title}
 
-\author{ Authors }
-
-%%%%%%%%%%%%%%%%%%%%  START OF DOCUMENT  %%%%%%%%%%%%%%%%%
-
-\begin{document}
+\author{Authors}
 
 \maketitle
 
+%%%%%%%%%%%%%%%%%%%%  START OF DOCUMENT  %%%%%%%%%%%%%%%%%
+
 \begin{sloppypar}
+
 \input{sections/abstract}
 \input{sections/introduction}
 \input{sections/background}
@@ -27,11 +29,11 @@
 \input{sections/related}
 \label{lastpage}\input{sections/conclusion}
 
-\newpage
+\pagebreak
 \bibliographystyle{splncs04}
 \bibliography{paper}
-
 \end{sloppypar}
+
 \end{document}
 
 %%%%%%%%%%%%%%%%%%%%  END OF DOCUMENT  %%%%%%%%%%%%%%%%%%%%

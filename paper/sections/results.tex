@@ -3,25 +3,19 @@ In this section, we describe the results of our experiment.
 
 \begin{figure*}[t!]
     \centering
-    \begin{subfigure}[t]{0.5\textwidth}
-        \centering
-        \includegraphics[width=\linewidth]{figures/100_North_America.png}
-        \caption{North American resolvers}
-    \end{subfigure}%
-    ~ 
-    \begin{subfigure}[t]{0.5\textwidth}
-        \centering
-        \includegraphics[width=\linewidth]{figures/100_Asia.png}
-        \caption{Asian resolvers}
-    \end{subfigure}
-    ~ 
-    \begin{subfigure}[t]{0.5\textwidth}
-        \centering
-        \includegraphics[width=\linewidth]{figures/100_Europe.png}
-        \caption{European resolvers}
-    \end{subfigure}
-
+    \subfigure[North American resolvers]{%
+        \includegraphics[width=0.31\textwidth]{figures/100_North_America.png}
+    }
+    \hfill
+    \subfigure[Asian resolvers]{%
+        \includegraphics[width=0.31\textwidth]{figures/100_Asia.png}
+    }
+    \hfill
+    \subfigure[European resolvers]{%
+        \includegraphics[width=0.31\textwidth]{figures/100_Europe.png}
+    }
     \caption{Box-plots of resolvers measured from a vantage point in Ohio, USA}
+    \label{fig:dns_timings}
 \end{figure*}
 
 \begin{table}[]
