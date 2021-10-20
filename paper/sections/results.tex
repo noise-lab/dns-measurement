@@ -3,19 +3,102 @@ In this section, we describe the results of our experiment.
 
 \begin{figure*}[t!]
     \centering
-    \subfigure[North American resolvers]{%
-        \includegraphics[width=0.31\textwidth]{figures/100_North_America.png}
-    }
-    \hfill
-    \subfigure[Asian resolvers]{%
-        \includegraphics[width=0.31\textwidth]{figures/100_Asia.png}
-    }
-    \hfill
-    \subfigure[European resolvers]{%
-        \includegraphics[width=0.31\textwidth]{figures/100_Europe.png}
-    }
+    \begin{subfigure}[t]{0.5\textwidth}
+        \centering
+        \includegraphics[width=\linewidth]{figures/Ohio_North_America.png}
+        \caption{North American resolvers}
+    \end{subfigure}%
+    ~ 
+    \begin{subfigure}[t]{0.5\textwidth}
+        \centering
+        \includegraphics[width=\linewidth]{figures/Ohio_Asia.png}
+        \caption{Asian resolvers}
+    \end{subfigure}
+    ~ 
+    \begin{subfigure}[t]{0.5\textwidth}
+        \centering
+        \includegraphics[width=\linewidth]{figures/Ohio_Europe.png}
+        \caption{European resolvers}
+    \end{subfigure}
+
     \caption{Box-plots of resolvers measured from a vantage point in Ohio, USA}
-    \label{fig:dns_timings}
+\end{figure*}
+
+
+
+\begin{figure*}[t!]
+    \centering
+    \begin{subfigure}[t]{0.5\textwidth}
+        \centering
+        \includegraphics[width=\linewidth]{figures/Seoul_North_America.png}
+        \caption{North American resolvers}
+    \end{subfigure}%
+    ~ 
+    \begin{subfigure}[t]{0.5\textwidth}
+        \centering
+        \includegraphics[width=\linewidth]{figures/Seoul_Asia.png}
+        \caption{Asian resolvers}
+    \end{subfigure}
+    ~ 
+    \begin{subfigure}[t]{0.5\textwidth}
+        \centering
+        \includegraphics[width=\linewidth]{figures/Seoul_Europe.png}
+        \caption{European resolvers}
+    \end{subfigure}
+
+    \caption{Box-plots of resolvers measured from a vantage point in Seoul, South Korea}
+\end{figure*}
+
+
+
+
+\begin{figure*}[t!]
+    \centering
+    \begin{subfigure}[t]{0.5\textwidth}
+        \centering
+        \includegraphics[width=\linewidth]{figures/Frankfurt_North_America.png}
+        \caption{North American resolvers}
+    \end{subfigure}%
+    ~ 
+    \begin{subfigure}[t]{0.5\textwidth}
+        \centering
+        \includegraphics[width=\linewidth]{figures/Frankfurt_Asia.png}
+        \caption{Asian resolvers}
+    \end{subfigure}
+    ~ 
+    \begin{subfigure}[t]{0.5\textwidth}
+        \centering
+        \includegraphics[width=\linewidth]{figures/Frankfurt_Europe.png}
+        \caption{European resolvers}
+    \end{subfigure}
+
+    \caption{Box-plots of resolvers measured from a vantage point in Frankfurt, Germany}
+\end{figure*}
+
+
+
+
+\begin{figure*}[t!]
+    \centering
+    \begin{subfigure}[t]{0.5\textwidth}
+        \centering
+        \includegraphics[width=\linewidth]{figures/Ohio_North_America.png}
+        \caption{North American resolvers}
+    \end{subfigure}%
+    ~ 
+    \begin{subfigure}[t]{0.5\textwidth}
+        \centering
+        \includegraphics[width=\linewidth]{figures/Seoul_Asia.png}
+        \caption{Asian resolvers}
+    \end{subfigure}
+    ~ 
+    \begin{subfigure}[t]{0.5\textwidth}
+        \centering
+        \includegraphics[width=\linewidth]{figures/Frankfurt_Europe.png}
+        \caption{European resolvers}
+    \end{subfigure}
+
+    \caption{Comparing local to local}
 \end{figure*}
 
 \begin{table}[]
@@ -30,31 +113,49 @@ Europe            & \begin{tabular}[c]{@{}l@{}}dnsnl-noads.alekberg\\ doh.bortzm
 \label{table:UnresponsiveResolvers}
 \end{table}
 
+% Please add the following required packages to your document preamble:
+% \usepackage[normalem]{ulem}
+% \useunder{\uline}{\ul}{}
+\begin{table}[]
+\begin{tabular}{lll}
+\hline
+\textbf{Resolver}  & \textbf{DNS Response Time (ms) from Seoul Vantage Point} & 
+\textbf{DNS Response Time (ms) from Ohio Vantage Point}  \\ \hline
+doh-jp.blahdns.com & 109.41                                                   & 601.61                                          \\ \hline
+doh.in.ahadns.net  & 454.93                                                   & 643.88                                          \\ \hline
+dns.twnic.tw       & 326.19                                                   & 1573.37                                         \\ \hline
+sg.yepdns.com      & 232.69                                                   & 707.05                                          \\ \hline
+\end{tabular}
+\caption{Performance of non-conventional resolvers located in Asia}
+\label{table:UnconvAsia}
+\end{table}
 
-\subsection{North American Resolvers}
-Dns9.quad9.net, ordns.he.net, and dns.google had the lowest median response times.
-Their respective times were 45.813531499999996, 47.6879475, and 49.821963 ms. 
-Dns.nextdns.io, doh.xfinity.com, and doh.la.ahadns.net had the highest median response times. 
-Their respective times were 145.78306350000003, 151.908379, 243.775754 ms. 
+% Please add the following required packages to your document preamble:
+% \usepackage[normalem]{ulem}
+% \useunder{\uline}{\ul}{}
+\begin{table}[]
+\begin{tabular}{lll}
+\hline
+\textbf{Resolver}    & \textbf{DNS Response Time (ms) from Frankfurt Vantage Point} & \textbf{DNS Response Time (ms) from Seoul Vantage Point} \\ \hline
+doh.libredns.gr      & 18.89                                                        & 803.67                                          \\ \hline
+doh.nl.ahadns.net    & 36.11                                                        & 778.35                                          \\ \hline
+dns.dnshome.de       & 42.28                                                        & 1041.77                                         \\ \hline
+dns1.ryan-palmer.com & 65.43                                                        & 779.27                                          \\ \hline
+\end{tabular}
+\caption{Performance of non-conventional resolvers located in Europe}
+\label{table:UnconvEur}
+\end{table}
 
-\subsection{Asian Resolvers}
-Dns.alidns.com, doh.opendns.com , and dns.adguard.com had the lowest median response times. 
-Their respective times were 54.0998295, 83.0438035, and  110.362246 ms. 
-Dns.therifleman.name, doh-sg.blahdns.com, and dns.twnic.tw had the highest median response times. 
-Their respective times were 689.319937, 781.88456, and 16990.7515155 ms. 
-
-
-\subsection{European Resolvers}
-ns-family.adguard.com, unicast.uncensoreddns.org, and doh.nl.ahadns.net had the lowest median response times.
-Their respective times were 110.2544815, 299.00909049999996, 300.990535 ms. 
-Dns-doh-no-safe-search.dnsforfamily.com, doh.ffmuc.net, and ibksturm.synology.me had the highest median response times. 
-Their respective times were 527.065177, 624.8778485, and 812.4801415 ms. 
 
 \subsection{How do Mainstream Resolvers Compare to Non-Mainstream Resolvers}
 
+
 \subsection{Does Network Distance Correlate to Response Times?}
 
-
+We find that certain conventional resolvers including \texttt{dns.google} and \texttt{dns9.quad9}, except for \texttt{dns.cloudflare} which actually performs better, have higher response times in Seoul than in Ohio. 
+However, as Table ~\ref{table:UnconvAsia} indicates, non-conventional resolvers located in Asia perform better from the Seoul vantage point than the Ohio vantage point. 
+Similarly, Table ~\ref{table:UnconvEur} demonstrates that the response times of European non-conventional resolvers measured from Frankfurt is much lower than the response times of those same resolvers measured from Seoul. 
+We find a correlation between network distance and response times. 
 
 
 
