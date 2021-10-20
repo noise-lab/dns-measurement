@@ -1,57 +1,54 @@
 \section{Introduction}\label{sec:intro}
-
-The Domain Name System (DNS) was introduced in 1983 and constitutes a key aspect of the Internet[15].
-On the Internet, computers communicate with each other using IP addresses.
-The DNS translates human-readable domain names into these addresses.
-Most Internet activity begins with a DNS query.
-Multiple DNS queries are often involved in completing a lookup.
-The entity performing this query and returning the result (converting a host-name such as \texttt{www.google.com} into a computer friendly IP address such as \texttt{192.168.1.1}) to the original computer is called a resolver, which is also known a recursive resolver or a recursor due to the  manner in which DNS servers communicate with each other to resolve a query.
-The performance of the DNS query—namely how long it takes for the originating computer to contact the resolver, the resolver to do the translation from domain name to the IP address and return the result to the originating computer—is important because it can affect the overall experience of the user.
-This time is called DNS query response time.[5]
+The Domain Name System (DNS) is a critical component of the Internet's infrastructure that translates human-readable domain names (\eg, \texttt{google.com}) into IP addresses~\cite{dns-rfcs}.
+Most Internet activity begins with clients sending DNS queries to \emph{recursive resolvers}, which in turn query \emph{name servers} for the desired data.
+The \emph{response times} of these queries-—\i.e., the time it takes to contact a recursive resolver, query various name servers, and return the results—-is important because the DNS underlies virtually all communication on the Internet.
+For example, when a user attempts to load a web page, they often need to resolve the domain names for each object on the page before the objects themselves can be retrieved.
+Thus, if DNS resolution is slow, then, page loads will likely also slow down.
 
 The DNS did not originally take user privacy and security into account.
-Traditionally, DNS queries have been encrypted.
-If DNS queries and responses are unencrypted, the websites a user is visiting can be revealed, which is a violation of their privacy.
-Additionally, the information intercepted can be misused by bad actors to redirect users to malicious websites.
-In order to address user privacy and security, DNS-over-TLS (DoT) and DNS-over-HTTPS (DoH) have been developed.
-Both offer encryption of DNS data using the TLS protocol.
-DoT uses a dedicated port (853)[8].
-DoH, on the other hand, encapsulates DNS packets inside HTTPS (which uses TLS) and uses the same port as HTTPS (443)[7].
+Traditionally, DNS queries have been unencrypted, leaving users susceptible to eavesdropping attacks~\cite{dns-eavesdrop}.
+DNS queries can also be intercepted and manipulated to re-direct users to malicious websites~\cite{dns-redirect}.
+In order to address user privacy and security, multiple encrypted DNS protocols have been developed, such as DNS-over-HTTPS (DoH)~\cite{rfc8484}.
+DoH enables clients to communicate with recursive resolvers over HTTPS, providing privacy and security guarantees that the DNS previously lacked.
 
-Most deployments of DoT and DoH have occurred in browsers that provide limited options of resolvers[9,6].
-If most users adopt encrypted DNS and rely on the same major providers, those few providers will have increased visibility into user's browsing histories and access to data that was previously available to a multitude of resolvers.
+However, most deployments of DoH have occurred in browsers that provide limited options of resolvers~\cite{9,6}.
+If users continue to adopt encrypted DNS and rely on a small set of recursive resolvers, these resolvers will have increased visibility into data that was previously available to a multitude of resolvers.
+Such data includes queries that correspond to users' web browsing histories.
 
-\begin{table}[]
-\begin{tabular}{|l|l|}
-\hline
-\textbf{Browser} & \textbf{Resolver Options}                                                                                                                                             \\ \midrule
-Chrome           & \begin{tabular}[c]{@{}l@{}}NextDNS\\ Google Public DNS\\ Cloudflare\\ CleanBrowsing\\ OpenDNS\end{tabular}                                                            \\ \hline
-Firefox          & \begin{tabular}[c]{@{}l@{}}NextDNS\\ Cloudflare\end{tabular}                                                                                                          \\ \hline
-Edge             & \begin{tabular}[c]{@{}l@{}}NextDNS\\ Google Public DNS\\ Cloudflare\\ CleanBrowsing\\ OpenDNS\\ Quad9\end{tabular}                                                    \\ \hline
-Opera            & \begin{tabular}[c]{@{}l@{}}Google Public DNS\\ Cloudflare\\ Cloudflare for Families (No Malware)\\ Cloudflare for Families (No Malware or Adult Content)\end{tabular} \\ \hline
-Brave            & \begin{tabular}[c]{@{}l@{}}NextDNS\\ Google Public DNS\\ Cloudflare\\ CleanBrowsing\\ OpenDNS\\ Quad9\end{tabular}                                                    \\
-\end{tabular}
-\caption{Listed resolvers under browser's DNS settings}
-\label{table:SupportedResolvers}
+\begin{table}
+    \centering
+    \begin{tabular}{lrrrrrr}
+    \hline
+    Browser & Cloudflare & Google & Quad9 & NextDNS & CleanBrowsing & OpenDNS
+    \\
+    \midrule
+    Chrome    & \textbf{Yes} & \textbf{Yes} & No & \textbf{Yes} & \textbf{Yes} & \textbf{Yes} \\
+    Firefox  & \textbf{Yes} & No & No & \textbf{Yes} & No & No \\ 
+    Edge   & \textbf{Yes} & \textbf{Yes} & \textbf{Yes} & \textbf{Yes} & \textbf{Yes} & \textbf{Yes} \\
+    Opera            & \textbf{Yes} & \textbf{Yes} & No & No & No & No \\
+    Brave            & \textbf{Yes} & \textbf{Yes} & \textbf{Yes} & \textbf{Yes} & \textbf{Yes} & \textbf{Yes} \\
+    \bottomrule
+    \end{tabular}
+    \caption{Listed resolvers under browser's DNS settings}
+    \label{tab:SupportedResolvers}
 \end{table}
 
-The resolvers listed in Table ~\ref{fig:SupportedResolvers} are currently being used by millions of browser users.
-Many other DoH resolvers have been deployed[10].
-The initial problem that gave reasons to make DNS traffic secure was that ISPs were able to log users' queries.
-However, with browsers only supporting a limited number of major providers for encrypted DNS, the original problem seems to simply shift from ISPs to mainstream encrypted DNS providers.
+\Fref{tab:SupportedResolvers} lists the DoH resolvers that have been deployed to users of major browsers as of October 20th, 2021.
+Importantly, many other DoH resolvers have been deployed that are currently not in use by major browser deployments~\cite{dnscrypt-public-resolvers}.
+Although DoH addresses passive eavesdropping of DNS queries, it does not prevent resolvers \emph{themselves} from seeing the contents of DNS queries.
+Thus, some have argued that major browser-based DoH deployments shift privacy concerns from eavesdroppers to potential misuse by major DNS providers~\cite{vixie}.
 
-In this paper, we begin to explore the usability of the DNS encrypted ecosystem as a whole rather than just major operators. We make the following contributions:
+A number of previous studies have measured encrypted DNS performance, but they have mostly focused on mainstream DNS resolvers~\cite{4,15,5}.
+By contrast, we begin to explore the usability of the DoH ecosystem \emph{as a whole}, rather than just major providers.
+In this paper, we make the following contributions:
 \begin{itemize}
-\setlength\itemsep{0em}
-\item We study the performance of encrypted DNS outside of the mainstream resolvers. We measure DNS query response times and latencies using a vast array of resolvers located across North America, Asia, Europe, and Australia. 
-\item We study if users have a sufficient choice of trusted recursive resolvers beyond those of major providers and if one has to use a major provider to experience acceptable performance for DoH. 
-\item We study how the performance of these servers differs depending on where an individual is on the network.
-\item We make our modifications to a measurement tool openly available for further research to benchmark performance of DoH resolvers.
+    \item We measure DoH response times from three global vantage points for a large list of resolvers.
+    \item We study whether users must use a major provider to experience acceptable DoH response times.
+    \item We study how the performance of various DoH resolvers differ based on client location.
+    \item We modify an open-source DNS measurement tool to support further research on DoH performance, and we make our modifications publicly available.
 \end{itemize}
 
-A number of previous studies have been performed comparing encrypted DNS performance with unencrypted DNS performance, but they have all focused on the mainstream DNS resolvers [4, 15, 5].
-This paper attempts at studying the performance of currently available DoH resolvers.
-
-We begin by providing a historical background on DNS including the origin of encrypted DNS and related standards, followed by a description of the methods, measurements, and the setup of our experiments.
-We then compare DNS query response times within major geographical areas based on the location of the resolvers—North America, Australia, Asia and Europe.
-Finally, we discuss our results and provide direction for future research.
+We begin by providing a historical background on the DNS, including the origin of encrypted DNS and related standards.
+We then list our specific research questions and provide a description of the experiments we conducted to answer these questions.
+We compare DNS query response times within major geographical areas based on the location of the resolvers—-\ie, North America, Australia, Asia, and Europe.
+Finally, we discuss the implications of our results and provide possible directions for future research.
