@@ -2,24 +2,30 @@
 
 % General
 % -------
+\usepackage[labelfont={small,bf},textfont={small,it}]{caption}
+\usepackage{tabularx}
+\usepackage{caption}
+\usepackage{subfigure}
+\usepackage{pdflscape}
 \usepackage{graphicx}
 \usepackage{booktabs}
-\usepackage{subfigure}
+\usepackage[normalem]{ulem}
+\useunder{\uline}{\ul}{}
+
 
 %%%%%%%%%%%%%%%%%%%%  TITLE/AUTHORS  %%%%%%%%%%%%%%%%%%%%%
 
-\begin{document}
-
 \title{Title}
 
-\author{Authors}
-
-\maketitle
+\author{ Authors }
 
 %%%%%%%%%%%%%%%%%%%%  START OF DOCUMENT  %%%%%%%%%%%%%%%%%
 
-\begin{sloppypar}
+\begin{document}
 
+\maketitle
+
+\begin{sloppypar}
 \input{sections/abstract}
 \input{sections/introduction}
 \input{sections/background}
@@ -29,11 +35,11 @@
 \input{sections/related}
 \label{lastpage}\input{sections/conclusion}
 
-\pagebreak
+\newpage
 \bibliographystyle{splncs04}
 \bibliography{paper}
-\end{sloppypar}
 
+\end{sloppypar}
 \end{document}
 
 %%%%%%%%%%%%%%%%%%%%  END OF DOCUMENT  %%%%%%%%%%%%%%%%%%%%
