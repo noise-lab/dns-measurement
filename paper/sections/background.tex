@@ -1,25 +1,25 @@
 \section{Background}\label{sec:back}
+The Domain Name System (DNS) translates human-readable domain names into Internet Protocol (IP) addresses, which are used to route traffic~\cite{dns-rfcs}.
+These queries are traditionally unencrypted, which enables on-path eavesdroppers to intercept queries and manipulate responses.
 
-The Domain Name System (DNS) translates human-readable domain names into Internet Protocol (IP) addresses, which are used to route traffic.
-These queries are traditionally unencrypted, which poses the risk of information considered private to the user being leaked to the server receiving the query and to anyone else monitoring network traffic. 
+Protocols for encrypting DNS traffic have been proposed, standardized, and deployed in recent years, including DNS-over-HTTPS (DoH) and DNS-over-TLS (DoT).
+DoT was proposed by Hu et al. in 2016 to address the eavesdropping and tampering of DNS queries~\cite{8}.
+It utilizes a dedicated port (853) to communicate with resolvers over a TLS connection.
+In contrast, DoH--proposed by Hoffman et al. in 2018--establishes HTTPS sessions with resolvers over port 443~\cite{7}.
+This design decision enables DoH traffic to blend in with traditional HTTPS traffic, making it difficult for network operators and eavesdroppers to intercept DNS queries and responses.
+In short, DoH is designed to function in environments where DoT is more easily blocked.
 
-Protocols for encrypting DNS have been proposed and recently deployed, including DNS-over-HTTPS (DoH) and DNS-over-TLS (DoT), where queries are sent over an encrypted transport layer.
-DoT was proposed by Hu et al. in 2016 in an effort to eliminate eavesdropping and the tampering of DNS queries[8].
-DoT uses port 853 to send queries over a TLS connection.
-Hoffman et al. proposed DoH in 2018 to minimize interference with DNS operations[7].
-DoH's unique quality of HTTP authentication allows it to function in environments where DoT does not.
-In contrast to DoT, DoH uses port 443 and an HTTPS connection where queries are typically sent to a singular designated DNS resolver.
-DoT requests use their own special port, which allows for anyone on the network level to find them.
-DoH requests stay hidden due to their use of the standard HTTPS port.
-However, encryption does not mean that the Internet traffic is entirely invisible as encrypted DNS resolvers can still log query requests.
+However, encryption does not mean that DNS traffic is entirely invisible.
+By design, recursive resolvers receive queries from clients and may perform additional queries to other name servers to resolve domain names.
+In order for these resolvers to determine what additional queries they need to perform (or determine if the query can be answered from a cache), they must decrypt the queries that they receive from clients.
+Thus, although DoT and DoH make it difficult for network operators and eavesdroppers to intercept DNS traffic, recursive resolvers \emph{themselves} are still able to log the queries that they receive from clients.
 
-Most browsers and mobile operating systems currently support DoH including Brave, Chrome, Edge, Firefox, Opera, Safari, Vivaldi, iOS, macOS, and Windows[16,17,18,19,20,21,22].
-In this paper, we chose to focus on DoH because it has more widespread implementation in browsers than DoT.
-For instance, Firefox has exclusively supported DoH since 2020.[9]
+Most major browsers currently support DoH, including Brave, Chrome, Edge, Firefox, Opera, Safari, and Vivaldi.
+Operating systems have also announced plans to implement DoH, including iOS, MacOS, and Windows~\cite{16,17,18,19,20,21,22}.
+For this study, we chose to focus on DoH because it is more widely implemented than DoT.
+Each of the aforementioned browsers and operating systems either currently support or have announced support for DoH, but not DoT~\cite{lack-of-dot-support}.
 
-In this paper, we measure the query response times of all DNS resolvers.
-Query response times allow us to better understand the performance of each resolver.
-High response times indicate a possible issue with the resolver, while low response times prove the resolver functions efficiently.
+In this paper, we measure query response times and reachability for a large list of DoH resolvers, many of which are not available as default options in major browsers.
+Previous studies measuring DoT and DoH response times largely focus on and compare the protocols as a whole, rather than the performance of individual resolvers~\cite{14}.
+Our research specifically focuses on collecting measurements of the larger DoH ecosystem to better understand what options are practically available to DoH clients.
 
-Previous studies measuring DoT and DoH response times largely focus on and compare the protocols as a whole, rather than the performance of individual resolvers[14].
-Our research specifically focuses on collecting measurements of all available DoH servers to better understand their reliability.
