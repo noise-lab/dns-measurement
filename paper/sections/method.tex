@@ -6,10 +6,10 @@ To understand how non-mainstream DoH resolvers function compared to mainstream r
 
 \subsubsection{DNS Query Response Time}
 DNS query response time is defined as the end-to-end time it takes for a user to initiate a query and receive a response.
-We modify an existing custom tool to measure response times of Do53, DoT, and DoH queries in order to collect accurate DNS query response time measurements for DoH resolvers[5].
+We modify an existing custom tool to measure response times of traditional DNS, DoT, and DoH queries in order to collect accurate DNS query response time measurements for DoH resolvers~\cite{5}.
 The tool was modified to allow continuous measurements of response times for DoH resolvers across multiple days.
-With lists of specified recursors and domains, the tool prints performance data to a JSON file including information on the response time from each resolver to a domain and ping latencies to resolvers.
-We chose three popular domains for our experiment: (\texttt{Google.com}, a search engine, (\texttt{Netflix.com}, a streaming service, and (\texttt{Facebook.com}, a social media platform. 
+With lists of specified recursive resolvers and domains, the tool prints performance data to a JSON file including information on the response time from each resolver to a domain and ping latencies to resolvers.
+We chose two domains for our experiment: \texttt{google.com}, which corresponds to a popular search engine, and \texttt{netflix.com}, which corresponds to a popular streaming service.
 We define a resolver as unreliable if it fails to respond.  
 
 \subsubsection{Latency}
@@ -18,17 +18,17 @@ We took an equal amount of ping measurements as response time measurements for a
 To confirm our DNS response time measurements, we collected data on latency for each resolver. 
 
 \subsection{Experiment Setup}
-To provide a comparative assessment of DNS performance across DoH resolvers, we perform measurements across 75 DoH resolvers, grouped by their geographical locations—17 in North America, 22 in Asia, and 36 in Europe[10].
-Additionally, we took the four highest performing resolvers (\texttt{Google}, \texttt{Cloudflare}, \texttt{Quad9}, \texttt{Hurricane Electric}) located in North America and measured their performance in Europe and Asia to better understand how they compare in farther vantage points.  
-We employed MaxMind's GeoLite2 databases to geolocate each DoH resolver[16].
+To provide a comparative assessment of DNS performance across DoH resolvers, we perform measurements across 75 DoH resolvers, grouped by their geographical locations—17 in North America, 22 in Asia, and 36 in Europe~\cite{10}.
+We performed our measurements between October 15th, 2021 and October 22nd, 2021.
+We also took the four highest performing resolvers (\texttt{Google}, \texttt{Cloudflare}, \texttt{Quad9}, \texttt{Hurricane Electric}) located in North America and measured their performance in Europe and Asia to better understand how they compare in farther vantage points.  
+We employed MaxMind's GeoLite2 databases to geolocate each DoH resolver~\cite{16}.
 That data was used to group the resolvers by location to make them more comparable. 
 
-- Vantage points + description of hardware
-- Network characteristics
-- Description of tool
-- Length of measurement
-Our measurements were collected over the span of seven days. 
-- Measurements performed on a Debian operating system 
+\subsubsection{Vantage Points}
+TODO: list the vantage points out and their hardware/operating system
+
+\subsubsection{Measurement Tool}
+TODO: describe the tool, including the modifications we made for this study
 
 \subsection{Limitations}
 Our work has certain limitations which may affect our results. 
