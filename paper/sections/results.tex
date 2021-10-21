@@ -59,14 +59,13 @@ In this section, we describe the results of our experiment.
 
 \begin{table}
 \centering
-\begin{tabular}{ll}
+\begin{tabular}{lllll}
 \hline
-\textbf{Location} & \textbf{Resolver} \\
+\textbf{Location} & \textbf{Resolver} & \textbf{Responsive from Ohio?} & \textbf{Responsive from Seoul?} & \textbf{Responsive from Frankfurt?} \\
 \midrule
-North America     & \begin{tabular}[c]{@{}l@{}}dnscrypt.ca-1-doh\\ dnscrypt.ca-2-doh\\ doh-cleanbrowsing\\ pf-doh\end{tabular}                            \\ \midrule
-Asia              & \begin{tabular}[c]{@{}l@{}}dns.arapurayil-doh-in\\ doh.tiarap.org\\ jp.tiarap.org\\ doh.linuxsec\\ sg.yepdns\end{tabular}             \\ \midrule
-Europe            & \begin{tabular}[c]{@{}l@{}}dnsnl-noads.alekberg\\ doh.bortzmeyer\\ doh.appliedprivacy\\ meganerd-doh-ipv4\\ doh.powerdns\end{tabular} \\
-\bottomrule
+North America     & \begin{tabular}[c]{@{}l@{}}dnscrypt.ca-1-doh\\ dnscrypt.ca-2-doh\\ doh-cleanbrowsing\\ doh.post-factum.tk\end{tabular}} & \begin{tabular}[c]{@{}l@{}}No\\ No\\ No\\ No\end{tabular} & \begin{tabular}[c]{@{}l@{}}No\\ No\\ No\\ No\end{tabular} & \begin{tabular}[c]{@{}l@{}}No\\ No\\ No\\ No\end{tabular}    \\ \midrule
+Asia              & \begin{tabular}[c]{@{}l@{}}doh.tiarap.org\\ jp.tiarap.org\\ doh.linuxsec\end{tabular} & \begin{tabular}[c]{@{}l@{}}No\\ No\\ No\end{tabular}      & \begin{tabular}[c]{@{}l@{}}No\\ No\\ No\end{tabular}      & \begin{tabular}[c]{@{}l@{}}Yes\\ Yes\\ No\end{tabular}            \\ \midrule
+Europe            & \begin{tabular}[c]{@{}l@{}}doh.bortzmeyer\\ doh.appliedprivacy\\ doh.chewbacca.meganerd.nl\\ doh.powerdns\end{tabular} & \begin{tabular}[c]{@{}l@{}}No\\ No\\ No\\ No\end{tabular} & \begin{tabular}[c]{@{}l@{}}No\\ No\\ No\\ No\end{tabular} & \begin{tabular}[c]{@{}l@{}}No\\ No\\ No\\ No\end{tabular} \\ \bottomrule
 \end{tabular}
 \caption{Resolvers that failed to respond from each vantage point.}
 \label{tab:UnresponsiveResolvers}
@@ -79,10 +78,11 @@ Europe            & \begin{tabular}[c]{@{}l@{}}dnsnl-noads.alekberg\\ doh.bortzm
 \textbf{Resolver} & \textbf{Vantage Point} & \\
                   & \textbf{Seoul}         & \textbf{Frankfurt} \\
 \midrule
-doh-jp.blahdns.com & 109.41                                                   & 601.61                                          \\
-doh.in.ahadns.net  & 454.93                                                   & 643.88                                          \\
-dns.twnic.tw       & 326.19                                                   & 1573.37                                          \\
-sg.yepdns.com      & 232.69                                                   & 707.05                                          \\
+dns.twnic.tw                                & 326.19                                           & 32374.03                            \\
+doh-jp.blahdns.com                          & 109.41                                           & 754.26                              \\
+sg.yepdns.com                               & 232.69                                           & 540.19                              \\
+public.dns.iij.jp                           & 206.37                                           & 506.05                              \\
+doh-sg.blahdns                              & 221.41                                           & 498.76                              \\
 \bottomrule
 \end{tabular}
 \caption{Median DNS response times for non-conventional resolvers located in Asia.}
@@ -96,10 +96,11 @@ sg.yepdns.com      & 232.69                                                   & 
 \textbf{Resolver} & \textbf{Vantage Point} & \\
                   & \textbf{Frankfurt}     & \textbf{Seoul} \\
 \midrule
-doh.libredns.gr      & 18.89                                                        & 803.67                                           \\
-doh.nl.ahadns.net    & 36.11                                                        & 778.35                                           \\
-dns.dnshome.de       & 42.28                                                        & 1041.77                                           \\ 
-dns1.ryan-palmer.com & 65.43                                                        & 779.27                                           \\
+doh.ffmuc.net                               & 109.15                                           & 1307.21                         \\
+ibksturm.synology.me                        & 85.77                                            & 1227.35                         \\
+dns-doh-no-safe-search.dnsforfamily         & 125.74                                           & 1150.63                         \\
+dnsforge.de                                 & 32.17                                            & 1029.92                         \\
+dns-doh.dnsforfamily                        & 153.74                                           & 1153.29                         \\
 \bottomrule
 \end{tabular}
 \caption{Median DNS response times for non-conventional resolvers located in Europe.}
@@ -108,9 +109,11 @@ dns1.ryan-palmer.com & 65.43                                                    
 
 \subsection{How do Mainstream Resolvers Compare to Non-Mainstream Resolvers}
 \AH{TODO: Fill this out.}
+\Fref{} displays the complete list of non-mainstream resolvers that perform better than major providers.
+This data indicates that with this select group of high performing non-mainstream resolvers, one does not have to rely on a major provider to reap the performance benefits of encrypted DNS.  
 
 \subsection{Does Network Distance Correlate to Response Times?}
-We find that certain conventional resolvers including \texttt{dns.google} and \texttt{dns9.quad9}, except for \texttt{dns.cloudflare} which actually performs better, have higher response times in Seoul than in Ohio. 
-However, as~\Fref{tab:UnconvAsia} indicates, non-conventional resolvers located in Asia perform better from the Seoul vantage point than the Ohio vantage point. 
-Similarly, \Fref{tab:UnconvEur} demonstrates that the response times of European non-conventional resolvers measured from Frankfurt is much lower than the response times of those same resolvers measured from Seoul. 
-We find a correlation between network distance and response times. 
+As~\Fref{tab:UnconvAsia} indicates, non-conventional resolvers located in Asia perform better from the Seoul vantage point than the Frankfurt vantage point. 
+Similarly, \Fref{tab:UnconvEur} demonstrates that the response times of European non-conventional resolvers measured from Frankfurt are much lower than the response times of those same resolvers measured from Seoul. 
+We find a correlation between network distance and response times.
+This indicates that any resolver that is not majorly deployed is not useful if it is outside of one's region. 
