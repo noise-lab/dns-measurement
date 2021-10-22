@@ -6,10 +6,10 @@ Protocols for encrypting DNS traffic have been proposed, standardized, and deplo
 DoT was proposed by Hu et al. in 2016 to address the eavesdropping and tampering of DNS queries~\cite{hu2016DoT}.
 It utilizes a dedicated port (853) to communicate with resolvers over a TLS connection.
 In contrast, DoH--proposed by Hoffman et al. in 2018--establishes HTTPS sessions with resolvers over port 443~\cite{hoffman2018DoH}.
-This design decision enables DoH traffic to blend in with traditional HTTPS traffic, making it difficult for network operators and eavesdroppers to intercept DNS queries and responses.
+This design decision enables DoH traffic to blend in with traditional HTTPS traffic, making it difficult for network operators and eavesdroppers to intercept DNS queries and responses.~\cite{boettger2019empirical}
 In short, DoH is designed to function in environments where DoT is more easily blocked.
 
-However, encryption does not mean that DNS traffic is entirely invisible.
+However, encryption does not mean that DNS traffic is entirely invisible.~\cite{IEEEfight}
 By design, recursive resolvers receive queries from clients and may perform additional queries to other name servers to resolve domain names.
 In order for these resolvers to determine what additional queries they need to perform (or determine if the query can be answered from a cache), they must decrypt the queries that they receive from clients.
 Thus, although DoT and DoH make it difficult for network operators and eavesdroppers to intercept DNS traffic, recursive resolvers \emph{themselves} are still able to log the queries that they receive from clients.
