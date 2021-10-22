@@ -61,7 +61,8 @@ In this section, we describe the results of our experiment.
 \centering
 \begin{tabular}{lllll}
 \hline
-\textbf{Location} & \textbf{Resolver} & \textbf{Responsive from Ohio?} & \textbf{Responsive from Seoul?} & \textbf{Responsive from Frankfurt?} \\
+\textbf{Location} & \textbf{Resolver} & \textbf{Responsive?} & & \\
+    & & \textbf{Ohio} & \textbf{Seoul} & \textbf{Frankfurt} \\
 \midrule
 North America     & \begin{tabular}[c]{@{}l@{}}dnscrypt.ca-1-doh\\ dnscrypt.ca-2-doh\\ doh-cleanbrowsing\\ doh.post-factum.tk\end{tabular} & \begin{tabular}[c]{@{}l@{}}No\\ No\\ No\\ No\end{tabular} & \begin{tabular}[c]{@{}l@{}}No\\ No\\ No\\ No\end{tabular} & \begin{tabular}[c]{@{}l@{}}No\\ No\\ No\\ No\end{tabular}    \\ \midrule
 % Asia              & \begin{tabular}[c]{@{}l@{}}doh.tiarap.org\\ jp.tiarap.org\\ doh.linuxsec\end{tabular} & \begin{tabular}[c]{@{}l@{}}No\\ No\\ No\end{tabular}      & \begin{tabular}[c]{@{}l@{}}No\\ No\\ No\end{tabular}      & \begin{tabular}[c]{@{}l@{}}Yes\\ Yes\\ No\end{tabular}            \\ \midrule
@@ -107,13 +108,36 @@ dns-doh.dnsforfamily                        & 153.74                            
 \label{tab:UnconvEur}
 \end{table}
 
-\subsection{How do Mainstream Resolvers Compare to Non-Mainstream Resolvers}
-\AH{TODO: Fill this out.}
-\Fref{tab:outperformed_resolvers} displays the complete list of non-mainstream resolvers that perform better than major providers.
-This data indicates that with this select group of high performing non-mainstream resolvers, one does not have to rely on a major provider to reap the performance benefits of encrypted DNS.  
+\subsection{How Do Mainstream Resolvers Compare to Non-Mainstream Resolvers?}
+We find that, in general, mainstream resolvers outperformed non-mainstream resolvers, with some notable exceptions.
+\Fref{tab:outperformed_resolvers} compares median response times for major resolvers to non-mainstream resolvers that performed better.
+Across all three vantage points, \texttt{dns.quad9.net}, \texttt{dns.google}, and \texttt{dns.cloudflare.com} were among the top five highest performing DoH resolvers.
+However, \texttt{ordns.he.net}--a DoH resolver hosted by Hurricane Electric, a global Internet service provider (ISP)--managed to outperform \texttt{dns.google} and \texttt{dns.cloudflare.com} from all three vantage points.
+From our vantage point in Frankfurt, we see that \texttt{dns-family.adguard.com} and \texttt{ordns.he.net} are the top two highest performing resolvers.
+Finally, from our vantage point in Seoul, we see that \texttt{doh-jp.blahdns.com} outperforms \texttt{dns.google}.
 
-\subsection{Does Network Distance Correlate to Response Times?}
-As~\Fref{tab:UnconvAsia} indicates, non-conventional resolvers located in Asia perform better from the Seoul vantage point than the Frankfurt vantage point. 
-Similarly, \Fref{tab:UnconvEur} demonstrates that the response times of European non-conventional resolvers measured from Frankfurt are much lower than the response times of those same resolvers measured from Seoul. 
-We find a correlation between network distance and response times.
-This indicates that any resolver that is not majorly deployed is not useful if it is outside of one's region. 
+However, most other non-mainstream DoH resolvers performed worse than mainstream resolvers, and they exhibited a wide distribution of median query response times.
+For example, from our Ohio vantage point, we observe that outside of the top-five highest performing resolvers, median query response times ranged from \xxx{X} ms to \xxx{X} ms.
+From our Seoul vantage point, median response times outside of the top five ranged from \xxx{X} ms to \xxx{X} ms.
+We observe more consistent performance overall from our Frankfurt vantage point, but we still see median query response times outside the top five range from \xxx{X} ms to \xxx{X} ms.
+
+\subsection{Does Network Distance Correlate to High Response Times from Non-Mainstream Resolvers?}
+In general, we find that network distance correlates to higher median response times.
+\Fref{tab:UnconvAsia} shows that non-conventional resolvers located in Asia perform better from the Seoul vantage point than the Frankfurt vantage point. 
+Similarly, \Fref{tab:UnconvEur} demonstrates that the response times of European non-conventional resolvers measured from Frankfurt are much lower than the response times of those same resolvers measured from Seoul.
+
+However, certain resolvers performed significantly worse than their network distance might imply.
+For example, although the average latency we observed to \texttt{doh.in.ahadns.net} from our Seoul vantage point was \xxx{X} ms, the median query response time was \xxx{X} ms.
+Similarly, from our Ohio vantage point, we observed an average latency to \texttt{doh.xfinity.com} of \texttt{X} ms, despite a median query response time of \xxx{X} ms.
+We believe this could be attributed these non-mainstream resolvers having especially smaller caches than mainstream resolvers.
+These resolvers may perform better in the future as more clients use them and populate their caches.
+\AH{Review this previous hypothesis later}
+We note that certain resolvers did not respond to our ICMP ping messages (\Fref{tab:unresponsive}).
+
+\subsection{How Many Non-Mainstream Resolvers Are Responsive?}
+\Fref{tab:unresponsive} list the DoH resolvers that we failed to receive a response from.
+\Fref{tab:errors} also breaks down the most common errors we received from attempting to communicate with unresponsive resolvers.
+We find that most resolvers we measured were responsive, albeit some reported relatively high median query response times.
+For the resolvers that we did not receive responses from, the most common errors related to a failure to establish a TCP connection or a TLS session.
+\AH{Review this previous sentence later with the full data}
+In other words, when we didn't receive a response, it wasn't necessarily because the response itself was dropped on-path or our software reported a timeout, but rather that the server was likely no longer operational in the first place.
