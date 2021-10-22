@@ -3,6 +3,7 @@ In this section, we describe the metrics used, how these metrics are measured, a
 
 \subsection{Metrics}
 To understand how non-mainstream DoH resolvers perform compared to mainstream resolvers, we measure DNS query response times and latency to these resolvers from multiple global vantage points.
+We also study how many publicly available DoH resolvers are still online.
 
 \subsubsection{DNS Query Response Time}
 We define DNS query response time as the end-to-end time it takes for a client to initiate a query and receive a response.
@@ -17,14 +18,17 @@ We modified the tool to support continuous DoH response time measurements across
 We also modified the tool to enable clients to provide a list of DoH resolvers they wish to perform measurements with, preventing clients from needing to re-run the executable for each resolver.\footnote{Link anonymized for review.}
 After a set of measurements complete with a list of DoH resolvers and domain names, the tool writes the results to a JSON file.
 
-\subsubsection{Responsiveness}
-We define a resolver as unresponsive from a given vantage point if we fail to receive \emph{any} response to the queries issued from a particular server.
-
 \subsubsection{Latency}
-\AH{TODO: Re-write this}
-To confirm our DNS response time measurements, we collected data on latency for each resolver. 
-We measure latency to recursive resolvers by computing the average time it takes to receive an ICMP ping response.
-We took an equal amount of ping measurements as response time measurements for a resolver.
+To augment our query response time measurements, we performed network latency measurements for each recursive resolver.
+Each time we issued a set of DoH queries to a resolver, we also issued four ICMP ping messages and computed the average round-trip time.
+This enabled us to explore whether there was a consistent relationship between high query response times and network latency.
+\Fref{tab:no_pings} lists resolvers that did not respond to our latency measurements.
+
+\subsubsection{Responsiveness}
+We are also interested in determining which DoH resolvers are still active and responding to queries.
+We define a resolver as unresponsive from a given vantage point if we fail to receive \emph{any} response to the queries issued from a particular server.
+\Fref{tab:unresponsive} lists resolvers that did not respond to any of our queries.
+\AH{We might want to move the table in the introduction that lists the unresponsive resolvers to the results text. We at least don't want to list ``unresponsive'' resolvers before defining what ``unresponsive'' means. Also, do we care about breaking down specific error messages, \eg if a TCP connection failed to establish?}
 
 \subsection{Experiment Setup}
 To provide a comparative assessment of DNS performance across DoH resolvers, we perform measurements across 75 DoH resolvers, grouped by their geographical locations—17 in North America, 22 in Asia, and 36 in Europe~\cite{dnscrypt}.
@@ -39,12 +43,22 @@ We chose to perform measurements from multiple global vantage points to understa
 Each server utilized 16 GB of RAM and 4 virtual CPU cores, and they each used Debian 10 as their operating system.
 
 \subsubsection{Resolvers \& Domain Names}
-We chose two domains for our experiment: \texttt{google.com}, which corresponds to a popular search engine, and \texttt{netflix.com}, which corresponds to a popular streaming service.
+\Fref{tab:all_resolvers} in the appendix lists each of the DoH resolvers we measured.
+These resolvers were scraped from a list of public DoH resolvers provided by the \texttt{DNSCrypt} protocol developers~\cite{dnscrypt-public-resolvers}.
+Previous work has largely studied major DNS providers in use by web browsers; by contrast, we attempt to better understand the performance of the larger DoH ecosystem.
+\AH{Citation needed to previous work?}
+
+We issued queries for two domains to each resolver: \texttt{google.com} and \texttt{netflix.com}.
+We chose these domains based on their popularity, but other domain names would have likely sufficed.
+We do not expect our choice of domain names to unfairly skew our performance comparisons between resolvers.
 
 \subsubsection{Measurement Steps}
-We performed the following steps to measure DoH availability and response times:
+We performed the following steps to measure the performance of the DoH ecosystem from each of our three vantage points:
 \begin{enumerate}
-    \item TODO
+    \item Pass a list of DoH resolvers and domain names to our modified DoH query response time measurement tool.
+    \item For each resolver, establish an HTTPS session and send a DoH query for each of our domain names.
+    \item For each resolver, issue four ICMP ping messages and compute the average round-trip time to receive a response.
+    \item Repeat this process continuously.
 \end{enumerate}
 
 \subsection{Limitations}
