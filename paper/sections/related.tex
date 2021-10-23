@@ -1,49 +1,25 @@
 \section{Related Work}\label{sec:related}
-Foo~\cite{reich2013modular}.
-\AH{TODO: Add an intro blurb.}
+Researchers have compared the performance of DNS, DoT, and DoH in various ways.
+Zhu et al. proposed DoT to encrypt DNS traffic between clients and recursive resolvers~\cite{zhu2015connection}.
+They modeled its performance and found that DoT's overhead can be largely eliminated with connection re-use.
+Böttger et al. measured the effect of DoT and DoH on query response times and page load times from a university network~\cite{boettger2019empirical}.
+They find that DNS generally outperforms DoT in response times, and DoT outperforms DoH.
+They also find that much of the performance cost for DoT and DoH can be amortized by re-using TCP connections and TLS sessions.
+Hounsel et al. also measure response times and page load times for DNS, DoT, and DoH using Amazon EC2 instances~\cite{hounsel2020comparing}.
+They compare the recursive resolvers for Cloudflare, Google, and Quad9 to the local recursive resolvers provided by Amazon EC2 from five global vantage points in Ohio, California, Seoul, Sydney, and Frankfurt.
+They find that despite higher response times, page load times for DoT and DoH can be \emph{faster} than DNS on lossy networks.
+Lu et al. utilized residential TCP SOCKS networks to measure response times from 166 countries and found that, in the median case with connection re-use, DoT and DoH were slower than conventional DNS over TCP by 9 ms and 6 ms, respectively~\cite{lu2019end}.
 
-\subsection{Encrypted DNS Performance}
-\AH{TODO: Fill this out with descriptions of related work and citations.}
-\begin{itemize}
-    \item ..
-\end{itemize}
+Researchers have also studied in depth how DNS influences application performance.
+Sundaresan et al. used an early MBA deployment of 4,200 home gateways to identify performance bottlenecks for residential broadband networks~\cite{sundaresan2013measuring}.
+This study found that page load times for users in home networks are significantly influenced by slow DNS response times.
+Wang et al. introduced WProf, a profiling system that analyzes various factors that contribute to page load times~\cite{wang2013demystifying}.
+They found that queries for uncached domain names at recursive resolvers can account for up to 13\% of the critical path delay for page loads.
+Otto et al. found that CDN performance was significantly affected by clients choosing recursive resolvers that are far away from CDN caches~\cite{otto2012content}.
+As a result of these findings. Otto et al. proposed \textit{namehelp}, a DNS proxy that sends queries for CDN-hosted content to directly to authoritative servers.
+Allman studied conventional DNS performance from 100 residences in a neighborhood and found that only 3.6\% of connections were blocked on DNS with lookup times greater than either 20 ms or 1\% of the application's total transaction time~\cite{allman2020putting}.
 
-\subsection{DNS Security \& Privacy}
-\AH{TODO: Fill this out with descriptions of related work and citations.}
-\begin{itemize}
-    \item ..
-\end{itemize}
-
-References
-\begin{itemize}
-    \item   An Empirical Study of the Cost of DNS-over-HTTPS
-    \item	Web Performance Bottlenecks in Broadband Access Networks
-    \item 	Can Encrypted DNS Be Fast?
-    \item 	How DNS over HTTPS is Reshaping Privacy, Performance, and Policy in the Internet Ecosystem
-    \item 	Comparing the Effects of DNS, DoT, and DoH on Web Performance
-    \item 	https://blog.chromium.org/2020/05/a-safer-and-more-private-browsing-DoH.html
-    \item 	DOH - https://datatracker.ietf.org/doc/html/draft-hoffman-dns-over-https-01
-    \item 	DOT - https://datatracker.ietf.org/doc/html/rfc7858 
-    \item 	Firefox choices - https://blog.mozilla.org/en/products/firefox/firefox-continues-push-to-bring-dns-over-https-by-default-for-us-users/ 
-    \item 	https://dnscrypt.info/public-servers/
-    \item 	https://www.cloudflare.com/learning/dns/what-is-1.1.1.1/
-    \item 	https://blog.cloudflare.com/dns-encryption-explained/
-    \item 	https://spectrum.ieee.org/the-fight-over-encrypted-dns-boils-over
-    \item 	An End-to-End, Large-Scale Measurement of DNS-over-Encryption: How Far HaveWe Come?
-\end{itemize}
-
-Related
-\begin{itemize}
-    \item https://www.ndss-symposium.org/ndss-paper/auto-draft-76/
-    \begin{itemize}
-        \item Fig 6 compares resolvers
-	    \item Does not compare at the scale that we do (by region as well)
-	    \item Only measure 26 DoH recursors
-	    \item Largely focus on K-resolver question if the queries should be distributed across multiple resolvers
-	    \item Don't compare mainstream vs. non-mainstream
-	    \item They don't measure a wide array of resolvers. They only study the main ones
-    \end{itemize}
-    \item https://www.liubaojun.org/files/paper/IMC-2019.pdf
-    \item https://www.cs.princeton.edu/~ahounsel/publications/anrw19.pdf
-    \item https://arxiv.org/pdf/1909.06192.pdf
-\end{itemize}
+Researchers have also studied the centralization of the DNS using a variety of datasets.
+Foremski et al. find that the top 10\% of DNS recursors serve approximately 50\% of DNS traffic~\cite{foremski2019dns-observatory}.
+Moura et al.~\cite{moura2020clouding} also encounter centralization in their study of DNS requests to two country code top-level domains (ccTLD), with five large cloud providers being responsible for over 30\% of all queries for the ccTLDs of the Netherlands and New Zealand.
+Hoang et al.~\cite{hoang2020kresolver} propose and evaluate K-resolver, which distributes queries over multiple DoH recursors, so that no single resolver can build a complete profile of the user and each recursor only learns a subset of domains the user resolved. 
