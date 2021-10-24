@@ -1,78 +1,85 @@
 \section{Results}\label{sec:results}
 In this section, we describe the results of our experiment. 
 
-\begin{figure*}[t!]
-    \centering
-    \subfigure[North American resolvers]{%
-        \includegraphics[width=0.5\textwidth]{figures/Ohio_North_America.png}
-    }
-    \subfigure[Asian resolvers]{%
-        \includegraphics[width=0.5\textwidth]{figures/Ohio_Asia.png}
-    }
-    \subfigure[European resolvers]{%
-        \includegraphics[width=0.5\textwidth]{figures/Ohio_Europe.png}
-    }
-    \caption{Box-plots of resolvers measured from a vantage point in Ohio, USA}
-\end{figure*}
-
-\begin{figure*}[t!]
-    \centering
-    \subfigure[North American resolvers]{%
-        \includegraphics[width=0.5\textwidth]{figures/Seoul_North_America.png}
-    }
-    \subfigure[Asian resolvers]{%
-        \includegraphics[width=0.5\textwidth]{figures/Seoul_Asia.png}
-    }
-    \subfigure[European resolvers]{%
-        \includegraphics[width=0.5\textwidth]{figures/Seoul_Europe.png}
-    }
-    \caption{Box-plots of resolvers measured from a vantage point in Seoul, South Korea}
-\end{figure*}
-
-\begin{figure*}[t!]
-    \centering
-    \subfigure[North American resolvers]{%
-        \includegraphics[width=0.5\textwidth]{figures/Frankfurt_North_America.png}
-    }
-    \subfigure[Asian resolvers]{%
-        \includegraphics[width=0.5\textwidth]{figures/Frankfurt_Asia.png}
-    }
-    \subfigure[European resolvers]{%
-        \includegraphics[width=0.5\textwidth]{figures/Frankfurt_Europe.png}
-    }
-    \caption{Box-plots of resolvers measured from a vantage point in Frankfurt, Germany}
-\end{figure*}
-
-\begin{figure*}[t!]
-    \centering
-    \subfigure[North American resolvers]{%
-        \includegraphics[width=0.5\textwidth]{figures/Ohio_North_America.png}
-    }
-    \subfigure[Asian resolvers]{%
-        \includegraphics[width=0.5\textwidth]{figures/Seoul_Asia.png}
-    }
-    \subfigure[European resolvers]{%
-        \includegraphics[width=0.5\textwidth]{figures/Frankfurt_Europe.png}
-    }
-    \caption{Comparing local to local}
-\end{figure*}
-
-\begin{table}
+\begin{figure}[htb]
 \centering
-\begin{tabular}{lllll}
-\hline
-\textbf{Location} & \textbf{Resolver} & \textbf{Responsive?} & & \\
-    & & \textbf{Ohio} & \textbf{Seoul} & \textbf{Frankfurt} \\
-\midrule
-North America     & \begin{tabular}[c]{@{}l@{}}dnscrypt.ca-1-doh\\ dnscrypt.ca-2-doh\\ doh-cleanbrowsing\\ doh.post-factum.tk\end{tabular} & \begin{tabular}[c]{@{}l@{}}No\\ No\\ No\\ No\end{tabular} & \begin{tabular}[c]{@{}l@{}}No\\ No\\ No\\ No\end{tabular} & \begin{tabular}[c]{@{}l@{}}No\\ No\\ No\\ No\end{tabular}    \\ \midrule
-% Asia              & \begin{tabular}[c]{@{}l@{}}doh.tiarap.org\\ jp.tiarap.org\\ doh.linuxsec\end{tabular} & \begin{tabular}[c]{@{}l@{}}No\\ No\\ No\end{tabular}      & \begin{tabular}[c]{@{}l@{}}No\\ No\\ No\end{tabular}      & \begin{tabular}[c]{@{}l@{}}Yes\\ Yes\\ No\end{tabular}            \\ \midrule
-% Europe            & \begin{tabular}[c]{@{}l@{}}doh.bortzmeyer\\ doh.appliedprivacy\\ doh.chewbacca.meganerd.nl\\ doh.powerdns\end{tabular} & \begin{tabular}[c]{@{}l@{}}No\\ No\\ No\\ No\end{tabular} & \begin{tabular}[c]{@{}l@{}}No\\ No\\ No\\ No\end{tabular} & \begin{tabular}[c]{@{}l@{}}No\\ No\\ No\\ No\end{tabular} \\ \bottomrule
-\end{tabular}
-\caption{Resolvers that failed to respond from each vantage point.}
-\label{tab:UnresponsiveResolvers}
-\end{table}
+\subfigure[North American resolvers]{%
+\label{fig:Ohio_NA}%
+\includegraphics[height=2in]{figures/Ohio_North_America.png}}%
+\hspace{8pt}%
+\subfigure[Asian resolvers]{%
+\label{fig:Ohio_Asia}%
+\includegraphics[height=2in]{figures/Ohio_Asia.png}}%
+\hspace{8pt}%
+\subfigure[European resolvers]{%
+\label{fig:Ohio_Europe}%
+\includegraphics[height=2in]{figures/Ohio_Europe.png}}%
+\caption{Box-plots of resolvers measured from a vantage point in Ohio, USA}
+\end{figure}
 
-\begin{table}
+\begin{figure}[htb]
+\centering
+\subfigure[North American resolvers]{%
+\label{fig:Seoul_NA}%
+\includegraphics[height=2in]{figures/Seoul_North_America.png}}%
+\hspace{8pt}%
+\subfigure[Asian resolvers]{%
+\label{fig:Seoul_Asia}%
+\includegraphics[height=2in]{figures/Seoul_Asia.png}}%
+\hspace{8pt}%
+\subfigure[European resolvers]{%
+\label{fig:Seoul_Europe}%
+\includegraphics[height=2in]{figures/Seoul_Europe.png}}%
+\caption{Box-plots of resolvers measured from a vantage point in Seoul, South Korea}
+\end{figure}
+
+\begin{figure}[htb]
+\centering
+\subfigure[North American resolvers]{%
+\label{fig:Frankfurt_NA}%
+\includegraphics[height=2in]{figures/Frankfurt_North_America.png}}%
+\hspace{8pt}%
+\subfigure[Asian resolvers]{%
+\label{fig:Frankfurt_Asia}%
+\includegraphics[height=2in]{figures/Frankfurt_Asia.png}}%
+\hspace{8pt}%
+\subfigure[European resolvers]{%
+\label{fig:Frankfurt_Europe}%
+\includegraphics[height=2in]{figures/Frankfurt_Europe.png}}%
+\caption{Box-plots of resolvers measured from a vantage point in Frankfurt, Germany}
+\end{figure}
+
+\begin{figure}[htb]
+\centering
+\subfigure[North American resolvers measured from Ohio, USA]{%
+\label{fig:Local_Ohio_NA}%
+\includegraphics[height=2in]{figures/Ohio_North_America.png}}%
+\hspace{8pt}%
+\subfigure[Asian resolvers measured from Seoul, South Korea]{%
+\label{fig:Local_Seoul_Asia}%
+\includegraphics[height=2in]{figures/Seoul_Asia.png}}%
+\hspace{8pt}%
+\subfigure[European resolvers measured from Frankfurt, Germany]{%
+\label{fig:Kocal_Frankfurt_Europe}%
+\includegraphics[height=2in]{figures/Frankfurt_Europe.png}}%
+\caption{Boxplots comparing local to local resolvers}
+\end{figure}
+
+\subsection{How Do Mainstream Resolvers Compare to Non-Mainstream Resolvers?}
+We find that, in general, mainstream resolvers outperformed non-mainstream resolvers, with some notable exceptions.
+\Fref{tab:outperformed_resolvers} compares median response times for major resolvers to non-mainstream resolvers that performed better.
+Across all three vantage points, \texttt{dns.quad9.net}, \texttt{dns.google}, and \texttt{dns.cloudflare.com} were among the top five highest performing DoH resolvers.
+However, \texttt{ordns.he.net}--a DoH resolver hosted by Hurricane Electric, a global Internet service provider (ISP)--managed to outperform \texttt{dns.google} and \texttt{dns.cloudflare.com} from all three vantage points.
+From our vantage point in Frankfurt, we see that \texttt{dns-family.adguard.com} and \texttt{ordns.he.net} are the top two highest performing resolvers.
+Finally, from our vantage point in Seoul, we see that \texttt{doh-jp.blahdns.com} outperforms \texttt{dns.google}.
+
+However, most other non-mainstream DoH resolvers performed worse than mainstream resolvers, and they exhibited a wide distribution of median query response times.
+For example, from our Ohio vantage point, we observe that outside of the top-five highest performing resolvers, median query response times ranged from \xxx{X} ms to \xxx{X} ms.
+From our Seoul vantage point, median response times outside of the top five ranged from \xxx{X} ms to \xxx{X} ms.
+We observe more consistent performance overall from our Frankfurt vantage point, but we still see median query response times outside the top five range from \xxx{X} ms to \xxx{X} ms.
+
+\subsection{Does Network Distance Correlate to High Response Times from Non-Mainstream Resolvers?}
+\begin{table}[ht]
 \centering
 \begin{tabular}{lll}
 \toprule
@@ -90,7 +97,7 @@ doh-sg.blahdns                              & 221.41                            
 \label{tab:UnconvAsia}
 \end{table}
 
-\begin{table}
+\begin{table}[ht]
 \centering
 \begin{tabular}{lll}
 \toprule
@@ -108,20 +115,6 @@ dns-doh.dnsforfamily                        & 153.74                            
 \label{tab:UnconvEur}
 \end{table}
 
-\subsection{How Do Mainstream Resolvers Compare to Non-Mainstream Resolvers?}
-We find that, in general, mainstream resolvers outperformed non-mainstream resolvers, with some notable exceptions.
-\Fref{tab:outperformed_resolvers} compares median response times for major resolvers to non-mainstream resolvers that performed better.
-Across all three vantage points, \texttt{dns.quad9.net}, \texttt{dns.google}, and \texttt{dns.cloudflare.com} were among the top five highest performing DoH resolvers.
-However, \texttt{ordns.he.net}--a DoH resolver hosted by Hurricane Electric, a global Internet service provider (ISP)--managed to outperform \texttt{dns.google} and \texttt{dns.cloudflare.com} from all three vantage points.
-From our vantage point in Frankfurt, we see that \texttt{dns-family.adguard.com} and \texttt{ordns.he.net} are the top two highest performing resolvers.
-Finally, from our vantage point in Seoul, we see that \texttt{doh-jp.blahdns.com} outperforms \texttt{dns.google}.
-
-However, most other non-mainstream DoH resolvers performed worse than mainstream resolvers, and they exhibited a wide distribution of median query response times.
-For example, from our Ohio vantage point, we observe that outside of the top-five highest performing resolvers, median query response times ranged from \xxx{X} ms to \xxx{X} ms.
-From our Seoul vantage point, median response times outside of the top five ranged from \xxx{X} ms to \xxx{X} ms.
-We observe more consistent performance overall from our Frankfurt vantage point, but we still see median query response times outside the top five range from \xxx{X} ms to \xxx{X} ms.
-
-\subsection{Does Network Distance Correlate to High Response Times from Non-Mainstream Resolvers?}
 In general, we find that network distance correlates to higher median response times.
 \Fref{tab:UnconvAsia} shows that non-conventional resolvers located in Asia perform better from the Seoul vantage point than the Frankfurt vantage point. 
 Similarly, \Fref{tab:UnconvEur} demonstrates that the response times of European non-conventional resolvers measured from Frankfurt are much lower than the response times of those same resolvers measured from Seoul.
@@ -135,6 +128,20 @@ These resolvers may perform better in the future as more clients use them and po
 We note that certain resolvers did not respond to our ICMP ping messages (\Fref{tab:unresponsive}).
 
 \subsection{How Many Non-Mainstream Resolvers Are Responsive?}
+\begin{table}[ht]
+\centering
+\begin{tabular}{lllll}
+\hline
+\textbf{Location} & \textbf{Resolver} & \textbf{Responsive?} & & \\
+    & & \textbf{Ohio} & \textbf{Seoul} & \textbf{Frankfurt} \\
+\midrule
+North America     & \begin{tabular}[c]{@{}l@{}}dnscrypt.ca-1-doh\\ dnscrypt.ca-2-doh\\ doh-cleanbrowsing\\ doh.post-factum.tk\end{tabular} & \begin{tabular}[c]{@{}l@{}}No\\ No\\ No\\ No\end{tabular} & \begin{tabular}[c]{@{}l@{}}No\\ No\\ No\\ No\end{tabular} & \begin{tabular}[c]{@{}l@{}}No\\ No\\ No\\ No\end{tabular}    \\ \midrule
+Asia              & \begin{tabular}[c]{@{}l@{}}doh.tiarap.org\\ jp.tiarap.org\\ doh.linuxsec\end{tabular} & \begin{tabular}[c]{@{}l@{}}No\\ No\\ No\end{tabular}      & \begin{tabular}[c]{@{}l@{}}No\\ No\\ No\end{tabular}      & \begin{tabular}[c]{@{}l@{}}Yes\\ Yes\\ No\end{tabular}            \\ \midrule
+Europe            & \begin{tabular}[c]{@{}l@{}}doh.bortzmeyer\\ doh.appliedprivacy\\ doh.chewbacca.meganerd.nl\\ doh.powerdns\end{tabular} & \begin{tabular}[c]{@{}l@{}}No\\ No\\ No\\ No\end{tabular} & \begin{tabular}[c]{@{}l@{}}No\\ No\\ No\\ No\end{tabular} & \begin{tabular}[c]{@{}l@{}}No\\ No\\ No\\ No\end{tabular} \\ \bottomrule
+\end{tabular}
+\caption{Resolvers that failed to respond from each vantage point.}
+\label{tab:unresponsive}
+\end{table}
 \Fref{tab:unresponsive} list the DoH resolvers that we failed to receive a response from.
 \Fref{tab:errors} also breaks down the most common errors we received from attempting to communicate with unresponsive resolvers.
 We find that most resolvers we measured were responsive, albeit some reported relatively high median query response times.
