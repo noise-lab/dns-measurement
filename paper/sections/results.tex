@@ -65,6 +65,19 @@ In this section, we describe the results of our experiment.
 \caption{Boxplots comparing local to local resolvers}
 \end{figure}
 
+\begin{table}[ht]
+\centering
+\begin{tabular}{ll}
+\hline
+\textbf{Location} & \textbf{Resolver}                                                                               \\ \hline
+North America     & ordns.he.net                                                                                    \\ \hline
+Asia              & \begin{tabular}[c]{@{}l@{}}ordns.he.net\\ doh-jp.blahdns.com\end{tabular}                       \\ \hline
+Europe            & \begin{tabular}[c]{@{}l@{}}ordns.he.net\\ dns-family.adguard.com\\ doh.libredns.gr\end{tabular} \\ \hline
+\end{tabular}
+\caption{Non-mainstream resolvers that outperformed mainstream resolvers}
+\label{tab:outperformed_resolvers}
+\end{table}
+
 \subsection{How Do Mainstream Resolvers Compare to Non-Mainstream Resolvers?}
 We find that, in general, mainstream resolvers outperformed non-mainstream resolvers, with some notable exceptions.
 \Fref{tab:outperformed_resolvers} compares median response times for major resolvers to non-mainstream resolvers that performed better.
