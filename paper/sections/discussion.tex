@@ -1,13 +1,3 @@
 \section{Discussion}\label{sec:discussion}
-Our results suggest that while clients may generally expect the best DoH query response times with current major resolvers, they may also use certain less-popular resolvers within their geographic region.
-They also suggest that any resolver that is not majorly deployed is not useful if it is outside of one's region.
-Of the \xxx{X} non-mainstream resolvers we measured, \xxx{X} performed within 10ms in median query response times for Clouflare, \xxx{X} for Google, and \xxx{X} for Quad9.
-Furthermore, \xxx{X} of these non-mainstream resolvers were among the top five highest performing resolvers for a given vantage point.
-Several of these resolvers were hosted by ISPs.
-Thus, as more ISPs deploy DoH, we expect that clients will have even greater choice among which resolvers they use.
 
-We note that previous work suggests DoH response times may not greatly matter for certain applications, such as web browsers.
-Hounsel et al. found that while DoH response times were generally higher than traditional DNS, page load times were comparable~\cite{hounsel2020comparing}.
-These measurements were performed with major DoH resolvers--namely Cloudflare, Google, and Quad9--but the results should generalize.
-DoH connections based on HTTP/2 and above may utilize asynchronous queries, enabling the browser to send multiple DoH queries.
-In short, if applications enable DoH queires to be asynchronously issued, and TCP/TLS sessions are re-used with long timeouts, then higher DNS response times from non-mainstream resolvers witin a client's geographic region may not matter.
+
