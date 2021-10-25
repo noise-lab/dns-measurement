@@ -1,55 +1,55 @@
 \section{Results}\label{sec:results}
 In this section, we describe the results of our experiment. 
 
-\begin{figure}[htb]
+\begin{figure}[t!]
 \centering
-\subfigure[North American resolvers]{%
+\subfigure[North America.]{%
 \label{fig:Ohio_NA}%
 \includegraphics[height=2in]{figures/Ohio_North_America.png}}%
 \hspace{8pt}%
-\subfigure[Asian resolvers]{%
+\subfigure[Asia.]{%
 \label{fig:Ohio_Asia}%
 \includegraphics[height=2in]{figures/Ohio_Asia.png}}%
 \hspace{8pt}%
-\subfigure[European resolvers]{%
+\subfigure[Europe.]{%
 \label{fig:Ohio_Europe}%
 \includegraphics[height=2in]{figures/Ohio_Europe.png}}%
-\caption{Box-plots of resolvers measured from a vantage point in Ohio, USA}
+\caption{Resolvers measured from a vantage point in Ohio, USA.}
 \end{figure}
 
-\begin{figure}[htb]
+\begin{figure}[t!]
 \centering
-\subfigure[North American resolvers]{%
+\subfigure[North America.]{%
 \label{fig:Seoul_NA}%
 \includegraphics[height=2in]{figures/Seoul_North_America.png}}%
 \hspace{8pt}%
-\subfigure[Asian resolvers]{%
+\subfigure[Asia.]{%
 \label{fig:Seoul_Asia}%
 \includegraphics[height=2in]{figures/Seoul_Asia.png}}%
 \hspace{8pt}%
-\subfigure[European resolvers]{%
+\subfigure[Europe.]{%
 \label{fig:Seoul_Europe}%
 \includegraphics[height=2in]{figures/Seoul_Europe.png}}%
-\caption{Box-plots of resolvers measured from a vantage point in Seoul, South Korea}
+\caption{Resolvers measured from a vantage point in Seoul, South Korea.}
 \end{figure}
 
-\begin{figure}[htb]
+\begin{figure}[t!]
 \centering
-\subfigure[North American resolvers]{%
+\subfigure[North America.]{%
 \label{fig:Frankfurt_NA}%
 \includegraphics[height=2in]{figures/Frankfurt_North_America.png}}%
 \hspace{8pt}%
-\subfigure[Asian resolvers]{%
+\subfigure[Asia. ]{%
 \label{fig:Frankfurt_Asia}%
 \includegraphics[height=2in]{figures/Frankfurt_Asia.png}}%
 \hspace{8pt}%
-\subfigure[European resolvers]{%
+\subfigure[Europe.]{%
 \label{fig:Frankfurt_Europe}%
 \includegraphics[height=2in]{figures/Frankfurt_Europe.png}}%
 \caption{Box-plots of resolvers measured from a vantage point in Frankfurt, Germany}
 \end{figure}
 
-\begin{figure}[htb]
+\begin{figure}[t!]
 \centering
 \subfigure[North American resolvers measured from Ohio, USA]{%
 \label{fig:Local_Ohio_NA}%
@@ -62,10 +62,10 @@ In this section, we describe the results of our experiment.
 \subfigure[European resolvers measured from Frankfurt, Germany]{%
 \label{fig:Kocal_Frankfurt_Europe}%
 \includegraphics[height=2in]{figures/Frankfurt_Europe.png}}%
-\caption{Boxplots comparing local to local resolvers}
+\caption{Local-to-local resolvers.}
 \end{figure}
 
-\begin{table}[ht]
+\begin{table}[t!]
 \centering
 \begin{tabular}{ll}
 \hline
@@ -74,13 +74,13 @@ North America     & ordns.he.net                                                
 Asia              & \begin{tabular}[c]{@{}l@{}}ordns.he.net\\ doh-jp.blahdns.com\end{tabular}                       \\ \hline
 Europe            & \begin{tabular}[c]{@{}l@{}}ordns.he.net\\ dns-family.adguard.com\\ doh.libredns.gr\end{tabular} \\ \hline
 \end{tabular}
-\caption{Non-mainstream resolvers that outperformed mainstream resolvers}
+\caption{Non-mainstream resolvers that outperformed mainstream resolvers.}
 \label{tab:outperformed_resolvers}
 \end{table}
 
 \subsection{How Do Mainstream Resolvers Compare to Non-Mainstream Resolvers?}
 We find that, in general, mainstream resolvers outperformed non-mainstream resolvers, with some notable exceptions.
-\Fref{tab:outperformed_resolvers} compares median response times for major resolvers to non-mainstream resolvers that performed better.
+Table~\ref{tab:outperformed_resolvers} compares median response times for major resolvers to non-mainstream resolvers that performed better.
 Across all three vantage points, \texttt{dns.quad9.net}, \texttt{dns.google}, and \texttt{dns.cloudflare.com} were among the top five highest performing DoH resolvers.
 However, \texttt{ordns.he.net}--a DoH resolver hosted by Hurricane Electric, a global Internet service provider (ISP)--managed to outperform \texttt{dns.google} and \texttt{dns.cloudflare.com} from all three vantage points.
 From our vantage point in Frankfurt, we see that \texttt{dns-family.adguard.com} and \texttt{ordns.he.net} are the top two highest performing resolvers.
