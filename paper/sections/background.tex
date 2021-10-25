@@ -5,6 +5,7 @@ Internet Protocol (IP) addresses, which are used to route
 traffic~\cite{dns-rfcs}.  These queries are traditionally unencrypted, which
 enables on-path eavesdroppers to intercept queries and manipulate responses.
 
+\paragraph{Encrypted DNS.}
 Protocols for encrypting DNS traffic have been proposed, standardized, and
 deployed in recent years, including DNS-over-HTTPS (DoH) and DNS-over-TLS
 (DoT).  Hu et al. proposed DoT in 2016 to address the eavesdropping and
@@ -17,6 +18,7 @@ making it difficult for network operators and eavesdroppers to intercept DNS
 queries and responses~\cite{boettger2019empirical}. DoH can function in many
 environments where DoT is easily blocked.
 
+\paragraph{Centralization.}
 Encrypting DNS queries and responses hides queries from eavesdroppers but the
 recipient of the queries---the DNS resolver---can see the
 queries~\cite{IEEEfight}. By design, recursive resolvers receive queries from
@@ -41,6 +43,7 @@ than DoT.  Each of these browsers and operating systems either
 currently support or have announced support for DoH (but not
 DoT)~\cite{lack-of-dot-support}.
 
+\paragraph{Previous Measurement Studies.}
 Previous studies measuring DoT and DoH response times largely
 focus on and compare the protocols as a whole, rather than the performance of
 individual resolvers~\cite{lu2019end-to-end}.  
