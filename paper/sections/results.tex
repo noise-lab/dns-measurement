@@ -4,7 +4,7 @@ In this section, we describe the results of our experiment.
 \begin{figure}[t!]
 \hspace*{-0.75in}
 \begin{minipage}{1.25\textwidth}
-\subfigure[North America.]{%
+    \subfigure[North America (Local).]{%
 \label{fig:Ohio_NA}%
 \includegraphics[width=0.32\linewidth]{figures/Ohio_North_America.png}}%
 \hfill%
@@ -27,7 +27,7 @@ In this section, we describe the results of our experiment.
 \label{fig:Seoul_NA}%
 \includegraphics[width=0.32\linewidth]{figures/Seoul_North_America.png}}%
 \hfill%
-\subfigure[Asia.]{%
+    \subfigure[Asia (Local).]{%
 \label{fig:Seoul_Asia}%
 \includegraphics[width=0.32\linewidth]{figures/Seoul_Asia.png}}%
 \hfill%
@@ -50,13 +50,14 @@ In this section, we describe the results of our experiment.
 \label{fig:Frankfurt_Asia}%
 \includegraphics[width=0.32\linewidth]{figures/Frankfurt_Asia.png}}%
 \hfill%
-\subfigure[Europe.]{%
+\subfigure[Europe (Local).]{%
 \label{fig:Frankfurt_Europe}%
 \includegraphics[width=0.32\linewidth]{figures/Frankfurt_Europe.png}}%
-\caption{Resolvers measured from a vantage point in Frankfurt, Germany}
+\caption{Resolvers measured from a vantage point in Frankfurt, Germany.}
 \end{minipage}
 \end{figure}
 
+\if 0
 \begin{figure}[t!]
 \hspace*{-0.75in}
 \begin{minipage}{1.25\textwidth}
@@ -75,6 +76,7 @@ In this section, we describe the results of our experiment.
 \caption{Local-to-local resolvers.}
 \end{minipage}
 \end{figure}
+\fi
 
 \begin{table}[t!]
 \centering
@@ -152,6 +154,7 @@ These resolvers may perform better in the future as more clients use them and po
 We note that certain resolvers did not respond to our ICMP ping messages (\Fref{tab:unresponsive}).
 
 \subsection{How Many Non-Mainstream Resolvers Are Responsive?}
+\if 0
 \begin{table}[t!]
 \centering
 \begin{tabular}{lllll}
@@ -166,6 +169,8 @@ Europe            & \begin{tabular}[c]{@{}l@{}}doh.bortzmeyer\\ doh.appliedpriva
 \caption{Resolvers that failed to respond from each vantage point.}
 \label{tab:unresponsive}
 \end{table}
+\fi
+
 \Fref{tab:unresponsive} list the DoH resolvers that we failed to receive a response from.
 \Fref{tab:errors} also breaks down the most common errors we received from attempting to communicate with unresponsive resolvers.
 We find that most resolvers we measured were responsive, albeit some reported relatively high median query response times.
