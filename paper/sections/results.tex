@@ -29,14 +29,27 @@ We first aimed to study the availability of encrypted DNS
 resolvers---particularly non-mainstream resolvers. Our initial goal in doing
 so was to better understand the extent to which the encrypted DNS resolvers
 maintained on public lists were operating reliably.
+
+% \begin{table}[t!]
+% \centering
+% \begin{tabular}{lll}
+%     \textbf{Error} & \textbf{Count} & \textbf{Percentage of Responses} \\
+%     \midrule
+%     HTTP Error Status & 11,603 & \\
+%     ;q
+%     \bottomrule
+% \end{tabular}
+% \caption{Errors we received when trying to perform DoH queries.}
+% \label{tab:errors}
+% \end{table}
+
 We received responses from most resolvers that we queried.
-Table~\ref{tab:unresponsive} shows the DoH resolvers that we failed to receive
-a response from, and Table~\ref{tab:errors} shows the most common errors we
-received from attempting to communicate with unresponsive resolvers.  The
+\Fref{tab:unresponsive} shows the DoH resolvers that we failed to receive
+a response from, and~\Fref{tab:errors} shows the most common errors we
+received from attempting to communicate with unresponsive resolvers. The
 results show that the most common errors from unavailable resolvers were
 related to a failure to establish a TCP connection or a TLS session.
-\AH{Review this previous sentence later with the full data} It is likely that
-in many of these cases, the resolver itself was simply no longer operational;
+It is likely that in many of these cases, the resolver itself was simply no longer operational;
 additional longitudinal measurements could confirm this hypothesis.
 
 \begin{figure}[t!]

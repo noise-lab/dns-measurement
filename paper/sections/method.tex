@@ -24,19 +24,15 @@ After a set of measurements complete with a list of DoH resolvers and domain nam
 \paragraph{Availability.}
 We are also interested in determining which DoH resolvers are still active and responding to queries.
 We define a resolver as unresponsive from a given vantage point if we fail to receive \emph{any} response to the queries issued from a particular server.
-\Fref{tab:unresponsive} lists resolvers that did not respond to any of our queries.
-\AH{We might want to move the table in the introduction that lists the unresponsive resolvers to the results text. We at least don't want to list ``unresponsive'' resolvers before defining what ``unresponsive'' means. Also, do we care about breaking down specific error messages, \eg if a TCP connection failed to establish?}
-
 
 \paragraph{Latency.}
 To augment our query response time measurements, we performed network latency measurements for each recursive resolver.
 Each time we issued a set of DoH queries to a resolver, we also issued four ICMP ping messages and computed the average round-trip time.
 This enabled us to explore whether there was a consistent relationship between high query response times and network latency.
-\Fref{tab:no_pings} lists resolvers that did not respond to our latency measurements.
 
 \subsection{Experiment Setup}
 To provide a comparative assessment of DNS performance across DoH resolvers, we perform measurements across 75 DoH resolvers, grouped by their geographical locations—17 in North America, 22 in Asia, and 36 in Europe~\cite{dnscrypt}.
-We performed our measurements between October 15th, 2021 and October 22nd, 2021.
+We performed our measurements between October 15th, 2021 and October 25nd, 2021.
 We also took the four highest performing resolvers (\texttt{Google}, \texttt{Cloudflare}, \texttt{Quad9}, \texttt{Hurricane Electric}) located in North America and measured their performance in Europe and Asia to better understand how they compare in farther vantage points.  
 We employed MaxMind's GeoLite2 databases to geolocate each DoH resolver~\cite{maxmind}.
 
@@ -44,13 +40,12 @@ We employed MaxMind's GeoLite2 databases to geolocate each DoH resolver~\cite{ma
 We performed our measurements from three global vantage points through Amazon EC2~\cite{amazon_ec2}.
 We deployed one server in each of the Ohio, Frankfurt, and Seoul EC2 regions.
 We chose to perform measurements from multiple global vantage points to understand how DoH performance varies not only by which resolver is used, but also which geographic region the client is located in.
-Each server utilized 16 GB of RAM and 4 virtual CPU cores, and they each used Debian 10 as their operating system.
+Each server utilized 16 GB of RAM and 4 virtual CPU cores (the \texttt{t2.xlarge} instance type), and they each used Debian 10 as their operating system~\cite{amazon_ec2_instance_types}.
 
 \paragraph{Resolvers and Domain Names.}
 \Fref{tab:all_resolvers} in the appendix lists each of the DoH resolvers we measured.
 These resolvers were scraped from a list of public DoH resolvers provided by the \texttt{DNSCrypt} protocol developers~\cite{dnscrypt-public-resolvers}.
-Previous work has largely studied major DNS providers in use by web browsers; by contrast, we attempt to better understand the performance of the larger DoH ecosystem.
-\AH{Citation needed to previous work?}
+Previous work has largely studied major DNS providers in use by web browsers; by contrast, we attempt to better understand the performance of the larger DoH ecosystem~\cite{hounsel2020comparing,hounsel2021can}.
 
 We issued queries for two domains to each resolver: \texttt{google.com} and \texttt{netflix.com}.
 We chose these domains based on their popularity, but other domain names would have likely sufficed.
