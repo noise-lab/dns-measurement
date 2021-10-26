@@ -6,16 +6,11 @@ lesser-known resolvers have higher response times than well-known resolvers, a
 select group of lesser-known resolvers had close response times, or even lower
 response times, to well-known resolvers.  Additionally, we find a wide
 distribution of response times between resolvers despite their close proximity
-to one another.  Many of the non-mainstream resolvers are restricted based off
-of their location.  
-
-Our results suggest that while clients may generally expect the best DoH query response times with current major resolvers, they may also use certain less-popular resolvers within their geographic region.
-They also suggest that any resolver that is not majorly deployed is not useful if it is outside of one's region.
-Of the \xxx{X} non-mainstream resolvers we measured, \xxx{X} performed within 10ms in median query response times for Clouflare, \xxx{X} for Google, and \xxx{X} for Quad9.
-
-Furthermore, \xxx{X} of these non-mainstream resolvers were among the top five highest performing resolvers for a given vantage point.
-Several of these resolvers were hosted by ISPs.
-Thus, as more ISPs deploy DoH, we expect that clients will have even greater choice among which resolvers they use.
+to one another. Our results suggest that while clients may generally expect the 
+best DoH query response times with current major resolvers, they may also use 
+certain less-popular resolvers within their geographic region. They also 
+suggest that any resolver that is not majorly deployed is not useful if it 
+is outside of one's region.
 
 Previous work suggests DoH response times may not greatly matter for certain applications, such as web browsers.
 Hounsel et al. found that while DoH response times were generally higher than traditional DNS, page load times were comparable~\cite{hounsel2020comparing}.
