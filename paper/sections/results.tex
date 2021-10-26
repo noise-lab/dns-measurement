@@ -7,6 +7,7 @@ resolvers; and whether (and to what extent) high encrypted DNS response time
 correlates to large geographic distance or high network latency.
 
 \subsection{Are Non-Mainstream Resolvers Available?}
+
 \if 0
 \begin{table}[t!]
 \centering
@@ -24,6 +25,10 @@ Europe            & \begin{tabular}[c]{@{}l@{}}doh.bortzmeyer\\ doh.appliedpriva
 \end{table}
 \fi
 
+We first aimed to study the availability of encrypted DNS
+resolvers---particularly non-mainstream resolvers. Our initial goal in doing
+so was to better understand the extent to which the encrypted DNS resolvers
+maintained on public lists were operating reliably.
 We received responses from most resolvers that we queried.
 Table~\ref{tab:unresponsive} shows the DoH resolvers that we failed to receive
 a response from, and Table~\ref{tab:errors} shows the most common errors we
@@ -54,14 +59,16 @@ additional longitudinal measurements could confirm this hypothesis.
 
 \subsection{\mbox{How Do Non-Mainstream Resolvers Perform?}}
 
-In most cases, mainstream resolvers outperformed non-mainstream resolvers.
-Most non-mainstream DoH resolvers performed worse than mainstream resolvers,
-and they exhibited a wide distribution of median query response times.  For
-example, from our Ohio vantage point, we observe that outside of the top-five
-highest performing resolvers, median query response times ranged from \xxx{X}
-ms to \xxx{X} ms.  From our Seoul vantage point, median response times outside
+Given the large number of non-mainstream resolvers, we aimed to study how
+the performance of these encrypted DNS resolvers to mainstream ones.
+In most cases, as expected, mainstream resolvers outperformed non-mainstream resolvers.
+Non-mainstream resolvers also exhibited higher variability of 
+median query response times.  
+From North America, we observe that aside from the top five resolvers,
+median query response times ranged from \xxx{X}
+ms to \xxx{X} ms.  From Asia, median response times outside
 of the top five ranged from \xxx{X} ms to \xxx{X} ms.  We observe more
-consistent performance overall from our Frankfurt vantage point, but we still
+consistent performance from the Asia vantage point, but we still
 see median query response times outside the top five range from \xxx{X} ms to
 \xxx{X} ms.
 
@@ -169,17 +176,29 @@ dns-doh.dnsforfamily                        & 153.74 & 1,153.29                 
 \label{tab:UnconvEur}
 \end{table}
 
-In general, we find that network distance correlates to higher median response times.
-\Fref{tab:UnconvAsia} shows that non-conventional resolvers located in Asia perform better from the Seoul vantage point than the Frankfurt vantage point. 
-Similarly, \Fref{tab:UnconvEur} demonstrates that the response times of European non-conventional resolvers measured from Frankfurt are much lower than the response times of those same resolvers measured from Seoul.
+We find that network distance correlates to higher encrypted DNS response
+times.  Table~\ref{tab:UnconvAsia} shows that non-mainstream resolvers located
+in Asia perform better from the vantage point in Seoul than the one in
+Frankfurt.  Similarly, as expected, Table~\ref{tab:UnconvEur} shows that the
+response times of non-mainstream resolvers in Europe are much lower when
+measured from Frankfurt than the response times of those same resolvers
+measured from Seoul.
 
-However, certain resolvers performed significantly worse than their network distance might imply.
-For example, although the average latency we observed to \texttt{doh.in.ahadns.net} from our Seoul vantage point was \xxx{X} ms, the median query response time was \xxx{X} ms.
-Similarly, from our Ohio vantage point, we observed an average latency to \texttt{doh.xfinity.com} of \texttt{X} ms, despite a median query response time of \xxx{X} ms.
-We believe this could be attributed these non-mainstream resolvers having especially smaller caches than mainstream resolvers.
-These resolvers may perform better in the future as more clients use them and populate their caches.
-\AH{Review this previous hypothesis later}
-We note that certain resolvers did not respond to our ICMP ping messages (\Fref{tab:unresponsive}).
+Although higher network latency would tend to translate to higher DNS response
+times (as encrypted DNS queries do require several network round rips), we
+also found that, in some cases, certain resolvers performed worse than might
+be expected as a result of the latency from the vantage point to the
+resolvers.  For example, although the average round-trip latency to
+\texttt{doh.in.ahadns.net} from our Seoul vantage point was \xxx{X} ms, the
+median query response time was \xxx{X} ms.  Similarly, from North America, we
+observed an average round-trip latency to \texttt{doh.xfinity.com} of
+\texttt{X} ms, despite a median query response time of \xxx{X} ms.  We believe
+this could be attributed these non-mainstream resolvers having especially
+smaller caches than mainstream resolvers.  These discrepancies between network
+latency and DNS response times may be due to a number of factors, including
+both caching and server load. \AH{Review
+this previous hypothesis later} We note that certain resolvers did not respond
+to our ICMP ping messages (\Fref{tab:unresponsive}).
 
 
 \if 0
