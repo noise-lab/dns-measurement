@@ -2,12 +2,14 @@
 
 The Domain Name System (DNS) is a critical component of the Internet's
 infrastructure that translates human-readable domain names (\eg,
-\texttt{google.com}) into Internet Protocol (IP) addresses~\cite{dns-rfcs}.
-Most Internet activity begins with clients sending DNS queries to
-\emph{recursive resolvers}, which in turn query \emph{name servers} for the
-desired data.  The \emph{response times} of these queries-—the time 
+\texttt{google.com}) into Internet Protocol (IP) addresses~\cite{rfc1035}.
+Most Internet communications begin with a client device sending DNS queries to
+a recursive resolver, which in turn queries one or more name servers, which
+ultimately refer the client to a server who can map the domain to an IP
+address.
+The \emph{response times} of these queries---the time 
 to contact a recursive resolver, query various name servers, and return
-the results-—-is important because the DNS underlies virtually all
+the results---is important because the DNS underlies virtually all
 communication on the Internet.  For example, loading a
 web page, a browser must first resolve the domain names for each object on the
 page before the objects themselves can be retrieved and rendered.  Thus, the
