@@ -6,9 +6,37 @@ the performance of mainstream resolvers compares to that of non-mainstream
 resolvers; and whether (and to what extent) high encrypted DNS response time
 correlates to large geographic distance or high network latency.
 
+\subsection{Are Non-Mainstream Resolvers Available?}
+\if 0
+\begin{table}[t!]
+\centering
+\begin{tabular}{lllll}
+\hline
+\textbf{Location} & \textbf{Resolver} & \textbf{Responsive?} & & \\
+    & & \textbf{Ohio} & \textbf{Seoul} & \textbf{Frankfurt} \\
+\midrule
+North America     & \begin{tabular}[c]{@{}l@{}}dnscrypt.ca-1-doh\\ dnscrypt.ca-2-doh\\ doh-cleanbrowsing\\ doh.post-factum.tk\end{tabular} & \begin{tabular}[c]{@{}l@{}}\\ \\ \\ \end{tabular} & \begin{tabular}[c]{@{}l@{}}\\ \\ \\ \end{tabular} & \begin{tabular}[c]{@{}l@{}}\\ \\ \\ \end{tabular}    \\ \midrule
+Asia              & \begin{tabular}[c]{@{}l@{}}doh.tiarap.org\\ jp.tiarap.org\\ doh.linuxsec\end{tabular} & \begin{tabular}[c]{@{}l@{}}\\ \\ \end{tabular}      & \begin{tabular}[c]{@{}l@{}}\\ \\ \end{tabular}      & \begin{tabular}[c]{@{}l@{}}\checkmark\ \checkmark\ \end{tabular}            \\ \midrule
+Europe            & \begin{tabular}[c]{@{}l@{}}doh.bortzmeyer\\ doh.appliedprivacy\\ doh.chewbacca.meganerd.nl\\ doh.powerdns\end{tabular} & \begin{tabular}[c]{@{}l@{}}\\ \\ \\ \end{tabular} & \begin{tabular}[c]{@{}l@{}}\\ \\ \\ \end{tabular} & \begin{tabular}[c]{@{}l@{}}\\ \\ \\ \end{tabular} \\ \bottomrule
+\end{tabular}
+\caption{Resolvers that failed to respond from each vantage point.}
+\label{tab:unresponsive}
+\end{table}
+\fi
+
+We received responses from most resolvers that we queried.
+Table~\ref{tab:unresponsive} shows the DoH resolvers that we failed to receive
+a response from, and Table~\ref{tab:errors} shows the most common errors we
+received from attempting to communicate with unresponsive resolvers.  The
+results show that the most common errors from unavailable resolvers were
+related to a failure to establish a TCP connection or a TLS session.
+\AH{Review this previous sentence later with the full data} It is likely that
+in many of these cases, the resolver itself was simply no longer operational;
+additional longitudinal measurements could confirm this hypothesis.
+
 \begin{figure}[t!]
-\hspace*{-0.75in}
-\begin{minipage}{1.25\textwidth}
+\hspace*{-1in}
+\begin{minipage}{1.35\textwidth}
     \subfigure[North America (Local).]{%
 \label{fig:Ohio_NA}%
 \includegraphics[width=0.32\linewidth]{figures/Ohio_North_America.png}}%
@@ -20,9 +48,33 @@ correlates to large geographic distance or high network latency.
 \subfigure[Europe.]{%
 \label{fig:Ohio_Europe}%
 \includegraphics[width=0.32\linewidth]{figures/Ohio_Europe.png}}%
-\caption{Resolvers measured from a vantage point in Ohio, USA.}
+    \caption{Resolvers measured from a vantage point in the United States (Ohio).}
 \end{minipage}
 \end{figure}
+
+\subsection{\mbox{How Do Non-Mainstream Resolvers Perform?}}
+
+In most cases, mainstream resolvers outperformed non-mainstream resolvers.
+Most non-mainstream DoH resolvers performed worse than mainstream resolvers,
+and they exhibited a wide distribution of median query response times.  For
+example, from our Ohio vantage point, we observe that outside of the top-five
+highest performing resolvers, median query response times ranged from \xxx{X}
+ms to \xxx{X} ms.  From our Seoul vantage point, median response times outside
+of the top five ranged from \xxx{X} ms to \xxx{X} ms.  We observe more
+consistent performance overall from our Frankfurt vantage point, but we still
+see median query response times outside the top five range from \xxx{X} ms to
+\xxx{X} ms.
+
+In some cases, however, a particular non-mainstream resolver would outperform
+the mainstream DoH resolvers.  As expected, \texttt{dns.quad9.net},
+\texttt{dns.google}, and \texttt{dns.cloudflare.com} were among the top five
+highest performing DoH resolvers in North America, Europe, and Asia.
+Interestingly, however, \texttt{ordns.he.net}---a DoH resolver hosted by
+Hurricane Electric, a global Internet service provider (ISP)---managed to
+outperform \texttt{dns.google} and \texttt{dns.cloudflare.com} from all three
+vantage points.  From Frankfurt, \texttt{dns-family.adguard.com} and
+\texttt{ordns.he.net} are the top two highest performing resolvers; from
+Seoul, \texttt{doh-jp.blahdns.com} outperforms \texttt{dns.google}.
 
 \begin{figure}[t!]
 \hspace*{-0.75in}
@@ -43,6 +95,24 @@ correlates to large geographic distance or high network latency.
 \end{minipage}
 \end{figure}
 
+\if 0
+\begin{table}[t!]
+\centering
+\begin{tabular}{ll}
+\hline
+\textbf{Location} & \textbf{Resolver}                                                                               \\ \hline
+North America     & ordns.he.net                                                                                    \\ \hline
+Asia              & \begin{tabular}[c]{@{}l@{}}ordns.he.net\\ doh-jp.blahdns.com\end{tabular}                       \\ \hline
+Europe            & \begin{tabular}[c]{@{}l@{}}ordns.he.net\\ dns-family.adguard.com\\ doh.libredns.gr\end{tabular} \\ \hline
+\end{tabular}
+\caption{Non-mainstream resolvers that outperformed mainstream resolvers.}
+\label{tab:outperformed_resolvers}
+\end{table}
+\fi
+
+
+
+
 \begin{figure}[t!]
 \hspace*{-0.75in}
 \begin{minipage}{1.25\textwidth}
@@ -62,54 +132,7 @@ correlates to large geographic distance or high network latency.
 \end{minipage}
 \end{figure}
 
-\if 0
-\begin{figure}[t!]
-\hspace*{-0.75in}
-\begin{minipage}{1.25\textwidth}
-\centering
-\subfigure[North American resolvers measured from Ohio, USA]{%
-\label{fig:Local_Ohio_NA}%
-\includegraphics[width=0.32\linewidth]{figures/Ohio_North_America.png}}%
-\hfill%
-\subfigure[Asian resolvers measured from Seoul, South Korea]{%
-\label{fig:Local_Seoul_Asia}%
-\includegraphics[width=0.32\linewidth]{figures/Seoul_Asia.png}}%
-\hfill%
-\subfigure[European resolvers measured from Frankfurt, Germany]{%
-\label{fig:Kocal_Frankfurt_Europe}%
-\includegraphics[width=0.32\linewidth]{figures/Frankfurt_Europe.png}}%
-\caption{Local-to-local resolvers.}
-\end{minipage}
-\end{figure}
-\fi
-
-\begin{table}[t!]
-\centering
-\begin{tabular}{ll}
-\hline
-\textbf{Location} & \textbf{Resolver}                                                                               \\ \hline
-North America     & ordns.he.net                                                                                    \\ \hline
-Asia              & \begin{tabular}[c]{@{}l@{}}ordns.he.net\\ doh-jp.blahdns.com\end{tabular}                       \\ \hline
-Europe            & \begin{tabular}[c]{@{}l@{}}ordns.he.net\\ dns-family.adguard.com\\ doh.libredns.gr\end{tabular} \\ \hline
-\end{tabular}
-\caption{Non-mainstream resolvers that outperformed mainstream resolvers.}
-\label{tab:outperformed_resolvers}
-\end{table}
-
-\subsection{How Do Mainstream Resolvers Compare to Non-Mainstream Resolvers?}
-We find that, in general, mainstream resolvers outperformed non-mainstream resolvers, with some notable exceptions.
-Table~\ref{tab:outperformed_resolvers} compares median response times for major resolvers to non-mainstream resolvers that performed better.
-Across all three vantage points, \texttt{dns.quad9.net}, \texttt{dns.google}, and \texttt{dns.cloudflare.com} were among the top five highest performing DoH resolvers.
-However, \texttt{ordns.he.net}--a DoH resolver hosted by Hurricane Electric, a global Internet service provider (ISP)--managed to outperform \texttt{dns.google} and \texttt{dns.cloudflare.com} from all three vantage points.
-From our vantage point in Frankfurt, we see that \texttt{dns-family.adguard.com} and \texttt{ordns.he.net} are the top two highest performing resolvers.
-Finally, from our vantage point in Seoul, we see that \texttt{doh-jp.blahdns.com} outperforms \texttt{dns.google}.
-
-However, most other non-mainstream DoH resolvers performed worse than mainstream resolvers, and they exhibited a wide distribution of median query response times.
-For example, from our Ohio vantage point, we observe that outside of the top-five highest performing resolvers, median query response times ranged from \xxx{X} ms to \xxx{X} ms.
-From our Seoul vantage point, median response times outside of the top five ranged from \xxx{X} ms to \xxx{X} ms.
-We observe more consistent performance overall from our Frankfurt vantage point, but we still see median query response times outside the top five range from \xxx{X} ms to \xxx{X} ms.
-
-\subsection{Does Network Distance Correlate to High Response Times from Non-Mainstream Resolvers?}
+\subsection{Does Latency to Resolver Correlate with Performance?}
 \begin{table}[t!]
 \centering
 \begin{tabular}{l|rr}
@@ -158,27 +181,26 @@ These resolvers may perform better in the future as more clients use them and po
 \AH{Review this previous hypothesis later}
 We note that certain resolvers did not respond to our ICMP ping messages (\Fref{tab:unresponsive}).
 
-\subsection{How Many Non-Mainstream Resolvers Are Responsive?}
+
 \if 0
-\begin{table}[t!]
+\begin{figure}[t!]
+\hspace*{-0.75in}
+\begin{minipage}{1.25\textwidth}
 \centering
-\begin{tabular}{lllll}
-\hline
-\textbf{Location} & \textbf{Resolver} & \textbf{Responsive?} & & \\
-    & & \textbf{Ohio} & \textbf{Seoul} & \textbf{Frankfurt} \\
-\midrule
-North America     & \begin{tabular}[c]{@{}l@{}}dnscrypt.ca-1-doh\\ dnscrypt.ca-2-doh\\ doh-cleanbrowsing\\ doh.post-factum.tk\end{tabular} & \begin{tabular}[c]{@{}l@{}}\\ \\ \\ \end{tabular} & \begin{tabular}[c]{@{}l@{}}\\ \\ \\ \end{tabular} & \begin{tabular}[c]{@{}l@{}}\\ \\ \\ \end{tabular}    \\ \midrule
-Asia              & \begin{tabular}[c]{@{}l@{}}doh.tiarap.org\\ jp.tiarap.org\\ doh.linuxsec\end{tabular} & \begin{tabular}[c]{@{}l@{}}\\ \\ \end{tabular}      & \begin{tabular}[c]{@{}l@{}}\\ \\ \end{tabular}      & \begin{tabular}[c]{@{}l@{}}\checkmark\ \checkmark\ \end{tabular}            \\ \midrule
-Europe            & \begin{tabular}[c]{@{}l@{}}doh.bortzmeyer\\ doh.appliedprivacy\\ doh.chewbacca.meganerd.nl\\ doh.powerdns\end{tabular} & \begin{tabular}[c]{@{}l@{}}\\ \\ \\ \end{tabular} & \begin{tabular}[c]{@{}l@{}}\\ \\ \\ \end{tabular} & \begin{tabular}[c]{@{}l@{}}\\ \\ \\ \end{tabular} \\ \bottomrule
-\end{tabular}
-\caption{Resolvers that failed to respond from each vantage point.}
-\label{tab:unresponsive}
-\end{table}
+\subfigure[North American resolvers measured from Ohio, USA]{%
+\label{fig:Local_Ohio_NA}%
+\includegraphics[width=0.32\linewidth]{figures/Ohio_North_America.png}}%
+\hfill%
+\subfigure[Asian resolvers measured from Seoul, South Korea]{%
+\label{fig:Local_Seoul_Asia}%
+\includegraphics[width=0.32\linewidth]{figures/Seoul_Asia.png}}%
+\hfill%
+\subfigure[European resolvers measured from Frankfurt, Germany]{%
+\label{fig:Kocal_Frankfurt_Europe}%
+\includegraphics[width=0.32\linewidth]{figures/Frankfurt_Europe.png}}%
+\caption{Local-to-local resolvers.}
+\end{minipage}
+\end{figure}
 \fi
 
-\Fref{tab:unresponsive} list the DoH resolvers that we failed to receive a response from.
-\Fref{tab:errors} also breaks down the most common errors we received from attempting to communicate with unresponsive resolvers.
-We find that most resolvers we measured were responsive, albeit some reported relatively high median query response times.
-For the resolvers that we did not receive responses from, the most common errors related to a failure to establish a TCP connection or a TLS session.
-\AH{Review this previous sentence later with the full data}
-In other words, when we didn't receive a response, it wasn't necessarily because the response itself was dropped on-path or our software reported a timeout, but rather that the server was likely no longer operational in the first place.
+
