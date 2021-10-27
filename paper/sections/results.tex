@@ -3,12 +3,12 @@
 In this section, we describe the results of our experiments.  We explore which
 non-mainstream resolvers are available; how
 the performance of mainstream resolvers compares to that of non-mainstream
-resolvers; and whether (and to what extent) high encrypted DNS response time
-correlates to large geographic distance or high network latency. As described
-in Section~\ref{sec:method}, our results here represent a set of measurements
-conducted at a single point in time; future work could perform ongoing
+resolvers; and whether (and to what extent) encrypted DNS response time
+correlates to high network latency. As described
+in Section~\ref{sec:method}, our results represent measurements
+from October 2021; future work could perform ongoing
 measurements based on the measurement framework we have developed to validate
-and extend these results with longitudinal measurements.
+and extend these results.
 
 \subsection{Are Non-Mainstream Resolvers Available?}
 
@@ -29,10 +29,6 @@ Europe            & \begin{tabular}[c]{@{}l@{}}doh.bortzmeyer\\ doh.appliedpriva
 \end{table}
 \fi
 
-We first aimed to study the availability of encrypted DNS
-resolvers---particularly non-mainstream resolvers. Our initial goal in doing
-so was to better understand the extent to which the encrypted DNS resolvers
-maintained on public lists were operating reliably.
 
 \begin{table}[t!]
 \centering
@@ -60,6 +56,8 @@ maintained on public lists were operating reliably.
 \label{tab:errors}
 \end{table}
 
+We first aimed to study the availability of encrypted DNS
+resolvers. 
 We received responses from most resolvers that we queried.  \Fref{tab:errors}
 shows the most common errors we received from attempting to communicate with
 the resolvers.\footnote{Due to a bug, we did not record one rare error type.}
@@ -302,7 +300,6 @@ measured from Seoul.
 \end{figure*}
 
 \Fref{fig:ping_qrt_scatters} compares median ICMP ping latencies to median 
-
 query response times for each resolver.
 Higher network latency naturally translates to higher DNS response
 times (as encrypted DNS queries do require several network round trips):
@@ -312,9 +309,9 @@ round trips: one for the TCP three-way handshake, one for the TLS handshake
 DNS query and response. {\tt libcurl} uses TLS 1.3 when available on the
 server, and otherwise falls back to an older version (e.g., TLS 1.2), which requires an additional
 network round trip.
-It also attempts to utilize HTTP/2, falling back to an older version when necessary.
+It also attempts to use HTTP/2, falling back to an older version when necessary.
 Thus, we can expect that ``normal'' DoH lookup times would
-be on the order of 3--4 times the network latency.
+be about 3--4 times the network latency.
 
 In some cases, certain resolvers performed worse than might
 be expected as a result of the latency from the vantage point to the
@@ -340,7 +337,7 @@ We also note that two resolvers--\texttt{doh.this.web.id} and
 \texttt{dns.twnic.tw}--are not shown on~\Fref{fig:Seoul_ping_qrt_scatter}
 because their median query response times are greater than 1,000 ms.
 For reference, the next slowest resolver from Seoul has a median query response
-time of 456 ms.
+time of 456~ms.
 
 \if 0
 \begin{figure}[t!]
