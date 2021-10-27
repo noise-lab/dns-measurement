@@ -20,7 +20,7 @@ loads.
 DNS did not originally take privacy and security into account: DNS queries
 have historically been unencrypted, leaving users susceptible to
 eavesdropping~\cite{schmitt2019:odns:pets}; queries can also be intercepted and
-manipulated to re-direct users to malicious websites~\cite{jones2016detecting}.  To
+manipulated~\cite{jones2016detecting}.  To
 address these types of privacy and security vulnerabilities, encrypted DNS
 protocols have been developed and deployed, including DNS-over-HTTPS
 (DoH)~\cite{rfc8484}, which is now deployed---and even enabled by default---in
@@ -29,12 +29,12 @@ over HTTPS, providing privacy and security guarantees that DNS previously
 lacked.
 
 For better or worse, most contemporary deployments of DoH have occurred in
-browsers that provide limited options of
-resolvers~\cite{ffChoices,chromeResolvers}.  If users continue to adopt
-encrypted DNS and rely on a small set of recursive resolvers, these resolvers
-will have increased visibility into data that was previously available to a
-multitude of resolvers.  Such data includes queries that correspond to users'
-web browsing histories.
+browsers that provide limited options for
+resolvers~\cite{ffChoices,chromeResolvers}.  Although DoH
+protects against on-path eavesdropping, it does not prevent resolvers
+\emph{themselves} from seeing the contents of DNS queries.  Thus, some have
+argued that browser-based DoH deployments shift privacy concerns from
+eavesdroppers to potential misuse by major DNS providers~\cite{vixie}.
 
 \begin{table}[t]
     \centering
@@ -64,16 +64,10 @@ Yet, many other DoH resolvers have been deployed that are currently
 not in use by major browser deployments~\cite{dnscrypt}---in other words,
 there are many non-mainstream DoH resolver deployments.  
 
-Although DoH
-addresses passive eavesdropping of DNS queries, it does not prevent resolvers
-\emph{themselves} from seeing the contents of DNS queries.  Thus, some have
-argued that major browser-based DoH deployments shift privacy concerns from
-eavesdroppers to potential misuse by major DNS providers~\cite{vixie}.
-
-Various previous studies have measured encrypted DNS performance, but they have mostly focused on mainstream DNS resolvers~\cite{hounsel2020comparing,hounsel2021can,hoang2020k,lu2019end-to-end}.
+Previous studies have measured encrypted DNS performance, but they have mostly focused on mainstream DNS resolvers~\cite{hounsel2020comparing,hounsel2021can,hoang2020k,lu2019end-to-end}.
 In this paper, we expand on these previous studies, exploring the performance
-of all encrypted DNS resolvers---from a variety of global (particularly
-non-US) vantage points, as opposed to simply characterizing the mainstream DoH
+of all encrypted DNS resolvers---from a variety of global 
+vantage points, as opposed to simply characterizing the mainstream DoH
 providers from well-connected vantage points.
 Towards this goal, we make the following contributions:
 \begin{enumerate}
