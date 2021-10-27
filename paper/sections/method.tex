@@ -1,71 +1,95 @@
-\section{Method}\label{sec:method}
-In this section, we describe the metrics used, how these metrics are measured, and our experiment setup.
+\section{Method}\label{sec:method} In this section, we describe the metrics
+used, how these metrics are measured, and our experiment setup.
 
-\subsection{Metrics}
-To understand how non-mainstream DoH resolvers perform compared to mainstream resolvers, we measure DNS query response times and latency to these resolvers from multiple global vantage points.
-We also study how many publicly available DoH resolvers are still online.
+\subsection{Metrics} To understand how non-mainstream DoH resolvers perform
+compared to mainstream resolvers, we measure DNS query response times and
+latency to these resolvers from multiple global vantage points.  We also study
+how many publicly available DoH resolvers are still online.
 
-\paragraph{DNS Query Response Time.}
-We define DNS query response time as the end-to-end time it takes for a client to initiate a query and receive a response.
-To measure query response times with various DoH resolvers, we extended the
-open-source DNS measurement tool developed by Hounsel et al.~\cite{hounsel2020comparing}
-The tool enables researchers to issue traditional DNS, DoT, and DoH queries.
-It utilizes the \texttt{getdns} library for traditional DNS and DoT, and \texttt{libcurl} for DoH.
-For each DoH resolver, the tool establishes a TCP connection and an HTTPS session, encodes a DoH query, sends the query to the DoH resolver, and reports the response time to the client.
-Importantly, the tool includes the time it took to establish a TCP connection and an HTTPS session in query response times.
+\paragraph{Availability.} We are also interested in determining which DoH
+resolvers are still active and responding to queries.  We define a resolver as
+unresponsive from a given vantage point if we fail to receive \emph{any}
+response to the queries issued from a particular server.
+
+\paragraph{Latency.} To augment our query response time measurements, we
+performed network latency measurements for each recursive resolver.  Each time
+we issued a set of DoH queries to a resolver, we also issued four ICMP ping
+messages and computed the average round-trip time.  This enabled us to explore
+whether there was a consistent relationship between high query response times
+and network latency.
+
+
+\paragraph{DNS Query Response Time.} We define DNS query response time as the
+end-to-end time it takes for a client to initiate a query and receive a
+response.  To measure query response times with various DoH resolvers, we
+extended the open-source DNS measurement tool developed by Hounsel et
+al.~\cite{hounsel2020comparing} The tool enables researchers to issue
+traditional DNS, DoT, and DoH queries.  It utilizes the \texttt{getdns}
+library for traditional DNS and DoT, and \texttt{libcurl} for DoH.  For each
+DoH resolver, the tool establishes a TCP connection and an HTTPS session,
+encodes a DoH query, sends the query to the DoH resolver, and reports the
+response time to the client.  Importantly, the tool includes the time it took
+to establish a TCP connection and an HTTPS session in query response times.
 \AH{Verify the previous sentence}
 
-We modified the tool to support continuous DoH response time measurements across multiple days.
-We also modified the tool to enable clients to provide a list of DoH resolvers
-they wish to perform measurements with, preventing clients from needing to
-re-run the executable for each resolver (link anonymized for review).
-After a set of measurements complete with a list of DoH resolvers and domain names, the tool writes the results to a JSON file.
+We modified the tool to support continuous DoH response time measurements
+across multiple days.  We also modified the tool to enable clients to provide
+a list of DoH resolvers they wish to perform measurements with, preventing
+clients from needing to re-run the executable for each resolver (link
+anonymized for review).  After a set of measurements complete with a list of
+DoH resolvers and domain names, the tool writes the results to a JSON file.
 
-\paragraph{Availability.}
-We are also interested in determining which DoH resolvers are still active and responding to queries.
-We define a resolver as unresponsive from a given vantage point if we fail to receive \emph{any} response to the queries issued from a particular server.
+\subsection{Experiment Setup.} To provide a comparative assessment of DNS
+performance across DoH resolvers, we perform measurements across 75 DoH
+resolvers, grouped by their geographical locations—17 in North America, 22 in
+Asia, and 36 in Europe~\cite{dnscrypt}.  We performed our measurements between
+October 15--25, 2021.  We also took the four highest
+performing resolvers (\texttt{Google}, \texttt{Cloudflare}, \texttt{Quad9},
+\texttt{Hurricane Electric}) located in North America and measured their
+performance in Europe and Asia to better understand how they compare in
+farther vantage points.  We employed MaxMind's GeoLite2 databases to geolocate
+each DoH resolver~\cite{maxmind}.
 
-\paragraph{Latency.}
-To augment our query response time measurements, we performed network latency measurements for each recursive resolver.
-Each time we issued a set of DoH queries to a resolver, we also issued four ICMP ping messages and computed the average round-trip time.
-This enabled us to explore whether there was a consistent relationship between high query response times and network latency.
+\paragraph{Vantage Points.} We performed our measurements from three global
+vantage points through Amazon EC2~\cite{amazon_ec2}.  We deployed one server
+in each of the Ohio, Frankfurt, and Seoul EC2 regions.  We chose to perform
+measurements from multiple global vantage points to understand how DoH
+performance varies not only by which resolver is used, but also which
+geographic region the client is located in.  Each server utilized 16 GB of RAM
+and 4 virtual CPU cores (the \texttt{t2.xlarge} instance type), and they each
+used Debian 10 as their operating system~\cite{amazon_ec2_instance_types}.
 
-\subsection{Experiment Setup}
-To provide a comparative assessment of DNS performance across DoH resolvers, we perform measurements across 75 DoH resolvers, grouped by their geographical locations—17 in North America, 22 in Asia, and 36 in Europe~\cite{dnscrypt}.
-We performed our measurements between October 15th, 2021 and October 25nd, 2021.
-We also took the four highest performing resolvers (\texttt{Google}, \texttt{Cloudflare}, \texttt{Quad9}, \texttt{Hurricane Electric}) located in North America and measured their performance in Europe and Asia to better understand how they compare in farther vantage points.  
-We employed MaxMind's GeoLite2 databases to geolocate each DoH resolver~\cite{maxmind}.
+\paragraph{Resolvers and Domain Names.} Table~\ref{tab:all_resolvers} 
+lists each of the DoH resolvers we measured.  These resolvers were
+scraped from a list of public DoH resolvers provided by the \texttt{DNSCrypt}
+protocol developers~\cite{dnscrypt-public-resolvers}.  Previous work has
+largely studied major DNS providers in use by web browsers; by contrast, we
+attempt to better understand the performance of the larger DoH
+ecosystem~\cite{hounsel2020comparing,hounsel2021can}.
 
-\paragraph{Vantage Points.}
-We performed our measurements from three global vantage points through Amazon EC2~\cite{amazon_ec2}.
-We deployed one server in each of the Ohio, Frankfurt, and Seoul EC2 regions.
-We chose to perform measurements from multiple global vantage points to understand how DoH performance varies not only by which resolver is used, but also which geographic region the client is located in.
-Each server utilized 16 GB of RAM and 4 virtual CPU cores (the \texttt{t2.xlarge} instance type), and they each used Debian 10 as their operating system~\cite{amazon_ec2_instance_types}.
+We issued queries for two domains to each resolver: \texttt{google.com} and
+\texttt{netflix.com}.  We chose these domains based on their popularity, but
+other domain names would have likely sufficed.  We do not expect our choice of
+domain names to unfairly skew our performance comparisons between resolvers.
 
-\paragraph{Resolvers and Domain Names.}
-\Fref{tab:all_resolvers} in the appendix lists each of the DoH resolvers we measured.
-These resolvers were scraped from a list of public DoH resolvers provided by the \texttt{DNSCrypt} protocol developers~\cite{dnscrypt-public-resolvers}.
-Previous work has largely studied major DNS providers in use by web browsers; by contrast, we attempt to better understand the performance of the larger DoH ecosystem~\cite{hounsel2020comparing,hounsel2021can}.
-
-We issued queries for two domains to each resolver: \texttt{google.com} and \texttt{netflix.com}.
-We chose these domains based on their popularity, but other domain names would have likely sufficed.
-We do not expect our choice of domain names to unfairly skew our performance comparisons between resolvers.
-
-\paragraph{Measurement Procedure.}
-We performed the following steps to measure the performance of the DoH ecosystem from each of our three vantage points:
-\begin{enumerate}
-    \item Pass a list of DoH resolvers and domain names to our modified DoH query response time measurement tool.
-    \item For each resolver, establish an HTTPS session and send a DoH query for each of our domain names.
-    \item For each resolver, issue four ICMP ping messages and compute the average round-trip time to receive a response.
-    \item Repeat this process continuously.
+\paragraph{Measurement Procedure.} We performed the following steps to measure
+the performance of the DoH ecosystem from each of our three vantage points:
+\begin{enumerate} \item Pass a list of DoH resolvers and domain names to our
+            modified DoH query response time measurement tool.  \item For each
+            resolver, establish an HTTPS session and send a DoH query for each
+        of our domain names.  \item For each resolver, issue four ICMP ping
+            messages and compute the average round-trip time to receive a
+            response.  \item Repeat this process continuously.
 \end{enumerate}
 
-\paragraph{Limitations.}
-Our work has certain limitations which may affect our results. 
-First, we do not measure web page load times. 
-This would have enabled us to better understand how these resolvers interact with and affect users. 
-DNS response time still shows us resolver performance, though. 
-Second, we only measure three domain names. 
-However, since we collect DNS response time measurements and not page load time measurements, we do not expect performance trends to change with more domains.
-Finally, we performed measurements from Amazon EC2 instances, which are located in data centers. 
-Although this means that we were unable to collect data from different settings, such as home networks, Amazon EC2 allowed us to collect data from three global vantage points. 
+\paragraph{Limitations.} Our work has certain limitations which may affect our
+results.  First, we do not measure web page load times.  This would have
+enabled us to better understand how these resolvers interact with and affect
+users.  DNS response time still shows us resolver performance, though.
+Second, we only measure three domain names.  However, since we collect DNS
+response time measurements and not page load time measurements, we do not
+expect performance trends to change with more domains.  Finally, we performed
+measurements from Amazon EC2 instances, which are located in data centers.
+Although this means that we were unable to collect data from different
+settings, such as home networks, Amazon EC2 allowed us to collect data from
+three global vantage points. 
