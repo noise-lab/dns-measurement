@@ -39,7 +39,7 @@ clients from needing to re-run the executable for each resolver (link
 anonymized for review).  After a set of measurements complete with a list of
 DoH resolvers and domain names, the tool writes the results to a JSON file.
 
-\subsection{Experiment Setup.} To provide a comparative assessment of DNS
+\subsection{Experiment Setup} To provide a comparative assessment of DNS
 performance across DoH resolvers, we perform measurements across 75 DoH
 resolvers, grouped by their geographical locations—17 in North America, 22 in
 Asia, and 36 in Europe~\cite{dnscrypt}.  We performed our measurements between
@@ -63,9 +63,9 @@ used Debian 10 as their operating system~\cite{amazon_ec2_instance_types}.
 lists each of the DoH resolvers we measured.  These resolvers were
 scraped from a list of public DoH resolvers provided by the \texttt{DNSCrypt}
 protocol developers~\cite{dnscrypt-public-resolvers}.  Previous work has
-largely studied major DNS providers in use by web browsers; by contrast, we
-attempt to better understand the performance of the larger DoH
-ecosystem~\cite{hounsel2020comparing,hounsel2021can,borgolte2019dns}.
+largely studied major DNS providers in use by web browsers; in contrast, we
+measure the performance of a larger set of encrypted DNS
+resolvers~\cite{hounsel2020comparing,borgolte2019dns}.
 
 We issued queries for two domains to each resolver: \texttt{google.com} and
 \texttt{netflix.com}.  We chose these domains based on their popularity, but
@@ -73,13 +73,16 @@ other domain names would have likely sufficed.  We do not expect our choice of
 domain names to unfairly skew our performance comparisons between resolvers.
 
 \paragraph{Measurement Procedure.} We performed the following steps to measure
-the performance of the DoH ecosystem from each of our three vantage points:
-\begin{enumerate} \item Pass a list of DoH resolvers and domain names to our
-            modified DoH query response time measurement tool.  \item For each
-            resolver, establish an HTTPS session and send a DoH query for each
-        of our domain names.  \item For each resolver, issue four ICMP ping
-            messages and compute the average round-trip time to receive a
-            response.  \item Repeat this process continuously.
+the performance of each of the encrypted DNS resolvers, from each of our three vantage points:
+\begin{enumerate} 
+%    \item Pass a list of DoH resolvers and domain names to our
+%            modified DoH query response time measurement tool.  
+        \item For each
+            resolver that we aim to measure, establish an HTTPS session and
+            send a DoH query, measuring the query response time for two
+            domain names.
+    \item For each resolver, issue four ICMP ping
+            probes and compute the average round-trip latency. 
 \end{enumerate}
 
 \paragraph{Limitations.} Our work has certain limitations that may affect our

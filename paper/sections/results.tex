@@ -49,18 +49,28 @@ maintained on public lists were operating reliably.
     \textbf{All Errors} & \textbf{143,848} & \textbf{21.3\%} \\
     \bottomrule
 \end{tabular}
-\caption{Errors we received when trying to perform DoH queries from across all vantage points.}
+\caption{Errors when trying to perform DoH queries from all vantage points.}
 \label{tab:errors}
 \end{table}
 
-We received responses from most resolvers that we queried.
-\Fref{tab:errors} shows the most common errors we
-received from attempting to communicate with the resolvers.
-These results show that the most common errors from unavailable resolvers were
-related to a failure to establish a TCP connection and a TLS session.
-It is likely that in many of these cases, the resolver itself was simply no longer operational;
-additional longitudinal measurements could confirm this hypothesis.
-We never received a successful DoH response from the following resolvers: \texttt{dns1.dnscrypt.ca, dns2.dnscrypt.ca, doh.cleanbrowsing.org, doh.post-factum.tk, doh.linuxsec.org, doh.tiar.app, jp.tiar.app, doh.appliedprivacy.net, doh.bortzmeyer.fr, doh.chewbacca.meganerd.nl, doh.powerdns.org}
+We received responses from most resolvers that we queried.  \Fref{tab:errors}
+shows the most common errors we received from attempting to communicate with
+the resolvers.  The most common errors from unavailable resolvers were related
+to a failure to establish a TCP connection and a TLS session.  It is likely
+that in many of these cases, the resolver itself was simply no longer
+operational; additional longitudinal measurements could confirm this
+hypothesis.  We did not receive a response from eleven resolvers:
+\texttt{dns1.dnscrypt.ca, dns2.dnscrypt.ca, doh.cleanbrowsing.org,
+doh.post-factum.tk, doh.linuxsec.org, doh.tiar.app, jp.tiar.app,
+doh.appliedprivacy.net, doh.bortzmeyer.fr, doh.chewbacca.meganerd.nl,
+doh.powerdns.org}. However, we only performed measurements at a single point
+in time, and thus we lack enough measurements to draw general conclusions
+about the availability of these resolvers. Future work could extend this work
+to perform longitudinal measurements of availability of these
+resolvers.\footnote{To
+enable follow-up work, we plan to release our measurement framework and data upon
+publication of this work.}
+
 
 \begin{figure}[t!]
 \hspace*{-1in}
@@ -76,25 +86,31 @@ We never received a successful DoH response from the following resolvers: \textt
 \subfigure[Europe.]{%
 \label{fig:Ohio_Europe}%
 \includegraphics[width=0.32\linewidth]{figures/Ohio_Europe.pdf}}%
-    \caption{Resolvers measured from a vantage point in the United States (Ohio).}
+    \caption{The DNS response time and ICMP ping time distributions for
+    encrypted DNS resolvers measured from a vantage point in the United States
+    (Ohio), sorted by median DNS response time. Mainstream resolvers are shown in boldface across all three
+    sub-figures for comparison.}
 \end{minipage}
 \end{figure}
 
 \subsection{\mbox{How Do Non-Mainstream Resolvers Perform?}}
 
 Given the large number of non-mainstream resolvers, we aimed to study how
-the performance of these encrypted DNS resolvers to mainstream ones.
+the performance of these encrypted DNS resolvers compared to mainstream ones.
 In most cases, as expected, mainstream resolvers outperformed non-mainstream resolvers.
 Non-mainstream resolvers also exhibited higher variability of 
 median query response times.  
 From North America, we observe that aside from the top five resolvers,
 median query response times ranged from 
 60 ms to 323 ms. From Asia, median response times outside
-of the top five ranged from 114 ms to 31607 ms. We observe more
+of the top five were extremely variable, ranging from 114 ms to 31.6 seconds. 
+While the slowest resolver in Asia as measured from Asia was extremely slow,
+the second-slowest resolver also exhibited slow performance, with a median
+response time of about one second.
+We observe more
 consistent performance from the Frankfurt vantage point, but we still
 see median query response times outside the top five range from 19 ms to
 156 ms.
-\AH{The performance of the slowest Asia-to-Asia measurement seems like an anomaly. The next-slowest resolver has a median response time of ~1,000 ms. I feel like we should say something about this observation.}
 
 In some cases, however, a particular non-mainstream resolver would outperform
 the mainstream DoH resolvers.  As expected, \texttt{dns.quad9.net},
@@ -122,7 +138,10 @@ Seoul, \texttt{doh-jp.blahdns.com} and \texttt{ordns.he.net} outperforms \texttt
 \subfigure[Europe.]{%
 \label{fig:Seoul_Europe}%
 \includegraphics[width=0.32\linewidth]{figures/Seoul_Europe.pdf}}%
-\caption{Resolvers measured from a vantage point in Seoul, South Korea.}
+    \caption{The DNS response time and ICMP ping time distributions for
+    encrypted DNS resolvers measured from a vantage point in Asia (Seoul, South
+    Korea). Mainstream resolvers are shown in boldface across all three
+    sub-figures for comparison.}
 \end{minipage}
 \end{figure}
 
@@ -159,7 +178,10 @@ Europe            & \begin{tabular}[c]{@{}l@{}}ordns.he.net\\ dns-family.adguard
 \subfigure[Europe (Local).]{%
 \label{fig:Frankfurt_Europe}%
 \includegraphics[width=0.32\linewidth]{figures/Frankfurt_Europe.pdf}}%
-\caption{Resolvers measured from a vantage point in Frankfurt, Germany.}
+    \caption{The DNS response time and ICMP ping time distributions for
+    encrypted DNS resolvers measured from a vantage point in Europe (Frankfurt,
+    Germany). Mainstream resolvers are shown in boldface across all three
+    sub-figures for comparison.}
 \end{minipage}
 \end{figure}
 
@@ -178,7 +200,7 @@ public.dns.iij.jp                           & 206.37                            
 doh-sg.blahdns                              & 221.41                                           & 498.76                              \\
 \bottomrule
 \end{tabular}
-\caption{Median DNS response times for non-conventional resolvers located in Asia.}
+\caption{Median DNS response times for non-mainstream resolvers located in Asia.}
 \label{tab:UnconvAsia}
 \end{table}
 
@@ -196,7 +218,7 @@ dnsforge.de                                 & 32.17 & 1,029.92                  
 dns-doh.dnsforfamily                        & 153.74 & 1,153.29                         \\
 \bottomrule
 \end{tabular}
-\caption{Median DNS response times for non-conventional resolvers located in Europe.}
+\caption{Median DNS response times for non-mainstream resolvers located in Europe.}
 \label{tab:UnconvEur}
 \end{table}
 
