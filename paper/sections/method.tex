@@ -65,7 +65,7 @@ scraped from a list of public DoH resolvers provided by the \texttt{DNSCrypt}
 protocol developers~\cite{dnscrypt-public-resolvers}.  Previous work has
 largely studied major DNS providers in use by web browsers; by contrast, we
 attempt to better understand the performance of the larger DoH
-ecosystem~\cite{hounsel2020comparing,hounsel2021can}.
+ecosystem~\cite{hounsel2020comparing,hounsel2021can,borgolte2019dns}.
 
 We issued queries for two domains to each resolver: \texttt{google.com} and
 \texttt{netflix.com}.  We chose these domains based on their popularity, but
@@ -82,14 +82,16 @@ the performance of the DoH ecosystem from each of our three vantage points:
             response.  \item Repeat this process continuously.
 \end{enumerate}
 
-\paragraph{Limitations.} Our work has certain limitations which may affect our
-results.  First, we do not measure web page load times.  This would have
-enabled us to better understand how these resolvers interact with and affect
-users.  DNS response time still shows us resolver performance, though.
-Second, we only measure three domain names.  However, since we collect DNS
-response time measurements and not page load time measurements, we do not
-expect performance trends to change with more domains.  Finally, we performed
-measurements from Amazon EC2 instances, which are located in data centers.
-Although this means that we were unable to collect data from different
-settings, such as home networks, Amazon EC2 allowed us to collect data from
-three global vantage points. 
+\paragraph{Limitations.} Our work has certain limitations that may affect our
+results.  First, we do not measure how encrypted DNS affects application
+performance, such as web page load time. Ultimately, an assessment of the
+effects of encrypted DNS performance on application performance, including web
+page load time, across the full set of encrypted DNS resolvers, could provide
+a more comprehensive understanding of the effects of encrypted DNS on
+application performance.  Another potential limitation of our work is that we
+perform measurements exclusively from Amazon EC2 instances, which are located
+in data centers. Future work could explore similar measurements from a wider
+variety of access networks, including cellular networks and broadband access
+networks.  Finally, although we do not expect it to affect conclusions, it may
+be informative to perform measurements from a larger set domain names; our
+measurements perform DNS lookups to just two domain names.
