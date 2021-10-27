@@ -275,6 +275,27 @@ median response times of non-mainstream resolvers in Europe are much lower when
 measured from Frankfurt than the response times of those same resolvers
 measured from Seoul.
 
+\begin{figure*}
+    \subfigure[Ohio (Local).]{%
+        \label{fig:Ohio_ping_qrt_scatter}
+        \includegraphics[width=0.3\linewidth]{figures/Ohio_ping_qrt_scatter.pdf}
+    }
+    \hfill
+    \subfigure[Seoul (Local).]{%
+        \label{fig:Seoul_ping_qrt_scatter}
+        \includegraphics[width=0.3\linewidth]{figures/Seoul_ping_qrt_scatter.pdf}
+    }
+    \hfill
+    \subfigure[Frankfurt (Local).]{%
+        \label{fig:Frankfurt_ping_qrt_scatter}
+        \includegraphics[width=0.3\linewidth]{figures/Frankfurt_ping_qrt_scatter.pdf}
+    }
+    \label{fig:ping_qrt_scatters}
+    \caption{Scatter plots of median ICMP ping latency vs. DoH query response times from each vantage point.}
+\end{figure*}
+
+\Fref{fig:ping_qrt_scatters} compared median ICMP ping latencies to median 
+query response times for each resolver.
 Higher network latency naturally translates to higher DNS response
 times (as encrypted DNS queries do require several network round trips):
 absent connection re-use, a DoH lookup will require at least three network
@@ -284,6 +305,11 @@ DNS query and response. {\tt libcurl} uses TLS 1.3 when available on the
 server, and otherwise falls back to TLS 1.2, which requires an additional
 network round trip. Thus, we can expect that ``normal'' DoH lookup times would
 be on the order of 3--4 times the network latency.
+We note that for clarity, two resolvers--\texttt{doh.this.web.id} and 
+\texttt{dns.twnic.tw}--are not shown on~\Fref{fig:Seoul_ping_qrt_scatter} 
+because their median query response times are greater than 1,000 ms.
+For reference, the next slowest resolver from Seoul has a median query response 
+time of 456 ms.
 
 In some cases, certain resolvers performed worse than might
 be expected as a result of the latency from the vantage point to the
