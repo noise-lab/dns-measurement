@@ -80,7 +80,7 @@ for DoT and DoH can be \emph{faster} than DNS on lossy networks.  Lu et al.
 utilized residential TCP SOCKS networks to measure response times from 166
 countries and found that, in the median case with connection re-use, DoT and
 DoH were slower than conventional DNS over TCP by 9 ms and 6 ms,
-respectively~\cite{lu2019end}.
+respectively~\cite{lu2019end-to-end}.
 In contrast to previous work, our focus in this paper is not to measure the
 DoH protocol itself or its relative performance to unencrypted DNS; instead,
 our goal is to compare the performance of encrypted DNS resolvers {\em to
@@ -95,7 +95,7 @@ DNS traffic~\cite{foremski2019dns-observatory}.  Moura et
 al.~\cite{moura2020clouding} measured DNS requests to two country code
 top-level domains (ccTLD) and found that five large cloud providers being
 responsible for over 30\% of all queries for the ccTLDs of the Netherlands and
-New Zealand.  Hoang et al.~\cite{hoang2020kresolver} developed K-resolver,
+New Zealand.  Hoang et al.~\cite{KResolver} developed K-resolver,
 which distributes queries over multiple DoH recursive resolvers, so that no
 single resolver can build a complete profile of the user and each recursive
 resolver only learns a subset of domains the user resolved.  Hounsel et al.
