@@ -58,7 +58,7 @@ Europe            & \begin{tabular}[c]{@{}l@{}}doh.bortzmeyer\\ doh.appliedpriva
 
 We first aimed to study the availability of encrypted DNS
 resolvers. 
-We received responses from most resolvers that we queried.  \Fref{tab:errors}
+We received responses from most resolvers that we queried.  Table~\ref{tab:errors}
 shows the most common errors we received from attempting to communicate with
 the resolvers.\footnote{Due to a bug, we did not record one rare error type.}
 The most common errors from unavailable resolvers were related
@@ -93,8 +93,8 @@ publication of this work.}
 \includegraphics[width=0.32\linewidth]{figures/Ohio_Europe.pdf}}%
     \caption{The DNS response time and ICMP ping time distributions for
     encrypted DNS resolvers measured from a vantage point in the United States
-    (Ohio), sorted by median DNS response time. Mainstream resolvers are shown in boldface across all three
-    sub-figures for comparison.}
+    (Ohio). Mainstream resolvers are shown in boldface across all three
+    sub-figures.}
 \label{fig:dns-us}
 \end{minipage}
 \end{figure}
@@ -171,10 +171,11 @@ Seoul, \texttt{doh-jp.blahdns.com} and \texttt{ordns.he.net} outperforms \texttt
     \caption{The DNS response time and ICMP ping time distributions for
     encrypted DNS resolvers measured from a vantage point in Asia (Seoul, South
     Korea). Mainstream resolvers are shown in boldface across all three
-    sub-figures for comparison.}
+    sub-figures.}
 \label{fig:dns-asia}
 \end{minipage}
 \end{figure}
+
 
 \if 0
 \begin{table}[t!]
@@ -210,14 +211,11 @@ Europe            & \begin{tabular}[c]{@{}l@{}}ordns.he.net\\ dns-family.adguard
 \label{fig:Frankfurt_Europe}%
 \includegraphics[width=0.32\linewidth]{figures/Frankfurt_Europe.pdf}}%
     \caption{The DNS response time and ICMP ping time distributions for
-    encrypted DNS resolvers measured from a vantage point in Europe (Frankfurt,
-    Germany). Mainstream resolvers are shown in boldface across all three
-    sub-figures for comparison.}
+    encrypted DNS resolvers measured from a vantage point in Europe (Germany). Mainstream resolvers are shown in boldface across all three
+    sub-figures.}
 \label{fig:dns-europe}
 \end{minipage}
 \end{figure}
-
-\subsection{Does Latency to Resolver Correlate with Performance?}
 
 \begin{table}[t!]
 \hspace*{-0.75in}
@@ -265,6 +263,9 @@ dns-doh.dnsforfamily                        & 153.74 & 1,153.29                 
 \end{minipage}
 \end{table}
 
+
+
+
 Tables~\ref{tab:UnconvAsia} and~\ref{tab:UnconvEur} show median DNS response
 times for resolvers that exhibit the highest median DNS response times when
 queried from a remote vantage point (queries of resolvers in Asia from Europe,
@@ -275,6 +276,22 @@ Frankfurt.  Similarly, as expected, Table~\ref{tab:UnconvEur} shows that the
 median response times of non-mainstream resolvers in Europe are much lower when
 measured from Frankfurt than the response times of those same resolvers
 measured from Seoul.
+
+\subsection{Does Latency to Resolver Correlate with Performance?}
+
+Figure~\ref{fig:ping_qrt_scatters} compares median ICMP ping latencies to median 
+query response times for each resolver.
+Higher network latency naturally translates to higher DNS response
+times (as encrypted DNS queries do require several network round trips):
+absent connection re-use, a DoH lookup will require at least three network
+round trips: one for the TCP three-way handshake, one for the TLS handshake
+(piggybacked on the third part of the three-way handshake), and one for the
+DNS query and response. {\tt libcurl} uses TLS 1.3 when available on the
+server, and otherwise falls back to an older version (e.g., TLS 1.2), which requires an additional
+network round trip.
+It also attempts to use HTTP/2, falling back to an older version when necessary.
+Thus, we can expect that ``normal'' DoH lookup times would
+be about 3--4 times the network latency.
 
 \begin{figure*}[t]
     \hspace*{-0.75in}
@@ -299,19 +316,7 @@ measured from Seoul.
     \end{minipage}
 \end{figure*}
 
-\Fref{fig:ping_qrt_scatters} compares median ICMP ping latencies to median 
-query response times for each resolver.
-Higher network latency naturally translates to higher DNS response
-times (as encrypted DNS queries do require several network round trips):
-absent connection re-use, a DoH lookup will require at least three network
-round trips: one for the TCP three-way handshake, one for the TLS handshake
-(piggybacked on the third part of the three-way handshake), and one for the
-DNS query and response. {\tt libcurl} uses TLS 1.3 when available on the
-server, and otherwise falls back to an older version (e.g., TLS 1.2), which requires an additional
-network round trip.
-It also attempts to use HTTP/2, falling back to an older version when necessary.
-Thus, we can expect that ``normal'' DoH lookup times would
-be about 3--4 times the network latency.
+
 
 In some cases, certain resolvers performed worse than might
 be expected as a result of the latency from the vantage point to the
@@ -333,8 +338,8 @@ times that are less than 3--4 times the median network latency to these resolver
 We hypothesize that this could be attributed to anomalous ICMP ping data and
 network optimizations that enable DoH queries to be completed in fewer
 round-trips.
-We also note that two resolvers--\texttt{doh.this.web.id} and
-\texttt{dns.twnic.tw}--are not shown on~\Fref{fig:Seoul_ping_qrt_scatter}
+Two resolvers---\texttt{doh.this.web.id} and
+\texttt{dns.twnic.tw}---are not shown in Figure~\ref{fig:Seoul_ping_qrt_scatter}
 because their median query response times are greater than 1,000 ms.
 For reference, the next slowest resolver from Seoul has a median query response
 time of 456~ms.
