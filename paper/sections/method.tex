@@ -25,12 +25,17 @@ response.  To measure query response times with various DoH resolvers, we
 extended the open-source DNS measurement tool developed by Hounsel et
 al.~\cite{hounsel2020comparing} The tool enables researchers to issue
 traditional DNS, DoT, and DoH queries.  It utilizes the \texttt{getdns}
-library for traditional DNS and DoT, and \texttt{libcurl} for DoH.  For each
-DoH resolver, the tool establishes a TCP connection and an HTTPS session,
+library for traditional DNS and DoT, and \texttt{libcurl} for DoH.
+
+For each DoH resolver, the tool establishes a TCP connection and an HTTPS session,
 encodes a DoH query, sends the query to the DoH resolver, and reports the
 response time to the client.  Importantly, the tool includes the time it took
 to establish a TCP connection and an HTTPS session in query response times.
-\AH{Verify the previous sentence}
+We note that \texttt{libcurl} attempts to utilize TLS 1.3 when a recursive
+resolver supports it, and otherwise falls back to an older version
+(e.g., TLS 1.2).
+It also attempts to utilize HTTP/2, falling back to an older version when a
+recursive resolver does not support it.
 
 We modified the tool to support continuous DoH response time measurements
 across multiple days.  We also modified the tool to enable clients to provide
