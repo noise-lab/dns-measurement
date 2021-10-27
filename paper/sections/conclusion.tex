@@ -1,24 +1,27 @@
 \section{Conclusion}\label{sec:conclusion}
 
-In this work, we investigated the DNS response of times of a set of global DoH
-resolvers from different vantage points.  We find that although most
-lesser-known resolvers have higher response times than well-known resolvers, a
-select group of lesser-known resolvers had close response times, or even lower
-response times, to well-known resolvers.  Additionally, we find a wide
-distribution of response times between resolvers despite their close proximity
-to one another. Our results suggest that while clients may generally expect the 
-best DoH query response times with current major resolvers, they may also use 
-certain less-popular resolvers within their geographic region. They also 
-suggest that any resolver that is not majorly deployed is not useful if it 
-is outside of one's region.
+The increased deployment of encrypted DNS, including DNS-over-HTTPS~(DoH) has
+been accompanied both with ``mainstream'' DoH deployments in major browser
+vendors, as well as a much broader deployment of encrypted DNS servers around
+the world that are not among the common choices for resolvers in major
+browsers.  Understanding the viability of this larger set of encrypted DNS
+resolvers is important, particularly given that a lack of diversity of viable
+resolvers potentially could create new privacy concerns, if only a small
+number of organizations provided good performance. We find that many
+non-mainstream resolvers have higher median response times than mainstream
+ones, particularly if the resolvers are not local to the region; in contrast,
+most mainstream resolvers appear to be replicated and provide better response
+times across different geographic regions. Some non-mainstream resolvers
+exhibit particularly poor performance, exceeding four times the network
+round-trip latency between the client and resolver. In some cases, however, a
+local non-mainstream resolver can exhibit equivalent performance as compared
+mainstream resolvers (\eg, {\tt doh.mullvad.net} in North America, {\tt
+dns.alldns.com} in Europe, and {\tt doh.libredns.gr} in Europe). These results
+suggest both good news and room for improvement in the future: On the one
+hand, viable alternatives to mainstream encrypted DNS resolvers do exist.  On
+the other hand, users need easy ways of finding and selecting these
+alternatives, whose availability and performance may be more variable over
+time than mainstream resolvers. It is also clear that there is an opportunity
+to invest in deploying and maintaining reliable, performant, global encrypted
+DNS infrastructure operated by a greater diversity of organizations.
 
-Previous work suggests DoH response times may not greatly matter for certain applications, such as web browsers.
-Hounsel et al. found that while DoH response times were generally higher than traditional DNS, page load times were comparable~\cite{hounsel2020comparing}.
-These measurements were performed with major DoH resolvers--namely Cloudflare, Google, and Quad9--but the results should generalize.
-DoH connections based on HTTP/2 and above may utilize asynchronous queries, enabling the browser to send multiple DoH queries.
-In short, if applications enable DoH queires to be asynchronously issued, and TCP/TLS sessions are re-used with long timeouts, then higher DNS response times from non-mainstream resolvers witin a client's geographic region may not matter.
-Future work could measure page load times alongside DNS response times.  This
-would provide greater insight into how user experience is directly impacted by
-resolver performance.  Measurements of DoT resolvers could also be collected
-to compare with DoH resolvers and understand if both are impacted by network
-distance in the same way. 
