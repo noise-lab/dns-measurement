@@ -15,11 +15,11 @@ enables on-path eavesdroppers to intercept queries and manipulate responses.
 \paragraph{Encrypted DNS.}
 Protocols for encrypting DNS traffic have been proposed, standardized, and
 deployed in recent years, including DNS-over-HTTPS (DoH) and DNS-over-TLS
-(DoT).  Hu et al. proposed DoT in 2016 to address the eavesdropping and
-tampering of DNS queries~\cite{hu2016DoT}.  It uses a dedicated port (853)
+(DoT).  Zhu et al. proposed DoT in 2016 to address the eavesdropping and
+tampering of DNS queries~\cite{zhu2015connection}.  It uses a dedicated port (853)
 to communicate with resolvers over a TLS connection.  In contrast,
 DoH---proposed by Hoffman et al. in 2018---establishes HTTPS sessions with
-resolvers over port 443~\cite{hoffman2018DoH}.  This design decision enables
+resolvers over port 443~\cite{rfc8484}.  This design decision enables
 DoH traffic to use HTTPS as a transport, facilitating deployment as well as
 making it difficult for network operators and eavesdroppers to intercept DNS
 queries and responses~\cite{boettger2019empirical}. DoH can function in many
@@ -95,7 +95,7 @@ DNS traffic~\cite{foremski2019dns-observatory}.  Moura et
 al.~\cite{moura2020clouding} measured DNS requests to two country code
 top-level domains (ccTLD) and found that five large cloud providers being
 responsible for over 30\% of all queries for the ccTLDs of the Netherlands and
-New Zealand.  Hoang et al.~\cite{KResolver} developed K-resolver,
+New Zealand.  Hoang et al.~\cite{hoang2020k} developed K-resolver,
 which distributes queries over multiple DoH recursive resolvers, so that no
 single resolver can build a complete profile of the user and each recursive
 resolver only learns a subset of domains the user resolved.  Hounsel et al.
