@@ -62,7 +62,9 @@ maintained on public lists were operating reliably.
 
 We received responses from most resolvers that we queried.  \Fref{tab:errors}
 shows the most common errors we received from attempting to communicate with
-the resolvers.  The most common errors from unavailable resolvers were related
+the resolvers.\footnote{Due to a bug in our code, we were unable to record how 
+often one particular error occurred.}
+The most common errors from unavailable resolvers were related
 to a failure to establish a TCP connection and a TLS session.  It is likely
 that in many of these cases, the resolver itself was simply no longer
 operational; additional longitudinal measurements could confirm this
