@@ -275,7 +275,9 @@ median response times of non-mainstream resolvers in Europe are much lower when
 measured from Frankfurt than the response times of those same resolvers
 measured from Seoul.
 
-\begin{figure*}
+\begin{figure*}[t]
+    \hspace*{-0.75in}
+    \begin{minipage}{1.35\linewidth}
     \subfigure[Ohio (Local).]{%
         \label{fig:Ohio_ping_qrt_scatter}
         \includegraphics[width=0.3\linewidth]{figures/Ohio_ping_qrt_scatter.pdf}
@@ -290,11 +292,14 @@ measured from Seoul.
         \label{fig:Frankfurt_ping_qrt_scatter}
         \includegraphics[width=0.3\linewidth]{figures/Frankfurt_ping_qrt_scatter.pdf}
     }
-    \caption{Scatter plots of median ICMP ping latency vs. DoH query response times from each vantage point.}
+    \caption{Median DoH query response times vs. median round-trip network
+    latency for each local DoH resolver, from each vantage point.}
     \label{fig:ping_qrt_scatters}
+    \end{minipage}
 \end{figure*}
 
 \Fref{fig:ping_qrt_scatters} compares median ICMP ping latencies to median 
+
 query response times for each resolver.
 Higher network latency naturally translates to higher DNS response
 times (as encrypted DNS queries do require several network round trips):
