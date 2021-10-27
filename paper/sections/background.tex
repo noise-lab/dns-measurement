@@ -8,7 +8,7 @@ work on measuring encrypted DNS.
 
 The Domain Name System (DNS) translates human-readable domain names into
 Internet Protocol (IP) addresses, which are used to route
-traffic~\cite{dns-rfcs}.  These queries have typically been unencrypted, which
+traffic~\cite{rfc1035}.  These queries have typically been unencrypted, which
 enables on-path eavesdroppers to intercept queries and manipulate responses.
 
 
@@ -47,13 +47,13 @@ paper.
 
 \paragraph{Status of browser DoH deployments.}
 Most major browsers currently support DoH, including Brave, Chrome, Edge,
-Firefox, Opera, and Vivaldi.  Operating systems have also announced
+Firefox, Opera, and Vivaldi. Operating systems have also announced
 plans to implement DoH, including iOS, MacOS, and
 Windows~\cite{ffSettings,operaEdgeSettings,vivaldiSettings,iosSettings,jensen2020windows}.
 In this paper, we focus on DoH because it is more widely deployed
 than DoT.  Each of these browsers and operating systems either
-currently support or have announced support for DoH (but not
-DoT)~\cite{lack-of-dot-support}.
+currently support or have announced support for DoH (but, to our knowledge, not
+DoT).
 
 \subsection{Related Work}
 
@@ -101,7 +101,7 @@ single resolver can build a complete profile of the user and each recursive
 resolver only learns a subset of domains the user resolved.  Hounsel et al.
 also evaluate the performance of various query distribution strategies and
 study how these strategies affect the amount of queries seen by individual
-resolvers~\cite{hounsel2021multi}.
+resolvers~\cite{hounsel2021encryption}.
 This line of research complements our work---these previous studies in many
 ways motivate an enable the use of multiple encrypted DNS resolvers, but
 designing a system to take advantage of multiple recursive resolvers must be
