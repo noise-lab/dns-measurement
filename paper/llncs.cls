@@ -352,7 +352,7 @@
                        {-0.5em \@plus -0.22em \@minus -0.1em}%
                        {\normalfont\normalsize\bfseries\boldmath}}
 \renewcommand\paragraph{\@startsection{paragraph}{4}{\z@}%
-                       {-6\p@ \@plus -4\p@ \@minus -4\p@}%
+                       {-2\p@ \@plus -4\p@ \@minus -4\p@}%
                        {-0.5em \@plus -0.22em \@minus -0.1em}%
                        {\normalfont\textbf}}
 \renewcommand\subparagraph[1]{\typeout{LLNCS warning: You should not use
@@ -863,7 +863,7 @@ to0pt{\kern0.55\wd0\vrule height0.45\ht0\hss}\box0}}}}
  \else
    \xdef\fnnstart{\c@@inst}%
    \setcounter{@inst}{1}%
-   \noindent$^{\the@inst}$\enspace
+   \noindent$^{\the@inst}$%\enspace
  \fi
  \ignorespaces
  \@institute\par
