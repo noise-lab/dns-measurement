@@ -99,6 +99,8 @@ application performance.  Another potential limitation of our work is that we
 perform measurements exclusively from Amazon EC2 instances, which are located
 in data centers. Future work could explore similar measurements from a wider
 variety of access networks, including cellular networks and broadband access
-networks.  Finally, although we do not expect it to affect conclusions, it may
+networks.  Furthermore, although we do not expect it to affect conclusions, it may
 be informative to perform measurements from a larger set domain names; our
 measurements perform DNS lookups to just two domain names.
+Lastly, since DoH can re-use TCP connections and TLS sessions, future work 
+should report connection setup times separately.
