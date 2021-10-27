@@ -1,17 +1,14 @@
 \section{Method}\label{sec:method} In this section, we describe the metrics
 used, how these metrics are measured, and our experiment setup.
 
-\subsection{Metrics} To understand how non-mainstream DoH resolvers perform
-compared to mainstream resolvers, we measure DNS query response times and
-latency to these resolvers from multiple global vantage points.  We also study
-how many publicly available DoH resolvers are still online.
+\subsection{Metrics} 
 
-\paragraph{Availability.} We are also interested in determining which DoH
+\paragraph{Availability.} We are interested in determining which DoH
 resolvers are still active and responding to queries.  We define a resolver as
 unresponsive from a given vantage point if we fail to receive \emph{any}
 response to the queries issued from a particular server.
 
-\paragraph{Latency.} To augment our query response time measurements, we
+\paragraph{Latency.} We
 performed network latency measurements for each recursive resolver.  Each time
 we issued a set of DoH queries to a resolver, we also issued four ICMP ping
 messages and computed the average round-trip time.  This enabled us to explore
@@ -62,7 +59,7 @@ measurements from multiple global vantage points to understand how DoH
 performance varies not only by which resolver is used, but also which
 geographic region the client is located in.  Each server utilized 16 GB of RAM
 and 4 virtual CPU cores (the \texttt{t2.xlarge} instance type), and they each
-used Debian 10 as their operating system~\cite{amazon_ec2_instance_types}.
+used Debian 10~\cite{amazon_ec2_instance_types}.
 
 \paragraph{Resolvers and Domain Names.} \Fref{sec:resolvers} lists each of 
 the DoH resolvers we measured.  These resolvers were

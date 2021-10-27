@@ -62,8 +62,7 @@ maintained on public lists were operating reliably.
 
 We received responses from most resolvers that we queried.  \Fref{tab:errors}
 shows the most common errors we received from attempting to communicate with
-the resolvers.\footnote{Due to a bug in our code, we were unable to record how 
-often one particular error occurred.}
+the resolvers.\footnote{Due to a bug, we did not record one rare error type.}
 The most common errors from unavailable resolvers were related
 to a failure to establish a TCP connection and a TLS session.  It is likely
 that in many of these cases, the resolver itself was simply no longer
@@ -76,8 +75,7 @@ doh.powerdns.org}. However, we only performed measurements at a single point
 in time, and thus we lack enough measurements to draw general conclusions
 about the availability of these resolvers. Future work could extend this work
 to perform longitudinal measurements of availability of these
-resolvers.\footnote{To
-enable follow-up work, we plan to release our measurement framework and data upon
+resolvers.\footnote{We will release our measurement framework and data upon
 publication of this work.}
 
 
