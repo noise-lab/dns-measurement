@@ -127,6 +127,12 @@ int dns_dot(bool dns_over_tls, char *resolver, char *domains[], uint16_t domains
 		goto failure_getdns;
 	}
 
+	r = getdns_context_set_resolution_type(context, GETDNS_RESOLUTION_STUB);
+	if(GETDNS_RETURN_GOOD != r) {
+		fprintf(stderr, "Error setting resolution type\n");
+		goto failure_getdns;
+	}
+
 	r = getdns_context_set_upstream_recursive_servers(context, upstream_list);
 	if(GETDNS_RETURN_GOOD != r) {
 		fprintf(stderr, "Error setting upstream resolvers\n");
