@@ -175,9 +175,6 @@ int dns_dot(bool dns_over_tls, char *resolver, char *domains[], uint16_t domains
 		goto failure_getdns;
 	}
 
-	char* info = getdns_pretty_print_dict(getdns_context_get_api_information(context));
-	printf("%s\n", info);
-
 	for(uint16_t i = 0; i < domains_count; ++i) {
 		getdns_transaction_t txid;
 
