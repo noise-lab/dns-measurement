@@ -145,27 +145,26 @@ int main(int argc, char* argv[]) {
 
 	struct timespec time_start;
 	clock_gettime(CLOCK_MONOTONIC_RAW, &time_start);
-	switch(protocol) {
-		case Do53:
-			r = dns_dot(false, recursor_arg_filename, domains, domains_count);
-			break;
-		case Do53sync:
-			r = dns_dot_sync(false, recursor_arg_filename, domains, domains_count);
-			break;
-		case DoT:
-			r = dns_dot(true, recursor_arg_filename, domains, domains_count);
-			break;
-		case DoH:
-			for (i=0;i<recursors_count;i++) /* Run the timing for each resolver in file (Ranya) */
-			{
-				/* Print name of resolver (Ranya) */
-				r = doh(recursors[i], domains, domains_count);
-			}
-			break;
-		default:
-			/* This should be unreachable */
-			fprintf(stderr, "Invalid protocol type %d\n", protocol);
-			exit(EXIT_FAILURE);
+
+	for (i=0;i<recursors_count;i++) { /* Run the timing for each resolver in file (Ranya) */
+	        switch(protocol) {
+	        	case Do53:
+	        		r = dns_dot(false, recursors[i], domains, domains_count);
+	        		break;
+	        	case Do53sync:
+	        		r = dns_dot_sync(false, recursors[i], domains, domains_count);
+	        		break;
+	        	case DoT:
+	        		r = dns_dot(true, recursors[i], domains, domains_count);
+	        		break;
+	        	case DoH:
+	        		r = doh(recursors[i], domains, domains_count);
+	        		break;
+	        	default:
+	        		/* This should be unreachable */
+	        		fprintf(stderr, "Invalid protocol type %d\n", protocol);
+	        		exit(EXIT_FAILURE);
+	        }
 	}
 	print_ok("total_run_time", nanosec_since(time_start), 0);
 

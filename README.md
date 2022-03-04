@@ -22,8 +22,9 @@ You will also need to install the following dependencies:
 * libcurl4-openssl-dev
 * libssl-dev
 * libev4, libev-dev
-* libevent-2.1.6, libevent-core-2.1.6, libevent-openssl-2.1.6, libevent-dev
+* libevent-2.1-7, libevent-core-2.1-7, libevent-openssl-2.1-7, libevent-dev
 * libuv1
+* libgetdns10, libgetdns-dev
 
 To instrument the Docker image to measure page loads, parse the resulting HARs,
 and insert the HARs into a PostgreSQL database, you will need to install the
