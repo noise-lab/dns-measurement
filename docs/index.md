@@ -46,7 +46,7 @@ experience.
 
 ### Talks
 
-- [IRTF MAPRG](../talks/doh-measurements-2022.pptx)
+- [IRTF MAPRG](talks/doh-measurements-2022.pptx)
 
 ### Funding
 
