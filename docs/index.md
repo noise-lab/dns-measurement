@@ -48,6 +48,12 @@ experience.
 
 - [IRTF MAPRG](talks/20220729-maprg/doh-measurements-2022.pdf)
 
+### People
+
+- [Ranya Sharma](https://www.ranyasharma.com/)
+- [Nick Feamster](https://people.cs.uchicago.edu/~feamster/)
+- [Austin Hounsel](https://github.com/ahounsel)
+
 ### Funding
 
 This project is supported by National Science Foundation Award #2155128.
