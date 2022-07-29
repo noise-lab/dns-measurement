@@ -1,0 +1,98 @@
+\section{Introduction}\label{sec:intro}
+
+The Domain Name System (DNS) is a critical component of the Internet's
+infrastructure that translates human-readable domain names (\eg,
+\texttt{google.com}) into Internet Protocol (IP) addresses~\cite{rfc1035}.
+Most Internet communications begin with a client device sending DNS queries to
+a recursive resolver, which in turn queries one or more name servers, which
+ultimately refer the client to a server who can map the domain to an IP
+address.
+The \emph{response times} of these queries---the time 
+to contact a recursive resolver, query various name servers, and return
+the results---is important because the DNS underlies virtually all
+communication on the Internet.  For example, loading a
+web page, a browser must first resolve the domain names for each object on the
+page before the objects themselves can be retrieved and rendered.  Thus, the
+performance of DNS lookup is of utmost importance to application performance
+such as web performance, as slow DNS lookup times will lead to slow web page
+loads.
+
+DNS did not originally take privacy and security into account: DNS queries
+have historically been unencrypted, leaving users susceptible to
+eavesdropping~\cite{schmitt2019:odns:pets}; queries can also be intercepted and
+manipulated~\cite{jones2016detecting}.  To
+address these types of privacy and security vulnerabilities, encrypted DNS
+protocols have been developed and deployed, including DNS-over-HTTPS
+(DoH)~\cite{rfc8484}, which is now deployed---and even enabled by default---in
+many browsers.  DoH enables clients to communicate with recursive resolvers
+over HTTPS, providing privacy and security guarantees that DNS previously
+lacked.
+
+For better or worse, most contemporary deployments of DoH have occurred in
+browsers that provide limited options for
+resolvers~\cite{ffChoices,chromeResolvers}.  Although DoH
+protects against on-path eavesdropping, it does not prevent resolvers
+\emph{themselves} from seeing the contents of DNS queries.  Thus, some have
+argued that browser-based DoH deployments shift privacy concerns from
+eavesdroppers to potential misuse by major DNS providers~\cite{vixie}.
+
+\begin{table}[t]
+    \centering
+    \begin{tabular}{l|cccccc}
+    \hline
+    Browser & Cloudflare & Google & Quad9 & NextDNS & CleanBrowsing & OpenDNS
+    \\
+    \midrule
+    Chrome    & \checkmark & \checkmark & & \checkmark & \checkmark & \checkmark \\
+    Firefox  & \checkmark & & & \checkmark & & \\ 
+    Edge   & \checkmark & \checkmark & \checkmark & \checkmark & \checkmark & \checkmark \\
+    Opera            & \checkmark & \checkmark & & & & \\
+    Brave            & \checkmark & \checkmark & \checkmark & \checkmark & \checkmark & \checkmark \\
+    \bottomrule
+    \end{tabular}
+    \caption{Modern browsers provide only a few choices for encrypted DNS
+    resolver, which we define as {\bf mainstream} resolvers.}
+    \label{tab:SupportedResolvers}
+\end{table}
+
+\Fref{tab:SupportedResolvers} shows the DoH resolvers that have been deployed
+to users of major browsers as of October 20,
+2021~\cite{bravebrowser,edgebrowser,ffbrowser,chromebrowser,operabrowser}.  We
+define the resolvers listed in~\Fref{tab:SupportedResolvers} as {\em
+mainstream}.
+Yet, many other DoH resolvers have been deployed that are currently
+not in use by major browser deployments~\cite{dnscrypt}---in other words,
+there are many non-mainstream DoH resolver deployments.  
+
+Previous studies have measured encrypted DNS performance, but they have mostly focused on mainstream DNS resolvers~\cite{hounsel2020comparing,hounsel2021can,hoang2020k,lu2019end-to-end}.
+In this paper, we expand on these previous studies, exploring the performance
+of all encrypted DNS resolvers---from a variety of global 
+vantage points, as opposed to simply characterizing the mainstream DoH
+providers from well-connected vantage points.
+Towards this goal, we make the following contributions:
+\begin{enumerate}
+    \itemsep=-1pt
+    \item We measure DoH response times a large list of resolvers, including
+        both mainstream DoH resolvers that are included in major browser
+        vendors {\em and} a large collection of non-mainstream resolvers.
+%    \item We study whether users must use a major provider to experience acceptable DoH response times.
+    \item We study how the performance of various DoH resolvers differ based
+        on vantage point.
+\end{enumerate}
+\noindent
+To our knowledge, this paper presents the first study of DoH performance
+measurements for non-mainstream resolvers, as well as the first comparison of
+DoH performance across a variety of vantage points, for a large number of
+resolvers.
+To perform these experiments, we developed and released an open-source
+tool for measuring encrypted DNS performance to replicate and extend these
+results, and to support further research on DoH performance.
+
+The rest of the paper is organized as follows.  Section~\ref{sec:background}
+provides background on DNS, including the origin of encrypted DNS and related
+standards, and discusses related work.  Section~\ref{sec:method} details our research questions, the
+experiments we conducted to study these questions, and the limitations of the
+study.  Section~\ref{sec:results} presents the results of these experiments.
+Section~\ref{sec:conclusion} concludes with a discussion of the implications
+of these results and possible directions for future work. 
+

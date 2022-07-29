@@ -1,0 +1,62 @@
+\documentclass[runningheads]{llncs}
+
+% General
+% -------
+\usepackage[labelfont={small,bf},textfont={small,it},skip=1pt]{caption}
+\usepackage{graphicx}
+\usepackage{booktabs}
+\usepackage{caption}
+\usepackage{tabularx}
+\usepackage{subfigure}
+\usepackage[normalem]{ulem}
+\usepackage{fancyref}
+\usepackage{xcolor}
+\usepackage{float}
+\usepackage{cite}
+\usepackage{amssymb}
+\usepackage[skip=0.1cm]{parskip}
+
+\setlength{\textfloatsep}{0pt}
+%\titlespacing*{\section}{0pt}{1.1\baselineskip}
+
+\useunder{\uline}{\ul}{}
+
+\newcommand{\eg}{{\it e.g.}}
+\newcommand{\ie}{{\it i.e.}}
+\newcommand{\etal}{{\it et al.}}
+\newcommand{\AH}[1]{\textcolor{purple}{[AH: #1]}}
+\newcommand{\xxx}[1]{\textcolor{red}{[#1]}}
+
+
+\pagestyle{plain}
+
+%%%%%%%%%%%%%%%%%%%%  TITLE/AUTHORS  %%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+
+\title{Measuring the Availability and Response Times of Public Encrypted DNS Resolvers}
+\author{}
+\institute{}
+
+%%%%%%%%%%%%%%%%%%%%  START OF DOCUMENT  %%%%%%%%%%%%%%%%%
+
+\maketitle
+
+\begin{sloppypar}
+\input{sections/abstract}
+\input{sections/introduction}
+\input{sections/background}
+\input{sections/method}
+\input{sections/results}
+\label{lastpage}\input{sections/conclusion}
+
+\pagebreak
+\bibliographystyle{splncs04}
+\bibliography{paper}
+
+\input{sections/appendix}
+
+\end{sloppypar}
+\end{document}
+
+%%%%%%%%%%%%%%%%%%%%  END OF DOCUMENT  %%%%%%%%%%%%%%%%%%%%

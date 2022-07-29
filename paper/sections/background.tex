@@ -1,0 +1,135 @@
+\section{Background and Related Work}\label{sec:background}
+
+In this section, we provide background on encrypted DNS protocols, including
+the current deployment status of encrypted DNS, as well as various related
+work on measuring encrypted DNS.
+
+\subsection{Background: Encrypted DNS}
+
+The Domain Name System (DNS) translates human-readable domain names into
+Internet Protocol (IP) addresses, which are used to route
+traffic~\cite{rfc1035}.  These queries have typically been unencrypted, which
+enables on-path eavesdroppers to intercept queries and manipulate responses.
+
+
+\paragraph{Encrypted DNS.}
+Protocols for encrypting DNS traffic have been proposed, standardized, and
+deployed in recent years, including DNS-over-HTTPS (DoH) and DNS-over-TLS
+(DoT).  Zhu et al. proposed DoT in 2016 to address the eavesdropping and
+tampering of DNS queries~\cite{zhu2015connection}.  It uses a dedicated port (853)
+to communicate with resolvers over a TLS connection.  In contrast,
+DoH---proposed by Hoffman et al. in 2018---establishes HTTPS sessions with
+resolvers over port 443~\cite{rfc8484}.  This design decision enables
+DoH traffic to use HTTPS as a transport, facilitating deployment as well as
+making it difficult for network operators and eavesdroppers to intercept DNS
+queries and responses~\cite{boettger2019empirical}. DoH can function in many
+environments where DoT is easily blocked.
+
+\paragraph{Moving the privacy threat.} Encrypting DNS queries and responses hides queries
+from eavesdroppers but the recipient of the queries---the DNS resolver---can
+see the queries~\cite{IEEEfight}. By design, recursive resolvers receive
+queries from clients and typically need to perform additional queries to a
+series of authoritative name servers to resolve domain names.  For these
+resolvers to determine the additional queries they need to perform (or
+determine if the query can be answered from cache), they must be able to see
+the queries that they receive from clients.  Thus, although DoT and DoH make
+it difficult for eavesdroppers along an intermediate network path to see DNS
+traffic, recursive resolvers can still observe (and potentially, log) the
+queries that they receive from clients.  The fact that many mainstream DoH
+providers (e.g., Google) already collect significant information about users
+potentially raises additional privacy concerns and makes it appealing for
+users to have a large number of encrypted DNS resolvers that are reliable and
+perform well. For this reason, users may wish to have more control over the
+recursive resolver that they use to resolve encrypted DNS queries. Having
+a reasonable set of choices that perform well in the first place is thus
+important, and determining whether such a set exists is the focus of this
+paper.
+
+\paragraph{Status of browser DoH deployments.}
+Most major browsers currently support DoH, including Brave, Chrome, Edge,
+Firefox, Opera, and Vivaldi. Operating systems have also announced
+plans to implement DoH, including iOS, MacOS, and
+Windows~\cite{ffSettings,operaEdgeSettings,vivaldiSettings,iosSettings,jensen2020windows}.
+In this paper, we focus on DoH because it is more widely deployed
+than DoT.  Each of these browsers and operating systems either
+currently support or have announced support for DoH (but, to our knowledge, not
+DoT).
+
+\subsection{Related Work}
+
+\paragraph{Previous measurement studies of encrypted DNS.}
+Previous studies have typically measured DoT and DoH response times the
+protocols from the perspective of a few commonly used
+resolvers~\cite{lu2019end-to-end}; in contrast, in this paper, we study a much
+larger set of encrypted DNS resolvers, many of which are not available as
+default options in major browsers.  Zhu et al. proposed DoT to encrypt DNS
+traffic between clients and recursive resolvers~\cite{zhu2015connection}.
+They modeled its performance and found that DoT's overhead can be largely
+eliminated with connection re-use.  Böttger et al. measured the effect of DoT
+and DoH on query response times and page load times from a university
+network~\cite{boettger2019empirical}.  They find that DNS generally
+outperforms DoT in response times, and DoT outperforms DoH.  They also find
+that much of the performance cost for DoT and DoH can be amortized by re-using
+TCP connections and TLS sessions.  Hounsel et al. also measure response times
+and page load times for DNS, DoT, and DoH using Amazon EC2
+instances~\cite{hounsel2020comparing}.  They compare the recursive resolvers
+for Cloudflare, Google, and Quad9 to the local recursive resolvers provided by
+Amazon EC2 from five global vantage points in Ohio, California, Seoul, Sydney,
+and Frankfurt.  They find that despite higher response times, page load times
+for DoT and DoH can be \emph{faster} than DNS on lossy networks.  Lu et al.
+utilized residential TCP SOCKS networks to measure response times from 166
+countries and found that, in the median case with connection re-use, DoT and
+DoH were slower than conventional DNS over TCP by 9 ms and 6 ms,
+respectively~\cite{lu2019end-to-end}.
+In contrast to previous work, our focus in this paper is not to measure the
+DoH protocol itself or its relative performance to unencrypted DNS; instead,
+our goal is to compare the performance of encrypted DNS resolvers {\em to
+each other}, to understand the extent to which this larger set of DNS
+resolvers could be used by clients and applications in different regions.
+
+
+\paragraph{Studies and remedies for the centralization of encrypted DNS.} Other work has studied the centralization
+of the DNS and proposed various techniques to address it.  Foremski et al.
+find that the top 10\% of DNS recursive resolvers serve approximately 50\% of
+DNS traffic~\cite{foremski2019dns-observatory}.  Moura et
+al.~\cite{moura2020clouding} measured DNS requests to two country code
+top-level domains (ccTLD) and found that five large cloud providers being
+responsible for over 30\% of all queries for the ccTLDs of the Netherlands and
+New Zealand.  Hoang et al.~\cite{hoang2020k} developed K-resolver,
+which distributes queries over multiple DoH recursive resolvers, so that no
+single resolver can build a complete profile of the user and each recursive
+resolver only learns a subset of domains the user resolved.  Hounsel et al.
+also evaluate the performance of various query distribution strategies and
+study how these strategies affect the amount of queries seen by individual
+resolvers~\cite{hounsel2021encryption}.
+This line of research complements our work---these previous studies in many
+ways motivate an enable the use of multiple encrypted DNS resolvers, but
+designing a system to take advantage of multiple recursive resolvers must be
+informed about how the choice of resolver affects performance.
+
+
+\paragraph{Other DNS performance studies.} Researchers have also studied how
+DNS performance affects application performance.  Sundaresan et al. used an
+early FCC Measuring Broadband America (MBA) deployment of 4,200 home gateways
+to identify performance bottlenecks for residential broadband
+networks~\cite{sundaresan2013measuring}.  This study found that page load
+times for users in home networks are significantly influenced by slow DNS
+response times.  Allman studied conventional DNS performance from 100
+residences in a neighborhood and found that only 3.6\% of connections were
+blocked on DNS with lookup times greater than either 20 ms or 1\% of the
+application's total transaction time~\cite{allman2020putting}. Otto et al.
+found that the ability of a content delivery network to deliver fast page load
+times to a client could be significantly hindered when clients choosing
+recursive resolvers that are far away from CDN caches~\cite{otto2012content};
+a subsequent proposal, namehelp, proxied DNS queries for CDN-hosted content
+and sent them directly to authoritative servers.  Wang et al. developed WProf,
+a profiling system that analyzes various factors that contribute to page load
+times~\cite{wang2013demystifying}; this study demonstrated that queries for
+uncached domain names at recursive resolvers can account for up to 13\% of the
+critical path delay for page loads.  We do not measure the performance of a
+large number of encrypted DNS resolvers from residential broadband access
+networks in this paper nor do we study the effect of the choice of a broad
+range of encrypted DNS resolvers on page load time, but doing so would be a
+natural direction for future work.  
+
+

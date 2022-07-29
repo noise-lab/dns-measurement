@@ -1,0 +1,27 @@
+\section{Conclusion}\label{sec:conclusion}
+
+The increased deployment of encrypted DNS, including DNS-over-HTTPS~(DoH) has
+been accompanied both with ``mainstream'' DoH deployments in major browser
+vendors, as well as a much broader deployment of encrypted DNS servers around
+the world that are not among the common choices for resolvers in major
+browsers.  Understanding the viability of this larger set of encrypted DNS
+resolvers is important, particularly given that a lack of diversity of viable
+resolvers potentially could create new privacy concerns, if only a small
+number of organizations provided good performance. We find that many
+non-mainstream resolvers have higher median response times than mainstream
+ones, particularly if the resolvers are not local to the region; in contrast,
+most mainstream resolvers appear to be replicated and provide better response
+times across different geographic regions. Some non-mainstream resolvers
+exhibit particularly poor performance, exceeding four times the network
+round-trip latency between the client and resolver. In some cases, however, a
+local non-mainstream resolver can exhibit equivalent performance as compared
+mainstream resolvers (\eg, {\tt ordns.he.net} in North America, {\tt
+dns.alldns.com} in Europe, and {\tt doh.libredns.gr} in Europe). These results
+suggest both good news and room for improvement in the future: On the one
+hand, viable alternatives to mainstream encrypted DNS resolvers do exist.  On
+the other hand, users need easy ways of finding and selecting these
+alternatives, whose availability and performance may be more variable over
+time than mainstream resolvers. It is also clear that there is an opportunity
+to invest in deploying and maintaining reliable, performant, global encrypted
+DNS infrastructure operated by a greater diversity of organizations.
+

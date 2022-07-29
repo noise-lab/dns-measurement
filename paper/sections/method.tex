@@ -1,0 +1,103 @@
+\section{Method}\label{sec:method} In this section, we describe the metrics
+used, how these metrics are measured, and our experiment setup.
+
+\subsection{Metrics} 
+
+\paragraph{Availability.} We are interested in determining which DoH
+resolvers are still active and responding to queries.  We define a resolver as
+unresponsive from a given vantage point if we fail to receive \emph{any}
+response to the queries issued from a particular server.
+
+\paragraph{Latency.} We
+performed network latency measurements for each recursive resolver.  Each time
+we issued a set of DoH queries to a resolver, we also issued four ICMP ping
+messages and computed the average round-trip time.  This enabled us to explore
+whether there was a consistent relationship between high query response times
+and network latency.
+
+
+\paragraph{DNS query response time.} We define DNS query response time as the
+end-to-end time it takes for a client to initiate a query and receive a
+response.  To measure query response times with various DoH resolvers, we
+extended the open-source DNS measurement tool developed by Hounsel et
+al.~\cite{hounsel2020comparing} The tool enables researchers to issue
+traditional DNS, DoT, and DoH queries.  It utilizes the \texttt{getdns}
+library for traditional DNS and DoT, and \texttt{libcurl} for DoH.
+
+For each DoH resolver, the tool establishes a TCP connection and an HTTPS session,
+encodes a DoH query, sends the query to the DoH resolver, and reports the
+response time to the client.  Importantly, the tool includes the time it took
+to establish a TCP connection and an HTTPS session.
+We note that \texttt{libcurl} attempts to utilize TLS 1.3 when a recursive
+resolver supports it, and otherwise falls back to an older version
+(e.g., TLS 1.2).
+It also attempts to utilize HTTP/2, falling back to an older version when a
+recursive resolver does not support it.
+
+We modified the tool to support continuous DoH response time measurements
+across multiple days.  We also modified the tool to enable clients to provide
+a list of DoH resolvers they wish to perform measurements with, preventing
+clients from needing to re-run the executable for each resolver (link
+anonymized for review).  After a set of measurements complete with a list of
+DoH resolvers and domain names, the tool writes the results to a JSON file.
+
+\subsection{Experiment Setup} To provide a comparative assessment of DNS
+performance across DoH resolvers, we perform measurements across 75 DoH
+resolvers, grouped by their geographical locations—17 in North America, 22 in
+Asia, and 36 in Europe~\cite{dnscrypt}.  We performed our measurements between
+October 15--25, 2021.  We also took the four highest
+performing resolvers (\texttt{Google}, \texttt{Cloudflare}, \texttt{Quad9},
+\texttt{Hurricane Electric}) located in North America and measured their
+performance in Europe and Asia to better understand how they compare in
+farther vantage points.  We employed MaxMind's GeoLite2 databases to geolocate
+each DoH resolver~\cite{maxmind}.
+
+\paragraph{Vantage Points.} We performed our measurements from three global
+vantage points through Amazon EC2~\cite{amazon_ec2}.  We deployed one server
+in each of the Ohio, Frankfurt, and Seoul EC2 regions.  We chose to perform
+measurements from multiple global vantage points to understand how DoH
+performance varies not only by which resolver is used, but also which
+geographic region the client is located in.  Each server utilized 16 GB of RAM
+and 4 virtual CPU cores (the \texttt{t2.xlarge} instance type), and they each
+used Debian 10~\cite{amazon_ec2_instance_types}.
+
+\paragraph{Resolvers and Domain Names.} \Fref{sec:resolvers} lists each of 
+the DoH resolvers we measured.  These resolvers were
+scraped from a list of public DoH resolvers provided by the \texttt{DNSCrypt}
+protocol developers~\cite{dnscrypt-public-resolvers}.  Previous work has
+largely studied major DNS providers in use by web browsers; in contrast, we
+measure the performance of a larger set of encrypted DNS resolvers~\cite{hounsel2020comparing,hounsel2021can,hoang2020k,lu2019end-to-end}.
+
+We issued queries for two domains to each resolver: \texttt{google.com} and
+\texttt{netflix.com}.  We chose these domains based on their popularity, but
+other domain names would have likely sufficed.  We do not expect our choice of
+domain names to unfairly skew our performance comparisons between resolvers.
+
+\paragraph{Measurement Procedure.} We performed the following steps to measure
+the performance of each of the encrypted DNS resolvers, from each of our three vantage points:
+\begin{enumerate} 
+%    \item Pass a list of DoH resolvers and domain names to our
+%            modified DoH query response time measurement tool.  
+        \item For each
+            resolver that we aim to measure, establish an HTTPS session and
+            send a DoH query, measuring the query response time for two
+            domain names.
+    \item For each resolver, issue four ICMP ping
+            probes and compute the average round-trip latency. 
+\end{enumerate}
+
+\paragraph{Limitations.} Our work has several limitations.
+First, we do not measure how encrypted DNS affects application
+performance, such as web page load time. Ultimately, an assessment of the
+effects of encrypted DNS performance on application performance, including web
+page load time, across the full set of encrypted DNS resolvers, could provide
+a more comprehensive understanding of the effects of encrypted DNS on
+application performance.  Another potential limitation of our work is that we
+perform measurements exclusively from Amazon EC2 instances, which are located
+in data centers. Future work could explore similar measurements from a wider
+variety of access networks, including cellular networks and broadband access
+networks.  Furthermore, although we do not expect it to affect conclusions, it may
+be informative to perform measurements from a larger set domain names; our
+measurements perform DNS lookups to just two domain names.
+Finally, since DoH can re-use TCP connections and TLS sessions, future work 
+should report connection setup times separately.

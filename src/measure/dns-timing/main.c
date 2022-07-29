@@ -18,7 +18,7 @@ int main(int argc, char* argv[]) {
 	}
 
 	char *protocol_arg = argv[1];
-	char *recursor_arg = argv[2];
+	char *recursor_arg_filename = argv[2];/* File to contain resolvers (Ranya) */
 	char *filename_arg = argv[3];
 
 	enum protocol_t protocol = Do53;
@@ -89,26 +89,82 @@ int main(int argc, char* argv[]) {
 	}
 
 	fclose(file);
+	/* Adding code to  parse through the file of resolvers (Ranya) */
+	FILE *recursor_file = fopen(recursor_arg_filename, "r");
+	if(NULL == recursor_file) {
+		fprintf(stderr, "Unable to read file %s: ", recursor_arg_filename);
+		perror(NULL);
+		exit(EXIT_FAILURE);
+	}
+
+	size_t recursors_count = 0, recursors_allocated = 512;
+	char **recursors = calloc(recursors_allocated, sizeof(char*));
+	if(NULL == recursors) {
+		perror("Unable to allocate memory for domain names");
+		exit(errno);
+	}
+	debug("recursors = %p\n", recursors);
+
+
+	while(!feof(recursor_file) && !ferror(recursor_file)) {
+		/* Need more space? */
+		if(recursors_count == recursors_allocated) {
+			recursors_allocated += 512;
+			recursors = realloc(recursors, recursors_allocated * sizeof(char*));
+			if(NULL == recursors) {
+				debug("recursors = %p\n", recursors);
+				perror("Unable to realloc recursors\n");
+				exit(errno);
+			}
+		}
+
+		size_t line_capacity = 0;
+		char *line = NULL;
+
+		ssize_t line_length = getline(&line, &line_capacity, recursor_file);
+
+		if(-1 == line_length && !feof(recursor_file)) {
+			perror("Unable to read line");
+			exit(errno);
+		}
+		recursors[recursors_count++] = strndup(line, line_length - 1);
+	}
+	--recursors_count;
+	debug("len(recursors) = %zu\n", recursors_count);
+
+	/* Shorten resolvers list */
+	recursors = realloc(recursors, recursors_count * sizeof(char*));
+	if(NULL == recursors) {
+		perror("Unable to realloc recursors");
+		exit(ENOMEM);
+	}
+
+	fclose(recursor_file);/* Done reading resolvers (Ranya) */
+
+	int i;/* Iterate through each resolver in file (Ranya) */
 
 	struct timespec time_start;
 	clock_gettime(CLOCK_MONOTONIC_RAW, &time_start);
-	switch(protocol) {
-		case Do53:
-			r = dns_dot(false, recursor_arg, domains, domains_count);
-			break;
-		case Do53sync:
-			r = dns_dot_sync(false, recursor_arg, domains, domains_count);
-			break;
-		case DoT:
-			r = dns_dot(true, recursor_arg, domains, domains_count);
-			break;
-		case DoH:
-			r = doh(recursor_arg, domains, domains_count);
-			break;
-		default:
-			/* This should be unreachable */
-			fprintf(stderr, "Invalid protocol type %d\n", protocol);
-			exit(EXIT_FAILURE);
+
+	for (i=0;i<recursors_count;i++) { /* Run the timing for each resolver in file (Ranya) */
+	        switch(protocol) {
+	        	case Do53:
+	        		r = dns_dot(false, recursors[i], domains, domains_count);
+	        		break;
+	        	case Do53sync:
+	        		r = dns_dot_sync(false, recursors[i], domains, domains_count);
+	        		break;
+	        	case DoT:
+	        		r = dns_dot(true, recursors[i], domains, domains_count);
+	        		break;
+	        	case DoH:
+	        		r = doh(recursors[i], domains, domains_count);
+	        		break;
+	        	default:
+	        		/* This should be unreachable */
+	        		fprintf(stderr, "Invalid protocol type %d\n", protocol);
+	        		exit(EXIT_FAILURE);
+	        }
 	}
 	print_ok("total_run_time", nanosec_since(time_start), 0);
 

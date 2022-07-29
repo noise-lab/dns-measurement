@@ -1,0 +1,29 @@
+\begin{abstract}
+Unencrypted DNS traffic between users and DNS resolvers can lead to privacy
+and security concerns.  In response to these privacy risks, many browser
+vendors have deployed DNS-over-HTTPS (DoH) to encrypt queries
+between users and DNS resolvers.  
+Today, many client-side
+deployments of DoH, particularly in browsers, select between only a
+few resolvers, despite the fact that many more encrypted DNS resolvers are
+deployed in practice.
+Unfortunately, 
+if users only have a few choices of encrypted resolver, and only a few
+perform well from any particular vantage point, then the privacy problems that
+DoH was deployed to help address merely shift to a different set of third
+parties. It is thus important to assess the performance characteristics of
+more encrypted DNS resolvers, to determine how many options for encrypted DNS
+resolvers users tend to have in practice.
+In this paper, we explore the performance
+of a large group of encrypted DNS resolvers supporting DoH by measuring DNS
+query response times from global vantage points in North America, Europe, and
+Asia.  Our results show that many non-mainstream
+resolvers have higher response times than mainstream resolvers, particularly
+for non-mainstream resolvers that are queried from more distant vantage
+points---suggesting that most encrypted DNS resolvers are not replicated or
+anycast.
+In some cases, however, certain non-mainstream resolvers perform 
+at least as well as mainstream resolvers, suggesting that
+users may be able to use a broader set of encrypted DNS resolvers than those
+that are available in current browser configurations.
+\end{abstract}

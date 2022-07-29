@@ -1,16 +1,18 @@
+#include <stdint.h>
 #include <stdbool.h>
 #include <stdlib.h>
 #include <string.h>
-
+#include <time.h>
 #include "common.h"
 #include "doh.h"
+#define BUF_LEN 256
 
 static size_t doh_callback(void *contents, size_t size, size_t nmemb, void *userp) {
 	size_t realsize = size * nmemb;
 
 	doh_query_t *query = (doh_query_t*)userp;
 
-	debug("respone_wire_fmt = %p\n\n", query->response_wire_fmt.memory);
+ 	debug("respone_wire_fmt = %p\n\n", query->response_wire_fmt.memory);
 
 	query->response_wire_fmt.memory = realloc(query->response_wire_fmt.memory,
 			query->response_wire_fmt.size + realsize);
@@ -396,10 +398,21 @@ static int doh_query_init(doh_query_t *query, char *domain, const char *recursor
 
 int doh(const char *recursor, char *domains[], uint16_t domains_count) {
 	curl_global_init(CURL_GLOBAL_ALL);
-
+	time_t rawtime = time(NULL);
+	char buf[BUF_LEN] = {0};
 	struct curl_slist *headers = curl_slist_append(NULL, "Content-Type: application/dns-message");
+	if (rawtime == -1) {
+	puts("The time() function failed");
+	return 1;
+	}
+	struct tm *ptm = localtime(&rawtime);
+	if (ptm == NULL) {
+	puts("The localtime() function failed");
+        return 1;
+	}
+	strftime(buf, BUF_LEN, "%c", ptm);
 	headers = curl_slist_append(headers, "Accept: application/dns-message");
-
+	
 	CURLM *multi = curl_multi_init();
 	curl_multi_setopt(multi, CURLMOPT_PIPELINING, CURLPIPE_MULTIPLEX);
 
@@ -461,21 +474,21 @@ int doh(const char *recursor, char *domains[], uint16_t domains_count) {
 							query->response_wire_fmt.size,
 							DNS_TYPE_A, &d);
 						if(r == DOH_DNS_BAD_RCODE) {
-							print_error(query->domain, nanosec_since(query->time_start), r);
+							print_error1(recursor, query->domain, nanosec_since(query->time_start), r, buf);
 						} else if(r) {
-							fprintf(stderr, "Problem %d decoding %zu bytes response to probe\n",
-								r, query->response_wire_fmt.size);
+							printf("Problem %d decoding %zu bytes response to probe,%s,%s,%lf,%d,%s\n",
+								r, query->response_wire_fmt.size, recursor, query->domain, nanosec_since(query->time_start) / 1e6, r, buf);
 						} else {
-							print_ok(query->domain, query->elapsed, query->response_wire_fmt.size);
+							print_ok1(recursor, query->domain, query->elapsed, query->response_wire_fmt.size, buf);
 						}
 					} else {
-						fprintf(stderr, "Query got response: %03ld\n", response_code);
+						printf("Query got response: %03ld,%s,%s,%d,%d,%s\n", response_code, recursor, query->domain, -1, -1, buf);
 					}
 					free(query->response_wire_fmt.memory);
 					query->response_wire_fmt.memory = NULL;
 					query->response_wire_fmt.size = 0;
 				} else {
-					fprintf(stderr, "Query failed: %s\n", curl_easy_strerror(msg->data.result));
+					printf("Query failed: %s,%s,%s,%d,%d,%s\n", curl_easy_strerror(msg->data.result), recursor, query->domain, -1, -1, buf);
 				}
 
 				free(query->query_wire_fmt.memory);
