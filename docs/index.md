@@ -42,6 +42,10 @@ where DNS privacy extensions could be deployed (e.g., in a local DNS resolver,
 in a web browser) to both preserve user privacy and preserve a seamless user
 experience.
 
+### Papers
+
+- [Draft](papers/drafts/doh-measurements-2022.pdf)
+
 ### Talks
 
 - [IRTF MAPRG](talks/20220729-maprg/doh-measurements-2022.pdf)
