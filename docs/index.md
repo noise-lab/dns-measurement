@@ -1,4 +1,4 @@
-## Encrypted DNS Measurement
+## Overview
 
 The Domain Name System (DNS) is the Internet protocol and system that maps
 human readable names to Internet protocol addresses; it is central to every
